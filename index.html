@@ -56,6 +56,39 @@
       margin-left: auto;
       margin-right: auto;
     }
+    
+    /* Prevent page jumping on accordion open/close */
+    .panel-collapse {
+      transition: none !important;
+    }
+    .noScroll {
+      overflow: hidden;
+    }
+    
+    /* Add more spacing after section titles */
+    #latest-opportunities .mbr-section-head {
+      margin-bottom: 4rem !important;
+    }
+    
+    #contact-form-2-uMOnIuco2K .mbr-section-head {
+      margin-bottom: 4rem !important;
+    }
+    
+    /* Make CTA text break into two lines */
+    #call-to-action-7-uMOnIubMlE .mbr-section-title {
+      line-height: 1.2;
+      word-spacing: 100vw;
+    }
+    
+    /* Ensure dropdown arrows are visible */
+    .sign {
+      opacity: 1 !important;
+      transition: transform 0.3s ease;
+    }
+    
+    .panel-title:not(.collapsed) .sign {
+      transform: rotate(180deg);
+    }
   </style>
 
   <!-- Structured Data for Business -->
@@ -292,7 +325,7 @@
       <div class="row">
         <div class="col-12 col-md-8">
           <h2 class="mbr-section-title mbr-fonts-style mb-4 display-2">
-            <strong>Hire proven construction leaders. Or find your next role.</strong>
+            <strong>Hire proven construction leaders.<br>Or find your next role.</strong>
           </h2>
           <div class="mbr-section-btn">
             <a class="btn btn-white-outline display-7" href="clients.html">Employers</a> 
@@ -322,10 +355,10 @@
                 <div class="card-header" role="tab" id="headingOne">
                   <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse1_5" aria-expanded="false" aria-controls="collapse1_5">
                     <h3 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">What makes Westmark Talent unique in construction recruitment?</h3>
-                    <span class="sign mbr-iconfont mobi-mbri-arrow-down" aria-hidden="true"></span>
+                    <span class="sign mbr-iconfont mobi-mbri-arrow-down" aria-hidden="true">▼</span>
                   </a>
                 </div>
-                <div id="collapse1_5" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_5">
+                <div id="collapse1_5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_5">
                   <div class="panel-body">
                     <p class="mbr-fonts-style panel-text display-7">We specialize exclusively in construction management roles - project managers, superintendents, and field leadership positions. This focused expertise means deeper market knowledge, better candidate-client fit, and faster placements than generalist recruiters.</p>
                   </div>
@@ -335,10 +368,10 @@
                 <div class="card-header" role="tab" id="headingTwo">
                   <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_5" aria-expanded="false" aria-controls="collapse2_5">
                     <h3 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">How do you help general contractors find qualified talent?</h3>
-                    <span class="sign mbr-iconfont mobi-mbri-arrow-down" aria-hidden="true"></span>
+                    <span class="sign mbr-iconfont mobi-mbri-arrow-down" aria-hidden="true">▼</span>
                   </a>
                 </div>
-                <div id="collapse2_5" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#bootstrap-accordion_5">
+                <div id="collapse2_5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#bootstrap-accordion_5">
                   <div class="panel-body">
                     <p class="mbr-fonts-style panel-text display-7">We develop customized recruitment strategies based on your specific project requirements and company culture. Our process includes candidate sourcing, comprehensive screening, technical interviews, reference verification, and complete offer negotiation management.</p>
                   </div>
@@ -348,10 +381,10 @@
                 <div class="card-header" role="tab" id="headingThree">
                   <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse3_5" aria-expanded="false" aria-controls="collapse3_5">
                     <h3 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">What opportunities do you offer construction professionals?</h3>
-                    <span class="sign mbr-iconfont mobi-mbri-arrow-down" aria-hidden="true"></span>
+                    <span class="sign mbr-iconfont mobi-mbri-arrow-down" aria-hidden="true">▼</span>
                   </a>
                 </div>
-                <div id="collapse3_5" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#bootstrap-accordion_5">
+                <div id="collapse3_5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#bootstrap-accordion_5">
                   <div class="panel-body">
                     <p class="mbr-fonts-style panel-text display-7">Exclusive access to project management and superintendent roles with established general contractors, comprehensive career guidance throughout the placement process, and strategic positioning for senior field operations and office leadership advancement.</p>
                   </div>
@@ -361,10 +394,10 @@
                 <div class="card-header" role="tab" id="headingFour">
                   <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse4_5" aria-expanded="false" aria-controls="collapse4_5">
                     <h3 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">How can I submit my resume for consideration?</h3>
-                    <span class="sign mbr-iconfont mobi-mbri-arrow-down" aria-hidden="true"></span>
+                    <span class="sign mbr-iconfont mobi-mbri-arrow-down" aria-hidden="true">▼</span>
                   </a>
                 </div>
-                <div id="collapse4_5" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#bootstrap-accordion_5">
+                <div id="collapse4_5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#bootstrap-accordion_5">
                   <div class="panel-body">
                     <p class="mbr-fonts-style panel-text display-7">Submit your information through our contact form below or email directly to <a href="mailto:info@westmarktalentgroup.com">info@westmarktalentgroup.com</a>. Include your target role, current resume, salary expectations, and preferred contact method for fastest response.</p>
                   </div>
@@ -374,10 +407,10 @@
                 <div class="card-header" role="tab" id="headingFive">
                   <a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse5_5" aria-expanded="false" aria-controls="collapse5_5">
                     <h3 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">How can I stay updated on new construction opportunities?</h3>
-                    <span class="sign mbr-iconfont mobi-mbri-arrow-down" aria-hidden="true"></span>
+                    <span class="sign mbr-iconfont mobi-mbri-arrow-down" aria-hidden="true">▼</span>
                   </a>
                 </div>
-                <div id="collapse5_5" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#bootstrap-accordion_5">
+                <div id="collapse5_5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#bootstrap-accordion_5">
                   <div class="panel-body">
                     <p class="mbr-fonts-style panel-text display-7">Monitor our <a href="https://westmarktalentgroup.zohorecruit.com/jobs/Careers" target="_blank" rel="noopener">careers page</a> for new listings and follow our LinkedIn company page for role highlights and construction industry hiring insights. We also provide email notifications for opportunities matching your experience level and location preferences.</p>
                   </div>
