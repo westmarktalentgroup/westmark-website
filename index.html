@@ -35,7 +35,6 @@
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap"></noscript>
   
   <!-- CSS Files -->
-
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
@@ -44,6 +43,20 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=G6iFcl" type="text/css">
   <link rel="stylesheet" href="assets/theme/css/custom.css">
+
+  <style>
+    /* Custom styles for centered navigation */
+    .navbar-nav {
+      margin: 0 auto;
+    }
+    .navbar-collapse {
+      justify-content: center;
+    }
+    .nav-dropdown.nav-right {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
 
   <!-- Structured Data for Business -->
   <script type="application/ld+json">
@@ -105,7 +118,7 @@
       </div>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav nav-dropdown nav-right navbar-nav-top-padding" data-app-modern-menu="true">
+      <ul class="navbar-nav nav-dropdown navbar-nav-top-padding" data-app-modern-menu="true" style="margin: 0 auto;">
         <li class="nav-item">
           <a class="nav-link link text-black text-primary display-4" href="index.html" aria-current="page">Home</a>
         </li>
@@ -177,7 +190,7 @@
         <div class="col-12 content-head">
           <div class="mbr-section-head">
             <h2 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-              <strong>Current Construction Management Opportunities</strong>
+              <strong>Current Opportunities</strong>
             </h2>
           </div>
         </div>
@@ -393,6 +406,7 @@
       </div>
       <div class="row justify-content-center">
         <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
+          <!-- NOTE: This form currently uses mailto. For GitHub Pages deployment, you'll need a service like Netlify Forms, Formspree, or EmailJS -->
           <form action="mailto:info@westmarktalentgroup.com" method="GET" class="contact-form" data-form-title="Construction Talent Inquiry">
             <input type="hidden" name="subject" value="Construction Talent Inquiry from Website">
             <div class="row">
