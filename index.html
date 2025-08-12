@@ -65,26 +65,22 @@
       overflow: hidden;
     }
     
-    /* Add more spacing after section titles */
-    #latest-opportunities .mbr-section-head {
-      margin-bottom: 4rem !important;
+    /* Hide all horizontal lines under section headings */
+    .mbr-section-head {
+      display: none !important;
     }
     
-    #contact-form-2-uMOnIuco2K .mbr-section-head {
-      margin-bottom: 4rem !important;
-    }
-    
-    /* Make CTA text break into two lines */
+    /* Fix CTA text to display on two lines for Safari */
     #call-to-action-7-uMOnIubMlE .mbr-section-title {
-      line-height: 1.2;
-      word-spacing: 100vw;
+      line-height: 1.4;
     }
     
-    /* Ensure CTA text displays on two lines */
-    #call-to-action-7-uMOnIubMlE .mbr-section-title br {
+    #call-to-action-7-uMOnIubMlE .mbr-section-title strong {
       display: block;
-      content: "";
-      margin-top: 0.5rem;
+    }
+    
+    #call-to-action-7-uMOnIubMlE .mbr-section-title strong:first-child {
+      margin-bottom: 0.5rem;
     }
     
     /* Ensure dropdown arrows are visible */
@@ -95,17 +91,6 @@
     
     .panel-title:not(.collapsed) .sign {
       transform: rotate(180deg);
-    }
-    
-    /* Fix section heading spacing for equal distance above and below lines */
-    .mbr-section-head {
-      margin-bottom: 3rem !important;
-    }
-    
-    .mbr-section-head + .row,
-    .mbr-section-head + .dragArea,
-    .mbr-section-head + .content-row {
-      margin-top: 3rem !important;
     }
   </style>
 
@@ -342,7 +327,8 @@
       <div class="row">
         <div class="col-12 col-md-8">
           <h2 class="mbr-section-title mbr-fonts-style mb-4 display-2">
-            <strong>Hire proven construction leaders.<br>Or find your next role.</strong>
+            <strong>Hire proven construction leaders.</strong>
+            <strong>Or find your next role.</strong>
           </h2>
           <div class="mbr-section-btn">
             <a class="btn btn-white-outline display-7" href="clients.html">Employers</a> 
