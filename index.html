@@ -45,8 +45,8 @@
   <link rel="stylesheet" href="assets/theme/css/custom.css">
 
   <style>
-    /* Custom styles for centered navigation */
-    .navbar-nav {
+    /* Custom styles for centered navigation - REMOVED to match clients.html */
+    /* .navbar-nav {
       margin: 0 auto;
     }
     .navbar-collapse {
@@ -55,7 +55,7 @@
     .nav-dropdown.nav-right {
       margin-left: auto;
       margin-right: auto;
-    }
+    } */
     
     /* Prevent page jumping on accordion open/close */
     .panel-collapse {
@@ -80,6 +80,13 @@
       word-spacing: 100vw;
     }
     
+    /* Ensure CTA text displays on two lines */
+    #call-to-action-7-uMOnIubMlE .mbr-section-title br {
+      display: block;
+      content: "";
+      margin-top: 0.5rem;
+    }
+    
     /* Ensure dropdown arrows are visible */
     .sign {
       opacity: 1 !important;
@@ -88,6 +95,17 @@
     
     .panel-title:not(.collapsed) .sign {
       transform: rotate(180deg);
+    }
+    
+    /* Fix section heading spacing for equal distance above and below lines */
+    .mbr-section-head {
+      margin-bottom: 3rem !important;
+    }
+    
+    .mbr-section-head + .row,
+    .mbr-section-head + .dragArea,
+    .mbr-section-head + .content-row {
+      margin-top: 3rem !important;
     }
   </style>
 
@@ -137,37 +155,36 @@
 <!-- Skip Navigation for Accessibility -->
 <a href="#main-content" class="sr-only sr-only-focusable" style="position: absolute; top: -40px; left: 6px; z-index: 1040; padding: 8px 16px; background: #000; color: #fff; text-decoration: none;">Skip to main content</a>
 
-<nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg" data-bs-version="5.1" id="menu-5-uMOnIua8FF" role="navigation" aria-label="Main navigation">
-  <div class="container">
-    <div class="navbar-brand">
-      
-    </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation menu">
-      <div class="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+<section data-bs-version="5.1" class="menu menu2 cid-uMOnIua8FF" once="menu" id="menu-5-uMOnIua8FF">
+  <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+    <div class="container">
+      <div class="navbar-brand">
+        
       </div>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav nav-dropdown navbar-nav-top-padding" data-app-modern-menu="true" style="margin: 0 auto;">
-        <li class="nav-item">
-          <a class="nav-link link text-black text-primary display-4" href="index.html" aria-current="page">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link link text-black display-4" href="clients.html">Clients</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link link text-black text-primary display-4" href="https://westmarktalentgroup.zohorecruit.com/jobs/Careers" target="_blank" rel="noopener" aria-label="View job opportunities (opens in new window)">Opportunities</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link link text-black text-primary display-4" href="contact-us.html">Contact Us</a>
-        </li>
-      </ul>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav nav-dropdown nav-right navbar-nav-top-padding" data-app-modern-menu="true"><li class="nav-item">
+            <a class="nav-link link text-black text-primary display-4" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link text-black display-4" href="clients.html" aria-expanded="false">Clients</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link text-black text-primary display-4" href="https://westmarktalentgroup.zohorecruit.com/jobs/Careers">Opportunities<br></a>
+          </li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="contact-us.html">Contact Us<br></a></li></ul>
+				
+				
+			</div>
     </div>
-  </div>
-</nav>
+  </nav>
+</section>
 
 <main id="main-content">
   <header class="header18 cid-uMOnIuaQSz mbr-fullscreen mbr-parallax-background" data-bs-version="5.1" id="hero-15-uMOnIuaQSz">
