@@ -45,7 +45,21 @@
   <link rel="stylesheet" href="assets/theme/css/custom.css">
 
   <style>
-    /* Fix CTA text to display on two lines for Safari */
+    /* Hide lines under section headings */
+    .mbr-section-head::after,
+    .mbr-section-head::before,
+    .mbr-section-title::after,
+    .mbr-section-title::before,
+    .card-title::after,
+    .card-title::before {
+      display: none !important;
+    }
+    
+    hr {
+      display: none !important;
+    }
+    
+    /* Fix CTA text to display on two lines */
     #call-to-action-7-uMOnIubMlE .mbr-section-title {
       line-height: 1.4;
     }
@@ -58,14 +72,26 @@
       margin-bottom: 0.5rem;
     }
     
+    /* Fix contact form section spacing */
+    .mbr-section-text {
+      margin-top: 1rem !important;
+    }
+    
     /* Ensure dropdown arrows are visible and animate properly */
     .sign {
       opacity: 1 !important;
       transition: transform 0.3s ease;
+      font-size: 1.2rem;
+      font-weight: bold;
     }
     
     .panel-title:not(.collapsed) .sign {
       transform: rotate(180deg);
+    }
+    
+    /* Make sure arrows are visible */
+    .mobi-mbri-arrow-down:before {
+      content: "▼";
     }
     
     /* Fix FAQ link colors to be visible */
@@ -327,7 +353,7 @@
       <div class="row">
         <div class="col-12 col-md-8">
           <h2 class="mbr-section-title mbr-fonts-style mb-4 display-2">
-            <strong>Hire proven construction leaders.</strong>
+            <strong>Hire proven construction leaders.</strong><br>
             <strong>Or find your next role.</strong>
           </h2>
           <div class="mbr-section-btn">
