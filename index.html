@@ -45,60 +45,6 @@
   <link rel="stylesheet" href="assets/theme/css/custom.css">
 
   <style>
-    /* Custom styles for centered navigation - REMOVED to match clients.html */
-    /* .navbar-nav {
-      margin: 0 auto;
-    }
-    .navbar-collapse {
-      justify-content: center;
-    }
-    .nav-dropdown.nav-right {
-      margin-left: auto;
-      margin-right: auto;
-    } */
-    
-    /* Prevent page jumping on accordion open/close */
-    .panel-collapse {
-      transition: none !important;
-    }
-    .noScroll {
-      overflow: hidden;
-    }
-    
-    /* Hide all horizontal lines under section headings */
-    .mbr-section-head {
-      display: none !important;
-    }
-    
-    /* Hide any other potential horizontal lines */
-    .mbr-section-title::after,
-    .mbr-section-title::before,
-    .card-title::after,
-    .card-title::before {
-      display: none !important;
-    }
-    
-    /* Hide any borders or underlines that might look like lines */
-    .mbr-section-title,
-    .card-title,
-    h1, h2, h3, h4, h5, h6 {
-      border-bottom: none !important;
-      text-decoration: none !important;
-      box-shadow: none !important;
-    }
-    
-    /* Hide any hr elements */
-    hr {
-      display: none !important;
-    }
-    
-    /* Hide any div elements that might be creating lines */
-    .mbr-section-title + div,
-    .card-title + div {
-      border-top: none !important;
-      border-bottom: none !important;
-    }
-    
     /* Fix CTA text to display on two lines for Safari */
     #call-to-action-7-uMOnIubMlE .mbr-section-title {
       line-height: 1.4;
@@ -112,7 +58,7 @@
       margin-bottom: 0.5rem;
     }
     
-    /* Ensure dropdown arrows are visible */
+    /* Ensure dropdown arrows are visible and animate properly */
     .sign {
       opacity: 1 !important;
       transition: transform 0.3s ease;
@@ -415,7 +361,7 @@
                     <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
                   </a>
                 </div>
-                <div id="collapse1_5" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_5">
+                <div id="collapse1_5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_5">
                   <div class="panel-body">
                     <p class="mbr-fonts-style panel-text display-7">Our team excels in matching top-tier construction management talent with leading general contractors. We deeply understand the construction sector's demands, ensuring optimal placements.</p>
                   </div>
@@ -428,7 +374,7 @@
                     <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
                   </a>
                 </div>
-                <div id="collapse2_5" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_5">
+                <div id="collapse2_5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_5">
                   <div class="panel-body">
                     <p class="mbr-fonts-style panel-text display-7">We provide customized recruitment strategies, focusing on each client's unique needs. Our detailed approach guarantees we find candidates who are not only skilled but also a great fit for your company culture.</p>
                   </div>
@@ -441,7 +387,7 @@
                     <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
                   </a>
                 </div>
-                <div id="collapse3_5" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_5">
+                <div id="collapse3_5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_5">
                   <div class="panel-body">
                     <p class="mbr-fonts-style panel-text display-7">Candidates gain access to exclusive opportunities at premier construction firms. We offer personalized career guidance, helping you advance your career in construction management.</p>
                   </div>
@@ -454,7 +400,7 @@
                     <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
                   </a>
                 </div>
-                <div id="collapse4_5" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_5">
+                <div id="collapse4_5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_5">
                   <div class="panel-body">
                     <p class="mbr-fonts-style panel-text display-7">Submitting your resume is simple. Visit our 'Contact' section and follow the instructions to upload your details. Our team will review your qualifications and contact you about suitable positions.</p>
                   </div>
@@ -467,7 +413,7 @@
                     <span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
                   </a>
                 </div>
-                <div id="collapse5_5" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_5">
+                <div id="collapse5_5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_5">
                   <div class="panel-body">
                     <p class="mbr-fonts-style panel-text display-7">Stay updated by regularly visiting our 'Jobs' page, where we post new openings. You can also subscribe to our newsletter for the latest job alerts and industry news.</p>
                   </div>
@@ -486,7 +432,7 @@
         <div class="col-12 content-head">
           <div class="mbr-section-head mb-5">
             <h2 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-              <strong>Get Started Today</strong>
+              <strong>Contact Us</strong>
             </h2>
             <p class="mbr-section-text mbr-fonts-style align-center mb-0 display-7">
               Ready to find your next construction management role or hire proven talent? Contact us below.
@@ -614,8 +560,6 @@
 <script src="assets/dropdown/js/navbar-dropdown.js"></script>
 <script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>
 <script src="assets/theme/js/script.js"></script>
-<script src="assets/theme/js/contact-form.js"></script>
-<script src="assets/theme/js/loading.js"></script>
 <script src="assets/formoid/formoid.min.js"></script>
 
 <!-- Additional SEO and Performance Optimizations -->
