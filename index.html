@@ -61,6 +61,44 @@
       display: none !important;
     }
     
+    /* Fix header white space and overlapping elements */
+    .header18 {
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+    }
+    
+    .mbr-fullscreen {
+      padding-top: 0 !important;
+      margin-top: 0 !important;
+    }
+    
+    .mbr-overlay {
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+    }
+    
+    /* Fix navbar positioning and remove duplicate backgrounds */
+    .navbar-dropdown.navbar-fixed-top {
+      position: fixed !important;
+      top: 0 !important;
+      background: rgba(255, 255, 255, 0.95) !important;
+      backdrop-filter: blur(10px) !important;
+      -webkit-backdrop-filter: blur(10px) !important;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+      z-index: 1030 !important;
+    }
+    
+    /* Remove any conflicting navbar backgrounds */
+    .navbar-dropdown.bg-color.transparent {
+      background: rgba(255, 255, 255, 0.95) !important;
+    }
+    
+    /* Ensure main content starts at the top */
+    main {
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+    }
+    
     /* Fix CTA text to display on two lines */
     #call-to-action-7-uMOnIubMlE .mbr-section-title {
       line-height: 1.4;
@@ -358,8 +396,8 @@
             <strong>Hire proven construction leaders.</strong><br>
             <strong>Or find your next role.</strong>
           </h2>
-          <div class="mbr-section-btn d-flex gap-3 justify-content-start">
-            <a class="btn btn-white-outline display-7" href="clients.html">Employers</a> 
+          <div class="mbr-section-btn">
+            <a class="btn btn-white-outline display-7 me-3" href="clients.html">Employers</a> 
             <a class="btn btn-white-outline display-7" href="https://westmarktalentgroup.zohorecruit.com/jobs/Careers" target="_blank" rel="noopener">Careers</a>
           </div>
         </div>
