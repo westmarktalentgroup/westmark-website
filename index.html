@@ -65,38 +65,250 @@
     .header18 {
       margin-top: 0 !important;
       padding-top: 0 !important;
+      min-height: 100vh !important;
+      position: relative !important;
+      z-index: 1 !important;
     }
     
     .mbr-fullscreen {
       padding-top: 0 !important;
       margin-top: 0 !important;
+      min-height: 100vh !important;
+      position: relative !important;
+      z-index: 1 !important;
     }
     
     .mbr-overlay {
       margin-top: 0 !important;
       padding-top: 0 !important;
+      min-height: 100vh !important;
+      position: relative !important;
+      z-index: 1 !important;
     }
     
-    /* Fix navbar positioning and remove duplicate backgrounds */
-    .navbar-dropdown.navbar-fixed-top {
+    /* Ensure content starts below fixed navbar */
+    .content-wrap {
+      padding-top: 2rem !important;
+    }
+    
+    /* Unified navbar styling - consolidated from all sources */
+    .navbar-dropdown {
       position: fixed !important;
       top: 0 !important;
+      left: 0 !important;
+      right: 0 !important;
       background: rgba(255, 255, 255, 0.95) !important;
       backdrop-filter: blur(10px) !important;
       -webkit-backdrop-filter: blur(10px) !important;
       border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
       z-index: 1030 !important;
+      padding: 0.5rem 1rem !important;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
     }
     
-    /* Remove any conflicting navbar backgrounds */
-    .navbar-dropdown.bg-color.transparent {
+    /* Override any conflicting navbar backgrounds */
+    .navbar-dropdown.bg-color.transparent,
+    .navbar-dropdown.navbar-fixed-top {
       background: rgba(255, 255, 255, 0.95) !important;
+    }
+    
+    /* Clean up navbar collapse */
+    .navbar-collapse {
+      background: transparent !important;
+      backdrop-filter: none !important;
+      -webkit-backdrop-filter: none !important;
+      box-shadow: none !important;
+      border-radius: 0 !important;
+      margin-top: 0 !important;
+      padding: 0 !important;
+    }
+    
+    /* Navbar brand styling */
+    .navbar-brand {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+    
+    /* Navbar navigation links */
+    .navbar-nav .nav-link {
+      font-weight: 500 !important;
+      transition: all 0.3s ease !important;
+      position: relative !important;
+      padding: 0.75rem 1rem !important;
+      color: #333 !important;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+      margin: 0.25rem 0 !important;
+    }
+    
+    .navbar-nav .nav-link:last-child {
+      border-bottom: none !important;
+    }
+    
+    .navbar-nav .nav-link:hover {
+      background-color: rgba(0, 0, 0, 0.05) !important;
+      transform: translateX(5px) !important;
+      color: #000 !important;
+    }
+    
+    /* Navbar toggle button */
+    .navbar-toggler {
+      border: none !important;
+      padding: 0.5rem !important;
+      background: transparent !important;
+    }
+    
+    .hamburger span {
+      background: #333 !important;
+      height: 2px !important;
+      width: 20px !important;
+      display: block !important;
+      margin: 4px 0 !important;
+      transition: all 0.3s ease !important;
+    }
+    
+    /* Standardized z-index hierarchy */
+    .skip-navigation {
+      z-index: 1040 !important;
+    }
+    
+    .navbar-dropdown {
+      z-index: 1030 !important;
+    }
+    
+    .modal-backdrop {
+      z-index: 1040 !important;
+    }
+    
+    .modal {
+      z-index: 1060 !important;
+    }
+    
+    .tooltip {
+      z-index: 1080 !important;
+    }
+    
+    .popover {
+      z-index: 1070 !important;
+    }
+    
+    .offcanvas {
+      z-index: 1050 !important;
+    }
+    
+    .sticky-top {
+      z-index: 1020 !important;
+    }
+    
+    .dropdown-menu {
+      z-index: 1000 !important;
+    }
+    
+    .header-content {
+      z-index: 1 !important;
     }
     
     /* Ensure main content starts at the top */
     main {
       margin-top: 0 !important;
       padding-top: 0 !important;
+    }
+    
+    /* Mobile-responsive navbar adjustments */
+    @media (max-width: 767.98px) {
+      .navbar-dropdown {
+        padding: 0.25rem 0.5rem !important;
+      }
+      
+      .navbar-nav .nav-link {
+        padding: 1rem !important;
+        margin: 0 !important;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+        text-align: center !important;
+      }
+      
+      .navbar-nav .nav-link:last-child {
+        border-bottom: none !important;
+      }
+      
+      .navbar-collapse {
+        background: rgba(255, 255, 255, 0.98) !important;
+        border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+        margin-top: 0.5rem !important;
+        padding: 0.5rem 0 !important;
+      }
+    }
+    
+    /* Desktop-specific navbar enhancements */
+    @media (min-width: 768px) {
+      .navbar-dropdown {
+        padding: 0.75rem 2rem !important;
+      }
+      
+      .navbar-nav .nav-link {
+        padding: 0.5rem 1.5rem !important;
+        margin: 0 0.25rem !important;
+        border-bottom: none !important;
+        border-radius: 4px !important;
+        transition: all 0.3s ease !important;
+      }
+      
+      .navbar-nav .nav-link:hover {
+        background-color: rgba(0, 0, 0, 0.05) !important;
+        transform: translateY(-2px) !important;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+      }
+      
+      .navbar-collapse {
+        background: transparent !important;
+        border: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+    }
+    
+    /* Large desktop optimizations */
+    @media (min-width: 1200px) {
+      .navbar-dropdown {
+        padding: 1rem 3rem !important;
+      }
+      
+      .navbar-nav .nav-link {
+        padding: 0.75rem 2rem !important;
+        margin: 0 0.5rem !important;
+        font-size: 1.1rem !important;
+      }
+    }
+    
+    /* Ensure consistent behavior across all breakpoints */
+    @media (max-width: 575.98px) {
+      .navbar-dropdown {
+        padding: 0.25rem 0.5rem !important;
+      }
+      
+      .navbar-nav .nav-link {
+        padding: 1.25rem !important;
+        font-size: 1.1rem !important;
+        min-height: 44px !important;
+      }
+      
+      .hamburger span {
+        width: 24px !important;
+        height: 3px !important;
+        margin: 5px 0 !important;
+      }
+    }
+    
+    /* Fix button alignment and sizing */
+    .mbr-section-btn {
+      display: flex !important;
+      align-items: center !important;
+      gap: 1rem !important;
+    }
+    
+    .mbr-section-btn .btn {
+      flex: 0 0 auto !important;
+      min-width: 120px !important;
+      text-align: center !important;
     }
     
     /* Fix CTA text to display on two lines */
@@ -204,7 +416,7 @@
 <!-- /Analytics -->
 
 <!-- Skip Navigation for Accessibility -->
-<a href="#main-content" class="sr-only sr-only-focusable" style="position: absolute; top: -40px; left: 6px; z-index: 1040; padding: 8px 16px; background: #000; color: #fff; text-decoration: none;">Skip to main content</a>
+<a href="#main-content" class="sr-only sr-only-focusable skip-navigation" style="position: absolute; top: -40px; left: 6px; padding: 8px 16px; background: #000; color: #fff; text-decoration: none;">Skip to main content</a>
 
 <section data-bs-version="5.1" class="menu menu2 cid-uMOnIua8FF" once="menu" id="menu-5-uMOnIua8FF">
   <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
@@ -242,7 +454,7 @@
     <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 0, 0);"></div>
     <div class="container-fluid">
       <div class="row">
-        <div class="content-wrap col-12 col-md-12">
+        <div class="content-wrap col-12 col-md-12 header-content">
           <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">
             <strong>Westmark Talent Group</strong>
           </h1>
@@ -397,7 +609,7 @@
             <strong>Or find your next role.</strong>
           </h2>
           <div class="mbr-section-btn">
-            <a class="btn btn-white-outline display-7 me-3" href="clients.html">Employers</a> 
+            <a class="btn btn-white-outline display-7" href="clients.html">Employers</a> 
             <a class="btn btn-white-outline display-7" href="https://westmarktalentgroup.zohorecruit.com/jobs/Careers" target="_blank" rel="noopener">Careers</a>
           </div>
         </div>
