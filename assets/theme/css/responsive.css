@@ -1,0 +1,454 @@
+/* Enhanced Responsive Design for Westmark Website */
+
+/* CSS Custom Properties for consistent breakpoints */
+:root {
+    --mobile: 576px;
+    --tablet: 768px;
+    --desktop: 992px;
+    --large-desktop: 1200px;
+    --xl-desktop: 1400px;
+}
+
+/* Fluid Typography - Scales smoothly across all screen sizes */
+html {
+    font-size: clamp(14px, 1vw + 12px, 16px);
+}
+
+h1 {
+    font-size: clamp(2rem, 4vw + 1rem, 3.5rem);
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: clamp(1.5rem, 3vw + 1rem, 2.5rem);
+    line-height: 1.3;
+}
+
+h3 {
+    font-size: clamp(1.25rem, 2.5vw + 1rem, 2rem);
+    line-height: 1.4;
+}
+
+h4 {
+    font-size: clamp(1.1rem, 2vw + 1rem, 1.5rem);
+    line-height: 1.4;
+}
+
+/* Enhanced Mobile-First Responsive Design */
+
+/* Extra Small Devices (phones, 576px and down) */
+@media (max-width: 575.98px) {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .navbar-brand img {
+        max-width: 120px;
+        height: auto;
+    }
+    
+    .card {
+        margin-bottom: 1.5rem;
+    }
+    
+    .btn {
+        width: 100%;
+        margin-bottom: 0.75rem;
+        padding: 0.75rem 1rem;
+        font-size: 1rem;
+    }
+    
+    .section-padding {
+        padding: 2rem 0;
+    }
+    
+    .hero-section {
+        min-height: 60vh;
+        padding: 3rem 0;
+    }
+    
+    .hero-section h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .hero-section p {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    /* Improve touch targets */
+    .nav-link, .btn, .form-control {
+        min-height: 44px;
+    }
+    
+    /* Stack elements vertically on mobile */
+    .row > [class*="col-"] {
+        margin-bottom: 1rem;
+    }
+    
+    /* Optimize images for mobile */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* Improve form usability on mobile */
+    .form-control {
+        font-size: 16px; /* Prevents zoom on iOS */
+        padding: 0.75rem;
+    }
+    
+    /* Better spacing for mobile */
+    .mb-5 {
+        margin-bottom: 2rem !important;
+    }
+    
+    .py-5 {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+}
+
+/* Small Devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .container {
+        max-width: 540px;
+    }
+    
+    .hero-section {
+        min-height: 70vh;
+        padding: 4rem 0;
+    }
+    
+    .btn {
+        width: auto;
+        min-width: 200px;
+    }
+    
+    .section-padding {
+        padding: 3rem 0;
+    }
+}
+
+/* Medium Devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .container {
+        max-width: 720px;
+    }
+    
+    .hero-section {
+        min-height: 75vh;
+        padding: 5rem 0;
+    }
+    
+    .btn {
+        width: auto;
+        min-width: 180px;
+    }
+    
+    .section-padding {
+        padding: 4rem 0;
+    }
+    
+    /* Improve tablet navigation */
+    .navbar-nav .nav-link {
+        padding: 0.5rem 1rem;
+    }
+}
+
+/* Large Devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .container {
+        max-width: 960px;
+    }
+    
+    .hero-section {
+        min-height: 80vh;
+        padding: 6rem 0;
+    }
+    
+    .section-padding {
+        padding: 5rem 0;
+    }
+}
+
+/* Extra Large Devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+    
+    .hero-section {
+        min-height: 85vh;
+        padding: 7rem 0;
+    }
+    
+    .section-padding {
+        padding: 6rem 0;
+    }
+}
+
+/* Ultra Wide Screens (1400px and up) */
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+    
+    .hero-section {
+        min-height: 90vh;
+        padding: 8rem 0;
+    }
+    
+    .section-padding {
+        padding: 7rem 0;
+    }
+}
+
+/* Landscape Orientation Adjustments */
+@media (orientation: landscape) and (max-height: 500px) {
+    .hero-section {
+        min-height: 100vh;
+        padding: 2rem 0;
+    }
+    
+    .section-padding {
+        padding: 2rem 0;
+    }
+}
+
+/* High DPI Displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .navbar-brand img,
+    .hero-image {
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+    }
+}
+
+/* Reduced Motion Preferences */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: #e0e0e0;
+        --bg-color: #1a1a1a;
+        --card-bg: #2d2d2d;
+        --border-color: #404040;
+    }
+    
+    body {
+        color: var(--text-color);
+        background-color: var(--bg-color);
+    }
+    
+    .card {
+        background-color: var(--card-bg);
+        border-color: var(--border-color);
+    }
+}
+
+/* Print Styles */
+@media print {
+    .navbar,
+    .btn,
+    .contact-form,
+    .footer {
+        display: none !important;
+    }
+    
+    body {
+        font-size: 12pt;
+        line-height: 1.4;
+        color: #000;
+        background: #fff;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        page-break-after: avoid;
+        color: #000;
+    }
+    
+    .container {
+        max-width: none;
+        padding: 0;
+    }
+    
+    .row {
+        display: block;
+    }
+    
+    [class*="col-"] {
+        width: 100% !important;
+        float: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+
+/* Accessibility Improvements */
+@media (prefers-contrast: high) {
+    .btn {
+        border-width: 2px;
+    }
+    
+    .form-control {
+        border-width: 2px;
+    }
+}
+
+/* Focus Management for Keyboard Navigation */
+@media (any-hover: none) {
+    /* Touch devices */
+    .btn:hover,
+    .nav-link:hover {
+        transform: none;
+    }
+}
+
+/* Container Query Support (Future-proofing) */
+@supports (container-type: inline-size) {
+    .card-container {
+        container-type: inline-size;
+    }
+    
+    @container (max-width: 400px) {
+        .card {
+            padding: 1rem;
+        }
+        
+        .card-title {
+            font-size: 1.1rem;
+        }
+    }
+}
+
+/* Utility Classes for Responsive Design */
+.responsive-text {
+    font-size: clamp(1rem, 2vw + 0.5rem, 1.25rem);
+}
+
+.responsive-spacing {
+    padding: clamp(1rem, 3vw + 0.5rem, 3rem);
+    margin: clamp(1rem, 3vw + 0.5rem, 3rem);
+}
+
+.responsive-width {
+    width: clamp(280px, 90vw, 1200px);
+    max-width: 100%;
+}
+
+/* Responsive Grid Improvements */
+.row {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+}
+
+[class*="col-"] {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+/* Responsive Images */
+.responsive-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Responsive Tables */
+@media (max-width: 767.98px) {
+    .table-responsive {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .table-responsive table {
+        min-width: 500px;
+    }
+}
+
+/* Responsive Navigation Enhancements */
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(10px);
+        border-radius: 8px;
+        margin-top: 1rem;
+        padding: 1rem;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    .navbar-nav .nav-link {
+        padding: 0.75rem 1rem;
+        border-radius: 4px;
+        margin: 0.25rem 0;
+        transition: all 0.3s ease;
+    }
+    
+    .navbar-nav .nav-link:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+        transform: translateX(5px);
+    }
+}
+
+/* Responsive Form Improvements */
+@media (max-width: 575.98px) {
+    .contact-form .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .contact-form [class*="col-"] {
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 1rem;
+    }
+    
+    .form-control {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Responsive Card Improvements */
+@media (max-width: 767.98px) {
+    .card {
+        margin-bottom: 1.5rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card-body {
+        padding: 1.25rem;
+    }
+}
+
+/* Responsive Button Groups */
+@media (max-width: 575.98px) {
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .btn-group .btn {
+        border-radius: 4px !important;
+        margin-bottom: 0.5rem;
+    }
+    
+    .btn-group .btn:last-child {
+        margin-bottom: 0;
+    }
+}
