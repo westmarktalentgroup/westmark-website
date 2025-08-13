@@ -91,6 +91,37 @@
       padding-top: 2rem !important;
     }
     
+    /* Remove any floating white bars or sections */
+    .menu,
+    .menu2,
+    .cid-uMOnIua8FF {
+      margin: 0 !important;
+      padding: 0 !important;
+      background: transparent !important;
+    }
+    
+    /* Ensure navbar is the only element at the top */
+    .navbar-dropdown {
+      margin: 0 !important;
+      padding: 0.5rem 1rem !important;
+      background: rgba(255, 255, 255, 0.95) !important;
+      border: none !important;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+    }
+    
+    /* Remove any section backgrounds that might create white bars */
+    section {
+      background: transparent !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+    
+    section:first-of-type {
+      background: transparent !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+    
     /* Unified navbar styling - consolidated from all sources */
     .navbar-dropdown {
       position: fixed !important;
@@ -298,17 +329,53 @@
       }
     }
     
-    /* Fix button alignment and sizing */
+    /* Fix button alignment and sizing - STRONG OVERRIDES */
     .mbr-section-btn {
       display: flex !important;
       align-items: center !important;
+      justify-content: flex-start !important;
       gap: 1rem !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 100% !important;
     }
     
     .mbr-section-btn .btn {
       flex: 0 0 auto !important;
       min-width: 120px !important;
+      max-width: 120px !important;
       text-align: center !important;
+      margin: 0 !important;
+      padding: 0.75rem 1.5rem !important;
+      height: auto !important;
+      line-height: 1.5 !important;
+      display: inline-block !important;
+      vertical-align: middle !important;
+      white-space: nowrap !important;
+    }
+    
+    /* Specific override for the call-to-action buttons */
+    #call-to-action-7-uMOnIubMlE .mbr-section-btn {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: flex-start !important;
+      gap: 1rem !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+    
+    #call-to-action-7-uMOnIubMlE .mbr-section-btn .btn {
+      flex: 0 0 auto !important;
+      min-width: 120px !important;
+      max-width: 120px !important;
+      text-align: center !important;
+      margin: 0 !important;
+      padding: 0.75rem 1.5rem !important;
+      height: auto !important;
+      line-height: 1.5 !important;
+      display: inline-block !important;
+      vertical-align: middle !important;
+      white-space: nowrap !important;
     }
     
     /* Fix CTA text to display on two lines */
@@ -608,9 +675,9 @@
             <strong>Hire proven construction leaders.</strong><br>
             <strong>Or find your next role.</strong>
           </h2>
-          <div class="mbr-section-btn">
-            <a class="btn btn-white-outline display-7" href="clients.html">Employers</a> 
-            <a class="btn btn-white-outline display-7" href="https://westmarktalentgroup.zohorecruit.com/jobs/Careers" target="_blank" rel="noopener">Careers</a>
+          <div class="mbr-section-btn" style="display: flex !important; align-items: center !important; gap: 1rem !important; margin: 0 !important; padding: 0 !important;">
+            <a class="btn btn-white-outline display-7" href="clients.html" style="min-width: 120px !important; text-align: center !important; margin: 0 !important;">Employers</a> 
+            <a class="btn btn-white-outline display-7" href="https://westmarktalentgroup.zohorecruit.com/jobs/Careers" target="_blank" rel="noopener" style="min-width: 120px !important; text-align: center !important; margin: 0 !important;">Careers</a>
           </div>
         </div>
       </div>
