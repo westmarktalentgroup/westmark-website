@@ -47,9 +47,15 @@
   <link rel="stylesheet" href="assets/theme/css/mobile-first.css">
 
   <style>
+    /* Prevent horizontal scrolling */
+    html, body {
+      overflow-x: hidden !important;
+      max-width: 100vw !important;
+    }
+    
     /* Core Layout Fixes */
     .mbr-section-head::after,
-    .mbr-section-head::before,
+    .mbr-section-head::after,
     .mbr-section-title::after,
     .mbr-section-title::before,
     .card-title::after,
@@ -325,8 +331,8 @@
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
-        gap: 0.5rem !important;
-        padding: 0 1rem !important;
+        gap: 1rem !important;
+        padding: 0 2rem 0 1rem !important;
         opacity: 0 !important;
         pointer-events: none !important;
         transition: all 0.3s ease !important;
@@ -336,13 +342,16 @@
       /* Expanded state - button becomes pill */
       .mobile-hamburger.expanded {
         width: auto !important;
-        min-width: 280px !important;
+        min-width: 320px !important;
+        max-width: 90vw !important;
         border-radius: 30px !important;
-        padding: 0.75rem 1rem !important;
+        padding: 1rem 1.5rem !important;
         background: rgba(255, 255, 255, 0.95) !important;
         backdrop-filter: blur(15px) !important;
         -webkit-backdrop-filter: blur(15px) !important;
         box-shadow: 0 8px 24px rgba(0,0,0,0.15) !important;
+        right: 0.5rem !important;
+        left: auto !important;
       }
 
       /* Show pill content when expanded */
@@ -432,6 +441,18 @@
       /* Prevent navbar overlapping hero section */
       header.header18 {
         padding-top: 3rem !important;
+      }
+      
+      /* Ensure main content doesn't overflow */
+      main#main-content {
+        overflow-x: hidden !important;
+        max-width: 100vw !important;
+      }
+      
+      /* Prevent any section from causing horizontal scroll */
+      section {
+        overflow-x: hidden !important;
+        max-width: 100vw !important;
       }
     }
     
