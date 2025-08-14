@@ -250,22 +250,103 @@
     .popover { z-index: 1070 !important; }
     .offcanvas { z-index: 1050 !important; }
     
-    /* Mobile Responsive */
+    /* Mobile navbar adjustments - Bottom floating pill */
     @media (max-width: 767.98px) {
       .navbar-dropdown {
-        padding: 0.25rem 0.5rem !important;
+        top: auto !important;
+        bottom: 1rem !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        padding: 0.5rem 1rem !important;
+        border-radius: 30px !important;
+        max-width: 90% !important;
+        width: auto !important;
+        background: rgba(255, 255, 255, 0.95) !important;
+        backdrop-filter: blur(20px) !important;
+        -webkit-backdrop-filter: blur(20px) !important;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15) !important;
+        -webkit-box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15) !important;
+        border: 1px solid rgba(0, 0, 0, 0.1) !important;
+        z-index: 1030 !important;
       }
-      
-      .navbar-nav .nav-link {
-        padding: 1rem !important;
-        text-align: center !important;
+
+      /* Hide hamburger menu button */
+      .navbar-toggler {
+        display: none !important;
       }
-      
+
+      /* Always show navbar collapse on mobile */
       .navbar-collapse {
-        background: rgba(255, 255, 255, 0.98) !important;
-        border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
-        margin-top: 0.5rem !important;
-        padding: 0.5rem 0 !important;
+        display: flex !important;
+        flex-basis: auto !important;
+        background: transparent !important;
+        border: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        border-radius: 0 !important;
+      }
+
+      /* Horizontal layout for mobile */
+      .navbar-nav {
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        width: 100% !important;
+        margin: 0 !important;
+      }
+
+      .navbar-nav .nav-link {
+        padding: 0.5rem 0.75rem !important;
+        margin: 0 0.25rem !important;
+        border-bottom: none !important;
+        border-radius: 20px !important;
+        font-size: 0.9rem !important;
+        white-space: nowrap !important;
+        text-align: center !important;
+        min-height: 44px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex: 1 !important;
+        -webkit-tap-highlight-color: transparent !important;
+      }
+
+      .navbar-nav .nav-link:hover {
+        background-color: rgba(0, 0, 0, 0.1) !important;
+        transform: translateY(-1px) !important;
+        -webkit-transform: translateY(-1px) !important;
+      }
+
+      /* iOS Safari safe area */
+      @supports (padding-bottom: env(safe-area-inset-bottom)) {
+        .navbar-dropdown {
+          bottom: calc(1rem + env(safe-area-inset-bottom)) !important;
+        }
+      }
+
+      /* Equal height job cards for cleaner stacking */
+      .features03 .item-wrapper {
+        display: flex !important;
+        flex-direction: column !important;
+        height: 100% !important;
+      }
+      .features03 .item-content {
+        flex-grow: 1 !important;
+      }
+
+      /* Larger form inputs to prevent iOS zoom */
+      input, textarea, select {
+        font-size: 16px !important;
+      }
+
+      /* Disable parallax backgrounds on mobile for smoother scroll */
+      .mbr-parallax-background {
+        background-attachment: scroll !important;
+        background-size: cover !important;
+      }
+
+      /* Prevent navbar overlapping hero section */
+      header.header18 {
+        padding-top: 3rem !important;
       }
     }
     
