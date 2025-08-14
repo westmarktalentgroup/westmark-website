@@ -252,7 +252,7 @@
     
     /* Mobile hamburger positioning */
     @media (max-width: 767.98px) {
-      /* Mobile hamburger button */
+      /* Mobile hamburger button that expands into pill */
       .mobile-hamburger {
         position: fixed !important;
         top: 0.5rem !important;
@@ -270,6 +270,8 @@
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+        overflow: hidden !important;
       }
       
       /* Hide desktop hamburger */
@@ -293,47 +295,62 @@
         margin: 0 !important;
       }
 
-      /* Pill menu container */
-      .nav-pill {
-        position: fixed;
-        top: 0.5rem;
-        right: 4.5rem; /* positioned next to hamburger */
-        background: rgba(255,255,255,0.95);
-        border-radius: 30px;
-        padding: 0.75rem 1rem;
-        display: flex;
-        gap: 0.5rem;
-        box-shadow: 0 8px 24px rgba(0,0,0,0.15);
-        backdrop-filter: blur(15px);
-        -webkit-backdrop-filter: blur(15px);
-        opacity: 0;
-        transform: scale(0.8);
-        pointer-events: none;
-        transition: all 0.3s ease;
-        z-index: 1099;
-        min-width: max-content; /* allows horizontal growth */
+      /* Pill content inside hamburger button */
+      .pill-content {
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 0.5rem !important;
+        padding: 0 1rem !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+        transition: all 0.3s ease !important;
+        white-space: nowrap !important;
       }
 
-      /* Expanded state */
-      .nav-pill.active {
-        opacity: 1;
-        transform: scale(1);
-        pointer-events: auto;
+      /* Expanded state - button becomes pill */
+      .mobile-hamburger.expanded {
+        width: auto !important;
+        min-width: 280px !important;
+        border-radius: 30px !important;
+        padding: 0.75rem 1rem !important;
+        background: rgba(255, 255, 255, 0.95) !important;
+        backdrop-filter: blur(15px) !important;
+        -webkit-backdrop-filter: blur(15px) !important;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.15) !important;
       }
 
-      /* Pill links */
-      .nav-pill a {
-        padding: 0.5rem 0.75rem;
-        border-radius: 20px;
-        font-size: 0.9rem;
-        white-space: nowrap;
-        text-decoration: none;
-        color: #000;
-        flex: 0 0 auto;
+      /* Show pill content when expanded */
+      .mobile-hamburger.expanded .pill-content {
+        opacity: 1 !important;
+        pointer-events: auto !important;
       }
 
-      .nav-pill a:hover {
-        background: rgba(0,0,0,0.1);
+      /* Hide hamburger lines when expanded */
+      .mobile-hamburger.expanded .hamburger {
+        opacity: 0 !important;
+        transform: scale(0.8) !important;
+      }
+
+      /* Pill content links */
+      .pill-content a {
+        padding: 0.5rem 0.75rem !important;
+        border-radius: 20px !important;
+        font-size: 0.9rem !important;
+        text-decoration: none !important;
+        color: #000 !important;
+        transition: all 0.2s ease !important;
+        white-space: nowrap !important;
+      }
+
+      .pill-content a:hover {
+        background: rgba(0,0,0,0.1) !important;
+        transform: translateY(-1px) !important;
       }
 
       /* Hamburger lines styling */
@@ -498,21 +515,19 @@
   </div>
 </nav>
 
-<!-- Mobile Hamburger Button -->
+<!-- Mobile Hamburger Button that expands into pill menu -->
 <button class="navbar-toggler mobile-hamburger" type="button" aria-label="Toggle navigation">
   <div class="hamburger">
     <span></span>
     <span></span>
     <span></span>
   </div>
+  <div class="pill-content">
+    <a href="clients.html">Clients</a>
+    <a href="https://westmarktalentgroup.zohorecruit.com/jobs/Careers">Opportunities</a>
+    <a href="contact-us.html">Contact Us</a>
+  </div>
 </button>
-
-<!-- Mobile Pill Menu -->
-<div class="nav-pill">
-  <a href="clients.html">Clients</a>
-  <a href="https://westmarktalentgroup.zohorecruit.com/jobs/Careers">Opportunities</a>
-  <a href="contact-us.html">Contact Us</a>
-</div>
 
 <main id="main-content">
   <!-- 1. Hero Section - Full screen picture with headline -->
@@ -956,10 +971,9 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const toggler = document.querySelector('.mobile-hamburger');
-  const pill = document.querySelector('.nav-pill');
-  if (toggler && pill) {
+  if (toggler) {
     toggler.addEventListener('click', function() {
-      pill.classList.toggle('active');
+      this.classList.toggle('expanded');
     });
   }
 });
