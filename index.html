@@ -313,6 +313,39 @@
         background: rgba(0,0,0,0.1);
       }
 
+      /* Hamburger lines styling */
+      .hamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        gap: 2px;
+      }
+
+      .hamburger span {
+        display: block;
+        width: 16px;
+        height: 2px;
+        background-color: #333;
+        border-radius: 1px;
+        transition: all 0.3s ease;
+      }
+
+      /* Hamburger animation on click */
+      .navbar-toggler:active .hamburger span:nth-child(1) {
+        transform: rotate(45deg) translate(4px, 4px);
+      }
+
+      .navbar-toggler:active .hamburger span:nth-child(2) {
+        opacity: 0;
+      }
+
+      .navbar-toggler:active .hamburger span:nth-child(3) {
+        transform: rotate(-45deg) translate(4px, -4px);
+      }
+
       /* Equal height job cards for cleaner stacking */
       .features03 .item-wrapper {
         display: flex !important;
@@ -423,9 +456,8 @@
 <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg" data-bs-version="5.1" id="menu-5-uMOnIua8FF">
   <div class="container">
     <div class="navbar-brand"></div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
       <div class="hamburger">
-        <span></span>
         <span></span>
         <span></span>
         <span></span>
