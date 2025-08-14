@@ -2705,6 +2705,10 @@ a {
 .cid-uMOnIuaQSz {
   display: flex;
   background-image: url("../../../assets/images/pexels-apasaric-1437493-2000x1333.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .cid-uMOnIuaQSz .mbr-overlay {
   background-color: #000000;
