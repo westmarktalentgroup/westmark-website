@@ -1,18 +1,20 @@
-// Contact Form Handler
+// Contact Form Handler - Optimized
 document.addEventListener('DOMContentLoaded', function() {
     const forms = document.querySelectorAll('.contact-form');
+    
+    // Email validation regex - compiled once
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     
     forms.forEach(form => {
         form.addEventListener('submit', function(e) {
             e.preventDefault();
             
-            // Get form data
+            // Get form data efficiently
             const formData = new FormData(form);
             const name = formData.get('name') || '';
             const email = formData.get('email') || '';
             const phone = formData.get('phone') || '';
             const message = formData.get('textarea') || '';
-            const subject = formData.get('subject') || 'Contact Form Submission';
             
             // Validate required fields
             if (!name || !email || !message) {
@@ -21,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             
             // Validate email format
-            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (!emailRegex.test(email)) {
                 showAlert('Please enter a valid email address.', 'danger');
                 return;
@@ -29,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Create mailto link
             const mailtoBody = `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\n\nMessage:\n${message}`;
-            const mailtoLink = `mailto:info@westmarktalentgroup.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(mailtoBody)}`;
+            const mailtoLink = `mailto:info@westmarktalentgroup.com?subject=Contact Form Submission&body=${encodeURIComponent(mailtoBody)}`;
             
             // Show success message
             showAlert('Thank you! Your message has been sent. We\'ll be in touch within 24 hours.', 'success');

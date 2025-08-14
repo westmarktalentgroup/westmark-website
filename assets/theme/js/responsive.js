@@ -51,15 +51,10 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Responsive Image Loading
-    const images = document.querySelectorAll('img');
+    // Responsive Image Loading - Optimized
+    const images = document.querySelectorAll('img:not([loading])');
     images.forEach(img => {
-        // Add loading="lazy" for better performance
-        if (!img.hasAttribute('loading')) {
-            img.setAttribute('loading', 'lazy');
-        }
-        
-        // Add responsive classes
+        img.setAttribute('loading', 'lazy');
         img.classList.add('responsive-img');
         
         // Handle image errors
