@@ -88,6 +88,9 @@
       margin: 0 !important;
       height: auto !important;
       min-height: auto !important;
+      /* iOS Safari fixes */
+      -webkit-transform: translateX(-50%) !important;
+      -webkit-box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12) !important;
     }
     
     /* Center navbar content */
@@ -123,6 +126,31 @@
       transform: translateY(-2px) !important;
       color: #000 !important;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+      /* iOS Safari fixes */
+      -webkit-transform: translateY(-2px) !important;
+      -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    }
+    
+    /* iOS Safari specific fixes */
+    @supports (-webkit-touch-callout: none) {
+      .navbar-nav .nav-link {
+        -webkit-tap-highlight-color: transparent !important;
+      }
+      
+      .btn {
+        -webkit-tap-highlight-color: transparent !important;
+        -webkit-appearance: none !important;
+      }
+      
+      input, textarea {
+        -webkit-appearance: none !important;
+        border-radius: 0 !important;
+      }
+      
+      .header18 {
+        min-height: 100vh !important;
+        min-height: -webkit-fill-available !important;
+      }
     }
     
     /* Remove section-related spacing */
@@ -255,6 +283,23 @@
       .navbar-nav .nav-link:hover {
         transform: translateY(-2px) !important;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+        /* iOS Safari fixes */
+        -webkit-transform: translateY(-2px) !important;
+        -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+      }
+      
+      /* iOS Safari touch improvements */
+      @media (max-width: 767.98px) {
+        .navbar-nav .nav-link {
+          min-height: 44px !important; /* iOS minimum touch target */
+          display: flex !important;
+          align-items: center !important;
+          justify-content: center !important;
+        }
+        
+        .btn {
+          min-height: 44px !important;
+        }
       }
     }
   </style>
