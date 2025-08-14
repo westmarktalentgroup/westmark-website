@@ -250,77 +250,63 @@
     .popover { z-index: 1070 !important; }
     .offcanvas { z-index: 1050 !important; }
     
-    /* Mobile navbar adjustments - Bottom floating pill */
+    /* Mobile hamburger positioning */
     @media (max-width: 767.98px) {
-      .navbar-dropdown {
-        top: auto !important;
-        bottom: 1rem !important;
-        left: 50% !important;
-        transform: translateX(-50%) !important;
-        padding: 0.5rem 1rem !important;
-        border-radius: 30px !important;
-        max-width: 90% !important;
-        width: auto !important;
-        background: rgba(255, 255, 255, 0.95) !important;
-        backdrop-filter: blur(20px) !important;
-        -webkit-backdrop-filter: blur(20px) !important;
-        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15) !important;
-        -webkit-box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15) !important;
-        border: 1px solid rgba(0, 0, 0, 0.1) !important;
-        z-index: 1030 !important;
+      .navbar-toggler {
+        position: fixed !important;
+        top: 1rem !important;
+        right: 1rem !important;
+        z-index: 1100 !important;
+        background: rgba(255,255,255,0.9) !important;
+        border-radius: 50% !important;
+        padding: 0.5rem !important;
+        backdrop-filter: blur(10px) !important;
+        -webkit-backdrop-filter: blur(10px) !important;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
       }
 
-      /* Hide hamburger menu button */
-      .navbar-toggler {
+      /* Hide default navbar layout */
+      .navbar-collapse {
         display: none !important;
       }
 
-      /* Always show navbar collapse on mobile */
-      .navbar-collapse {
-        display: flex !important;
-        flex-basis: auto !important;
-        background: transparent !important;
-        border: none !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        border-radius: 0 !important;
+      /* Pill menu container */
+      .nav-pill {
+        position: fixed;
+        top: 1rem;
+        right: 4rem; /* next to hamburger */
+        background: rgba(255,255,255,0.95);
+        border-radius: 30px;
+        padding: 0.5rem 0.75rem;
+        display: flex;
+        gap: 0.5rem;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        opacity: 0;
+        transform: scale(0.8);
+        pointer-events: none;
+        transition: all 0.3s ease;
+        z-index: 1099;
       }
 
-      /* Horizontal layout for mobile */
-      .navbar-nav {
-        flex-direction: row !important;
-        justify-content: space-between !important;
-        width: 100% !important;
-        margin: 0 !important;
+      .nav-pill.active {
+        opacity: 1;
+        transform: scale(1);
+        pointer-events: auto;
       }
 
-      .navbar-nav .nav-link {
-        padding: 0.5rem 0.75rem !important;
-        margin: 0 0.25rem !important;
-        border-bottom: none !important;
-        border-radius: 20px !important;
-        font-size: 0.9rem !important;
-        white-space: nowrap !important;
-        text-align: center !important;
-        min-height: 44px !important;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-        flex: 1 !important;
-        -webkit-tap-highlight-color: transparent !important;
+      .nav-pill a {
+        padding: 0.5rem 0.75rem;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        white-space: nowrap;
+        text-decoration: none;
+        color: #000;
       }
 
-      .navbar-nav .nav-link:hover {
-        background-color: rgba(0, 0, 0, 0.1) !important;
-        transform: translateY(-1px) !important;
-        -webkit-transform: translateY(-1px) !important;
-      }
-
-      /* iOS Safari safe area */
-      @supports (padding-bottom: env(safe-area-inset-bottom)) {
-        .navbar-dropdown {
-          bottom: calc(1rem + env(safe-area-inset-bottom)) !important;
-        }
+      .nav-pill a:hover {
+        background: rgba(0,0,0,0.1);
       }
 
       /* Equal height job cards for cleaner stacking */
@@ -459,6 +445,13 @@
     </div>
   </div>
 </nav>
+
+<!-- Mobile Pill Menu -->
+<div class="nav-pill">
+  <a href="clients.html">Clients</a>
+  <a href="https://westmarktalentgroup.zohorecruit.com/jobs/Careers">Opportunities</a>
+  <a href="contact-us.html">Contact Us</a>
+</div>
 
 <main id="main-content">
   <!-- 1. Hero Section - Full screen picture with headline -->
@@ -896,6 +889,19 @@
     }
   ]
 }
+</script>
+
+<!-- Mobile Navigation Toggle Script -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const toggler = document.querySelector('.navbar-toggler');
+  const pill = document.querySelector('.nav-pill');
+  if (toggler && pill) {
+    toggler.addEventListener('click', function() {
+      pill.classList.toggle('active');
+    });
+  }
+});
 </script>
 
 </body>
