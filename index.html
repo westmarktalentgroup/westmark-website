@@ -252,8 +252,8 @@
     
     /* Mobile hamburger positioning */
     @media (max-width: 767.98px) {
-      /* Hamburger button */
-      .navbar-toggler {
+      /* Mobile hamburger button */
+      .mobile-hamburger {
         position: fixed !important;
         top: 0.5rem !important;
         right: 0.5rem !important;
@@ -271,13 +271,26 @@
         align-items: center !important;
         justify-content: center !important;
       }
+      
+      /* Hide desktop hamburger */
+      .navbar-dropdown .navbar-toggler {
+        display: none !important;
+      }
 
       /* Hide default collapse */
       .navbar-collapse { display: none !important; }
       
-      /* Hide entire desktop navbar on mobile */
-      .navbar-dropdown {
+      /* Hide only navbar content on mobile, keep hamburger visible */
+      .navbar-dropdown .container {
         display: none !important;
+      }
+      
+      /* Ensure navbar doesn't take up space on mobile */
+      .navbar-dropdown {
+        height: 0 !important;
+        overflow: hidden !important;
+        padding: 0 !important;
+        margin: 0 !important;
       }
 
       /* Pill menu container */
@@ -466,13 +479,6 @@
 <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg" data-bs-version="5.1" id="menu-5-uMOnIua8FF">
   <div class="container">
     <div class="navbar-brand"></div>
-    <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
-      <div class="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav nav-dropdown nav-right navbar-nav-top-padding" data-app-modern-menu="true">
         <li class="nav-item">
@@ -491,6 +497,15 @@
     </div>
   </div>
 </nav>
+
+<!-- Mobile Hamburger Button -->
+<button class="navbar-toggler mobile-hamburger" type="button" aria-label="Toggle navigation">
+  <div class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</button>
 
 <!-- Mobile Pill Menu -->
 <div class="nav-pill">
@@ -940,7 +955,7 @@
 <!-- Mobile Navigation Toggle Script -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const toggler = document.querySelector('.navbar-toggler');
+  const toggler = document.querySelector('.mobile-hamburger');
   const pill = document.querySelector('.nav-pill');
   if (toggler && pill) {
     toggler.addEventListener('click', function() {
