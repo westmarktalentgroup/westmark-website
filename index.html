@@ -75,6 +75,14 @@
       z-index: 1 !important;
     }
     
+    /* Hero section ignores iOS status bar */
+    .header18 {
+      min-height: 100vh !important;
+      height: 100vh !important;
+      padding-top: 0 !important;
+      margin-top: 0 !important;
+    }
+    
     /* Navbar Styling - Restored Floating Circular Design */
     .navbar-dropdown {
       position: fixed !important;
@@ -209,23 +217,38 @@
       }
     }
     
-    /* Button Fixes */
-    .mbr-section-btn {
-      display: flex !important;
-      align-items: center !important;
-      justify-content: flex-start !important;
-      gap: 1rem !important;
-      margin: 0 !important;
-      padding: 0 !important;
-    }
-    
-    .mbr-section-btn .btn {
-      flex: 0 0 auto !important;
-      min-width: 120px !important;
-      text-align: center !important;
-      margin: 0 !important;
-      padding: 0.75rem 1.5rem !important;
-    }
+          /* Button Fixes */
+      .mbr-section-btn {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        gap: 1rem !important;
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+      
+      .mbr-section-btn .btn {
+        flex: 0 0 auto !important;
+        min-width: 120px !important;
+        text-align: center !important;
+        margin: 0 !important;
+        padding: 0.75rem 1.5rem !important;
+      }
+      
+      /* Responsive buttons for mobile */
+      @media (max-width: 767.98px) {
+        .mbr-section-btn {
+          flex-wrap: wrap !important;
+          justify-content: center !important;
+          gap: 1rem !important;
+        }
+        
+        .mbr-section-btn .btn {
+          min-width: 140px !important;
+          max-width: 200px !important;
+          flex: 1 1 auto !important;
+        }
+      }
     
     /* FAQ Styling */
     .panel-title a {
@@ -261,8 +284,8 @@
       /* Mobile hamburger button that expands into pill */
       .mobile-hamburger {
         position: fixed !important;
-        top: 0.5rem !important;
-        right: 0.5rem !important;
+        top: 1rem !important;
+        right: 1rem !important;
         z-index: 1100 !important;
         background: rgba(255, 255, 255, 0.9) !important;
         border-radius: 50% !important;
@@ -278,6 +301,13 @@
         justify-content: center !important;
         transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
         overflow: hidden !important;
+      }
+      
+      /* iOS safe area for menu only */
+      @supports (padding-top: env(safe-area-inset-top)) {
+        .mobile-hamburger {
+          top: calc(1rem + env(safe-area-inset-top)) !important;
+        }
       }
       
       /* Hide desktop hamburger */
@@ -350,7 +380,7 @@
         backdrop-filter: blur(15px) !important;
         -webkit-backdrop-filter: blur(15px) !important;
         box-shadow: 0 8px 24px rgba(0,0,0,0.15) !important;
-        right: 0.5rem !important;
+        right: 1rem !important;
         left: auto !important;
       }
 
@@ -422,9 +452,17 @@
         display: flex !important;
         flex-direction: column !important;
         height: 100% !important;
+        margin-bottom: 2rem !important;
       }
       .features03 .item-content {
         flex-grow: 1 !important;
+        padding-bottom: 1rem !important;
+      }
+      
+      /* Better spacing for Apply Now buttons */
+      .features03 .mbr-section-btn {
+        margin-top: 1.5rem !important;
+        margin-bottom: 1rem !important;
       }
 
       /* Larger form inputs to prevent iOS zoom */
@@ -575,8 +613,8 @@
 <main id="main-content">
   <!-- 1. Hero Section - Full screen picture with headline -->
   <header class="header18 cid-uMOnIuaQSz mbr-fullscreen mbr-parallax-background" data-bs-version="5.1" id="hero-15-uMOnIuaQSz">
-    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 0, 0);"></div>
-    <div class="hero-fade-overlay" style="position: absolute; bottom: 0; left: 0; right: 0; height: 40%; background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0) 100%); z-index: 2;"></div>
+    <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(0, 0, 0);"></div>
+    <div class="hero-fade-overlay" style="position: absolute; bottom: 0; left: 0; right: 0; height: 60%; background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.3) 100%); z-index: 2;"></div>
     <div class="container-fluid" style="position: relative; z-index: 3;">
       <div class="row">
         <div class="content-wrap col-12 col-md-12 header-content">
@@ -591,7 +629,7 @@
 
   <!-- 2. Mission Section -->
   <section class="article9 cid-uMOnIuad2K" data-bs-version="5.1" id="about-us-9-uMOnIuad2K">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="card col-md-12 col-lg-10">
           <div class="card-wrapper">
@@ -805,10 +843,12 @@
       <div class="row justify-content-center">
         <div class="col-12 text-center">
           <h2 class="mbr-section-title mbr-fonts-style mb-4 display-2">
-            <strong>Hire proven construction leaders.</strong><br>
+            <strong>Hire proven construction leaders.</strong>
+          </h2>
+          <h2 class="mbr-section-title mbr-fonts-style mb-5 display-2">
             <strong>Or find your next role.</strong>
           </h2>
-          <div class="mbr-section-btn d-flex justify-content-center gap-3">
+          <div class="mbr-section-btn d-flex justify-content-center gap-3 flex-wrap">
             <a class="btn btn-white-outline display-7" href="clients.html">Employers</a> 
             <a class="btn btn-white-outline display-7" href="https://westmarktalentgroup.zohorecruit.com/jobs/Careers" target="_blank" rel="noopener">Careers</a>
           </div>
