@@ -252,29 +252,29 @@
     
     /* Mobile hamburger positioning */
     @media (max-width: 767.98px) {
+      /* Hamburger button */
       .navbar-toggler {
         position: fixed !important;
         top: 1rem !important;
         right: 1rem !important;
         z-index: 1100 !important;
-        background: rgba(255,255,255,0.9) !important;
+        background: rgba(255, 255, 255, 0.9) !important;
         border-radius: 50% !important;
         padding: 0.5rem !important;
         backdrop-filter: blur(10px) !important;
         -webkit-backdrop-filter: blur(10px) !important;
         box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+        border: none !important;
       }
 
-      /* Hide default navbar layout */
-      .navbar-collapse {
-        display: none !important;
-      }
+      /* Hide default collapse */
+      .navbar-collapse { display: none !important; }
 
       /* Pill menu container */
       .nav-pill {
         position: fixed;
         top: 1rem;
-        right: 4rem; /* next to hamburger */
+        right: 4rem; /* starts near hamburger */
         background: rgba(255,255,255,0.95);
         border-radius: 30px;
         padding: 0.5rem 0.75rem;
@@ -288,14 +288,17 @@
         pointer-events: none;
         transition: all 0.3s ease;
         z-index: 1099;
+        min-width: max-content; /* allows horizontal growth */
       }
 
+      /* Expanded state */
       .nav-pill.active {
         opacity: 1;
         transform: scale(1);
         pointer-events: auto;
       }
 
+      /* Pill links */
       .nav-pill a {
         padding: 0.5rem 0.75rem;
         border-radius: 20px;
@@ -303,6 +306,7 @@
         white-space: nowrap;
         text-decoration: none;
         color: #000;
+        flex: 0 0 auto;
       }
 
       .nav-pill a:hover {
