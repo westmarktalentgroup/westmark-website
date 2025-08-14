@@ -287,12 +287,32 @@
         display: none !important;
       }
       
+      /* Override any external navbar styles that might cause dark lines */
+      .navbar-dropdown.navbar-fixed-top {
+        background: transparent !important;
+        border-bottom: none !important;
+        box-shadow: none !important;
+        backdrop-filter: none !important;
+        -webkit-backdrop-filter: none !important;
+      }
+      
       /* Ensure navbar doesn't take up space on mobile */
       .navbar-dropdown {
         height: 0 !important;
         overflow: hidden !important;
         padding: 0 !important;
         margin: 0 !important;
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+        backdrop-filter: none !important;
+        -webkit-backdrop-filter: none !important;
+      }
+      
+      /* Hide any navbar borders or lines */
+      .navbar-dropdown::before,
+      .navbar-dropdown::after {
+        display: none !important;
       }
 
       /* Pill content inside hamburger button */
@@ -331,10 +351,12 @@
         pointer-events: auto !important;
       }
 
-      /* Hide hamburger lines when expanded */
+      /* Keep hamburger lines visible but smaller when expanded */
       .mobile-hamburger.expanded .hamburger {
-        opacity: 0 !important;
-        transform: scale(0.8) !important;
+        opacity: 0.3 !important;
+        transform: scale(0.6) !important;
+        position: absolute !important;
+        right: 0.5rem !important;
       }
 
       /* Pill content links */
