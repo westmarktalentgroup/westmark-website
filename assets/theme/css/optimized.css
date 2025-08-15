@@ -186,7 +186,7 @@ textarea:focus {
 /* Expanded state - button becomes pill */
 .mobile-hamburger.expanded {
   width: auto !important;
-  min-width: 320px !important;
+  min-width: 380px !important;
   max-width: 90vw !important;
   border-radius: 30px !important;
   padding: 1rem 1.5rem !important;
