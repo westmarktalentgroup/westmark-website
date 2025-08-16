@@ -71,6 +71,45 @@
       font-weight: 300 !important;
     }
     
+    /* SPECIFIC HEADLINE AND SUBHEADLINE FIXES */
+    .mbr-section-subtitle {
+      font-weight: 300 !important;
+    }
+    
+    .mbr-section-subtitle.mbr-fonts-style {
+      font-weight: 300 !important;
+    }
+    
+    .mbr-section-subtitle.display-7 {
+      font-weight: 300 !important;
+    }
+    
+    /* Target the specific subheadline on clients page */
+    .mbr-section-subtitle.mbr-fonts-style.mt-0.mb-4.display-7 {
+      font-weight: 300 !important;
+    }
+    
+    /* Ensure main headline is not too bold */
+    .mbr-section-title.mbr-fonts-style.mt-0.mb-4.display-2 {
+      font-weight: 400 !important;
+    }
+    
+    /* Override any external CSS that might be setting bold fonts */
+    .mbr-fonts-style {
+      font-weight: inherit !important;
+    }
+    
+    /* Force remove any strong tags that might be making text bold */
+    .mbr-section-subtitle strong,
+    .mbr-section-subtitle b {
+      font-weight: 400 !important;
+    }
+    
+    .mbr-section-title strong,
+    .mbr-section-title b {
+      font-weight: 500 !important;
+    }
+    
     /* CRITICAL NAVIGATION CSS - Make desktop menu visible */
     .navbar-dropdown {
       position: fixed !important;
