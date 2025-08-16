@@ -380,14 +380,13 @@
       .pill-content {
         position: absolute !important;
         top: 0 !important;
-        left: 0 !important;
-        right: 0 !important;
+        right: 0 !important; /* Changed from left: 0 */
         bottom: 0 !important;
         display: flex !important;
         align-items: center !important;
-        justify-content: center !important;
-        gap: 1rem !important;
-        padding: 0 2rem 0 1rem !important;
+        justify-content: space-between !important; /* Better distribution */
+        gap: 0.75rem !important;
+        padding: 0 1rem !important; /* Simplified padding */
         opacity: 0 !important;
         pointer-events: none !important;
         transition: all 0.3s ease !important;
@@ -397,16 +396,17 @@
       /* Expanded state - button becomes pill */
       .mobile-hamburger.expanded {
         width: auto !important;
-        min-width: 450px !important;
-        max-width: 95vw !important;
+        min-width: 280px !important; /* Reduced from 450px */
+        max-width: calc(100vw - 2rem) !important; /* Respect viewport */
         border-radius: 30px !important;
-        padding: 1rem 2rem !important;
-        background: rgba(255, 255, 255, 0.95) !important;
+        padding: 0.75rem 1rem !important;
+        background: rgba(255, 255, 255, 0.98) !important;
         backdrop-filter: blur(15px) !important;
         -webkit-backdrop-filter: blur(15px) !important;
-        box-shadow: 0 8px 24px rgba(0,0,0,0.15) !important;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.2) !important;
+        /* KEY FIX: Transform to keep it on screen */
+        transform: translateX(calc(-100% + 60px)) !important;
         right: 1rem !important;
-        left: auto !important;
       }
 
       /* Show pill content when expanded */
@@ -421,6 +421,22 @@
         transform: scale(0.6) !important;
         position: absolute !important;
         right: 0.5rem !important;
+      }
+
+      /* Responsive breakpoints for very small screens */
+      @media (max-width: 375px) {
+        .mobile-hamburger.expanded {
+          min-width: 260px !important;
+          max-width: calc(100vw - 1rem) !important;
+          transform: translateX(calc(-100% + 55px)) !important;
+        }
+      }
+
+      @media (max-width: 320px) {
+        .mobile-hamburger.expanded {
+          min-width: 240px !important;
+          transform: translateX(calc(-100% + 50px)) !important;
+        }
       }
 
       /* Pill content links */
