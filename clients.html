@@ -42,6 +42,161 @@
   <link rel="stylesheet" href="assets/theme/css/accessibility.css">
   <link rel="stylesheet" href="assets/theme/css/mobile-optimized.css">
   <link rel="stylesheet" href="assets/theme/css/core-layout.css">
+  
+  <!-- CRITICAL CSS OVERRIDES - Force styling and remove external link text -->
+  <style>
+    /* Force thin fonts for all subtext */
+    .mbr-text {
+      font-weight: 300 !important;
+    }
+    
+    .mbr-section-title,
+    .item-title {
+      font-weight: 400 !important;
+    }
+    
+    .mbr-text.mbr-white {
+      font-weight: 300 !important;
+    }
+    
+    .panel-body .mbr-text,
+    .panel-body p {
+      font-weight: 300 !important;
+    }
+    
+    .contact-info .mbr-text,
+    .contact-info p,
+    .contact-section .mbr-text,
+    .contact-section p {
+      font-weight: 300 !important;
+    }
+    
+    /* CRITICAL NAVIGATION CSS - Make desktop menu visible */
+    .navbar-dropdown {
+      position: fixed !important;
+      top: 1rem !important;
+      left: 50% !important;
+      transform: translateX(-50%) !important;
+      width: auto !important;
+      max-width: 90% !important;
+      background: rgba(255, 255, 255, 0.95) !important;
+      background-color: rgba(255, 255, 255, 0.95) !important;
+      backdrop-filter: blur(15px) !important;
+      -webkit-backdrop-filter: blur(15px) !important;
+      border: 1px solid rgba(0, 0, 0, 0.1) !important;
+      border-radius: 50px !important;
+      z-index: 1030 !important;
+      padding: 0.5rem 2rem !important;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12) !important;
+      margin: 0 !important;
+      height: auto !important;
+      min-height: auto !important;
+      display: block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+    
+    /* Center navbar content */
+    .navbar-dropdown .container {
+      max-width: none !important;
+      padding: 0 !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+    
+    /* Center navigation items */
+    .navbar-nav {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      margin: 0 auto !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+    
+    .navbar-nav .nav-link {
+      font-weight: 500 !important;
+      transition: all 0.3s ease !important;
+      padding: 0.5rem 1.5rem !important;
+      color: #333 !important;
+      border-radius: 25px !important;
+      margin: 0 0.25rem !important;
+      text-align: center !important;
+      border: none !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+    }
+    
+    .navbar-nav .nav-link:hover {
+      background-color: rgba(0, 0, 0, 0.08) !important;
+      transform: translateY(-2px) !important;
+      color: #000 !important;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    }
+    
+    /* Ensure navbar brand doesn't take up space */
+    .navbar-dropdown .navbar-brand {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 0 !important;
+      min-width: 0 !important;
+      overflow: hidden !important;
+      display: none !important;
+    }
+    
+    /* Desktop specific enhancements */
+    @media (min-width: 768px) {
+      .navbar-dropdown {
+        padding: 0.75rem 3rem !important;
+        background: rgba(255, 255, 255, 0.95) !important;
+        background-color: rgba(255, 255, 255, 0.95) !important;
+      }
+      
+      .navbar-nav .nav-link {
+        padding: 0.75rem 2rem !important;
+        margin: 0 0.5rem !important;
+      }
+      
+      /* Hide mobile hamburger on desktop */
+      .mobile-hamburger {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+      }
+    }
+    
+    /* Mobile navigation - hide on mobile */
+    @media (max-width: 767.98px) {
+      .navbar-dropdown {
+        display: none !important;
+      }
+      
+      /* Show mobile hamburger on mobile */
+      .mobile-hamburger {
+        display: flex !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+      }
+    }
+    
+    /* Remove "(opens new tab)" from footer careers link */
+    footer a[target="_blank"]::after,
+    .media-container-row a[target="_blank"]::after,
+    footer .text-white[target="_blank"]::after,
+    .media-container-row .text-white[target="_blank"]::after {
+      content: "" !important;
+      display: none !important;
+      visibility: hidden !important;
+      opacity: 0 !important;
+      font-size: 0 !important;
+      line-height: 0 !important;
+      color: transparent !important;
+      background: transparent !important;
+    }
+  </style>
 
   <!-- Performance Optimizations -->
   <link rel="dns-prefetch" href="//www.googletagmanager.com">
@@ -72,436 +227,6 @@
     }
   }
   </script>
-
-
-    
-    .navbar-nav .nav-link:hover {
-      background-color: rgba(0, 0, 0, 0.08) !important;
-      transform: translateY(-2px) !important;
-      color: #000 !important;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
-      /* iOS Safari fixes */
-      -webkit-transform: translateY(-2px) !important;
-      -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
-    }
-    
-    .navbar-nav .nav-link.text-primary {
-      background: rgba(0, 0, 0, 0.1) !important;
-      color: #000 !important;
-      font-weight: 600 !important;
-    }
-    
-    /* Override external CSS margins that affect positioning */
-    .nav-dropdown .link {
-      margin: 0 0.25rem !important;
-    }
-    
-    /* Ensure navbar items are properly spaced */
-    .navbar-nav .nav-item {
-      margin: 0 0.25rem !important;
-    }
-    
-    /* iOS Safari specific fixes */
-    @supports (-webkit-touch-callout: none) {
-      .navbar-nav .nav-link {
-        -webkit-tap-highlight-color: transparent !important;
-      }
-      
-      .btn {
-        -webkit-tap-highlight-color: transparent !important;
-        -webkit-appearance: none !important;
-        appearance: none !important;
-      }
-      
-      input, textarea {
-        -webkit-appearance: none !important;
-        appearance: none !important;
-        border-radius: 0 !important;
-      }
-      
-      .header18 {
-        min-height: 100vh !important;
-        min-height: -webkit-fill-available !important;
-      }
-    }
-    
-    /* Mobile navbar adjustments */
-    @media (max-width: 767.98px) {
-      .navbar-dropdown {
-        top: max(0.5rem, env(safe-area-inset-top)) !important;
-        padding: 0.25rem 1rem !important;
-        border-radius: 25px !important;
-        max-width: calc(100vw - 1rem) !important;
-        min-width: 280px !important;
-        overflow: visible !important;
-        box-sizing: border-box !important;
-      }
-      
-      /* Mobile hamburger positioning */
-      .mobile-hamburger {
-        position: fixed !important;
-        top: 1rem !important;
-        right: 1rem !important;
-        z-index: 1100 !important;
-        background: rgba(255, 255, 255, 0.95) !important;
-        border-radius: 50% !important;
-        padding: 1rem !important;
-        backdrop-filter: blur(10px) !important;
-        -webkit-backdrop-filter: blur(10px) !important;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
-        border: none !important;
-        width: 60px !important;
-        height: 60px !important;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-        transition: all 0.3s ease !important;
-        overflow: hidden !important;
-      }
-      
-      /* iOS safe area for menu only */
-      @supports (padding-top: env(safe-area-inset-top)) {
-        .mobile-hamburger {
-          top: calc(1rem + env(safe-area-inset-top)) !important;
-        }
-      }
-      
-      /* Hide desktop hamburger */
-      .navbar-dropdown .navbar-toggler {
-        display: none !important;
-      }
-      
-      /* Hide default collapse */
-      .navbar-collapse { display: none !important; }
-      
-      /* Hide only navbar content on mobile, keep hamburger visible */
-      .navbar-dropdown .container {
-        display: none !important;
-      }
-      
-      /* Override any external navbar styles that might cause dark lines */
-      .navbar-dropdown.navbar-fixed-top {
-        background: transparent !important;
-        border-bottom: none !important;
-        box-shadow: none !important;
-        backdrop-filter: none !important;
-        -webkit-backdrop-filter: none !important;
-      }
-      
-      /* Ensure navbar doesn't take up space on mobile */
-      .navbar-dropdown {
-        height: 0 !important;
-        overflow: hidden !important;
-        padding: 0 !important;
-        margin: 0 !important;
-        background: transparent !important;
-        border: none !important;
-        box-shadow: none !important;
-        backdrop-filter: none !important;
-        -webkit-backdrop-filter: none !important;
-      }
-      
-      /* Hide any navbar borders or lines */
-      .navbar-dropdown::before,
-      .navbar-dropdown::after {
-        display: none !important;
-      }
-      
-      /* Pill content inside hamburger button */
-      .pill-content {
-        position: absolute !important;
-        top: 0 !important;
-        left: 0 !important;
-        right: 0 !important;
-        bottom: 0 !important;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important; /* Center all items horizontally */
-        gap: 1rem !important; /* Increase gap for better spacing */
-        padding: 0 1rem !important;
-        opacity: 0 !important;
-        pointer-events: none !important;
-        transition: all 0.3s ease !important;
-        white-space: nowrap !important;
-      }
-      
-      /* Expanded state - button becomes pill */
-      .mobile-hamburger.expanded {
-        width: calc(100vw - 2rem) !important;
-        min-width: calc(100vw - 2rem) !important;
-        max-width: calc(100vw - 2rem) !important;
-        border-radius: 30px !important;
-        padding: 0.75rem 1rem !important;
-        background: rgba(255, 255, 255, 0.98) !important;
-        backdrop-filter: blur(15px) !important;
-        -webkit-backdrop-filter: blur(15px) !important;
-        box-shadow: 0 8px 24px rgba(0,0,0,0.2) !important;
-        right: 1rem !important;
-        left: 1rem !important;
-        transform: none !important;
-        -webkit-transform: none !important;
-        -ms-transform: none !important;
-      }
-      
-      /* Show pill content when expanded */
-      .mobile-hamburger.expanded .pill-content {
-        opacity: 1 !important;
-        pointer-events: auto !important;
-      }
-      
-      /* Keep hamburger lines visible but smaller when expanded */
-      .mobile-hamburger.expanded .hamburger {
-        opacity: 0.3 !important;
-        transform: scale(0.6) !important;
-        position: absolute !important;
-        right: 0.5rem !important;
-      }
-      
-      /* Responsive breakpoints for very small screens */
-      @media (max-width: 375px) {
-        .mobile-hamburger.expanded {
-          width: calc(100vw - 1rem) !important;
-          min-width: calc(100vw - 1rem) !important;
-          max-width: calc(100vw - 1rem) !important;
-          right: 0.5rem !important;
-          left: 0.5rem !important;
-          transform: none !important;
-          -webkit-transform: none !important;
-          -ms-transform: none !important;
-        }
-      }
-      
-      @media (max-width: 320px) {
-        .mobile-hamburger.expanded {
-          width: calc(100vw - 0.5rem) !important;
-          min-width: calc(100vw - 0.5rem) !important;
-          max-width: calc(100vw - 0.5rem) !important;
-          right: 0.25rem !important;
-          left: 0.25rem !important;
-          transform: none !important;
-          -webkit-transform: none !important;
-          -ms-transform: none !important;
-        }
-      }
-      
-      /* Hide default collapse */
-      .navbar-collapse { display: none !important; }
-      
-      /* Hide only navbar content on mobile, keep hamburger visible */
-      .navbar-dropdown .container {
-        display: none !important;
-      }
-      
-      .navbar-nav .nav-link {
-        padding: 0.75rem 1rem !important;
-        margin: 0.1rem 0 !important;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
-        border-radius: 0 !important;
-      }
-      
-      .navbar-nav .nav-link:last-child {
-        border-bottom: none !important;
-      }
-      
-      .navbar-collapse {
-        background: rgba(255, 255, 255, 0.98) !important;
-        border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
-        margin-top: 0.5rem !important;
-        padding: 0.5rem 0 !important;
-        border-radius: 15px !important;
-      }
-      
-      /* Extra small screens */
-      @media (max-width: 375px) {
-        .navbar-dropdown {
-          min-width: 260px !important;
-          max-width: calc(100vw - 0.5rem) !important;
-          padding: 0.25rem 0.75rem !important;
-        }
-      }
-      
-      /* Very small screens */
-      @media (max-width: 320px) {
-        .navbar-dropdown {
-          min-width: 240px !important;
-          max-width: calc(100vw - 0.25rem) !important;
-          padding: 0.25rem 0.5rem !important;
-        }
-      }
-    }
-    
-    /* Desktop specific */
-    @media (min-width: 768px) {
-      .navbar-dropdown {
-        padding: 0.75rem 3rem !important;
-      }
-      
-      .navbar-nav .nav-link {
-        padding: 0.75rem 2rem !important;
-        margin: 0 0.5rem !important;
-      }
-    }
-    
-    /* Mobile navbar adjustments */
-    @media (max-width: 767.98px) {
-      .navbar-dropdown {
-        position: fixed !important;
-        top: max(1rem, env(safe-area-inset-top)) !important;
-        left: 50% !important;
-        transform: translateX(-50%) !important;
-        width: 500px !important;
-        min-width: 500px !important;
-        max-width: 500px !important;
-        background: rgba(255, 255, 255, 0.95) !important;
-        backdrop-filter: blur(15px) !important;
-        -webkit-backdrop-filter: blur(15px) !important;
-        border: 1px solid rgba(0, 0, 0, 0.1) !important;
-        border-radius: 50px !important;
-        z-index: 1030 !important;
-        padding: 0.75rem 1.5rem !important;
-        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12) !important;
-        margin: 0 !important;
-        height: 65px !important;
-        min-height: 65px !important;
-        /* iOS Safari fixes */
-        -webkit-transform: translateX(-50%) !important;
-        -webkit-box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12) !important;
-        /* Ensure it stays within viewport */
-        overflow: visible !important;
-        box-sizing: border-box !important;
-      }
-      
-      .navbar-dropdown .container {
-        display: none !important;
-      }
-      
-      /* Extra small screens */
-      @media (max-width: 375px) {
-        .navbar-dropdown {
-          min-width: 260px !important;
-          max-width: calc(100vw - 1rem) !important;
-          padding: 0.5rem 1rem !important;
-        }
-      }
-      
-      /* Very small screens */
-      @media (max-width: 320px) {
-        .navbar-dropdown {
-          min-width: 240px !important;
-          max-width: calc(100vw - 0.5rem) !important;
-          padding: 0.5rem 0.75rem !important;
-        }
-      }
-    }
-    
-    /* Pill content links - matching index.html exactly */
-    .pill-content a {
-      padding: 0.4rem 0.6rem !important;
-      border-radius: 18px !important;
-      font-size: 0.85rem !important;
-      text-decoration: none !important;
-      color: #000 !important;
-      transition: all 0.2s ease !important;
-      white-space: nowrap !important;
-    }
-
-    .pill-content a:hover {
-      background: rgba(0,0,0,0.1) !important;
-      transform: translateY(-1px) !important;
-    }
-    
-    /* Hamburger lines styling - matching index.html exactly */
-    .hamburger {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 30px;
-      height: 30px;
-      gap: 4px;
-    }
-
-    .hamburger span {
-      display: block;
-      width: 24px;
-      height: 3px;
-      background-color: #333;
-      border-radius: 2px;
-      transition: all 0.3s ease;
-    }
-
-    /* Hamburger animation on click */
-    .navbar-toggler:active .hamburger span:nth-child(1) {
-      transform: rotate(45deg) translate(4px, 4px);
-    }
-
-    .navbar-toggler:active .hamburger span:nth-child(2) {
-      opacity: 0;
-    }
-
-    .navbar-toggler:active .hamburger span:nth-child(3) {
-      transform: rotate(-45deg) translate(4px, -4px);
-    }
-    
-    /* Z-index Management */
-    .skip-navigation { z-index: 1040 !important; }
-    .navbar-dropdown { z-index: 1030 !important; }
-    .modal-backdrop { z-index: 1040 !important; }
-    .modal { z-index: 1060 !important; }
-    .tooltip { z-index: 1080 !important; }
-    .popover { z-index: 1070 !important; }
-    .offcanvas { z-index: 1050 !important; }
-    
-    /* Button Fixes */
-    .mbr-section-btn {
-      display: flex !important;
-      align-items: center !important;
-      justify-content: center !important;
-      gap: 1rem !important;
-      margin: 0 auto !important;
-      padding: 0 !important;
-    }
-    
-    .mbr-section-btn .btn {
-      flex: 0 0 auto !important;
-      min-width: 120px !important;
-      text-align: center !important;
-      margin: 0 !important;
-      padding: 0.75rem 1.5rem !important;
-    }
-    
-    /* Responsive buttons for mobile */
-    @media (max-width: 767.98px) {
-      .mbr-section-btn {
-        flex-wrap: wrap !important;
-        justify-content: center !important;
-        gap: 1rem !important;
-      }
-      
-      .mbr-section-btn .btn {
-        min-width: 140px !important;
-        max-width: 200px !important;
-        flex: 1 1 auto !important;
-      }
-    }
-    
-    /* FAQ Styling */
-    .panel-title a {
-      color: #000 !important;
-      text-decoration: none !important;
-    }
-    
-    .panel-body {
-      color: #000 !important;
-    }
-    
-    .sign {
-      opacity: 1 !important;
-      transition: transform 0.3s ease !important;
-      font-size: 1.2rem !important;
-    }
-    
-
 
 </head>
 <body>
