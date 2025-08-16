@@ -13,7 +13,7 @@
     position: fixed !important;
     top: 1rem !important;
     right: 1rem !important;
-    z-index: 1100 !important;
+    z-index: var(--z-mobile-menu) !important;
     background: rgba(255, 255, 255, 0.95) !important;
     border-radius: 50% !important;
     padding: 1rem !important;
@@ -259,6 +259,36 @@
 
   .mobile-hamburger.expanded {
     box-shadow: 0 4px 16px rgba(0,0,0,0.15) !important;
+  }
+}
+
+/* Performance Optimizations */
+.mobile-hamburger {
+  will-change: transform, width, height, border-radius;
+}
+
+.pill-content {
+  will-change: opacity, transform;
+}
+
+.hamburger span {
+  will-change: transform;
+}
+
+/* Optimized transitions */
+.mobile-hamburger,
+.pill-content,
+.hamburger span {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  .mobile-hamburger,
+  .pill-content,
+  .hamburger span {
+    transition: none !important;
+    will-change: auto !important;
   }
 }
 

@@ -43,6 +43,15 @@
   <link rel="stylesheet" href="assets/theme/css/mobile-optimized.css">
   <link rel="stylesheet" href="assets/theme/css/core-layout.css">
 
+  <!-- Performance Optimizations -->
+  <link rel="dns-prefetch" href="//www.googletagmanager.com">
+  <link rel="dns-prefetch" href="//westmarktalentgroup.zohorecruit.com">
+  <link rel="preconnect" href="//www.googletagmanager.com">
+  <link rel="preconnect" href="//westmarktalentgroup.zohorecruit.com">
+  <link rel="preload" href="assets/theme/css/core-layout.css" as="style">
+  <link rel="preload" href="assets/theme/css/mobile-optimized.css" as="style">
+  <link rel="preload" href="assets/theme/css/accessibility.css" as="style">
+
   <!-- Structured Data for Clients Page -->
   <script type="application/ld+json">
   {
@@ -64,105 +73,7 @@
   }
   </script>
 
-  <style>
-    /* Prevent horizontal scrolling */
-    html, body {
-      overflow-x: hidden !important;
-      max-width: 100vw !important;
-    }
-    
-    /* Core Layout Fixes */
-    .mbr-section-head::after,
-    .mbr-section-title::after,
-    .mbr-section-title::before,
-    .card-title::after,
-    .card-title::before,
-    hr {
-      display: none !important;
-    }
-    
-    /* Header and Navigation */
-    .header18,
-    .mbr-fullscreen,
-    .mbr-overlay {
-      margin-top: 0 !important;
-      padding-top: 0 !important;
-      min-height: 100vh !important;
-      position: relative !important;
-      z-index: 1 !important;
-    }
-    
-    /* Hero section ignores iOS status bar */
-    .header18 {
-      min-height: 100vh !important;
-      height: 100vh !important;
-      padding-top: 0 !important;
-      margin-top: 0 !important;
-    }
-    
-    /* Navbar Styling - Restored Floating Circular Design */
-    .navbar-dropdown {
-      position: fixed !important;
-      top: 1rem !important;
-      left: 50% !important;
-      transform: translateX(-50%) !important;
-      width: auto !important;
-      max-width: 90% !important;
-      background: rgba(255, 255, 255, 0.95) !important;
-      backdrop-filter: blur(15px) !important;
-      -webkit-backdrop-filter: blur(15px) !important;
-      border: 1px solid rgba(0, 0, 0, 0.1) !important;
-      border-radius: 50px !important;
-      z-index: 1030 !important;
-      padding: 0.5rem 2rem !important;
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12) !important;
-      margin: 0 !important;
-      height: auto !important;
-      min-height: auto !important;
-      /* Override external CSS */
-      left: 50% !important;
-      right: auto !important;
-      /* iOS Safari fixes */
-      -webkit-transform: translateX(-50%) !important;
-      -webkit-box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12) !important;
-    }
-    
-    /* Center navbar content */
-    .navbar-dropdown .container {
-      max-width: none !important;
-      padding: 0 !important;
-      display: flex !important;
-      align-items: center !important;
-      justify-content: center !important;
-    }
-    
-    /* Override external navbar-brand styling that affects positioning */
-    .navbar-dropdown .navbar-brand {
-      margin: 0 !important;
-      padding: 0 !important;
-      width: 0 !important;
-      min-width: 0 !important;
-      overflow: hidden !important;
-    }
-    
-    /* Center navigation items */
-    .navbar-nav {
-      display: flex !important;
-      align-items: center !important;
-      justify-content: center !important;
-      margin: 0 auto !important;
-    }
-    
-    .navbar-nav .nav-link {
-      font-weight: 500 !important;
-      transition: all 0.3s ease !important;
-      padding: 0.5rem 1.5rem !important;
-      color: #333 !important;
-      border-radius: 25px !important;
-      margin: 0 0.25rem !important;
-      text-align: center !important;
-      border: none !important;
-    }
+
     
     .navbar-nav .nav-link:hover {
       background-color: rgba(0, 0, 0, 0.08) !important;
@@ -590,10 +501,7 @@
       font-size: 1.2rem !important;
     }
     
-    .panel-title:not(.collapsed) .sign {
-      transform: rotate(180deg) !important;
-    }
-  </style>
+
 
 </head>
 <body>
@@ -729,7 +637,7 @@
         <div class="item-wrapper align-left">
           <div class="counter-container mbr-text mbr-fonts-style display-7">
             <ol>
-              <li><strong style="font-size: 1.4rem;">Discovery &amp; Alignment<br></strong><span style="font-size: 1.4rem;">We start by understanding your vision, culture, and technical needs. No assumptions. No recycled resumes. Just sharp discernment.</span></li><li><span style="font-size: 1.4rem;"><strong>Targeted Outreach</strong><br></span>We directly engage proven construction professionals. Every candidate is handpicked, vetted, and recruited with purpose.</li><li><strong>Presentation &amp; Feedback</strong><br>You’ll receive detailed overviews of each recommended candidate. We stay engaged through every step to ensure clarity and alignment.</li><li><strong>Interview Management</strong><br>We handle coordination, communication, and coaching, so your time is spent on high-value conversations, not logistics.</li><li><strong>Placement &amp; Beyond</strong><br>We stay involved beyond the hire to ensure a seamless transition and long-term fit. We don’t just fill roles, we build teams.</li></ol>
+                <li><strong class="process-step-title">Discovery &amp; Alignment<br></strong><span class="process-step-text">We start by understanding your vision, culture, and technical needs. No assumptions. No recycled resumes. Just sharp discernment.</span></li><li><span class="process-step-text"><strong>Targeted Outreach</strong><br></span>We directly engage proven construction professionals. Every candidate is handpicked, vetted, and recruited with purpose.</li><li><strong>Presentation &amp; Feedback</strong><br>You’ll receive detailed overviews of each recommended candidate. We stay engaged through every step to ensure clarity and alignment.</li><li><strong>Interview Management</strong><br>We handle coordination, communication, and coaching, so your time is spent on high-value conversations, not logistics.</li><li><strong>Placement &amp; Beyond</strong><br>We stay involved beyond the hire to ensure a seamless transition and long-term fit. We don’t just fill roles, we build teams.</li></ol>
           </div>
         </div>
 
@@ -766,10 +674,10 @@
                     <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
                     <input type="hidden" name="email" data-form-email="true" value="">
                     <div class="row">
-                      <div hidden="hidden" data-form-alert="" class="alert alert-success col-12" style="background-color: #d4edda; border-color: #c3e6cb; color: #155724; border-radius: 25px; border: 1px solid #c3e6cb;">Thank you, we will be in touch shortly!</div>
-                      <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12" style="background-color: #f8d7da; border-color: #f5c6cb; color: #721c24; border-radius: 25px; border: 1px solid #f5c6cb;">
-                        Oops...! some problem!
-                      </div>
+                                    <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thank you, we will be in touch shortly!</div>
+              <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
+                Oops...! some problem!
+              </div>
                     </div>
                     <div class="dragArea">
                       <div class="form-group mb-3" data-for="name">
@@ -797,7 +705,7 @@
               </div>
               <div class="col-12 col-lg-6">
                 <div class="image-wrapper">
-                  <img class="w-100" src="assets/images/architect-engineer-construction-workers-shaking-600nw-1439150765-600x400.jpg" alt="Construction professionals collaborating">
+                  <img class="w-100" src="assets/images/architect-engineer-construction-workers-shaking-600nw-1439150765-600x400.jpg" alt="Construction professionals collaborating" loading="lazy">
                 </div>
               </div>
             </div>
