@@ -322,6 +322,22 @@
         white-space: nowrap !important;
       }
       
+      /* Pill content links - matching index.html exactly */
+      .pill-content a {
+        padding: 0.5rem 0.75rem !important;
+        border-radius: 20px !important;
+        font-size: 0.9rem !important;
+        text-decoration: none !important;
+        color: #000 !important;
+        transition: all 0.2s ease !important;
+        white-space: nowrap !important;
+      }
+
+      .pill-content a:hover {
+        background: rgba(0,0,0,0.1) !important;
+        transform: translateY(-1px) !important;
+      }
+      
       /* Expanded state - button becomes pill */
       .mobile-hamburger.expanded {
         width: auto !important;
@@ -533,14 +549,47 @@
       font-size: 1.2rem !important;
     }
     
-    .panel-title:not(.collapsed) .sign {
-      transform: rotate(180deg) !important;
-    }
-    
-    /* Slimmer font for all subtext - matching index.html */
-    .mbr-text {
-      font-weight: 300 !important;
-    }
+      .panel-title:not(.collapsed) .sign {
+        transform: rotate(180deg) !important;
+      }
+      
+      /* Hamburger lines styling - matching index.html exactly */
+      .hamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        gap: 4px;
+      }
+
+      .hamburger span {
+        display: block;
+        width: 24px;
+        height: 3px;
+        background-color: #333;
+        border-radius: 2px;
+        transition: all 0.3s ease;
+      }
+
+      /* Hamburger animation on click */
+      .navbar-toggler:active .hamburger span:nth-child(1) {
+        transform: rotate(45deg) translate(4px, 4px);
+      }
+
+      .navbar-toggler:active .hamburger span:nth-child(2) {
+        opacity: 0;
+      }
+
+      .navbar-toggler:active .hamburger span:nth-child(3) {
+        transform: rotate(-45deg) translate(4px, -4px);
+      }
+      
+      /* Slimmer font for all subtext - matching index.html */
+      .mbr-text {
+        font-weight: 300 !important;
+      }
     
     /* Slimmer font for sub headlines */
     .mbr-section-title,
@@ -804,18 +853,10 @@
     <span></span>
   </div>
   <div class="pill-content">
-    <div class="nav-item">
-      <a href="index.html" class="nav-link">Home</a>
-    </div>
-    <div class="nav-item">
-      <a href="clients.html" class="nav-link">Clients</a>
-    </div>
-    <div class="nav-item">
-      <a href="https://westmarktalentgroup.zohorecruit.com/jobs/Careers" class="nav-link">Opportunities</a>
-    </div>
-    <div class="nav-item">
-      <a href="contact-us.html" class="nav-link active">Contact Us</a>
-    </div>
+    <a href="index.html">Home</a>
+    <a href="clients.html">Clients</a>
+    <a href="https://westmarktalentgroup.zohorecruit.com/jobs/Careers">Opportunities</a>
+    <a href="contact-us.html">Contact Us</a>
   </div>
 </button>
 

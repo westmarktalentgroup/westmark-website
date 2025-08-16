@@ -422,13 +422,14 @@
       .pill-content {
         position: absolute !important;
         top: 0 !important;
-        right: 0 !important; /* Changed from left: 0 */
+        left: 0 !important;
+        right: 0 !important;
         bottom: 0 !important;
         display: flex !important;
         align-items: center !important;
-        justify-content: space-between !important; /* Better distribution */
-        gap: 0.75rem !important;
-        padding: 0 1rem !important; /* Simplified padding */
+        justify-content: space-around !important; /* Even distribution across full width */
+        gap: 0.5rem !important;
+        padding: 0 1rem !important;
         opacity: 0 !important;
         pointer-events: none !important;
         transition: all 0.3s ease !important;
@@ -437,9 +438,9 @@
 
       /* Expanded state - button becomes pill */
       .mobile-hamburger.expanded {
-        width: auto !important;
-        min-width: 280px !important; /* Reduced from 450px */
-        max-width: calc(100vw - 2rem) !important; /* Respect viewport */
+        width: calc(100vw - 2rem) !important;
+        min-width: calc(100vw - 2rem) !important;
+        max-width: calc(100vw - 2rem) !important;
         border-radius: 30px !important;
         padding: 0.75rem 1rem !important;
         background: rgba(255, 255, 255, 0.98) !important;
@@ -447,7 +448,7 @@
         -webkit-backdrop-filter: blur(15px) !important;
         box-shadow: 0 8px 24px rgba(0,0,0,0.2) !important;
         right: 1rem !important;
-        left: auto !important;
+        left: 1rem !important;
         /* Override conflicting dropdown CSS transforms */
         transform: none !important;
         -webkit-transform: none !important;
@@ -471,8 +472,11 @@
       /* Responsive breakpoints for very small screens */
       @media (max-width: 375px) {
         .mobile-hamburger.expanded {
-          min-width: 260px !important;
+          width: calc(100vw - 1rem) !important;
+          min-width: calc(100vw - 1rem) !important;
           max-width: calc(100vw - 1rem) !important;
+          right: 0.5rem !important;
+          left: 0.5rem !important;
           /* Override conflicting dropdown CSS transforms */
           transform: none !important;
           -webkit-transform: none !important;
@@ -482,7 +486,11 @@
 
       @media (max-width: 320px) {
         .mobile-hamburger.expanded {
-          min-width: 240px !important;
+          width: calc(100vw - 0.5rem) !important;
+          min-width: calc(100vw - 0.5rem) !important;
+          max-width: calc(100vw - 0.5rem) !important;
+          right: 0.25rem !important;
+          left: 0.25rem !important;
           /* Override conflicting dropdown CSS transforms */
           transform: none !important;
           -webkit-transform: none !important;
