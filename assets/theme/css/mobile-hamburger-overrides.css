@@ -21,6 +21,9 @@
   align-items: center !important;
   justify-content: center !important;
   overflow: hidden !important;
+  
+  /* Hide on desktop - only show on mobile */
+  display: none !important;
 }
 
 /* ===== HAMBURGER LINES ===== */
@@ -57,6 +60,12 @@
   -webkit-backdrop-filter: blur(20px) !important;
   box-shadow: 0 8px 40px rgba(0, 0, 0, 0.15) !important;
   border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  
+  /* Center the expanded pill to prevent viewport overflow */
+  right: 50% !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  -webkit-transform: translateX(-50%) !important;
 }
 
 /* ===== HAMBURGER LINE ANIMATIONS ===== */
@@ -164,6 +173,7 @@
 /* ===== RESPONSIVE BREAKPOINTS ===== */
 @media (max-width: 767.98px) {
   .mobile-hamburger {
+    display: flex !important; /* Show on mobile */
     top: max(0.5rem, env(safe-area-inset-top)) !important;
     right: max(0.5rem, env(safe-area-inset-right)) !important;
     width: 56px !important;
@@ -173,8 +183,11 @@
   .mobile-hamburger.expanded {
     width: calc(100vw - 2rem) !important;
     max-width: 320px !important;
-    right: max(0.5rem, env(safe-area-inset-right)) !important;
-    left: max(0.5rem, env(safe-area-inset-left)) !important;
+    /* Center horizontally with safe area consideration */
+    right: 50% !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    -webkit-transform: translateX(-50%) !important;
     border-radius: 28px !important;
   }
   
@@ -208,7 +221,7 @@
     -webkit-appearance: none !important;
     appearance: none !important;
     -webkit-tap-highlight-color: transparent !important;
-    /* Ensure proper positioning on iOS */
+    /* Ensure proper positioning on iOS with safe areas */
     position: fixed !important;
     top: max(0.5rem, env(safe-area-inset-top)) !important;
     right: max(0.5rem, env(safe-area-inset-right)) !important;
@@ -218,9 +231,13 @@
     /* iOS Safari backdrop filter support */
     -webkit-backdrop-filter: blur(20px) !important;
     backdrop-filter: blur(20px) !important;
-    /* Ensure proper sizing on iOS */
+    /* Center horizontally with safe area consideration */
     width: calc(100vw - 2rem) !important;
     max-width: 320px !important;
+    right: 50% !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    -webkit-transform: translateX(-50%) !important;
   }
   
   .pill-content .nav-link {
@@ -251,35 +268,15 @@
   outline: none !important;
 }
 
-/* ===== OVERRIDE CONFLICTING STYLES ===== */
-/* Ensure mobile hamburger styles take precedence over dropdown CSS */
-.navbar-dropdown .navbar-toggler.mobile-hamburger,
-.nav-dropdown-sm .mobile-hamburger,
-.nav-dropdown.navbar-toggleable-sm .mobile-hamburger,
-.nav-dropdown.navbar-toggleable-xl .mobile-hamburger {
-  transform: none !important;
-  -webkit-transform: none !important;
-  -ms-transform: none !important;
-  -moz-transform: none !important;
-  position: fixed !important;
-  top: 1rem !important;
-  right: 1rem !important;
-  left: auto !important;
-  z-index: 1100 !important;
-}
-
-/* Prevent dropdown CSS from affecting our custom mobile styles */
-.nav-dropdown-sm,
-.nav-dropdown.navbar-toggleable-sm,
-.nav-dropdown.navbar-toggleable-xl {
-  transform: none !important;
-  -webkit-transform: none !important;
-  -ms-transform: none !important;
-  -moz-transform: none !important;
+/* ===== DESKTOP HIDING ===== */
+@media (min-width: 768px) {
+  .mobile-hamburger {
+    display: none !important; /* Hide completely on desktop */
+  }
 }
 
 /* ===== HOVER STATES FOR DESKTOP ===== */
-@media (hover: hover) {
+@media (hover: hover) and (max-width: 767.98px) {
   .mobile-hamburger:hover {
     background: rgba(255, 255, 255, 0.98) !important;
     box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15) !important;
@@ -329,4 +326,32 @@
   .pill-content .nav-link:hover {
     background: rgba(255, 255, 255, 0.1) !important;
   }
+}
+
+/* ===== OVERRIDE CONFLICTING STYLES ===== */
+/* Ensure mobile hamburger styles take precedence over dropdown CSS */
+.navbar-dropdown .navbar-toggler.mobile-hamburger,
+.nav-dropdown-sm .mobile-hamburger,
+.nav-dropdown.navbar-toggleable-sm .mobile-hamburger,
+.nav-dropdown.navbar-toggleable-xl .mobile-hamburger {
+  /* Remove conflicting transforms */
+  transform: none !important;
+  -webkit-transform: none !important;
+  -ms-transform: none !important;
+  -moz-transform: none !important;
+  position: fixed !important;
+  top: 1rem !important;
+  right: 1rem !important;
+  left: auto !important;
+  z-index: 1100 !important;
+}
+
+/* Prevent dropdown CSS from affecting our custom mobile styles */
+.nav-dropdown-sm,
+.nav-dropdown.navbar-toggleable-sm,
+.nav-dropdown.navbar-toggleable-xl {
+  transform: none !important;
+  -webkit-transform: none !important;
+  -ms-transform: none !important;
+  -moz-transform: none !important;
 }
