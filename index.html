@@ -103,6 +103,9 @@
       margin: 0 !important;
       height: auto !important;
       min-height: auto !important;
+      /* Override external CSS */
+      left: 50% !important;
+      right: auto !important;
       /* iOS Safari fixes */
       -webkit-transform: translateX(-50%) !important;
       -webkit-box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12) !important;
@@ -182,6 +185,38 @@
     /* Ensure navbar items are properly spaced */
     .navbar-nav .nav-item {
       margin: 0 0.25rem !important;
+    }
+    
+
+    
+    /* Slimmer font for all subtext */
+    .mbr-text {
+      font-weight: 300 !important;
+    }
+    
+    /* Slimmer font for sub headlines */
+    .mbr-section-title,
+    .item-title {
+      font-weight: 400 !important;
+    }
+    
+    /* Slimmer font for hero section text */
+    .mbr-text.mbr-white {
+      font-weight: 300 !important;
+    }
+    
+    /* Slimmer font for FAQ text */
+    .panel-body .mbr-text,
+    .panel-body p {
+      font-weight: 300 !important;
+    }
+    
+    /* Slimmer font for Contact Us text */
+    .contact-info .mbr-text,
+    .contact-info p,
+    .contact-section .mbr-text,
+    .contact-section p {
+      font-weight: 300 !important;
     }
     
     /* Mobile navbar adjustments */
