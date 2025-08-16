@@ -17,7 +17,7 @@
   background: transparent !important;
 }
 
-/* Additional hidden text prevention */
+/* Additional hidden text prevention - Enhanced */
 [aria-hidden="true"],
 .hidden,
 .invisible {
@@ -27,6 +27,50 @@
   position: absolute !important;
   left: -9999px !important;
   top: -9999px !important;
+}
+
+/* Ensure aria-label text is never visible */
+[aria-label]:not(:focus):not(:hover) {
+  color: transparent !important;
+  background: transparent !important;
+  text-shadow: none !important;
+}
+
+/* Hide any potential text content that might be showing */
+.navbar-brand[aria-hidden="true"],
+.hamburger[aria-hidden="true"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+/* Ensure no text shows at the very top of the page */
+body > *:first-child,
+body > *:first-child > * {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Force hide any text that might be overflowing */
+.skip-navigation,
+.sr-only,
+[aria-hidden="true"],
+.navbar-brand[aria-hidden="true"] {
+  position: absolute !important;
+  left: -9999px !important;
+  top: -9999px !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  color: transparent !important;
+  background: transparent !important;
+  text-decoration: none !important;
+  border: none !important;
+  outline: none !important;
 }
 
 .sr-only-focusable:focus {

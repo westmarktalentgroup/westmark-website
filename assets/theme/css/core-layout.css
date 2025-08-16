@@ -57,6 +57,50 @@ main {
   white-space: nowrap !important;
 }
 
+/* Force hide any text that might be overflowing - Enhanced */
+.skip-navigation,
+.sr-only,
+[aria-hidden="true"],
+.navbar-brand[aria-hidden="true"] {
+  position: absolute !important;
+  left: -9999px !important;
+  top: -9999px !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  color: transparent !important;
+  background: transparent !important;
+  text-decoration: none !important;
+  border: none !important;
+  outline: none !important;
+  pointer-events: none !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+}
+
+/* Additional text hiding for any potential overflow */
+body > *:first-child,
+body > *:first-child > *,
+body > *:first-child > * > * {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Ensure no text shows above the navigation */
+.skip-navigation:not(:focus),
+.sr-only:not(:focus),
+[aria-hidden="true"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
 /* Core Layout Fixes */
 .mbr-section-head::after,
 .mbr-section-title::after,
