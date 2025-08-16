@@ -20,6 +20,7 @@
   <meta name="author" content="Westmark Talent Group">
   <meta name="robots" content="index, follow">
   <meta name="googlebot" content="index, follow">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self';">
   
   <title>Clients | Westmark Talent Group - Construction Recruitment</title>
 
@@ -38,6 +39,8 @@
 
   <link rel="stylesheet" href="assets/theme/css/optimized.css">
   <link rel="stylesheet" href="assets/theme/css/mobile-hamburger-overrides.css">
+  <link rel="stylesheet" href="assets/theme/css/accessibility.css">
+  <link rel="stylesheet" href="assets/theme/css/mobile-optimized.css">
 
   <!-- Structured Data for Clients Page -->
   <script type="application/ld+json">
@@ -612,22 +615,22 @@
 
   
   <!-- Navigation -->
-  <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg" data-bs-version="5.1" id="menu-5-uMOnIua8FF">
+  <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg" data-bs-version="5.1" id="menu-5-uMOnIua8FF" role="navigation" aria-label="Main navigation">
     <div class="container">
-      <div class="navbar-brand"></div>
+      <div class="navbar-brand" aria-hidden="true"></div>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav nav-dropdown nav-right navbar-nav-top-padding" data-app-modern-menu="true">
-          <li class="nav-item">
-            <a class="nav-link link text-black display-4" href="index.html">Home</a>
+        <ul class="navbar-nav nav-dropdown nav-right navbar-nav-top-padding" data-app-modern-menu="true" role="menubar">
+          <li class="nav-item" role="none">
+            <a class="nav-link link text-black display-4" href="index.html" role="menuitem">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link link text-black text-primary display-4" href="clients.html">Clients</a>
+          <li class="nav-item" role="none">
+            <a class="nav-link link text-black text-primary display-4" href="clients.html" role="menuitem" aria-current="page">Clients</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link link text-black display-4" href="https://westmarktalentgroup.zohorecruit.com/jobs/Careers">Opportunities</a>
+          <li class="nav-item" role="none">
+            <a class="nav-link link text-black display-4" href="https://westmarktalentgroup.zohorecruit.com/jobs/Careers" role="menuitem" target="_blank" rel="noopener" aria-label="View job opportunities (opens in new tab)">Opportunities</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link link text-black display-4" href="contact-us.html">Contact Us</a>
+          <li class="nav-item" role="none">
+            <a class="nav-link link text-black display-4" href="contact-us.html" role="menuitem">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -635,17 +638,17 @@
   </nav>
 
 <!-- Mobile Hamburger Button that expands into pill menu -->
-<button class="navbar-toggler mobile-hamburger" type="button" aria-label="Toggle navigation">
-  <div class="hamburger">
+<button class="navbar-toggler mobile-hamburger" type="button" aria-label="Toggle mobile navigation menu" aria-expanded="false" aria-controls="mobile-menu">
+  <div class="hamburger" aria-hidden="true">
     <span></span>
     <span></span>
     <span></span>
   </div>
-  <div class="pill-content">
-    <a href="index.html">Home</a>
-    <a href="clients.html">Clients</a>
-    <a href="https://westmarktalentgroup.zohorecruit.com/jobs/Careers">Opportunities</a>
-    <a href="contact-us.html">Contact Us</a>
+  <div class="pill-content" id="mobile-menu" role="menu" aria-label="Mobile navigation menu">
+    <a href="index.html" role="menuitem">Home</a>
+    <a href="clients.html" role="menuitem" aria-current="page">Clients</a>
+    <a href="https://westmarktalentgroup.zohorecruit.com/jobs/Careers" role="menuitem" target="_blank" rel="noopener" aria-label="View job opportunities (opens in new tab)">Opportunities</a>
+    <a href="contact-us.html" role="menuitem">Contact Us</a>
   </div>
 </button>
 
@@ -758,7 +761,8 @@
             <div class="row">
               <div class="col-12 col-lg-6">
                 <div class="mbr-form" data-form-type="formoid">
-                  <form action="#" method="POST" class="mbr-form form-with-styler" data-form-title="Client Inquiry Form">
+                  <form action="/contact" method="POST" class="mbr-form form-with-styler" data-form-title="Client Inquiry Form" novalidate>
+                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
                     <input type="hidden" name="email" data-form-email="true" value="IuvKtBhfVxFY5SGgygT0hWW6GYTH/kaXaRYgRpxlZvz4n6dknqFxS9KQjNMD5IiBQlx+qv50JXTfwuuErCQTJ6pXPDS5te3Kv8Dz2pNPyjpceSP0tWdd6WQjAqVqT4o4">
                     <div class="row">
                       <div hidden="hidden" data-form-alert="" class="alert alert-success col-12" style="background-color: #d4edda; border-color: #c3e6cb; color: #155724; border-radius: 25px; border: 1px solid #c3e6cb;">Thank you, we will be in touch shortly!</div>
@@ -768,16 +772,23 @@
                     </div>
                     <div class="dragArea">
                       <div class="form-group mb-3" data-for="name">
-                        <input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control" value="" id="name-clients-form" required>
+                        <label for="name-clients-form" class="form-label sr-only">Full Name</label>
+                        <input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control" value="" id="name-clients-form" required aria-describedby="name-error" autocomplete="name" minlength="2" maxlength="100">
+                        <div id="name-error" class="invalid-feedback" role="alert"></div>
                       </div>
                       <div class="form-group mb-3" data-for="email">
-                        <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-clients-form" required>
+                        <label for="email-clients-form" class="form-label sr-only">Email Address</label>
+                        <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-clients-form" required aria-describedby="email-error" autocomplete="email">
+                        <div id="email-error" class="invalid-feedback" role="alert"></div>
                       </div>
                       <div class="form-group mb-3" data-for="textarea">
-                        <textarea name="textarea" placeholder="Message" data-form-field="textarea" class="form-control" id="textarea-clients-form" required></textarea>
+                        <label for="textarea-clients-form" class="form-label sr-only">Message</label>
+                        <textarea name="textarea" placeholder="Message" data-form-field="textarea" class="form-control" id="textarea-clients-form" required rows="4" aria-describedby="message-error" minlength="10" maxlength="1000"></textarea>
+                        <div id="message-error" class="invalid-feedback" role="alert"></div>
                       </div>
                       <div class="text-center mbr-section-btn">
-                        <button type="submit" class="btn btn-black display-7">Submit</button>
+                        <button type="submit" class="btn btn-black display-7" aria-describedby="submit-status">Submit</button>
+                        <div id="submit-status" class="sr-only" role="status" aria-live="polite"></div>
                       </div>
                     </div>
                   </form>
@@ -812,6 +823,7 @@
 <script src="assets/dropdown/js/navbar-dropdown.js" defer></script>
 <script src="assets/theme/js/contact-form.js" defer></script>
 <script src="assets/theme/js/performance.js" defer></script>
+<script src="assets/theme/js/enhanced-accessibility.js" defer></script>
 
 <!-- Mobile Navigation Toggle Script -->
 <script>
