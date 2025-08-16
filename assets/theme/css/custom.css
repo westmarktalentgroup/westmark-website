@@ -89,6 +89,13 @@ body {
     transition: all 0.3s ease;
 }
 
+/* Hero subtext styling - ensure it's not bold */
+.header18 .mbr-text.mbr-white,
+.header18 .mbr-fonts-style.mbr-text.mbr-white {
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
+
 .contact-form .form-control:focus {
     border-color: #333;
     box-shadow: 0 0 0 0.2rem rgba(51, 51, 51, 0.25);
