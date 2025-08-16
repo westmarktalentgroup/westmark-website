@@ -229,6 +229,21 @@ a[target="_blank"]::after {
   color: #6c757d !important;
 }
 
+/* Exclude buttons and specific elements from external link indicators */
+a[target="_blank"].btn::after,
+a[target="_blank"].item-btn::after,
+a[target="_blank"][role="menuitem"]::after,
+a[target="_blank"].text-white::after {
+  content: "" !important;
+}
+
+/* Alternative: Only show external link indicators for non-button links */
+a[target="_blank"]:not(.btn):not(.item-btn):not([role="menuitem"]):not(.text-white)::after {
+  content: " (opens in new tab)" !important;
+  font-size: 0.8em !important;
+  color: #6c757d !important;
+}
+
 /* Form Validation States */
 .form-control.is-valid {
   border-color: #28a745 !important;
