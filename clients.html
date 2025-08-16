@@ -71,6 +71,26 @@
       opacity: 1 !important;
     }
     
+    /* ULTRA-AGGRESSIVE background overrides to beat external CSS */
+    .navbar-dropdown.bg-color,
+    .navbar-dropdown.transparent,
+    .navbar-dropdown.bg-color.transparent,
+    .navbar-dropdown.navbar-fixed-top,
+    .navbar-dropdown.navbar-fixed-top.transparent,
+    .navbar-dropdown.navbar-fixed-top.bg-color.transparent {
+      background: rgba(255, 255, 255, 0.95) !important;
+      background-color: rgba(255, 255, 255, 0.95) !important;
+      backdrop-filter: blur(15px) !important;
+      -webkit-backdrop-filter: blur(15px) !important;
+    }
+    
+    /* Override any external CSS that might set background to none/transparent */
+    .navbar-dropdown[style*="background"],
+    .navbar-dropdown[style*="background-color"] {
+      background: rgba(255, 255, 255, 0.95) !important;
+      background-color: rgba(255, 255, 255, 0.95) !important;
+    }
+    
     /* Center navbar content */
     .navbar-dropdown .container {
       max-width: none !important;
