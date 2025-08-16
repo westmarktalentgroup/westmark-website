@@ -80,9 +80,92 @@
         min-width: 120px !important;
       }
       
+      /* ULTRA-AGGRESSIVE button styling - target exact HTML structure */
+      .features03 .item-wrapper .item-content .item-footer .mbr-section-btn .btn.item-btn.btn-black-outline,
+      .features03 .item-wrapper .item-content .item-footer a.btn.item-btn.btn-black-outline,
+      .features03 .item-wrapper .item-footer .mbr-section-btn .btn.item-btn.btn-black-outline,
+      .features03 .item-wrapper .item-footer a.btn.item-btn.btn-black-outline,
+      .features03 article .item-wrapper .item-content .item-footer .mbr-section-btn .btn.item-btn.btn-black-outline,
+      .features03 article .item-wrapper .item-content .item-footer a.btn.item-btn.btn-black-outline {
+        background: transparent !important;
+        background-color: transparent !important;
+        color: #000 !important;
+        border: 2px solid #000 !important;
+        border-color: #000 !important;
+        border-radius: 25px !important;
+        font-weight: 500 !important;
+        text-decoration: none !important;
+        transition: all 0.3s ease !important;
+        display: inline-block !important;
+        padding: 0.75rem 1.5rem !important;
+        min-height: 44px !important;
+        min-width: 120px !important;
+        outline: none !important;
+        box-shadow: none !important;
+      }
+      
+      /* Force override any conflicting styles */
+      .features03 .btn.item-btn.btn-black-outline,
+      .features03 a.btn.item-btn.btn-black-outline,
+      .features03 .mbr-section-btn .btn.item-btn.btn-black-outline,
+      .features03 .item-footer .btn.item-btn.btn-black-outline {
+        background: transparent !important;
+        background-color: transparent !important;
+        color: #000 !important;
+        border: 2px solid #000 !important;
+        border-color: #000 !important;
+        border-radius: 25px !important;
+        font-weight: 500 !important;
+        text-decoration: none !important;
+        transition: all 0.3s ease !important;
+        display: inline-block !important;
+        padding: 0.75rem 1.5rem !important;
+        min-height: 44px !important;
+        min-width: 120px !important;
+        outline: none !important;
+        box-shadow: none !important;
+      }
+      
+      /* Target the specific button classes with maximum specificity */
+      a.btn.item-btn.btn-black-outline.display-7,
+      .btn.item-btn.btn-black-outline.display-7,
+      .features03 a.btn.item-btn.btn-black-outline.display-7,
+      .features03 .btn.item-btn.btn-black-outline.display-7 {
+        background: transparent !important;
+        background-color: transparent !important;
+        color: #000 !important;
+        border: 2px solid #000 !important;
+        border-color: #000 !important;
+        border-radius: 25px !important;
+        font-weight: 500 !important;
+        text-decoration: none !important;
+        transition: all 0.3s ease !important;
+        display: inline-block !important;
+        padding: 0.75rem 1.5rem !important;
+        min-height: 44px !important;
+        min-width: 120px !important;
+        outline: none !important;
+        box-shadow: none !important;
+      }
+      
+      /* HOVER EFFECTS for all button variations */
       .features03 .mbr-section-btn .btn.item-btn.btn-black-outline:hover,
       .features03 .item-footer .btn.item-btn.btn-black-outline:hover,
-      .features03 .btn.item-btn.btn-black-outline:hover {
+      .features03 .btn.item-btn.btn-black-outline:hover,
+      .features03 .item-wrapper .item-content .item-footer .mbr-section-btn .btn.item-btn.btn-black-outline:hover,
+      .features03 .item-wrapper .item-content .item-footer a.btn.item-btn.btn-black-outline:hover,
+      .features03 .item-wrapper .item-footer .mbr-section-btn .btn.item-btn.btn-black-outline:hover,
+      .features03 .item-wrapper .item-footer a.btn.item-btn.btn-black-outline:hover,
+      .features03 article .item-wrapper .item-content .item-footer .mbr-section-btn .btn.item-btn.btn-black-outline:hover,
+      .features03 article .item-wrapper .item-content .item-footer a.btn.item-btn.btn-black-outline:hover,
+      .features03 .btn.item-btn.btn-black-outline:hover,
+      .features03 a.btn.item-btn.btn-black-outline:hover,
+      .features03 .mbr-section-btn .btn.item-btn.btn-black-outline:hover,
+      .features03 .item-footer .btn.item-btn.btn-black-outline:hover,
+      a.btn.item-btn.btn-black-outline.display-7:hover,
+      .btn.item-btn.btn-black-outline.display-7:hover,
+      .features03 a.btn.item-btn.btn-black-outline.display-7:hover,
+      .features03 .btn.item-btn.btn-black-outline.display-7:hover {
         background: #000 !important;
         background-color: #000 !important;
         color: #fff !important;
@@ -108,6 +191,21 @@
         background: transparent !important;
       }
       
+      /* Remove "(opens new tab)" from footer careers link */
+      footer a[target="_blank"]::after,
+      .media-container-row a[target="_blank"]::after,
+      footer .text-white[target="_blank"]::after,
+      .media-container-row .text-white[target="_blank"]::after {
+        content: "" !important;
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        font-size: 0 !important;
+        line-height: 0 !important;
+        color: transparent !important;
+        background: transparent !important;
+      }
+
       /* Force thin fonts for all subtext */
       .mbr-text {
         font-weight: 300 !important;
@@ -143,6 +241,7 @@
         width: auto !important;
         max-width: 90% !important;
         background: rgba(255, 255, 255, 0.95) !important;
+        background-color: rgba(255, 255, 255, 0.95) !important;
         backdrop-filter: blur(15px) !important;
         -webkit-backdrop-filter: blur(15px) !important;
         border: 1px solid rgba(0, 0, 0, 0.1) !important;
@@ -213,11 +312,20 @@
       @media (min-width: 768px) {
         .navbar-dropdown {
           padding: 0.75rem 3rem !important;
+          background: rgba(255, 255, 255, 0.95) !important;
+          background-color: rgba(255, 255, 255, 0.95) !important;
         }
         
         .navbar-nav .nav-link {
           padding: 0.75rem 2rem !important;
           margin: 0 0.5rem !important;
+        }
+        
+        /* Hide mobile hamburger on desktop */
+        .mobile-hamburger {
+          display: none !important;
+          visibility: hidden !important;
+          opacity: 0 !important;
         }
       }
       
@@ -225,6 +333,13 @@
       @media (max-width: 767.98px) {
         .navbar-dropdown {
           display: none !important;
+        }
+        
+        /* Show mobile hamburger on mobile */
+        .mobile-hamburger {
+          display: flex !important;
+          visibility: visible !important;
+          opacity: 1 !important;
         }
       }
     </style>
