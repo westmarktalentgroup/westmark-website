@@ -1,51 +1,319 @@
-/* Mobile Hamburger Overrides - Prevents conflicts with dropdown CSS */
+/* Complete Mobile Hamburger CSS - All styles for expandable pill menu functionality */
 
-/* Override any conflicting transforms from dropdown CSS */
-.mobile-hamburger,
-.mobile-hamburger.expanded {
-  transform: none !important;
-  -webkit-transform: none !important;
-  -ms-transform: none !important;
-  -moz-transform: none !important;
-}
-
-/* Ensure mobile hamburger stays in correct position */
+/* ===== MOBILE HAMBURGER BASE STYLES ===== */
 .mobile-hamburger {
   position: fixed !important;
   top: 1rem !important;
   right: 1rem !important;
   left: auto !important;
   z-index: 1100 !important;
+  width: 60px !important;
+  height: 60px !important;
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(15px) !important;
+  -webkit-backdrop-filter: blur(15px) !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  border-radius: 50% !important;
+  cursor: pointer !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
 }
 
-/* Override any dropdown CSS that might affect mobile navigation */
-.navbar-dropdown .navbar-toggler.mobile-hamburger {
+/* ===== HAMBURGER LINES ===== */
+.mobile-hamburger .hamburger-line {
+  width: 24px !important;
+  height: 2px !important;
+  background: #333 !important;
+  border-radius: 1px !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  position: relative !important;
+}
+
+.mobile-hamburger .hamburger-line:nth-child(1) {
+  transform: translateY(-6px) !important;
+}
+
+.mobile-hamburger .hamburger-line:nth-child(2) {
+  transform: translateY(0) !important;
+}
+
+.mobile-hamburger .hamburger-line:nth-child(3) {
+  transform: translateY(6px) !important;
+}
+
+/* ===== EXPANDED STATE - PILL TRANSFORMATION ===== */
+.mobile-hamburger.expanded {
+  width: 280px !important;
+  height: auto !important;
+  min-height: 60px !important;
+  border-radius: 30px !important;
+  padding: 1rem !important;
+  background: rgba(255, 255, 255, 0.98) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.15) !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+}
+
+/* ===== HAMBURGER LINE ANIMATIONS ===== */
+.mobile-hamburger.expanded .hamburger-line:nth-child(1) {
+  transform: rotate(45deg) translateY(0) !important;
+}
+
+.mobile-hamburger.expanded .hamburger-line:nth-child(2) {
+  opacity: 0 !important;
+  transform: scale(0) !important;
+}
+
+.mobile-hamburger.expanded .hamburger-line:nth-child(3) {
+  transform: rotate(-45deg) translateY(0) !important;
+}
+
+/* ===== PILL CONTENT STYLING ===== */
+.pill-content {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  transform: translateY(10px) !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  transition-delay: 0.1s !important;
+  height: 0 !important;
+  overflow: hidden !important;
+}
+
+.mobile-hamburger.expanded .pill-content {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: translateY(0) !important;
+  height: auto !important;
+  margin-top: 1rem !important;
+}
+
+/* ===== NAVIGATION ITEMS IN PILL ===== */
+.pill-content .nav-item {
+  margin: 0.5rem 0 !important;
+  opacity: 0 !important;
+  transform: translateX(20px) !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.mobile-hamburger.expanded .pill-content .nav-item {
+  opacity: 1 !important;
+  transform: translateX(0) !important;
+}
+
+/* Stagger animation for nav items */
+.mobile-hamburger.expanded .pill-content .nav-item:nth-child(1) {
+  transition-delay: 0.1s !important;
+}
+
+.mobile-hamburger.expanded .pill-content .nav-item:nth-child(2) {
+  transition-delay: 0.15s !important;
+}
+
+.mobile-hamburger.expanded .pill-content .nav-item:nth-child(3) {
+  transition-delay: 0.2s !important;
+}
+
+.mobile-hamburger.expanded .pill-content .nav-item:nth-child(4) {
+  transition-delay: 0.25s !important;
+}
+
+/* ===== NAVIGATION LINKS ===== */
+.pill-content .nav-link {
+  color: #333 !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+  font-size: 0.95rem !important;
+  padding: 0.75rem 1rem !important;
+  border-radius: 20px !important;
+  transition: all 0.2s ease !important;
+  display: block !important;
+  text-align: center !important;
+  background: transparent !important;
+  border: none !important;
+}
+
+.pill-content .nav-link:hover {
+  background: rgba(0, 0, 0, 0.05) !important;
+  color: #000 !important;
+  transform: translateX(5px) !important;
+}
+
+.pill-content .nav-link:active {
+  background: rgba(0, 0, 0, 0.1) !important;
+  transform: translateX(3px) !important;
+}
+
+/* ===== RESPONSIVE BREAKPOINTS ===== */
+@media (max-width: 767.98px) {
+  .mobile-hamburger {
+    top: max(0.5rem, env(safe-area-inset-top)) !important;
+    right: max(0.5rem, env(safe-area-inset-right)) !important;
+    width: 56px !important;
+    height: 56px !important;
+  }
+  
+  .mobile-hamburger.expanded {
+    width: calc(100vw - 2rem) !important;
+    max-width: 320px !important;
+    right: max(0.5rem, env(safe-area-inset-right)) !important;
+    left: max(0.5rem, env(safe-area-inset-left)) !important;
+    border-radius: 28px !important;
+  }
+  
+  .pill-content .nav-link {
+    font-size: 0.9rem !important;
+    padding: 0.7rem 0.8rem !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .mobile-hamburger {
+    width: 52px !important;
+    height: 52px !important;
+  }
+  
+  .mobile-hamburger.expanded {
+    width: calc(100vw - 1rem) !important;
+    border-radius: 26px !important;
+  }
+  
+  .pill-content .nav-link {
+    font-size: 0.85rem !important;
+    padding: 0.6rem 0.7rem !important;
+  }
+}
+
+/* ===== iOS SAFARI SPECIFIC FIXES ===== */
+@supports (-webkit-touch-callout: none) {
+  .mobile-hamburger {
+    /* Prevent iOS Safari from applying default button styles */
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    -webkit-tap-highlight-color: transparent !important;
+    /* Ensure proper positioning on iOS */
+    position: fixed !important;
+    top: max(0.5rem, env(safe-area-inset-top)) !important;
+    right: max(0.5rem, env(safe-area-inset-right)) !important;
+  }
+  
+  .mobile-hamburger.expanded {
+    /* iOS Safari backdrop filter support */
+    -webkit-backdrop-filter: blur(20px) !important;
+    backdrop-filter: blur(20px) !important;
+    /* Ensure proper sizing on iOS */
+    width: calc(100vw - 2rem) !important;
+    max-width: 320px !important;
+  }
+  
+  .pill-content .nav-link {
+    /* iOS Safari touch improvements */
+    -webkit-tap-highlight-color: transparent !important;
+    -webkit-touch-callout: none !important;
+    /* Prevent text selection on iOS */
+    -webkit-user-select: none !important;
+    user-select: none !important;
+  }
+}
+
+/* ===== ANIMATION PERFORMANCE OPTIMIZATIONS ===== */
+.mobile-hamburger,
+.mobile-hamburger * {
+  will-change: transform, opacity, width, height !important;
+  backface-visibility: hidden !important;
+  -webkit-backface-visibility: hidden !important;
+}
+
+/* ===== ACCESSIBILITY IMPROVEMENTS ===== */
+.mobile-hamburger:focus {
+  outline: 2px solid #007bff !important;
+  outline-offset: 2px !important;
+}
+
+.mobile-hamburger:focus:not(:focus-visible) {
+  outline: none !important;
+}
+
+/* ===== OVERRIDE CONFLICTING STYLES ===== */
+/* Ensure mobile hamburger styles take precedence over dropdown CSS */
+.navbar-dropdown .navbar-toggler.mobile-hamburger,
+.nav-dropdown-sm .mobile-hamburger,
+.nav-dropdown.navbar-toggleable-sm .mobile-hamburger,
+.nav-dropdown.navbar-toggleable-xl .mobile-hamburger {
   transform: none !important;
   -webkit-transform: none !important;
   -ms-transform: none !important;
   -moz-transform: none !important;
+  position: fixed !important;
+  top: 1rem !important;
+  right: 1rem !important;
+  left: auto !important;
+  z-index: 1100 !important;
 }
 
 /* Prevent dropdown CSS from affecting our custom mobile styles */
 .nav-dropdown-sm,
 .nav-dropdown.navbar-toggleable-sm,
 .nav-dropdown.navbar-toggleable-xl {
-  /* Override any transforms that might affect mobile hamburger */
   transform: none !important;
   -webkit-transform: none !important;
   -ms-transform: none !important;
   -moz-transform: none !important;
 }
 
-/* Ensure our mobile hamburger styles take precedence */
-.mobile-hamburger.expanded {
-  position: fixed !important;
-  top: 1rem !important;
-  right: 1rem !important;
-  left: auto !important;
-  transform: none !important;
-  -webkit-transform: none !important;
-  -ms-transform: none !important;
-  -moz-transform: none !important;
-  z-index: 1100 !important;
+/* ===== HOVER STATES FOR DESKTOP ===== */
+@media (hover: hover) {
+  .mobile-hamburger:hover {
+    background: rgba(255, 255, 255, 0.98) !important;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15) !important;
+    transform: scale(1.05) !important;
+  }
+  
+  .mobile-hamburger:hover .hamburger-line {
+    background: #000 !important;
+  }
+}
+
+/* ===== LOADING STATE ===== */
+.mobile-hamburger.loading {
+  pointer-events: none !important;
+  opacity: 0.7 !important;
+}
+
+.mobile-hamburger.loading .hamburger-line {
+  animation: pulse 1.5s ease-in-out infinite !important;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* ===== DARK MODE SUPPORT ===== */
+@media (prefers-color-scheme: dark) {
+  .mobile-hamburger {
+    background: rgba(0, 0, 0, 0.9) !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
+  }
+  
+  .mobile-hamburger .hamburger-line {
+    background: #fff !important;
+  }
+  
+  .mobile-hamburger.expanded {
+    background: rgba(0, 0, 0, 0.95) !important;
+    border-color: rgba(255, 255, 255, 0.15) !important;
+  }
+  
+  .pill-content .nav-link {
+    color: #fff !important;
+  }
+  
+  .pill-content .nav-link:hover {
+    background: rgba(255, 255, 255, 0.1) !important;
+  }
 }
