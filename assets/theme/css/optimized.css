@@ -195,6 +195,10 @@ textarea:focus {
   box-shadow: 0 8px 24px rgba(0,0,0,0.2) !important;
   right: 1rem !important;
   left: auto !important;
+  /* Override conflicting dropdown CSS transforms */
+  transform: none !important;
+  -webkit-transform: none !important;
+  -ms-transform: none !important;
 }
 
 /* Show pill content when expanded */
@@ -216,12 +220,20 @@ textarea:focus {
   .mobile-hamburger.expanded {
     min-width: 260px !important;
     max-width: calc(100vw - 1rem) !important;
+    /* Override conflicting dropdown CSS transforms */
+    transform: none !important;
+    -webkit-transform: none !important;
+    -ms-transform: none !important;
   }
 }
 
 @media (max-width: 320px) {
   .mobile-hamburger.expanded {
     min-width: 240px !important;
+    /* Override conflicting dropdown CSS transforms */
+    transform: none !important;
+    -webkit-transform: none !important;
+    -ms-transform: none !important;
   }
 }
 

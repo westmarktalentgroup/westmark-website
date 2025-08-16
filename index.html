@@ -41,12 +41,10 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/parallax/jarallax.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css">
   <link rel="stylesheet" href="assets/theme/css/custom.css">
-  <link rel="stylesheet" href="assets/theme/css/responsive.css">
-  <link rel="stylesheet" href="assets/theme/css/mobile-first.css">
   <link rel="stylesheet" href="assets/theme/css/optimized.css">
+  <link rel="stylesheet" href="assets/theme/css/mobile-hamburger-overrides.css">
 
   <style>
     /* Prevent horizontal scrolling */
@@ -406,6 +404,10 @@
         box-shadow: 0 8px 24px rgba(0,0,0,0.2) !important;
         right: 1rem !important;
         left: auto !important;
+        /* Override conflicting dropdown CSS transforms */
+        transform: none !important;
+        -webkit-transform: none !important;
+        -ms-transform: none !important;
       }
 
       /* Show pill content when expanded */
@@ -427,12 +429,20 @@
         .mobile-hamburger.expanded {
           min-width: 260px !important;
           max-width: calc(100vw - 1rem) !important;
+          /* Override conflicting dropdown CSS transforms */
+          transform: none !important;
+          -webkit-transform: none !important;
+          -ms-transform: none !important;
         }
       }
 
       @media (max-width: 320px) {
         .mobile-hamburger.expanded {
           min-width: 240px !important;
+          /* Override conflicting dropdown CSS transforms */
+          transform: none !important;
+          -webkit-transform: none !important;
+          -ms-transform: none !important;
         }
       }
 
@@ -1025,16 +1035,11 @@
 </footer>
 
 <!-- Scripts - Optimized Loading -->
-<script src="assets/bootstrap/js/bootstrap.bundle.min.js" defer></script>
-<script src="assets/parallax/jarallax.js" defer></script>
-<script src="assets/smoothscroll/smooth-scroll.js" defer></script>
-<script src="assets/ytplayer/index.js" defer></script>
-<script src="assets/dropdown/js/navbar-dropdown.js" defer></script>
-<script src="assets/mbr-switch-arrow/mbr-switch-arrow.js" defer></script>
-<script src="assets/theme/js/script.js" defer></script>
-<script src="assets/formoid/formoid.min.js" defer></script>
-<script src="assets/theme/js/responsive.js" defer></script>
-<script src="assets/theme/js/performance.js" defer></script>
+  <script src="assets/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+  <script src="assets/parallax/jarallax.js" defer></script>
+  <script src="assets/dropdown/js/navbar-dropdown.js" defer></script>
+  <script src="assets/formoid/formoid.min.js" defer></script>
+  <script src="assets/theme/js/performance.js" defer></script>
 
 <!-- Job Postings Structured Data -->
 <script type="application/ld+json">

@@ -1,0 +1,51 @@
+/* Mobile Hamburger Overrides - Prevents conflicts with dropdown CSS */
+
+/* Override any conflicting transforms from dropdown CSS */
+.mobile-hamburger,
+.mobile-hamburger.expanded {
+  transform: none !important;
+  -webkit-transform: none !important;
+  -ms-transform: none !important;
+  -moz-transform: none !important;
+}
+
+/* Ensure mobile hamburger stays in correct position */
+.mobile-hamburger {
+  position: fixed !important;
+  top: 1rem !important;
+  right: 1rem !important;
+  left: auto !important;
+  z-index: 1100 !important;
+}
+
+/* Override any dropdown CSS that might affect mobile navigation */
+.navbar-dropdown .navbar-toggler.mobile-hamburger {
+  transform: none !important;
+  -webkit-transform: none !important;
+  -ms-transform: none !important;
+  -moz-transform: none !important;
+}
+
+/* Prevent dropdown CSS from affecting our custom mobile styles */
+.nav-dropdown-sm,
+.nav-dropdown.navbar-toggleable-sm,
+.nav-dropdown.navbar-toggleable-xl {
+  /* Override any transforms that might affect mobile hamburger */
+  transform: none !important;
+  -webkit-transform: none !important;
+  -ms-transform: none !important;
+  -moz-transform: none !important;
+}
+
+/* Ensure our mobile hamburger styles take precedence */
+.mobile-hamburger.expanded {
+  position: fixed !important;
+  top: 1rem !important;
+  right: 1rem !important;
+  left: auto !important;
+  transform: none !important;
+  -webkit-transform: none !important;
+  -ms-transform: none !important;
+  -moz-transform: none !important;
+  z-index: 1100 !important;
+}
