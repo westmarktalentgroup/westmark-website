@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html  >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -51,6 +51,27 @@
 
   <link rel="stylesheet" href="assets/theme/css/optimized.css">
   <link rel="stylesheet" href="assets/theme/css/mobile-hamburger-overrides.css">
+
+  <!-- Structured Data for Contact Page -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact Westmark Talent Group",
+    "description": "Contact Westmark Talent Group for construction management recruitment services",
+    "url": "https://westmarktalentgroup.com/contact-us.html",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "Westmark Talent Group",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-307-204-5454",
+        "contactType": "customer service",
+        "email": "info@westmarktalentgroup.com"
+      }
+    }
+  }
+  </script>
 
   <style>
     /* Prevent horizontal scrolling */
@@ -178,6 +199,30 @@
       margin: 0 0.25rem !important;
     }
     
+    /* iOS Safari specific fixes */
+    @supports (-webkit-touch-callout: none) {
+      .navbar-nav .nav-link {
+        -webkit-tap-highlight-color: transparent !important;
+      }
+      
+      .btn {
+        -webkit-tap-highlight-color: transparent !important;
+        -webkit-appearance: none !important;
+        appearance: none !important;
+    }
+      
+      input, textarea {
+        -webkit-appearance: none !important;
+        appearance: none !important;
+        border-radius: 0 !important;
+      }
+      
+      .header18 {
+        min-height: 100vh !important;
+        min-height: -webkit-fill-available !important;
+      }
+    }
+    
     /* Mobile navbar adjustments */
     @media (max-width: 767.98px) {
       .navbar-dropdown {
@@ -188,6 +233,136 @@
         min-width: 280px !important;
         overflow: visible !important;
         box-sizing: border-box !important;
+      }
+      
+      /* Mobile hamburger positioning */
+      .mobile-hamburger {
+        position: fixed !important;
+        top: 1rem !important;
+        right: 1rem !important;
+        z-index: 1100 !important;
+        background: rgba(255, 255, 255, 0.95) !important;
+        border-radius: 50% !important;
+        padding: 1rem !important;
+        backdrop-filter: blur(10px) !important;
+        -webkit-backdrop-filter: blur(10px) !important;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+        border: none !important;
+        width: 60px !important;
+        height: 60px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        transition: all 0.3s ease !important;
+        overflow: hidden !important;
+      }
+      
+      /* iOS safe area for menu only */
+      @supports (padding-top: env(safe-area-inset-top)) {
+        .mobile-hamburger {
+          top: calc(1rem + env(safe-area-inset-top)) !important;
+        }
+      }
+      
+      /* Hide desktop hamburger */
+      .navbar-dropdown .navbar-toggler {
+        display: none !important;
+      }
+      
+      /* Hide default collapse */
+      .navbar-collapse { display: none !important; }
+      
+      /* Hide only navbar content on mobile, keep hamburger visible */
+      .navbar-dropdown .container {
+        display: none !important;
+      }
+      
+      /* Override any external navbar styles that might cause dark lines */
+      .navbar-dropdown.navbar-fixed-top {
+        background: transparent !important;
+        border-bottom: none !important;
+        box-shadow: none !important;
+        backdrop-filter: none !important;
+        -webkit-backdrop-filter: none !important;
+      }
+      
+      /* Ensure navbar doesn't take up space on mobile */
+      .navbar-dropdown {
+        height: 0 !important;
+        overflow: hidden !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+        backdrop-filter: none !important;
+        -webkit-backdrop-filter: none !important;
+      }
+      
+      /* Hide any navbar borders or lines */
+      .navbar-dropdown::before,
+      .navbar-dropdown::after {
+        display: none !important;
+      }
+      
+      /* Pill content inside hamburger button */
+      .pill-content {
+        position: absolute !important;
+        top: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        gap: 0.75rem !important;
+        padding: 0 1rem !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+        transition: all 0.3s ease !important;
+        white-space: nowrap !important;
+      }
+      
+      /* Expanded state - button becomes pill */
+      .mobile-hamburger.expanded {
+        width: auto !important;
+        min-width: 280px !important;
+        max-width: calc(100vw - 2rem) !important;
+        border-radius: 30px !important;
+        padding: 0.75rem 1rem !important;
+        background: rgba(255, 255, 255, 0.98) !important;
+        backdrop-filter: blur(15px) !important;
+        -webkit-backdrop-filter: blur(15px) !important;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.2) !important;
+        right: 1rem !important;
+        left: auto !important;
+        transform: none !important;
+        -webkit-transform: none !important;
+        -ms-transform: none !important;
+      }
+      
+      /* Show pill content when expanded */
+      .mobile-hamburger.expanded .pill-content {
+        opacity: 1 !important;
+        pointer-events: auto !important;
+      }
+      
+      /* Keep hamburger lines visible but smaller when expanded */
+      .mobile-hamburger.expanded .hamburger {
+        opacity: 0.3 !important;
+        transform: scale(0.6) !important;
+        position: absolute !important;
+        right: 0.5rem !important;
+      }
+      
+      /* Responsive breakpoints for very small screens */
+      @media (max-width: 375px) {
+        .mobile-hamburger.expanded {
+          min-width: 260px !important;
+          max-width: calc(100vw - 1rem) !important;
+          transform: none !important;
+          -webkit-transform: none !important;
+          -ms-transform: none !important;
+        }
       }
       
       /* Hide default collapse */
@@ -299,6 +474,244 @@
         }
       }
     }
+    
+    /* Z-index Management */
+    .skip-navigation { z-index: 1040 !important; }
+    .navbar-dropdown { z-index: 1030 !important; }
+    .modal-backdrop { z-index: 1040 !important; }
+    .modal { z-index: 1060 !important; }
+    .tooltip { z-index: 1080 !important; }
+    .popover { z-index: 1070 !important; }
+    .offcanvas { z-index: 1050 !important; }
+    
+    /* Button Fixes */
+    .mbr-section-btn {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      gap: 1rem !important;
+      margin: 0 auto !important;
+      padding: 0 !important;
+    }
+    
+    .mbr-section-btn .btn {
+      flex: 0 0 auto !important;
+      min-width: 120px !important;
+      text-align: center !important;
+      margin: 0 !important;
+      padding: 0.75rem 1.5rem !important;
+    }
+    
+    /* Responsive buttons for mobile */
+    @media (max-width: 767.98px) {
+      .mbr-section-btn {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 1rem !important;
+      }
+      
+      .mbr-section-btn .btn {
+        min-width: 140px !important;
+        max-width: 200px !important;
+        flex: 1 1 auto !important;
+      }
+    }
+    
+    /* FAQ Styling */
+    .panel-title a {
+      color: #000 !important;
+      text-decoration: none !important;
+    }
+    
+    .panel-body {
+      color: #000 !important;
+    }
+    
+    .sign {
+      opacity: 1 !important;
+      transition: transform 0.3s ease !important;
+      font-size: 1.2rem !important;
+    }
+    
+    .panel-title:not(.collapsed) .sign {
+      transform: rotate(180deg) !important;
+    }
+    
+    /* Slimmer font for all subtext - matching index.html */
+    .mbr-text {
+      font-weight: 300 !important;
+    }
+    
+    /* Slimmer font for sub headlines */
+    .mbr-section-title,
+    .item-title {
+      font-weight: 400 !important;
+    }
+    
+    /* Slimmer font for hero section text */
+    .mbr-text.mbr-white {
+      font-weight: 300 !important;
+    }
+    
+    /* Slimmer font for FAQ text */
+    .panel-body .mbr-text,
+    .panel-body p {
+      font-weight: 300 !important;
+    }
+    
+    /* Slimmer font for Contact Us text */
+    .contact-info .mbr-text,
+    .contact-info p,
+    .contact-section .mbr-text,
+    .contact-section p {
+      font-weight: 300 !important;
+    }
+    
+    /* Contact form layout improvements */
+    .form5 {
+      min-height: 100vh !important;
+      display: flex !important;
+      align-items: center !important;
+      padding: 2rem 0 !important;
+    }
+    
+    /* Form container styling */
+    .form5 .container {
+      width: 100% !important;
+      max-width: 1200px !important;
+    }
+    
+    /* Form and image row alignment */
+    .form5 .row {
+      align-items: center !important;
+      min-height: 70vh !important;
+    }
+    
+    /* Form column styling */
+    .form5 .col-lg-6:first-child {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      padding: 2rem !important;
+    }
+    
+    /* Form wrapper styling */
+    .form5 .mbr-form {
+      width: 100% !important;
+      max-width: 500px !important;
+    }
+    
+    /* Form field styling */
+    .form5 .form-control {
+      border-radius: 8px !important;
+      border: 1px solid #ddd !important;
+      padding: 0.75rem 1rem !important;
+      font-size: 1rem !important;
+      transition: border-color 0.3s ease !important;
+    }
+    
+    .form5 .form-control:focus {
+      border-color: #000 !important;
+      box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.1) !important;
+      outline: none !important;
+    }
+    
+    /* Image column styling */
+    .form5 .col-lg-6:last-child {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      padding: 2rem !important;
+    }
+    
+    /* Image wrapper styling */
+    .form5 .image-wrapper {
+      width: 100% !important;
+      max-width: 500px !important;
+      border-radius: 12px !important;
+      overflow: hidden !important;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1) !important;
+    }
+    
+    /* Image styling */
+    .form5 .image-wrapper img {
+      width: 100% !important;
+      height: auto !important;
+      object-fit: cover !important;
+    }
+    
+    /* Footer positioning */
+    footer {
+      margin-top: auto !important;
+    }
+    
+    /* Ensure page fills screen */
+    body {
+      min-height: 100vh !important;
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    
+    main {
+      flex: 1 !important;
+      min-height: calc(100vh - 200px) !important;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 991.98px) {
+      .form5 .row {
+        flex-direction: column !important;
+        gap: 2rem !important;
+      }
+      
+      .form5 .col-lg-6 {
+        width: 100% !important;
+        max-width: 600px !important;
+        margin: 0 auto !important;
+      }
+      
+      .form5 .mbr-form {
+        max-width: 100% !important;
+      }
+      
+      .form5 .image-wrapper {
+        max-width: 100% !important;
+      }
+    }
+    
+    @media (max-width: 767.98px) {
+      .form5 {
+        padding: 1rem 0 !important;
+        min-height: auto !important;
+      }
+      
+      .form5 .row {
+        min-height: auto !important;
+      }
+      
+      .form5 .col-lg-6 {
+        padding: 1rem !important;
+      }
+      
+      .mbr-section-head {
+        margin-top: 2rem !important;
+        margin-bottom: 1.5rem !important;
+      }
+    }
+    
+    /* Header spacing */
+    .mbr-section-head {
+      margin-top: 3rem !important;
+      margin-bottom: 2rem !important;
+    }
+    
+    .mbr-section-title {
+      margin-bottom: 1.5rem !important;
+    }
+    
+    .mbr-section-text {
+      margin-bottom: 2rem !important;
+    }
   </style>
 
   <!-- Structured Data for Contact Page -->
@@ -361,6 +774,9 @@
 </head>
 <body>
 
+<!-- Skip Navigation -->
+<a href="#main-content" class="sr-only sr-only-focusable skip-navigation" style="position: absolute; top: -40px; left: 6px; padding: 8px 16px; background: #000; color: #fff; text-decoration: none;">Skip to main content</a>
+
 <!-- Analytics -->
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKB103GCWX"></script>
@@ -400,9 +816,11 @@
 
 <!-- Mobile Hamburger Button that expands into pill menu -->
 <button class="navbar-toggler mobile-hamburger" type="button" aria-label="Toggle navigation">
-  <div class="hamburger-line"></div>
-  <div class="hamburger-line"></div>
-  <div class="hamburger-line"></div>
+  <div class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
   <div class="pill-content">
     <div class="nav-item">
       <a href="index.html" class="nav-link">Home</a>
@@ -420,83 +838,81 @@
 </button>
 
 <!-- Main Content Wrapper -->
-<main id="main-content" style="padding-top: 80px;">
+<main id="main-content">
 <section class="form5 cid-uMOnIuco2K" data-bs-version="5.1" id="contact-form-page">
-    
-
-    
-
-    <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 content-head">
-                <div class="mbr-section-head mb-5">
-                  <h2 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2">
-                    <strong>Contact Us</strong>
-                  </h2>
-                  <p class="mbr-section-text mbr-fonts-style align-center mb-0 display-7">
-                    Ready to find your next construction management role or hire proven talent? Contact us below.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12 col-lg-6">
-                <div class="mbr-form" data-form-type="formoid">
-                  <form action="#" method="POST" class="mbr-form form-with-styler" data-form-title="Contact Form">
-                    <input type="hidden" name="email" data-form-email="true" value="IuvKtBhfVxFY5SGgygT0hWW6GYTH/kaXaRYgRpxlZvz4n6dknqFxS9KQjNMD5IiBQlx+qv50JXTfwuuErCQTJ6pXPDS5te3Kv8Dz2pNPyjpceSP0tWdd6WQjAqVqT4o4">
-                    <div class="row">
-                      <div hidden="hidden" data-form-alert="" class="alert alert-success col-12" style="background-color: #d4edda; border-color: #c3e6cb; color: #155724; border-radius: 25px; border: 1px solid #c3e6cb;">Thank you, we will be in touch shortly!</div>
-                      <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12" style="background-color: #f8d7da; border-color: #f5c6cb; color: #721c24; border-radius: 25px; border: 1px solid #f5c6cb;">
-                        Oops...! some problem!
-                      </div>
-                    </div>
-                    <div class="dragArea">
-                      <div class="form-group mb-3" data-for="name">
-                        <input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control" value="" id="name-contact-page" required>
-                      </div>
-                      <div class="form-group mb-3" data-for="email">
-                        <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-contact-page" required>
-                      </div>
-                      <div class="form-group mb-3" data-for="textarea">
-                        <textarea name="textarea" placeholder="Message" data-form-field="textarea" class="form-control" id="textarea-contact-page" required></textarea>
-                      </div>
-                      <div class="text-center mbr-section-btn">
-                        <button type="submit" class="btn btn-black display-7">Submit</button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
-              <div class="col-12 col-lg-6">
-                <div class="image-wrapper">
-                  <img class="w-100" src="assets/images/architect-engineer-construction-workers-shaking-600nw-1439150765-600x400.jpg" alt="Construction professionals collaborating">
-                </div>
-              </div>
-            </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 content-head">
+        <div class="mbr-section-head mb-5">
+          <h2 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2">
+            <strong>Contact Us</strong>
+          </h2>
+          <p class="mbr-section-text mbr-fonts-style align-center mb-0 display-7">
+            Ready to find your next construction management role or hire proven talent? Contact us below.
+          </p>
+        </div>
+      </div>
     </div>
+    
+    <div class="row align-items-center">
+      <div class="col-12 col-lg-6">
+        <div class="mbr-form" data-form-type="formoid">
+          <form action="#" method="POST" class="mbr-form form-with-styler" data-form-title="Contact Form">
+            <input type="hidden" name="email" data-form-email="true" value="IuvKtBhfVxFY5SGgygT0hWW6GYTH/kaXaRYgRpxlZvz4n6dknqFxS9KQjNMD5IiBQlx+qv50JXTfwuuErCQTJ6pXPDS5te3Kv8Dz2pNPyjpceSP0tWdd6WQjAqVqT4o4">
+            <div class="row">
+              <div hidden="hidden" data-form-alert="" class="alert alert-success col-12" style="background-color: #d4edda; border-color: #c3e6cb; color: #155724; border-radius: 25px; border: 1px solid #c3e6cb;">Thank you, we will be in touch shortly!</div>
+              <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12" style="background-color: #f8d7da; border-color: #f5c6cb; color: #721c24; border-radius: 25px; border: 1px solid #f5c6cb;">
+                Oops...! some problem!
+              </div>
+            </div>
+            <div class="dragArea">
+              <div class="form-group mb-4" data-for="name">
+                <input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control" value="" id="name-contact-page" required>
+              </div>
+              <div class="form-group mb-4" data-for="email">
+                <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-contact-page" required>
+              </div>
+              <div class="form-group mb-4" data-for="textarea">
+                <textarea name="textarea" placeholder="Message" data-form-field="textarea" class="form-control" id="textarea-contact-page" rows="5" required></textarea>
+              </div>
+              <div class="text-center mbr-section-btn">
+                <button type="submit" class="btn btn-black display-7">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      
+      <div class="col-12 col-lg-6">
+        <div class="image-wrapper">
+          <img class="w-100" src="assets/images/architect-engineer-construction-workers-shaking-600nw-1439150765-600x400.jpg" alt="Construction professionals collaborating">
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 </main>
 
-<section data-bs-version="5.1" class="footer4 cid-uMUkgZOPYV" once="footers" id="footer04-q">
-
-    
-
-    
-
-    <div class="container">
-        <div class="media-container-row align-center mbr-white">
-            <div class="col-12">
-                <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                    © Copyright 2025 Westmark Talent Group - All Rights Reserved
-                </p>
-            </div>
-        </div>
+<footer class="footer4 cid-uMUkgZOPYV" data-bs-version="5.1" once="footers" id="footer04-q" role="contentinfo">
+  <div class="container">
+    <div class="media-container-row align-center mbr-white">
+      <div class="col-12">
+        <p class="mbr-text mb-0 mbr-fonts-style display-7">
+          © Copyright 2025 Westmark Talent Group - All Rights Reserved | 
+          <a href="mailto:info@westmarktalentgroup.com" class="text-white">Contact</a> | 
+          <a href="https://westmarktalentgroup.zohorecruit.com/jobs/Careers" target="_blank" rel="noopener" class="text-white">Careers</a>
+        </p>
+      </div>
     </div>
-</section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/dropdown/js/navbar-dropdown.js"></script>
-<script src="assets/theme/js/contact-form.js"></script>
-<script src="assets/theme/js/performance.js"></script>
-<script src="assets/formoid/formoid.min.js"></script>
+  </div>
+</footer>
+
+<!-- Scripts - Optimized Loading -->
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+<script src="assets/dropdown/js/navbar-dropdown.js" defer></script>
+<script src="assets/theme/js/contact-form.js" defer></script>
+<script src="assets/theme/js/performance.js" defer></script>
+<script src="assets/formoid/formoid.min.js" defer></script>
 
 <!-- Mobile Navigation Toggle Script -->
 <script>
