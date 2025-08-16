@@ -102,8 +102,8 @@ textarea:focus {
 
 /* Essential Typography and Layout Styles */
 
-/* Playfair Display Extra Bold for headlines */
-h1, .display-1, .mbr-section-title {
+/* Playfair Display Extra Bold ONLY for main Westmark headline */
+h1.mbr-section-title.mbr-fonts-style.mbr-white.mb-4.display-1 {
   font-family: 'Playfair Display', serif !important;
   font-weight: 800 !important;
   font-style: normal !important;
@@ -112,9 +112,21 @@ h1, .display-1, .mbr-section-title {
 /* Ensure proper font loading */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800&family=Manrope:wght@400;700&display=swap');
 
-/* Headers should be bold */
+/* Restore original header fonts for everything else */
 h2, h3, h4, h5, h6, .display-2, .display-3, .display-4, .display-5, .display-6, .display-7 {
+  font-family: 'Manrope', sans-serif !important;
   font-weight: 700 !important;
+}
+
+/* Specific styling for different header types */
+.card-title, .item-title, .panel-title-edit {
+  font-family: 'Manrope', sans-serif !important;
+  font-weight: 700 !important;
+}
+
+/* Ensure body and general text use Manrope */
+body, p, .mbr-text, .mbr-fonts-style {
+  font-family: 'Manrope', sans-serif !important;
 }
 
 /* Subtext should be white */
