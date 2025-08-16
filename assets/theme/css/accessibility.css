@@ -244,6 +244,41 @@ a[target="_blank"]:not(.btn):not(.item-btn):not([role="menuitem"]):not(.text-whi
   color: #6c757d !important;
 }
 
+/* Ultra-specific overrides for Apply Now buttons */
+.features03 .mbr-section-btn .btn.item-btn.btn-black-outline[target="_blank"]::after,
+.features03 .item-footer .btn.item-btn.btn-black-outline[target="_blank"]::after,
+.features03 .btn.item-btn.btn-black-outline[target="_blank"]::after,
+.mbr-section-btn .btn.item-btn.btn-black-outline[target="_blank"]::after,
+.item-footer .btn.item-btn.btn-black-outline[target="_blank"]::after,
+.features03 a[target="_blank"].btn.item-btn.btn-black-outline::after,
+.features03 a[target="_blank"].mbr-section-btn .btn.item-btn.btn-black-outline::after {
+  content: "" !important;
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  color: transparent !important;
+  background: transparent !important;
+}
+
+/* Force remove external link indicators from all button types */
+a[target="_blank"].btn::after,
+a[target="_blank"].item-btn::after,
+a[target="_blank"][role="menuitem"]::after,
+a[target="_blank"].text-white::after,
+a[target="_blank"].btn-black-outline::after,
+a[target="_blank"].btn-white-outline::after {
+  content: "" !important;
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  color: transparent !important;
+  background: transparent !important;
+}
+
 /* Form Validation States */
 .form-control.is-valid {
   border-color: #28a745 !important;
