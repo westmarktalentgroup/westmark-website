@@ -309,13 +309,14 @@
       .pill-content {
         position: absolute !important;
         top: 0 !important;
+        left: 0 !important;
         right: 0 !important;
         bottom: 0 !important;
         display: flex !important;
         align-items: center !important;
-        justify-content: space-between !important;
-        gap: 0.75rem !important;
-        padding: 0 1rem !important;
+        justify-content: space-around !important; /* Even distribution across full width */
+        gap: 0.25rem !important;
+        padding: 0 0.75rem !important;
         opacity: 0 !important;
         pointer-events: none !important;
         transition: all 0.3s ease !important;
@@ -324,9 +325,9 @@
       
       /* Pill content links - matching index.html exactly */
       .pill-content a {
-        padding: 0.5rem 0.75rem !important;
-        border-radius: 20px !important;
-        font-size: 0.9rem !important;
+        padding: 0.4rem 0.6rem !important;
+        border-radius: 18px !important;
+        font-size: 0.85rem !important;
         text-decoration: none !important;
         color: #000 !important;
         transition: all 0.2s ease !important;
@@ -340,8 +341,8 @@
       
       /* Expanded state - button becomes pill */
       .mobile-hamburger.expanded {
-        width: auto !important;
-        min-width: 280px !important;
+        width: calc(100vw - 2rem) !important;
+        min-width: calc(100vw - 2rem) !important;
         max-width: calc(100vw - 2rem) !important;
         border-radius: 30px !important;
         padding: 0.75rem 1rem !important;
@@ -350,7 +351,7 @@
         -webkit-backdrop-filter: blur(15px) !important;
         box-shadow: 0 8px 24px rgba(0,0,0,0.2) !important;
         right: 1rem !important;
-        left: auto !important;
+        left: 1rem !important;
         transform: none !important;
         -webkit-transform: none !important;
         -ms-transform: none !important;
@@ -373,8 +374,24 @@
       /* Responsive breakpoints for very small screens */
       @media (max-width: 375px) {
         .mobile-hamburger.expanded {
-          min-width: 260px !important;
+          width: calc(100vw - 1rem) !important;
+          min-width: calc(100vw - 1rem) !important;
           max-width: calc(100vw - 1rem) !important;
+          right: 0.5rem !important;
+          left: 0.5rem !important;
+          transform: none !important;
+          -webkit-transform: none !important;
+          -ms-transform: none !important;
+        }
+      }
+      
+      @media (max-width: 320px) {
+        .mobile-hamburger.expanded {
+          width: calc(100vw - 0.5rem) !important;
+          min-width: calc(100vw - 0.5rem) !important;
+          max-width: calc(100vw - 0.5rem) !important;
+          right: 0.25rem !important;
+          left: 0.25rem !important;
           transform: none !important;
           -webkit-transform: none !important;
           -ms-transform: none !important;
