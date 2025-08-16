@@ -725,3 +725,67 @@ hr {
   text-align: center !important;
   padding: 2rem !important;
 }
+
+/* Thin Font Styling - Restored */
+/* Slimmer font for all subtext */
+.mbr-text {
+  font-weight: 300 !important;
+}
+
+/* Slimmer font for sub headlines */
+.mbr-section-title,
+.item-title {
+  font-weight: 400 !important;
+}
+
+/* Slimmer font for hero section text */
+.mbr-text.mbr-white {
+  font-weight: 300 !important;
+}
+
+/* Slimmer font for FAQ text */
+.panel-body .mbr-text,
+.panel-body p {
+  font-weight: 300 !important;
+}
+
+/* Slimmer font for Contact Us text */
+.contact-info .mbr-text,
+.contact-info p,
+.contact-section .mbr-text,
+.contact-section p {
+  font-weight: 300 !important;
+}
+
+/* Ensure specific elements maintain thin fonts */
+.mbr-fonts-style.mbr-text,
+.mbr-fonts-style.mbr-white {
+  font-weight: 300 !important;
+}
+
+/* Override any bold styling for subtext */
+.mbr-text strong,
+.mbr-text b {
+  font-weight: 400 !important;
+}
+
+/* Ensure mission section text is thin */
+.article9 .mbr-text,
+.article9 p {
+  font-weight: 300 !important;
+}
+
+/* Ensure FAQ section text is thin */
+.panel-body .mbr-text,
+.panel-body p,
+.panel-title + div p {
+  font-weight: 300 !important;
+}
+
+/* Ensure contact section text is thin */
+.contact-section .mbr-text,
+.contact-section p,
+.contact-info .mbr-text,
+.contact-info p {
+  font-weight: 300 !important;
+}
