@@ -30,7 +30,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="format-detection" content="telephone=no">
   <meta name="theme-color" content="#000000">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://www.googletagmanager.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self';">
   
   <!-- Performance Resource Hints -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,16 +49,10 @@
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css">
   <link rel="stylesheet" href="assets/theme/css/custom.css">
   <link rel="stylesheet" href="assets/theme/css/optimized.css">
-  <link rel="stylesheet" href="assets/theme/css/mobile-hamburger-overrides.css">
+
   <link rel="stylesheet" href="assets/theme/css/accessibility.css">
   <link rel="stylesheet" href="assets/theme/css/mobile-optimized.css">
-
-  <style>
-    /* Prevent horizontal scrolling */
-    html, body {
-      overflow-x: hidden !important;
-      max-width: 100vw !important;
-    }
+    <link rel="stylesheet" href="assets/theme/css/core-layout.css">
     
     /* Core Layout Fixes */
     .mbr-section-head::after,
@@ -629,12 +623,7 @@
           justify-content: center !important;
         }
         
-        .btn {
-          min-height: 44px !important;
-        }
-      }
-    }
-  </style>
+
 
   <!-- Structured Data -->
   <script type="application/ld+json">
@@ -680,7 +669,7 @@
 
 
 <!-- Skip Navigation -->
-<a href="#main-content" class="sr-only sr-only-focusable skip-navigation" style="position: absolute; top: -40px; left: 6px; padding: 8px 16px; background: #000; color: #fff; text-decoration: none;">Skip to main content</a>
+<a href="#main-content" class="sr-only sr-only-focusable skip-navigation">Skip to main content</a>
 
 <!-- Navigation -->
 <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg" data-bs-version="5.1" id="menu-5-uMOnIua8FF" role="navigation" aria-label="Main navigation">
@@ -722,29 +711,29 @@
 
 <main id="main-content">
   <!-- 1. Hero Section - Full screen picture with headline -->
-  <header class="header18 cid-uMOnIuaQSz mbr-fullscreen mbr-parallax-background" data-bs-version="5.1" id="hero-15-uMOnIuaQSz" style="background-image: url('assets/images/pexels-apasaric-1437493-2000x1333.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+  <header class="header18 cid-uMOnIuaQSz mbr-fullscreen mbr-parallax-background" data-bs-version="5.1" id="hero-15-uMOnIuaQSz" role="banner" aria-labelledby="hero-heading" aria-describedby="hero-description" style="background-image: url('assets/images/pexels-apasaric-1437493-2000x1333.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
     <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(0, 0, 0);"></div>
     <div class="hero-fade-overlay" style="position: absolute; bottom: 0; left: 0; right: 0; height: 45%; background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.75) 30%, rgba(0, 0, 0, 0.5) 70%, rgba(0, 0, 0, 0) 100%); z-index: 2;"></div>
     <div class="container-fluid" style="position: relative; z-index: 3;">
       <div class="row">
         <div class="content-wrap col-12 col-md-12 header-content">
-          <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">
+          <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1" id="hero-heading">
             <strong>Westmark Talent Group</strong>
           </h1>
-          <p class="mbr-fonts-style mbr-text mbr-white mb-4 display-7">We connect experienced construction project managers, superintendents, and field leaders with top general contractors across the United States.</p>
+          <p class="mbr-fonts-style mbr-text mbr-white mb-4 display-7" id="hero-description">We connect experienced construction project managers, superintendents, and field leaders with top general contractors across the United States.</p>
         </div>
       </div>
     </div>
   </header>
 
   <!-- 2. Mission Section -->
-  <section class="article9 cid-uMOnIuad2K" data-bs-version="5.1" id="about-us-9-uMOnIuad2K">
+  <section class="article9 cid-uMOnIuad2K" data-bs-version="5.1" id="about-us-9-uMOnIuad2K" role="region" aria-labelledby="mission-heading">
     <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="card col-md-12 col-lg-10">
           <div class="card-wrapper">
             <div class="card-content-text">
-              <h2 class="card-title mbr-fonts-style mbr-black mt-3 mb-4 display-2">
+              <h2 class="card-title mbr-fonts-style mbr-black mt-3 mb-4 display-2" id="mission-heading">
                 <strong>Our Mission</strong>
               </h2>
               <div class="row card-box align-left">
@@ -986,7 +975,7 @@
         <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
           <form action="/contact" method="POST" class="mbr-form form-with-styler" data-form-title="Contact Form" novalidate>
             <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
-            <input type="hidden" name="email" data-form-email="true" value="IuvKtBhfVxFY5SGgygT0hWW6GYTH/kaXaRYgRpxlZvz4n6dknqFxS9KQjNMD5IiBQlx+qv50JXTfwuuErCQTJ6pXPDS5te3Kv8Dz2pNPyjpceSP0tWdd6WQjAqVqT4o4">
+            <input type="hidden" name="email" data-form-email="true" value="">
             <div class="row">
               <div hidden="hidden" data-form-alert="" class="alert alert-success col-12" style="background-color: #d4edda; border-color: #c3e6cb; color: #155724; border-radius: 25px; border: 1px solid #c3e6cb;">Thank you, we will be in touch shortly!</div>
               <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12" style="background-color: #f8d7da; border-color: #f5c6cb; color: #721c24; border-radius: 25px; border: 1px solid #f5c6cb;">

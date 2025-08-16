@@ -16,7 +16,7 @@
   <meta name="author" content="Westmark Talent Group">
   <meta name="robots" content="index, follow">
   <meta name="googlebot" content="index, follow">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://www.googletagmanager.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self';">
   <meta name="revisit-after" content="7 days">
   <meta name="distribution" content="global">
   <meta name="rating" content="general">
@@ -51,9 +51,10 @@
 
 
   <link rel="stylesheet" href="assets/theme/css/optimized.css">
-  <link rel="stylesheet" href="assets/theme/css/mobile-hamburger-overrides.css">
+
   <link rel="stylesheet" href="assets/theme/css/accessibility.css">
   <link rel="stylesheet" href="assets/theme/css/mobile-optimized.css">
+  <link rel="stylesheet" href="assets/theme/css/core-layout.css">
 
   <!-- Structured Data for Contact Page -->
   <script type="application/ld+json">
@@ -826,7 +827,7 @@
 <body>
 
 <!-- Skip Navigation -->
-<a href="#main-content" class="sr-only sr-only-focusable skip-navigation" style="position: absolute; top: -40px; left: 6px; padding: 8px 16px; background: #000; color: #fff; text-decoration: none;">Skip to main content</a>
+<a href="#main-content" class="sr-only sr-only-focusable skip-navigation">Skip to main content</a>
 
 <!-- Analytics -->
 <!-- Google tag (gtag.js) -->
@@ -901,7 +902,7 @@
         <div class="mbr-form" data-form-type="formoid">
           <form action="/contact" method="POST" class="mbr-form form-with-styler" data-form-title="Contact Form" novalidate>
             <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
-            <input type="hidden" name="email" data-form-email="true" value="IuvKtBhfVxFY5SGgygT0hWW6GYTH/kaXaRYgRpxlZvz4n6dknqFxS9KQjNMD5IiBQlx+qv50JXTfwuuErCQTJ6pXPDS5te3Kv8Dz2pNPyjpceSP0tWdd6WQjAqVqT4o4">
+            <input type="hidden" name="email" data-form-email="true" value="">
             <div class="row">
               <div hidden="hidden" data-form-alert="" class="alert alert-success col-12" style="background-color: #d4edda; border-color: #c3e6cb; color: #155724; border-radius: 25px; border: 1px solid #c3e6cb;">Thank you, we will be in touch shortly!</div>
               <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12" style="background-color: #f8d7da; border-color: #f5c6cb; color: #721c24; border-radius: 25px; border: 1px solid #f5c6cb;">

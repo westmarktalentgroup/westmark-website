@@ -33,10 +33,14 @@
   text-decoration: none !important;
   z-index: 9999 !important;
   transition: top 0.3s ease !important;
+  border-radius: 4px !important;
+  font-weight: bold !important;
 }
 
 .skip-navigation:focus {
   top: 6px !important;
+  outline: 2px solid #fff !important;
+  outline-offset: 2px !important;
 }
 
 /* Focus Management */
