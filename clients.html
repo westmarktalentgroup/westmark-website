@@ -42,6 +42,7 @@
   <link rel="stylesheet" href="assets/theme/css/accessibility.css">
   <link rel="stylesheet" href="assets/theme/css/mobile-optimized.css">
   <link rel="stylesheet" href="assets/theme/css/core-layout.css">
+  <link rel="stylesheet" href="assets/theme/css/navigation.css">
   
   <!-- CRITICAL CSS OVERRIDES - Force styling and remove external link text -->
   <style>
@@ -110,117 +111,6 @@
       font-weight: 500 !important;
     }
     
-    /* CRITICAL NAVIGATION CSS - Make desktop menu visible */
-    .navbar-dropdown {
-      position: fixed !important;
-      top: 1rem !important;
-      left: 50% !important;
-      transform: translateX(-50%) !important;
-      width: auto !important;
-      max-width: 90% !important;
-      background: rgba(255, 255, 255, 0.95) !important;
-      background-color: rgba(255, 255, 255, 0.95) !important;
-      backdrop-filter: blur(15px) !important;
-      -webkit-backdrop-filter: blur(15px) !important;
-      border: 1px solid rgba(0, 0, 0, 0.1) !important;
-      border-radius: 50px !important;
-      z-index: 1030 !important;
-      padding: 0.5rem 2rem !important;
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12) !important;
-      margin: 0 !important;
-      height: auto !important;
-      min-height: auto !important;
-      display: block !important;
-      visibility: visible !important;
-      opacity: 1 !important;
-    }
-    
-    /* Center navbar content */
-    .navbar-dropdown .container {
-      max-width: none !important;
-      padding: 0 !important;
-      display: flex !important;
-      align-items: center !important;
-      justify-content: center !important;
-      visibility: visible !important;
-      opacity: 1 !important;
-    }
-    
-    /* Center navigation items */
-    .navbar-nav {
-      display: flex !important;
-      align-items: center !important;
-      justify-content: center !important;
-      margin: 0 auto !important;
-      visibility: visible !important;
-      opacity: 1 !important;
-    }
-    
-    .navbar-nav .nav-link {
-      font-weight: 500 !important;
-      transition: all 0.3s ease !important;
-      padding: 0.5rem 1.5rem !important;
-      color: #333 !important;
-      border-radius: 25px !important;
-      margin: 0 0.25rem !important;
-      text-align: center !important;
-      border: none !important;
-      visibility: visible !important;
-      opacity: 1 !important;
-    }
-    
-    .navbar-nav .nav-link:hover {
-      background-color: rgba(0, 0, 0, 0.08) !important;
-      transform: translateY(-2px) !important;
-      color: #000 !important;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
-    }
-    
-    /* Ensure navbar brand doesn't take up space */
-    .navbar-dropdown .navbar-brand {
-      margin: 0 !important;
-      padding: 0 !important;
-      width: 0 !important;
-      min-width: 0 !important;
-      overflow: hidden !important;
-      display: none !important;
-    }
-    
-    /* Desktop specific enhancements */
-    @media (min-width: 768px) {
-      .navbar-dropdown {
-        padding: 0.75rem 3rem !important;
-        background: rgba(255, 255, 255, 0.95) !important;
-        background-color: rgba(255, 255, 255, 0.95) !important;
-      }
-      
-      .navbar-nav .nav-link {
-        padding: 0.75rem 2rem !important;
-        margin: 0 0.5rem !important;
-      }
-      
-      /* Hide mobile hamburger on desktop */
-      .mobile-hamburger {
-        display: none !important;
-        visibility: hidden !important;
-        opacity: 0 !important;
-      }
-    }
-    
-    /* Mobile navigation - hide on mobile */
-    @media (max-width: 767.98px) {
-      .navbar-dropdown {
-        display: none !important;
-      }
-      
-      /* Show mobile hamburger on mobile */
-      .mobile-hamburger {
-        display: flex !important;
-        visibility: visible !important;
-        opacity: 1 !important;
-      }
-    }
-    
     /* Remove "(opens new tab)" from footer careers link */
     footer a[target="_blank"]::after,
     .media-container-row a[target="_blank"]::after,
@@ -245,6 +135,7 @@
   <link rel="preload" href="assets/theme/css/core-layout.css" as="style">
   <link rel="preload" href="assets/theme/css/mobile-optimized.css" as="style">
   <link rel="preload" href="assets/theme/css/accessibility.css" as="style">
+  <link rel="preload" href="assets/theme/css/navigation.css" as="style">
 
   <!-- Structured Data for Clients Page -->
   <script type="application/ld+json">
