@@ -182,10 +182,14 @@
     /* Mobile navbar adjustments */
     @media (max-width: 767.98px) {
       .navbar-dropdown {
-        top: 0.5rem !important;
+        top: max(0.5rem, env(safe-area-inset-top)) !important;
         padding: 0.25rem 1rem !important;
         border-radius: 25px !important;
-        max-width: 95% !important;
+        max-width: calc(100vw - 1rem) !important;
+        min-width: 280px !important;
+        /* Ensure it stays within viewport */
+        overflow: visible !important;
+        box-sizing: border-box !important;
       }
       
       .navbar-nav .nav-link {
@@ -205,6 +209,24 @@
         margin-top: 0.5rem !important;
         padding: 0.5rem 0 !important;
         border-radius: 15px !important;
+      }
+      
+      /* Extra small screens */
+      @media (max-width: 375px) {
+        .navbar-dropdown {
+          min-width: 260px !important;
+          max-width: calc(100vw - 0.5rem) !important;
+          padding: 0.25rem 0.75rem !important;
+        }
+      }
+      
+      /* Very small screens */
+      @media (max-width: 320px) {
+        .navbar-dropdown {
+          min-width: 240px !important;
+          max-width: calc(100vw - 0.25rem) !important;
+          padding: 0.25rem 0.5rem !important;
+        }
       }
     }
     
