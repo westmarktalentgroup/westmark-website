@@ -404,9 +404,8 @@
         backdrop-filter: blur(15px) !important;
         -webkit-backdrop-filter: blur(15px) !important;
         box-shadow: 0 8px 24px rgba(0,0,0,0.2) !important;
-        /* KEY FIX: Transform to keep it on screen */
-        transform: translateX(calc(-100% + 60px)) !important;
         right: 1rem !important;
+        left: auto !important;
       }
 
       /* Show pill content when expanded */
@@ -428,14 +427,12 @@
         .mobile-hamburger.expanded {
           min-width: 260px !important;
           max-width: calc(100vw - 1rem) !important;
-          transform: translateX(calc(-100% + 55px)) !important;
         }
       }
 
       @media (max-width: 320px) {
         .mobile-hamburger.expanded {
           min-width: 240px !important;
-          transform: translateX(calc(-100% + 50px)) !important;
         }
       }
 
