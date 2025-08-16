@@ -567,42 +567,35 @@
       font-weight: 300 !important;
     }
     
-    /* Contact form layout improvements */
-    .form5 {
-      min-height: 100vh !important;
-      display: flex !important;
-      align-items: center !important;
-      padding: 2rem 0 !important;
+    /* Contact form layout improvements - using form03 class like clients.html */
+    .form03 {
+      padding: 4rem 0 !important;
+      background: #f8f9fa !important;
     }
     
     /* Form container styling */
-    .form5 .container {
+    .form03 .container {
       width: 100% !important;
       max-width: 1200px !important;
     }
     
     /* Form and image row alignment */
-    .form5 .row {
+    .form03 .row {
       align-items: center !important;
-      min-height: 70vh !important;
     }
     
     /* Form column styling */
-    .form5 .col-lg-6:first-child {
-      display: flex !important;
-      align-items: center !important;
-      justify-content: center !important;
+    .form03 .col-lg-6:first-child {
       padding: 2rem !important;
     }
     
     /* Form wrapper styling */
-    .form5 .mbr-form {
+    .form03 .mbr-form {
       width: 100% !important;
-      max-width: 500px !important;
     }
     
     /* Form field styling */
-    .form5 .form-control {
+    .form03 .form-control {
       border-radius: 8px !important;
       border: 1px solid #ddd !important;
       padding: 0.75rem 1rem !important;
@@ -610,31 +603,27 @@
       transition: border-color 0.3s ease !important;
     }
     
-    .form5 .form-control:focus {
+    .form03 .form-control:focus {
       border-color: #000 !important;
       box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.1) !important;
       outline: none !important;
     }
     
     /* Image column styling */
-    .form5 .col-lg-6:last-child {
-      display: flex !important;
-      align-items: center !important;
-      justify-content: center !important;
+    .form03 .col-lg-6:last-child {
       padding: 2rem !important;
     }
     
     /* Image wrapper styling */
-    .form5 .image-wrapper {
+    .form03 .image-wrapper {
       width: 100% !important;
-      max-width: 500px !important;
       border-radius: 12px !important;
       overflow: hidden !important;
       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1) !important;
     }
     
     /* Image styling */
-    .form5 .image-wrapper img {
+    .form03 .image-wrapper img {
       width: 100% !important;
       height: auto !important;
       object-fit: cover !important;
@@ -648,48 +637,32 @@
     /* Ensure page fills screen */
     body {
       min-height: 100vh !important;
-      display: flex !important;
-      flex-direction: column !important;
     }
     
     main {
-      flex: 1 !important;
-      min-height: calc(100vh - 200px) !important;
+      min-height: auto !important;
     }
     
     /* Responsive adjustments */
     @media (max-width: 991.98px) {
-      .form5 .row {
+      .form03 .row {
         flex-direction: column !important;
         gap: 2rem !important;
       }
       
-      .form5 .col-lg-6 {
+      .form03 .col-lg-6 {
         width: 100% !important;
         max-width: 600px !important;
         margin: 0 auto !important;
       }
-      
-      .form5 .mbr-form {
-        max-width: 100% !important;
-      }
-      
-      .form5 .image-wrapper {
-        max-width: 100% !important;
-      }
     }
     
     @media (max-width: 767.98px) {
-      .form5 {
-        padding: 1rem 0 !important;
-        min-height: auto !important;
+      .form03 {
+        padding: 2rem 0 !important;
       }
       
-      .form5 .row {
-        min-height: auto !important;
-      }
-      
-      .form5 .col-lg-6 {
+      .form03 .col-lg-6 {
         padding: 1rem !important;
       }
       
@@ -839,7 +812,7 @@
 
 <!-- Main Content Wrapper -->
 <main id="main-content">
-<section class="form5 cid-uMOnIuco2K" data-bs-version="5.1" id="contact-form-page">
+<section data-bs-version="5.1" class="form03 cid-uMU6bEM0mt" id="form03-c">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 content-head">
@@ -853,8 +826,7 @@
         </div>
       </div>
     </div>
-    
-    <div class="row align-items-center">
+    <div class="row">
       <div class="col-12 col-lg-6">
         <div class="mbr-form" data-form-type="formoid">
           <form action="#" method="POST" class="mbr-form form-with-styler" data-form-title="Contact Form">
@@ -866,14 +838,14 @@
               </div>
             </div>
             <div class="dragArea">
-              <div class="form-group mb-4" data-for="name">
+              <div class="form-group mb-3" data-for="name">
                 <input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control" value="" id="name-contact-page" required>
               </div>
-              <div class="form-group mb-4" data-for="email">
+              <div class="form-group mb-3" data-for="email">
                 <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-contact-page" required>
               </div>
-              <div class="form-group mb-4" data-for="textarea">
-                <textarea name="textarea" placeholder="Message" data-form-field="textarea" class="form-control" id="textarea-contact-page" rows="5" required></textarea>
+              <div class="form-group mb-3" data-for="textarea">
+                <textarea name="textarea" placeholder="Message" data-form-field="textarea" class="form-control" id="textarea-contact-page" required></textarea>
               </div>
               <div class="text-center mbr-section-btn">
                 <button type="submit" class="btn btn-black display-7">Submit</button>
@@ -882,7 +854,6 @@
           </form>
         </div>
       </div>
-      
       <div class="col-12 col-lg-6">
         <div class="image-wrapper">
           <img class="w-100" src="assets/images/architect-engineer-construction-workers-shaking-600nw-1439150765-600x400.jpg" alt="Construction professionals collaborating">
