@@ -58,9 +58,84 @@
   <link rel="stylesheet" href="assets/theme/css/accessibility.css">
   <link rel="stylesheet" href="assets/theme/css/mobile-optimized.css">
     <link rel="stylesheet" href="assets/theme/css/core-layout.css">
+    
+    <!-- CRITICAL CSS OVERRIDES - Force button styling and remove external link text -->
+    <style>
+      /* Force Apply Now button styling with maximum priority */
+      .features03 .mbr-section-btn .btn.item-btn.btn-black-outline,
+      .features03 .item-footer .btn.item-btn.btn-black-outline,
+      .features03 .btn.item-btn.btn-black-outline {
+        background: transparent !important;
+        background-color: transparent !important;
+        color: #000 !important;
+        border: 2px solid #000 !important;
+        border-color: #000 !important;
+        border-radius: 25px !important;
+        font-weight: 500 !important;
+        text-decoration: none !important;
+        transition: all 0.3s ease !important;
+        display: inline-block !important;
+        padding: 0.75rem 1.5rem !important;
+        min-height: 44px !important;
+        min-width: 120px !important;
+      }
       
+      .features03 .mbr-section-btn .btn.item-btn.btn-black-outline:hover,
+      .features03 .item-footer .btn.item-btn.btn-black-outline:hover,
+      .features03 .btn.item-btn.btn-black-outline:hover {
+        background: #000 !important;
+        background-color: #000 !important;
+        color: #fff !important;
+        border-color: #000 !important;
+        transform: translateY(-2px) !important;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+      }
+      
+      /* Force remove "(opens new tab)" text from all buttons */
+      .features03 a[target="_blank"].btn.item-btn.btn-black-outline::after,
+      .features03 .mbr-section-btn a[target="_blank"].btn.item-btn.btn-black-outline::after,
+      .features03 .item-footer a[target="_blank"].btn.item-btn.btn-black-outline::after,
+      a[target="_blank"].btn.item-btn.btn-black-outline::after,
+      a[target="_blank"].btn::after,
+      a[target="_blank"].item-btn::after {
+        content: "" !important;
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        font-size: 0 !important;
+        line-height: 0 !important;
+        color: transparent !important;
+        background: transparent !important;
+      }
+      
+      /* Force thin fonts for all subtext */
+      .mbr-text {
+        font-weight: 300 !important;
+      }
+      
+      .mbr-section-title,
+      .item-title {
+        font-weight: 400 !important;
+      }
+      
+      .mbr-text.mbr-white {
+        font-weight: 300 !important;
+      }
+      
+      .panel-body .mbr-text,
+      .panel-body p {
+        font-weight: 300 !important;
+      }
+      
+      .contact-info .mbr-text,
+      .contact-info p,
+      .contact-section .mbr-text,
+      .contact-section p {
+        font-weight: 300 !important;
+      }
+    </style>
 
-        
+      
 
 
   <!-- Structured Data -->
