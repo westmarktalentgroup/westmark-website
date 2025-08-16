@@ -569,8 +569,9 @@
     
     /* Contact form layout improvements - using form03 class like clients.html */
     .form03 {
-      padding: 4rem 0 !important;
+      padding: 4rem 0 8rem 0 !important;
       background: #f8f9fa !important;
+      min-height: calc(100vh - 200px) !important;
     }
     
     /* Form container styling */
@@ -637,10 +638,18 @@
     /* Ensure page fills screen */
     body {
       min-height: 100vh !important;
+      display: flex !important;
+      flex-direction: column !important;
     }
     
     main {
-      min-height: auto !important;
+      flex: 1 !important;
+      min-height: calc(100vh - 100px) !important;
+    }
+    
+    /* Footer positioning */
+    footer {
+      margin-top: auto !important;
     }
     
     /* Responsive adjustments */
@@ -858,6 +867,13 @@
         <div class="image-wrapper">
           <img class="w-100" src="assets/images/architect-engineer-construction-workers-shaking-600nw-1439150765-600x400.jpg" alt="Construction professionals collaborating">
         </div>
+      </div>
+    </div>
+    
+    <!-- Additional spacing to fill screen -->
+    <div class="row mt-5">
+      <div class="col-12 text-center">
+        <div style="height: 4rem;"></div>
       </div>
     </div>
   </div>
