@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html  >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +9,19 @@
   <meta name="twitter:title" content="Clients">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/westmark-logo-128x62-1.png" type="image/x-icon">
-  <meta name="description" content="Let us help you build your team with the right construction managers!">
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Let us help you build your team with the right construction managers! Westmark Talent Group specializes in construction management recruitment for project managers, superintendents, and construction leaders.">
+  <meta name="keywords" content="construction recruitment, construction manager jobs, project manager recruitment, superintendent jobs, construction team building">
+  <link rel="canonical" href="https://westmarktalentgroup.com/clients.html">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
   
+  <!-- Additional SEO Meta Tags -->
+  <meta name="language" content="English">
+  <meta name="author" content="Westmark Talent Group">
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow">
   
-  <title>Clients</title>
+  <title>Clients | Westmark Talent Group - Construction Recruitment</title>
 
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
@@ -29,6 +38,27 @@
 
   <link rel="stylesheet" href="assets/theme/css/optimized.css">
   <link rel="stylesheet" href="assets/theme/css/mobile-hamburger-overrides.css">
+
+  <!-- Structured Data for Clients Page -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Construction Management Recruitment",
+    "description": "Professional recruitment services for construction project managers, superintendents, and construction leaders",
+    "provider": {
+      "@type": "Organization",
+      "name": "Westmark Talent Group",
+      "url": "https://westmarktalentgroup.com"
+    },
+    "serviceType": "Construction Recruitment",
+    "areaServed": ["United States"],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Construction Management Positions"
+    }
+  }
+  </script>
 
   <style>
     /* Prevent horizontal scrolling */
@@ -156,6 +186,30 @@
       margin: 0 0.25rem !important;
     }
     
+    /* iOS Safari specific fixes */
+    @supports (-webkit-touch-callout: none) {
+      .navbar-nav .nav-link {
+        -webkit-tap-highlight-color: transparent !important;
+      }
+      
+      .btn {
+        -webkit-tap-highlight-color: transparent !important;
+        -webkit-appearance: none !important;
+        appearance: none !important;
+      }
+      
+      input, textarea {
+        -webkit-appearance: none !important;
+        appearance: none !important;
+        border-radius: 0 !important;
+      }
+      
+      .header18 {
+        min-height: 100vh !important;
+        min-height: -webkit-fill-available !important;
+      }
+    }
+    
     /* Mobile navbar adjustments */
     @media (max-width: 767.98px) {
       .navbar-dropdown {
@@ -166,6 +220,136 @@
         min-width: 280px !important;
         overflow: visible !important;
         box-sizing: border-box !important;
+      }
+      
+      /* Mobile hamburger positioning */
+      .mobile-hamburger {
+        position: fixed !important;
+        top: 1rem !important;
+        right: 1rem !important;
+        z-index: 1100 !important;
+        background: rgba(255, 255, 255, 0.95) !important;
+        border-radius: 50% !important;
+        padding: 1rem !important;
+        backdrop-filter: blur(10px) !important;
+        -webkit-backdrop-filter: blur(10px) !important;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+        border: none !important;
+        width: 60px !important;
+        height: 60px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        transition: all 0.3s ease !important;
+        overflow: hidden !important;
+      }
+      
+      /* iOS safe area for menu only */
+      @supports (padding-top: env(safe-area-inset-top)) {
+        .mobile-hamburger {
+          top: calc(1rem + env(safe-area-inset-top)) !important;
+        }
+      }
+      
+      /* Hide desktop hamburger */
+      .navbar-dropdown .navbar-toggler {
+        display: none !important;
+      }
+      
+      /* Hide default collapse */
+      .navbar-collapse { display: none !important; }
+      
+      /* Hide only navbar content on mobile, keep hamburger visible */
+      .navbar-dropdown .container {
+        display: none !important;
+      }
+      
+      /* Override any external navbar styles that might cause dark lines */
+      .navbar-dropdown.navbar-fixed-top {
+        background: transparent !important;
+        border-bottom: none !important;
+        box-shadow: none !important;
+        backdrop-filter: none !important;
+        -webkit-backdrop-filter: none !important;
+      }
+      
+      /* Ensure navbar doesn't take up space on mobile */
+      .navbar-dropdown {
+        height: 0 !important;
+        overflow: hidden !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+        backdrop-filter: none !important;
+        -webkit-backdrop-filter: none !important;
+      }
+      
+      /* Hide any navbar borders or lines */
+      .navbar-dropdown::before,
+      .navbar-dropdown::after {
+        display: none !important;
+      }
+      
+      /* Pill content inside hamburger button */
+      .pill-content {
+        position: absolute !important;
+        top: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        gap: 0.75rem !important;
+        padding: 0 1rem !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+        transition: all 0.3s ease !important;
+        white-space: nowrap !important;
+      }
+      
+      /* Expanded state - button becomes pill */
+      .mobile-hamburger.expanded {
+        width: auto !important;
+        min-width: 280px !important;
+        max-width: calc(100vw - 2rem) !important;
+        border-radius: 30px !important;
+        padding: 0.75rem 1rem !important;
+        background: rgba(255, 255, 255, 0.98) !important;
+        backdrop-filter: blur(15px) !important;
+        -webkit-backdrop-filter: blur(15px) !important;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.2) !important;
+        right: 1rem !important;
+        left: auto !important;
+        transform: none !important;
+        -webkit-transform: none !important;
+        -ms-transform: none !important;
+      }
+      
+      /* Show pill content when expanded */
+      .mobile-hamburger.expanded .pill-content {
+        opacity: 1 !important;
+        pointer-events: auto !important;
+      }
+      
+      /* Keep hamburger lines visible but smaller when expanded */
+      .mobile-hamburger.expanded .hamburger {
+        opacity: 0.3 !important;
+        transform: scale(0.6) !important;
+        position: absolute !important;
+        right: 0.5rem !important;
+      }
+      
+      /* Responsive breakpoints for very small screens */
+      @media (max-width: 375px) {
+        .mobile-hamburger.expanded {
+          min-width: 260px !important;
+          max-width: calc(100vw - 1rem) !important;
+          transform: none !important;
+          -webkit-transform: none !important;
+          -ms-transform: none !important;
+        }
       }
       
       /* Hide default collapse */
@@ -277,6 +461,117 @@
         }
       }
     }
+    
+    /* Pill content links - matching index.html exactly */
+    .pill-content a {
+      padding: 0.5rem 0.75rem !important;
+      border-radius: 20px !important;
+      font-size: 0.9rem !important;
+      text-decoration: none !important;
+      color: #000 !important;
+      transition: all 0.2s ease !important;
+      white-space: nowrap !important;
+    }
+
+    .pill-content a:hover {
+      background: rgba(0,0,0,0.1) !important;
+      transform: translateY(-1px) !important;
+    }
+    
+    /* Hamburger lines styling - matching index.html exactly */
+    .hamburger {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+      gap: 4px;
+    }
+
+    .hamburger span {
+      display: block;
+      width: 24px;
+      height: 3px;
+      background-color: #333;
+      border-radius: 2px;
+      transition: all 0.3s ease;
+    }
+
+    /* Hamburger animation on click */
+    .navbar-toggler:active .hamburger span:nth-child(1) {
+      transform: rotate(45deg) translate(4px, 4px);
+    }
+
+    .navbar-toggler:active .hamburger span:nth-child(2) {
+      opacity: 0;
+    }
+
+    .navbar-toggler:active .hamburger span:nth-child(3) {
+      transform: rotate(-45deg) translate(4px, -4px);
+    }
+    
+    /* Z-index Management */
+    .skip-navigation { z-index: 1040 !important; }
+    .navbar-dropdown { z-index: 1030 !important; }
+    .modal-backdrop { z-index: 1040 !important; }
+    .modal { z-index: 1060 !important; }
+    .tooltip { z-index: 1080 !important; }
+    .popover { z-index: 1070 !important; }
+    .offcanvas { z-index: 1050 !important; }
+    
+    /* Button Fixes */
+    .mbr-section-btn {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      gap: 1rem !important;
+      margin: 0 auto !important;
+      padding: 0 !important;
+    }
+    
+    .mbr-section-btn .btn {
+      flex: 0 0 auto !important;
+      min-width: 120px !important;
+      text-align: center !important;
+      margin: 0 !important;
+      padding: 0.75rem 1.5rem !important;
+    }
+    
+    /* Responsive buttons for mobile */
+    @media (max-width: 767.98px) {
+      .mbr-section-btn {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 1rem !important;
+      }
+      
+      .mbr-section-btn .btn {
+        min-width: 140px !important;
+        max-width: 200px !important;
+        flex: 1 1 auto !important;
+      }
+    }
+    
+    /* FAQ Styling */
+    .panel-title a {
+      color: #000 !important;
+      text-decoration: none !important;
+    }
+    
+    .panel-body {
+      color: #000 !important;
+    }
+    
+    .sign {
+      opacity: 1 !important;
+      transition: transform 0.3s ease !important;
+      font-size: 1.2rem !important;
+    }
+    
+    .panel-title:not(.collapsed) .sign {
+      transform: rotate(180deg) !important;
+    }
   </style>
 
 </head>
@@ -293,6 +588,9 @@
   gtag('config', 'G-WKB103GCWX');
 </script>
 <!-- /Analytics -->
+
+<!-- Skip Navigation -->
+<a href="#main-content" class="sr-only sr-only-focusable skip-navigation" style="position: absolute; top: -40px; left: 6px; padding: 8px 16px; background: #000; color: #fff; text-decoration: none;">Skip to main content</a>
 
 
   
@@ -321,27 +619,21 @@
 
 <!-- Mobile Hamburger Button that expands into pill menu -->
 <button class="navbar-toggler mobile-hamburger" type="button" aria-label="Toggle navigation">
-  <div class="hamburger-line"></div>
-  <div class="hamburger-line"></div>
-  <div class="hamburger-line"></div>
+  <div class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
   <div class="pill-content">
-    <div class="nav-item">
-      <a href="index.html" class="nav-link">Home</a>
-    </div>
-    <div class="nav-item">
-      <a href="clients.html" class="nav-link active">Clients</a>
-    </div>
-    <div class="nav-item">
-      <a href="https://westmarktalentgroup.zohorecruit.com/jobs/Careers" class="nav-link">Opportunities</a>
-    </div>
-    <div class="nav-item">
-      <a href="contact-us.html" class="nav-link">Contact Us</a>
-    </div>
+    <a href="index.html">Home</a>
+    <a href="clients.html">Clients</a>
+    <a href="https://westmarktalentgroup.zohorecruit.com/jobs/Careers">Opportunities</a>
+    <a href="contact-us.html">Contact Us</a>
   </div>
 </button>
 
 <!-- Main Content Wrapper -->
-<main id="main-content" style="padding-top: 80px;">
+<main id="main-content">
 <section class="form5 cid-uMOnIuco2K" data-bs-version="5.1" id="contact-form-clients">
 
     
@@ -484,25 +776,25 @@
 </section>
 </main>
 
-<section data-bs-version="5.1" class="footer4 cid-uMP6K853SD" once="footers" id="footer04-4">
-
-    
-
-    
-
-    <div class="container">
-        <div class="media-container-row align-center mbr-white">
-            <div class="col-12">
-                <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                    © Copyright 2025 Westmark Talent Group - All Rights Reserved
-                </p>
-            </div>
-        </div>
+<footer class="footer4 cid-uMP6K853SD" data-bs-version="5.1" once="footers" id="footer04-4" role="contentinfo">
+  <div class="container">
+    <div class="media-container-row align-center mbr-white">
+      <div class="col-12">
+        <p class="mbr-text mb-0 mbr-fonts-style display-7">
+          © Copyright 2025 Westmark Talent Group - All Rights Reserved | 
+          <a href="mailto:info@westmarktalentgroup.com" class="text-white">Contact</a> | 
+          <a href="https://westmarktalentgroup.zohorecruit.com/jobs/Careers" target="_blank" rel="noopener" class="text-white">Careers</a>
+        </p>
+      </div>
     </div>
-</section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/dropdown/js/navbar-dropdown.js"></script>
-<script src="assets/theme/js/contact-form.js"></script>
-<script src="assets/theme/js/performance.js"></script>
+  </div>
+</footer>
+
+<!-- Scripts - Optimized Loading -->
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+<script src="assets/dropdown/js/navbar-dropdown.js" defer></script>
+<script src="assets/theme/js/contact-form.js" defer></script>
+<script src="assets/theme/js/performance.js" defer></script>
 
 <!-- Mobile Navigation Toggle Script -->
 <script>
