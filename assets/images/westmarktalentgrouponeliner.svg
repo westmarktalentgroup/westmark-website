@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs>
+<clipPath id="clip_0">
+<path transform="matrix(1,0,0,-1,0,1080)" d="M0 0H1920V1080H0Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_0)">
+<path transform="matrix(1,0,0,-1,0,1080)" d="M0 1080H1920V0H0Z" fill="#ffffff"/>
+<text xml:space="preserve" transform="matrix(1 0 -0 1 346.4536 588.8832)" font-size="116" font-family="PlayfairDisplayRoman" font-weight="bold"><tspan y="0" x="0 101.89441 158.08481 209.4032 247.8456 350.436 408.1344 456.90083 521.9072 543.99368 616.07608 673.7745 706.41696 761.9113 830.7457 868.37619 893.13058 976.001 1026.1593 1089.3097 1157.2161">Westmark Talent Group</tspan></text>
+</g>
+</svg>
