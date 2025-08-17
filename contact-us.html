@@ -190,6 +190,107 @@
       }
     }
     
+    /* FIX: Add mobile hamburger menu styling */
+    .mobile-hamburger {
+      position: fixed !important;
+      top: 1rem !important;
+      right: 1rem !important;
+      z-index: 1040 !important;
+      background: rgba(255, 255, 255, 0.95) !important;
+      backdrop-filter: blur(15px) !important;
+      -webkit-backdrop-filter: blur(15px) !important;
+      border: 1px solid rgba(0, 0, 0, 0.1) !important;
+      border-radius: 50px !important;
+      padding: 0.75rem !important;
+      cursor: pointer !important;
+      transition: all 0.3s ease !important;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15) !important;
+    }
+    
+    .mobile-hamburger:hover {
+      transform: translateY(-2px) !important;
+      box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2) !important;
+    }
+    
+    .mobile-hamburger .hamburger {
+      width: 24px !important;
+      height: 20px !important;
+      position: relative !important;
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: space-between !important;
+    }
+    
+    .mobile-hamburger .hamburger span {
+      width: 100% !important;
+      height: 3px !important;
+      background: #333 !important;
+      border-radius: 2px !important;
+      transition: all 0.3s ease !important;
+      transform-origin: center !important;
+    }
+    
+    .mobile-hamburger.expanded .hamburger span:nth-child(1) {
+      transform: rotate(45deg) translate(6px, 6px) !important;
+    }
+    
+    .mobile-hamburger.expanded .hamburger span:nth-child(2) {
+      opacity: 0 !important;
+    }
+    
+    .mobile-hamburger.expanded .hamburger span:nth-child(3) {
+      transform: rotate(-45deg) translate(6px, -6px) !important;
+    }
+    
+    .mobile-hamburger .pill-content {
+      position: absolute !important;
+      top: 100% !important;
+      right: 0 !important;
+      margin-top: 0.5rem !important;
+      background: rgba(255, 255, 255, 0.98) !important;
+      backdrop-filter: blur(15px) !important;
+      -webkit-backdrop-filter: blur(15px) !important;
+      border: 1px solid rgba(0, 0, 0, 0.1) !important;
+      border-radius: 25px !important;
+      padding: 1rem !important;
+      min-width: 200px !important;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15) !important;
+      opacity: 0 !important;
+      visibility: hidden !important;
+      transform: translateY(-10px) !important;
+      transition: all 0.3s ease !important;
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 0.5rem !important;
+    }
+    
+    .mobile-hamburger.expanded .pill-content {
+      opacity: 1 !important;
+      visibility: visible !important;
+      transform: translateY(0) !important;
+    }
+    
+    .mobile-hamburger .pill-content a {
+      color: #333 !important;
+      text-decoration: none !important;
+      padding: 0.75rem 1rem !important;
+      border-radius: 20px !important;
+      transition: all 0.3s ease !important;
+      font-weight: 500 !important;
+      text-align: center !important;
+      white-space: nowrap !important;
+    }
+    
+    .mobile-hamburger .pill-content a:hover {
+      background: rgba(0, 0, 0, 0.08) !important;
+      transform: translateX(5px) !important;
+    }
+    
+    .mobile-hamburger .pill-content a[aria-current="page"] {
+      background: rgba(0, 0, 0, 0.1) !important;
+      font-weight: 600 !important;
+    }
+    
     /* FIX: Add footer styling to ensure consistency across pages */
     .footer4 {
       background-color: #333 !important;
