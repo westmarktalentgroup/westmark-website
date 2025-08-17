@@ -461,6 +461,43 @@
         margin-bottom: 1rem !important;
       }
       
+      /* FIX: Ensure all navigation menu items are visible */
+      .navbar-nav .nav-link {
+        color: #000 !important;
+        color: #000 !important;
+        font-weight: 500 !important;
+        text-decoration: none !important;
+        padding: 0.5rem 1.5rem !important;
+        margin: 0 0.25rem !important;
+        border-radius: 25px !important;
+        transition: all 0.3s ease !important;
+        position: relative !important;
+        overflow: hidden !important;
+        background: transparent !important;
+      }
+      
+      .navbar-nav .nav-link:hover {
+        background-color: rgba(0, 0, 0, 0.08) !important;
+        transform: translateY(-2px) !important;
+        color: #000 !important;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+      }
+      
+      .navbar-nav .nav-link:focus {
+        color: #000 !important;
+        outline: none !important;
+        box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1) !important;
+      }
+      
+      /* Override any Bootstrap text-primary class that might be hiding text */
+      .navbar-nav .nav-link.text-primary {
+        color: #000 !important;
+      }
+      
+      .navbar-nav .nav-link.text-black {
+        color: #000 !important;
+      }
+      
       /* ULTRA-AGGRESSIVE button styling - target exact HTML structure */
       .features03 .item-wrapper .item-content .item-footer .mbr-section-btn .btn.item-btn.btn-black-outline,
       .features03 .item-wrapper .item-content .item-footer a.btn.item-btn.btn-black-outline,
@@ -670,16 +707,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav nav-dropdown nav-right navbar-nav-top-padding" data-app-modern-menu="true" role="menubar">
         <li class="nav-item" role="none">
-          <a class="nav-link link text-black text-primary display-4" href="index.html" role="menuitem" aria-current="page">Home</a>
+          <a class="nav-link link display-4" href="index.html" role="menuitem" aria-current="page">Home</a>
         </li>
         <li class="nav-item" role="none">
-          <a class="nav-link link text-black display-4" href="clients.html" role="menuitem">Clients</a>
+          <a class="nav-link link display-4" href="clients.html" role="menuitem">Clients</a>
         </li>
         <li class="nav-item" role="none">
-          <a class="nav-link link text-black text-primary display-4" href="https://westmarktalentgroup.zohorecruit.com/jobs/Careers" role="menuitem" target="_blank" rel="noopener" aria-label="View job opportunities (opens in new tab)">Opportunities</a>
+          <a class="nav-link link display-4" href="https://westmarktalentgroup.zohorecruit.com/jobs/Careers" role="menuitem" target="_blank" rel="noopener" aria-label="View job opportunities (opens in new tab)">Opportunities</a>
         </li>
         <li class="nav-item" role="none">
-          <a class="nav-link link text-black text-primary display-4" href="contact-us.html" role="menuitem">Contact Us</a>
+          <a class="nav-link link display-4" href="contact-us.html" role="menuitem">Contact Us</a>
         </li>
       </ul>
     </div>
