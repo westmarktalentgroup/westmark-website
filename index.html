@@ -212,6 +212,39 @@
         min-height: 44px !important;
         min-width: 120px !important;
       }
+
+      /* FIX: Ensure hero text appears above gradient overlay */
+      .header18 .mbr-overlay {
+        z-index: 1 !important;
+      }
+      
+      .header18 .hero-fade-overlay {
+        z-index: 2 !important;
+      }
+      
+      .header18 .container-fluid {
+        z-index: 10 !important;
+        position: relative !important;
+      }
+      
+      .header18 .content-wrap {
+        z-index: 11 !important;
+        position: relative !important;
+      }
+      
+      .header18 .mbr-section-title,
+      .header18 .mbr-text {
+        z-index: 12 !important;
+        position: relative !important;
+      }
+      
+      /* Ensure text is visible and properly layered */
+      .header18 h1,
+      .header18 p {
+        position: relative !important;
+        z-index: 15 !important;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7) !important;
+      }
       
       /* ULTRA-AGGRESSIVE button styling - target exact HTML structure */
       .features03 .item-wrapper .item-content .item-footer .mbr-section-btn .btn.item-btn.btn-black-outline,
