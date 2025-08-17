@@ -54,10 +54,8 @@
       transform: translateX(-50%) !important;
       width: auto !important;
       max-width: 90% !important;
-      background: rgba(255, 255, 255, 0.95) !important;
-      background-color: rgba(255, 255, 255, 0.95) !important;
-      backdrop-filter: blur(15px) !important;
-      -webkit-backdrop-filter: blur(15px) !important;
+      background: #ffffff !important;
+      background-color: #ffffff !important;
       border: 1px solid rgba(0, 0, 0, 0.1) !important;
       border-radius: 50px !important;
       z-index: 1030 !important;
@@ -78,17 +76,15 @@
     .navbar-dropdown.navbar-fixed-top,
     .navbar-dropdown.navbar-fixed-top.transparent,
     .navbar-dropdown.navbar-fixed-top.bg-color.transparent {
-      background: rgba(255, 255, 255, 0.95) !important;
-      background-color: rgba(255, 255, 255, 0.95) !important;
-      backdrop-filter: blur(15px) !important;
-      -webkit-backdrop-filter: blur(15px) !important;
+      background: #ffffff !important;
+      background-color: #ffffff !important;
     }
     
     /* Override any external CSS that might set background to none/transparent */
     .navbar-dropdown[style*="background"],
     .navbar-dropdown[style*="background-color"] {
-      background: rgba(255, 255, 255, 0.95) !important;
-      background-color: rgba(255, 255, 255, 0.95) !important;
+      background: #ffffff !important;
+      background-color: #ffffff !important;
     }
     
     /* Center navbar content */
@@ -146,8 +142,8 @@
     @media (min-width: 768px) {
       .navbar-dropdown {
         padding: 0.75rem 3rem !important;
-        background: rgba(255, 255, 255, 0.95) !important;
-        background-color: rgba(255, 255, 255, 0.95) !important;
+        background: #ffffff !important;
+        background-color: #ffffff !important;
       }
       
       .navbar-nav .nav-link {
@@ -339,6 +335,63 @@
     .cid-uMP6K853SD {
       background-color: #333 !important;
       color: white !important;
+    }
+    
+    /* FIX: Ensure all navigation menu items are visible */
+    .navbar-nav .nav-link {
+      color: #000 !important;
+      font-weight: 500 !important;
+      text-decoration: none !important;
+      padding: 0.5rem 1.5rem !important;
+      margin: 0 0.25rem !important;
+      border-radius: 25px !important;
+      transition: all 0.3s ease !important;
+      position: relative !important;
+      overflow: hidden !important;
+      background: transparent !important;
+    }
+    
+    .navbar-nav .nav-link:hover {
+      background-color: rgba(0, 0, 0, 0.08) !important;
+      transform: translateY(-2px) !important;
+      color: #000 !important;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    }
+    
+    .navbar-nav .nav-link:focus {
+      color: #000 !important;
+      outline: none !important;
+      box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1) !important;
+    }
+    
+    /* ULTRA-AGGRESSIVE navigation overrides to ensure visibility */
+    .navbar-nav .nav-link,
+    .navbar-nav .nav-link *,
+    .navbar-nav .nav-link span,
+    .navbar-nav .nav-link strong,
+    .navbar-nav .nav-link em {
+      color: #000 !important;
+      background: transparent !important;
+      background-color: transparent !important;
+    }
+    
+    /* Force all navigation items to be visible */
+    .navbar-nav li,
+    .navbar-nav .nav-item,
+    .navbar-nav .nav-link {
+      visibility: visible !important;
+      opacity: 1 !important;
+      display: block !important;
+      color: #000 !important;
+    }
+    
+    /* Specific override for Opportunities link */
+    .navbar-nav .nav-link[href*="Careers"],
+    .navbar-nav .nav-link[href*="zohorecruit"] {
+      color: #000 !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+      background: transparent !important;
     }
     
     /* SPECIFIC HEADLINE AND SUBHEADLINE FIXES */
