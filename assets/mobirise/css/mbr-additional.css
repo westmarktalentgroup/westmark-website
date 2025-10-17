@@ -2709,7 +2709,7 @@ a {
   background-position: center center;
 }
 
-/* Responsive hero images for different screen sizes */
+/* Enhanced responsive hero images for better quality */
 @media (min-width: 800px) {
   .cid-uMOnIuaQSz {
     background-image: url("../../../assets/images/optimized/hero-800x533.jpg");
@@ -2719,6 +2719,12 @@ a {
 @media (min-width: 1200px) {
   .cid-uMOnIuaQSz {
     background-image: url("../../../assets/images/optimized/hero-1200x800.jpg");
+  }
+}
+
+@media (min-width: 1400px) {
+  .cid-uMOnIuaQSz {
+    background-image: url("../../../assets/images/pexels-apasaric-1437493-2000x1333.jpg");
   }
 }
 .cid-uMOnIuaQSz .mbr-overlay {
