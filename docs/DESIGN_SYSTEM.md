@@ -63318,6 +63318,1045 @@ body {
 - **Focus**: [Auto-detected from :focus states]
 - **Active**: [Auto-detected from :active states]
 
+
+### google-map Component
+
+#### google-map Specifications
+```css
+/* google-map Specifications */
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+}
+```
+
+#### google-map Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### google-map States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### header18 Component
+
+#### header18 Specifications
+```css
+/* header18 Specifications */
+.header18.cid-uMOnIuaQSz {
+  min-height: 100vh;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.header18.cid-uMOnIuaQSz .container-fluid {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hero Overlay Styling */
+.mbr-overlay {
+  background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.1) 100%);
+```
+
+#### header18 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### header18 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### item-wrapper Component
+
+#### item-wrapper Specifications
+```css
+/* item-wrapper Specifications */
+.item-wrapper .item-img img {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Responsive adjustments for opportunities images */
+@media (max-width: 991.98px) {
+  .item-img {
+    margin-bottom: var(--spacing-3);
+  }
+}
+```
+
+#### item-wrapper Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### item-wrapper States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mbr-figure Component
+
+#### mbr-figure Specifications
+```css
+/* mbr-figure Specifications */
+.mbr-figure img,
+.mbr-figure iframe,
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+```
+
+#### mbr-figure Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mbr-figure States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mbr-overlay Component
+
+#### mbr-overlay Specifications
+```css
+/* mbr-overlay Specifications */
+.mbr-overlay {
+  background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.1) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* Hero Content Positioning - Bottom Left */
+```
+
+#### mbr-overlay Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mbr-overlay States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### menu2 Component
+
+#### menu2 Specifications
+```css
+/* menu2 Specifications */
+.menu2.cid-uMOnIua8FF {
+  background: #282828;
+  position: relative;
+  z-index: 1030;
+}
+
+.navbar-dropdown {
+  background: #282828;
+  padding: 1rem 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+```
+
+#### menu2 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### menu2 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### plan Component
+
+#### plan Specifications
+```css
+/* plan Specifications */
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+}
+
+/* Body Styles */
+```
+
+#### plan Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### plan States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### slide-content Component
+
+#### slide-content Specifications
+```css
+/* slide-content Specifications */
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+}
+```
+
+#### slide-content Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### slide-content States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### text-black Component
+
+#### text-black Specifications
+```css
+/* text-black Specifications */
+.text-black { color: #000000; }
+
+/* Button Border Radius Variants */
+.btn-rounded {
+  border-radius: 100px;
+}
+
+.btn-rounded-sm {
+  border-radius: 100px;
+}
+```
+
+#### text-black Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### text-black States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### text-blue Component
+
+#### text-blue Specifications
+```css
+/* text-blue Specifications */
+.text-blue { color: #0cbadc; }
+.text-yellow { color: #e8ae00; }
+.text-pink { color: #c62232; }
+.text-gray { color: #c7c7c7; }
+.text-black { color: #000000; }
+
+/* Button Border Radius Variants */
+.btn-rounded {
+  border-radius: 100px;
+}
+```
+
+#### text-blue Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### text-blue States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### text-danger Component
+
+#### text-danger Specifications
+```css
+/* text-danger Specifications */
+.text-danger { color: #e56975; }
+.text-light { color: #fafafa; }
+.text-dark { color: #232323; }
+
+/* Additional Text Colors */
+.text-muted { color: #cccccc; }
+.text-red { color: #56180e; }
+.text-green { color: #25c379; }
+.text-blue { color: #0cbadc; }
+.text-yellow { color: #e8ae00; }
+.text-pink { color: #c62232; }
+```
+
+#### text-danger Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### text-danger States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### text-dark Component
+
+#### text-dark Specifications
+```css
+/* text-dark Specifications */
+.text-dark { color: #232323; }
+
+/* Additional Text Colors */
+.text-muted { color: #cccccc; }
+.text-red { color: #56180e; }
+.text-green { color: #25c379; }
+.text-blue { color: #0cbadc; }
+.text-yellow { color: #e8ae00; }
+.text-pink { color: #c62232; }
+.text-gray { color: #c7c7c7; }
+.text-black { color: #000000; }
+```
+
+#### text-dark Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### text-dark States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### text-gray Component
+
+#### text-gray Specifications
+```css
+/* text-gray Specifications */
+.text-gray { color: #c7c7c7; }
+.text-black { color: #000000; }
+
+/* Button Border Radius Variants */
+.btn-rounded {
+  border-radius: 100px;
+}
+
+.btn-rounded-sm {
+  border-radius: 100px;
+}
+```
+
+#### text-gray Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### text-gray States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### text-green Component
+
+#### text-green Specifications
+```css
+/* text-green Specifications */
+.text-green { color: #25c379; }
+.text-blue { color: #0cbadc; }
+.text-yellow { color: #e8ae00; }
+.text-pink { color: #c62232; }
+.text-gray { color: #c7c7c7; }
+.text-black { color: #000000; }
+
+/* Button Border Radius Variants */
+.btn-rounded {
+  border-radius: 100px;
+}
+```
+
+#### text-green Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### text-green States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### text-info Component
+
+#### text-info Specifications
+```css
+/* text-info Specifications */
+.text-info { color: #58dcf6; }
+.text-warning { color: #ffd34f; }
+.text-danger { color: #e56975; }
+.text-light { color: #fafafa; }
+.text-dark { color: #232323; }
+
+/* Additional Text Colors */
+.text-muted { color: #cccccc; }
+.text-red { color: #56180e; }
+.text-green { color: #25c379; }
+.text-blue { color: #0cbadc; }
+```
+
+#### text-info Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### text-info States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### text-light Component
+
+#### text-light Specifications
+```css
+/* text-light Specifications */
+.text-light { color: #fafafa; }
+.text-dark { color: #232323; }
+
+/* Additional Text Colors */
+.text-muted { color: #cccccc; }
+.text-red { color: #56180e; }
+.text-green { color: #25c379; }
+.text-blue { color: #0cbadc; }
+.text-yellow { color: #e8ae00; }
+.text-pink { color: #c62232; }
+.text-gray { color: #c7c7c7; }
+```
+
+#### text-light Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### text-light States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### text-pink Component
+
+#### text-pink Specifications
+```css
+/* text-pink Specifications */
+.text-pink { color: #c62232; }
+.text-gray { color: #c7c7c7; }
+.text-black { color: #000000; }
+
+/* Button Border Radius Variants */
+.btn-rounded {
+  border-radius: 100px;
+}
+
+.btn-rounded-sm {
+  border-radius: 100px;
+```
+
+#### text-pink Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### text-pink States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### text-red Component
+
+#### text-red Specifications
+```css
+/* text-red Specifications */
+.text-red { color: #56180e; }
+.text-green { color: #25c379; }
+.text-blue { color: #0cbadc; }
+.text-yellow { color: #e8ae00; }
+.text-pink { color: #c62232; }
+.text-gray { color: #c7c7c7; }
+.text-black { color: #000000; }
+
+/* Button Border Radius Variants */
+.btn-rounded {
+  border-radius: 100px;
+```
+
+#### text-red Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### text-red States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### text-success Component
+
+#### text-success Specifications
+```css
+/* text-success Specifications */
+.text-success { color: #6be3ab; }
+.text-info { color: #58dcf6; }
+.text-warning { color: #ffd34f; }
+.text-danger { color: #e56975; }
+.text-light { color: #fafafa; }
+.text-dark { color: #232323; }
+
+/* Additional Text Colors */
+.text-muted { color: #cccccc; }
+.text-red { color: #56180e; }
+.text-green { color: #25c379; }
+```
+
+#### text-success Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### text-success States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### text-warning Component
+
+#### text-warning Specifications
+```css
+/* text-warning Specifications */
+.text-warning { color: #ffd34f; }
+.text-danger { color: #e56975; }
+.text-light { color: #fafafa; }
+.text-dark { color: #232323; }
+
+/* Additional Text Colors */
+.text-muted { color: #cccccc; }
+.text-red { color: #56180e; }
+.text-green { color: #25c379; }
+.text-blue { color: #0cbadc; }
+.text-yellow { color: #e8ae00; }
+```
+
+#### text-warning Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### text-warning States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### text-yellow Component
+
+#### text-yellow Specifications
+```css
+/* text-yellow Specifications */
+.text-yellow { color: #e8ae00; }
+.text-pink { color: #c62232; }
+.text-gray { color: #c7c7c7; }
+.text-black { color: #000000; }
+
+/* Button Border Radius Variants */
+.btn-rounded {
+  border-radius: 100px;
+}
+
+.btn-rounded-sm {
+```
+
+#### text-yellow Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### text-yellow States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### video-wrapper Component
+
+#### video-wrapper Specifications
+```css
+/* video-wrapper Specifications */
+.video-wrapper img,
+.mbr-figure img,
+.mbr-figure iframe,
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+}
+
+/* Body Styles */
+body {
+  background-color: #ffffff;
+  font-family: Manrope;
+}
+```
+
+#### video-wrapper Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### video-wrapper States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-add-submenu Component
+
+#### mobi-mbri-add-submenu Specifications
+```css
+/* mobi-mbri-add-submenu Specifications */
+.mobi-mbri-add-submenu:before {
+  content: "\e900";
+}
+.mobi-mbri-alert:before {
+  content: "\e901";
+}
+.mobi-mbri-align-center:before {
+  content: "\e902";
+}
+.mobi-mbri-align-justify:before {
+  content: "\e903";
+```
+
+#### mobi-mbri-add-submenu Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-add-submenu States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-alert Component
+
+#### mobi-mbri-alert Specifications
+```css
+/* mobi-mbri-alert Specifications */
+.mobi-mbri-alert:before {
+  content: "\e901";
+}
+.mobi-mbri-align-center:before {
+  content: "\e902";
+}
+.mobi-mbri-align-justify:before {
+  content: "\e903";
+}
+.mobi-mbri-align-left:before {
+  content: "\e904";
+```
+
+#### mobi-mbri-alert Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-alert States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-align-center Component
+
+#### mobi-mbri-align-center Specifications
+```css
+/* mobi-mbri-align-center Specifications */
+.mobi-mbri-align-center:before {
+  content: "\e902";
+}
+.mobi-mbri-align-justify:before {
+  content: "\e903";
+}
+.mobi-mbri-align-left:before {
+  content: "\e904";
+}
+.mobi-mbri-align-right:before {
+  content: "\e905";
+```
+
+#### mobi-mbri-align-center Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-align-center States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-align-justify Component
+
+#### mobi-mbri-align-justify Specifications
+```css
+/* mobi-mbri-align-justify Specifications */
+.mobi-mbri-align-justify:before {
+  content: "\e903";
+}
+.mobi-mbri-align-left:before {
+  content: "\e904";
+}
+.mobi-mbri-align-right:before {
+  content: "\e905";
+}
+.mobi-mbri-android:before {
+  content: "\e906";
+```
+
+#### mobi-mbri-align-justify Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-align-justify States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-align-left Component
+
+#### mobi-mbri-align-left Specifications
+```css
+/* mobi-mbri-align-left Specifications */
+.mobi-mbri-align-left:before {
+  content: "\e904";
+}
+.mobi-mbri-align-right:before {
+  content: "\e905";
+}
+.mobi-mbri-android:before {
+  content: "\e906";
+}
+.mobi-mbri-apple:before {
+  content: "\e907";
+```
+
+#### mobi-mbri-align-left Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-align-left States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-align-right Component
+
+#### mobi-mbri-align-right Specifications
+```css
+/* mobi-mbri-align-right Specifications */
+.mobi-mbri-align-right:before {
+  content: "\e905";
+}
+.mobi-mbri-android:before {
+  content: "\e906";
+}
+.mobi-mbri-apple:before {
+  content: "\e907";
+}
+.mobi-mbri-arrow-down:before {
+  content: "\e908";
+```
+
+#### mobi-mbri-align-right Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-align-right States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-android Component
+
+#### mobi-mbri-android Specifications
+```css
+/* mobi-mbri-android Specifications */
+.mobi-mbri-android:before {
+  content: "\e906";
+}
+.mobi-mbri-apple:before {
+  content: "\e907";
+}
+.mobi-mbri-arrow-down:before {
+  content: "\e908";
+}
+.mobi-mbri-arrow-next:before {
+  content: "\e909";
+```
+
+#### mobi-mbri-android Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-android States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-apple Component
+
+#### mobi-mbri-apple Specifications
+```css
+/* mobi-mbri-apple Specifications */
+.mobi-mbri-apple:before {
+  content: "\e907";
+}
+.mobi-mbri-arrow-down:before {
+  content: "\e908";
+}
+.mobi-mbri-arrow-next:before {
+  content: "\e909";
+}
+.mobi-mbri-arrow-prev:before {
+  content: "\e90a";
+```
+
+#### mobi-mbri-apple Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-apple States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-arrow-down Component
+
+#### mobi-mbri-arrow-down Specifications
+```css
+/* mobi-mbri-arrow-down Specifications */
+.mobi-mbri-arrow-down:before {
+  content: "\e908";
+}
+.mobi-mbri-arrow-next:before {
+  content: "\e909";
+}
+.mobi-mbri-arrow-prev:before {
+  content: "\e90a";
+}
+.mobi-mbri-arrow-up:before {
+  content: "\e90b";
+```
+
+#### mobi-mbri-arrow-down Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-arrow-down States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-arrow-next Component
+
+#### mobi-mbri-arrow-next Specifications
+```css
+/* mobi-mbri-arrow-next Specifications */
+.mobi-mbri-arrow-next:before {
+  content: "\e909";
+}
+.mobi-mbri-arrow-prev:before {
+  content: "\e90a";
+}
+.mobi-mbri-arrow-up:before {
+  content: "\e90b";
+}
+.mobi-mbri-bold:before {
+  content: "\e90c";
+```
+
+#### mobi-mbri-arrow-next Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-arrow-next States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-arrow-prev Component
+
+#### mobi-mbri-arrow-prev Specifications
+```css
+/* mobi-mbri-arrow-prev Specifications */
+.mobi-mbri-arrow-prev:before {
+  content: "\e90a";
+}
+.mobi-mbri-arrow-up:before {
+  content: "\e90b";
+}
+.mobi-mbri-bold:before {
+  content: "\e90c";
+}
+.mobi-mbri-bookmark:before {
+  content: "\e90d";
+```
+
+#### mobi-mbri-arrow-prev Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-arrow-prev States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
 ### Button Specifications
 ```css
 /* Button Base */
