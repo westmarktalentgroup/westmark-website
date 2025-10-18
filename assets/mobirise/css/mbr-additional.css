@@ -564,6 +564,24 @@ body {
   width: 100%;
 }
 
+/* Hero Section Full Screen Fix */
+.header18.cid-uMOnIuaQSz {
+  min-height: 100vh !important;
+  height: 100vh !important;
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: relative !important;
+}
+
+.header18.cid-uMOnIuaQSz .container-fluid {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .btn-block + .btn-block {
   margin-top: 0.5rem;
 }
