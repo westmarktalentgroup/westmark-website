@@ -1,0 +1,43 @@
+# Cursor AI Rules - Documentation Prevention
+# This file is automatically read by Cursor AI
+
+## 🚨 MANDATORY DOCUMENTATION RULES
+
+### PROHIBITED FILE PATTERNS:
+- *_SUMMARY.md
+- *_CLEANUP.md  
+- *_COMPARISON.md
+- *_IMPACT.md
+- PHASE_*.md
+
+### MAXIMUM DOCUMENTATION FILES: 15
+
+### REQUIRED DIRECTORY STRUCTURE:
+- docs/ (production documentation only)
+- development/ (development documentation only)
+
+### ESSENTIAL FILES (MUST EXIST):
+- README.md
+- docs/ASSET_INVENTORY.md
+- docs/TECHNICAL_ARCHITECTURE.md
+- docs/DEPLOYMENT_MAINTENANCE.md
+- docs/DESIGN_SYSTEM.md
+- docs/VISUAL_STANDARDS.md
+
+### ENFORCEMENT:
+- Git hooks will block commits with violations
+- CI/CD will fail builds with violations
+- System monitoring will detect violations
+- Automatic cleanup will remove violations
+
+## 🛑 VIOLATION CONSEQUENCES:
+- Commits will be blocked
+- Builds will fail
+- Files will be automatically removed
+- Violations will be logged
+
+## ✅ COMPLIANCE:
+- Follow naming conventions
+- Use proper directories
+- Keep file count under limit
+- Maintain essential files

@@ -1,0 +1,16 @@
+{
+  "name": "westmark-documentation-protection",
+  "version": "1.0.0",
+  "description": "Automatic documentation protection system",
+  "scripts": {
+    "postinstall": "./auto-activate.sh",
+    "precommit": "./auto-activate.sh",
+    "prepush": "./auto-activate.sh"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "./auto-activate.sh",
+      "pre-push": "./auto-activate.sh"
+    }
+  }
+}

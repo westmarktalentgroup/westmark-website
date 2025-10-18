@@ -1,0 +1,94 @@
+name: Documentation Prevention Check
+
+on:
+  push:
+    branches: [ main, development ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  documentation-prevention:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
+    - name: Documentation Pattern Check
+      run: |
+        echo "🔍 Checking for prohibited documentation patterns..."
+        
+        # Check for prohibited patterns
+        PROHIBITED_FILES=$(find . -name "*_SUMMARY.md" -o -name "*_CLEANUP.md" -o -name "*_COMPARISON.md" -o -name "*_IMPACT.md")
+        if [ ! -z "$PROHIBITED_FILES" ]; then
+          echo "❌ FAILED: Prohibited documentation patterns found:"
+          echo "$PROHIBITED_FILES"
+          echo "🚨 These file patterns are not allowed"
+          exit 1
+        fi
+        
+        # Check for phase-specific documentation
+        PHASE_FILES=$(find . -name "PHASE_*.md")
+        if [ ! -z "$PHASE_FILES" ]; then
+          echo "❌ FAILED: Phase-specific documentation found:"
+          echo "$PHASE_FILES"
+          echo "🚨 Phase-specific documentation should be in development/ or archived"
+          exit 1
+        fi
+        
+        # Check for documentation in wrong directories
+        ROOT_DOCS=$(find . -maxdepth 1 -name "*.md" | grep -v "README.md")
+        if [ ! -z "$ROOT_DOCS" ]; then
+          echo "❌ FAILED: Documentation in root directory found:"
+          echo "$ROOT_DOCS"
+          echo "🚨 Documentation should be in docs/ or development/ directories"
+          exit 1
+        fi
+        
+        # Check total documentation count
+        TOTAL_DOCS=$(find . -name "*.md" | wc -l)
+        if [ "$TOTAL_DOCS" -gt 15 ]; then
+          echo "❌ FAILED: Too many documentation files ($TOTAL_DOCS)"
+          echo "🚨 Maximum 15 documentation files allowed"
+          exit 1
+        fi
+        
+        echo "✅ Documentation validation passed"
+        
+    - name: Documentation Structure Check
+      run: |
+        echo "🔍 Checking documentation structure..."
+        
+        # Check for essential documentation files
+        ESSENTIAL_FILES=("README.md" "docs/ASSET_INVENTORY.md" "docs/TECHNICAL_ARCHITECTURE.md" "docs/DEPLOYMENT_MAINTENANCE.md" "docs/DESIGN_SYSTEM.md" "docs/VISUAL_STANDARDS.md")
+        
+        for file in "${ESSENTIAL_FILES[@]}"; do
+          if [ ! -f "$file" ]; then
+            echo "❌ FAILED: Essential documentation file missing: $file"
+            exit 1
+          fi
+        done
+        
+        echo "✅ Essential documentation files present"
+        
+    - name: Documentation Quality Check
+      run: |
+        echo "🔍 Checking documentation quality..."
+        
+        # Check for empty documentation files
+        EMPTY_FILES=$(find . -name "*.md" -size 0)
+        if [ ! -z "$EMPTY_FILES" ]; then
+          echo "❌ FAILED: Empty documentation files found:"
+          echo "$EMPTY_FILES"
+          exit 1
+        fi
+        
+        # Check for very small documentation files (likely incomplete)
+        SMALL_FILES=$(find . -name "*.md" -size -100c)
+        if [ ! -z "$SMALL_FILES" ]; then
+          echo "⚠️  WARNING: Very small documentation files found:"
+          echo "$SMALL_FILES"
+          echo "💡 Consider if these files are complete or should be removed"
+        fi
+        
+        echo "✅ Documentation quality check passed"
