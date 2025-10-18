@@ -145,7 +145,7 @@ $(extract_css_specs "$class_name" "$css_file")
 EOF
     
     # Copy remaining content
-    if [ "$INSERTION_POINT" -gt 0 ] 2>/dev/null; then
+    if [ "$INSERTION_POINT" -gt 0 ] 2>/dev/null && [ "$INSERTION_POINT" -lt $(wc -l < "$DESIGN_SYSTEM") ]; then
         tail -n +$INSERTION_POINT "$DESIGN_SYSTEM" >> "$TEMP_FILE"
     fi
     
@@ -202,7 +202,7 @@ update_layout_guidelines() {
 EOF
     
     # Copy remaining content
-    if [ "$INSERTION_POINT" -gt 0 ] 2>/dev/null; then
+    if [ "$INSERTION_POINT" -gt 0 ] 2>/dev/null && [ "$INSERTION_POINT" -lt $(wc -l < "$LAYOUT_GUIDELINES") ]; then
         tail -n +$INSERTION_POINT "$LAYOUT_GUIDELINES" >> "$TEMP_FILE"
     fi
     
@@ -321,7 +321,7 @@ $(extract_css_specs "$class_name" "$css_file")
 EOF
     
     # Copy remaining content
-    if [ "$INSERTION_POINT" -gt 0 ] 2>/dev/null; then
+    if [ "$INSERTION_POINT" -gt 0 ] 2>/dev/null && [ "$INSERTION_POINT" -lt $(wc -l < "$COMPONENT_LIBRARY") ]; then
         tail -n +$INSERTION_POINT "$COMPONENT_LIBRARY" >> "$TEMP_FILE"
     fi
     
