@@ -569,17 +569,7 @@ body {
   min-height: 100vh;
   height: 100vh;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
-}
-
-.header18.cid-uMOnIuaQSz .container-fluid {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /* Hero Overlay Styling */
