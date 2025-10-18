@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+    
+    <!-- Homepage -->
+    <url>
+        <loc>https://westmarktalentgroup.com/</loc>
+        <lastmod>2025-01-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://westmarktalentgroup.com/assets/images/pexels-apasaric-1437493-2000x1333.jpg</image:loc>
+            <image:title>Westmark Talent Group - Construction Recruitment</image:title>
+            <image:caption>Professional construction recruitment services</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Clients Page -->
+    <url>
+        <loc>https://westmarktalentgroup.com/clients.html</loc>
+        <lastmod>2025-01-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://westmarktalentgroup.com/assets/images/architect-engineer-construction-workers-shaking-600nw-1439150765-600x400.jpg</image:loc>
+            <image:title>Construction Recruitment Services</image:title>
+            <image:caption>Expert recruitment for construction companies</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Contact Page -->
+    <url>
+        <loc>https://westmarktalentgroup.com/contact-us.html</loc>
+        <lastmod>2025-01-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Logo Page -->
+    <url>
+        <loc>https://westmarktalentgroup.com/logo.html</loc>
+        <lastmod>2025-01-17</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+        <image:image>
+            <image:loc>https://westmarktalentgroup.com/assets/images/westmark-logo-128x62-1.png</image:loc>
+            <image:title>Westmark Talent Group Logo</image:title>
+            <image:caption>Professional construction recruitment branding</image:caption>
+        </image:image>
+    </url>
+    
+</urlset>
