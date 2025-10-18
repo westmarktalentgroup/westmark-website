@@ -187,6 +187,50 @@ The website uses Bootstrap 5.1's 12-column grid system as the foundation for all
 
 ## Layout Patterns
 
+### Navigation Layout - Soap Bar Design
+
+#### Soap Bar Navigation Layout
+```html
+<section class="menu soap-bar-nav" id="menu-5">
+  <nav class="navbar navbar-fixed-top soap-bar">
+    <div class="container">
+      <div class="navbar-brand">
+        <!-- No logo required -->
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse">
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav soap-bar-nav-items">
+          <li class="nav-item">
+            <a class="nav-link soap-bar-link" href="index.html">Home</a>
+          </li>
+          <!-- Additional navigation items -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+</section>
+```
+
+#### Soap Bar Layout Specifications
+- **Position**: Fixed at top of viewport
+- **Width**: Maximum 600px, centered with `margin: 0 auto`
+- **Height**: Auto-height based on content
+- **Spacing**: Uses design system spacing tokens
+- **Responsive**: Collapses to hamburger menu on mobile
+- **Z-Index**: 1000 to stay above all content
+
+#### Soap Bar Responsive Behavior
+- **Desktop**: Centered horizontal navigation
+- **Tablet**: Centered horizontal navigation with adjusted spacing
+- **Mobile**: Hamburger menu with stacked navigation items
+- **Touch**: 44px minimum touch targets for accessibility
+
 ### Hero Section Layout
 
 #### Full-Width Hero

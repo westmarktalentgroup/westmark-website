@@ -158,6 +158,46 @@ This document defines the complete design system for the Westmark Talent Group w
 
 ## Component System
 
+### Navigation System - Soap Bar Design
+
+#### Soap Bar Navigation Specifications
+```css
+/* Soap Bar Navigation */
+.soap-bar-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: var(--spacing-3) 0;
+}
+
+.soap-bar {
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 25px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  max-width: 600px;
+  width: fit-content;
+  padding: var(--spacing-3) var(--spacing-6);
+}
+```
+
+#### Navigation Design Principles
+- **Floating Design**: Semi-transparent white bar with backdrop blur
+- **Centered Layout**: Navigation items centered horizontally
+- **Compact Size**: Maximum 600px width, fits content
+- **Fixed Position**: Stays at top while scrolling (no parallax)
+- **Responsive**: Adapts to mobile with hamburger menu
+- **Accessibility**: 44px minimum touch targets
+
+#### Navigation States
+- **Default**: Semi-transparent white with subtle shadow
+- **Hover**: Enhanced shadow and slight lift effect
+- **Scrolled**: Increased opacity and stronger shadow
+- **Mobile**: Stacked navigation with full-width links
+
 ### Button Specifications
 ```css
 /* Button Base */
