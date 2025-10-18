@@ -22,6 +22,14 @@ This document defines the visual presentation guidelines and brand standards for
 - **Vector**: `westmark-two-liner-black-1.svg` - For scalable applications
 - **Single Line**: `westmarktalentgrouponeliner.svg` - For horizontal layouts
 
+#### External Brand Asset Distribution
+The logo page (`logo.html`) serves as the official brand asset distribution center for:
+- **Email Signatures**: Download logos optimized for email client compatibility
+- **Social Media Profiles**: Access correctly sized logos for LinkedIn, Twitter, Facebook, etc.
+- **Marketing Materials**: Obtain high-resolution logos for print and digital marketing
+- **Partner/Client Use**: Provide authorized logos for business partners and clients
+- **Press Kit**: Access brand assets for media and public relations use
+
 #### Logo Restrictions
 - **No Alterations**: Do not modify colors, proportions, or spacing
 - **No Distortion**: Maintain aspect ratio in all applications

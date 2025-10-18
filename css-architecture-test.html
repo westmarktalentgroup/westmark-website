@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Architecture Test - Phase 1</title>
+    
+    <!-- Current CSS (with !important) -->
+    <link rel="stylesheet" href="assets/css/mobile-text-fixes.css">
+    
+    <!-- New CSS (clean architecture) -->
+    <link rel="stylesheet" href="assets/css/typography.css">
+    <link rel="stylesheet" href="assets/css/spacing.css">
+    
+    <style>
+        body {
+            font-family: 'Manrope', sans-serif;
+            line-height: 1.6;
+            margin: 2rem;
+            background: #f8f9fa;
+        }
+        
+        .test-section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .comparison {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+        
+        .old-way {
+            border-left: 4px solid #dc3545;
+            padding-left: 1rem;
+        }
+        
+        .new-way {
+            border-left: 4px solid #28a745;
+            padding-left: 1rem;
+        }
+        
+        .code-block {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            margin: 0.5rem 0;
+        }
+        
+        .stats {
+            background: #e3f2fd;
+            padding: 1rem;
+            border-radius: 4px;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Architecture Cleanup - Phase 1 Test</h1>
+    
+    <div class="stats">
+        <h3>📊 Current State</h3>
+        <p><strong>473 !important declarations</strong> across 8 CSS files</p>
+        <p><strong>60 declarations</strong> in mobile-text-fixes.css alone</p>
+        <p><strong>Phase 1</strong> eliminates 33 typography & spacing !important declarations</p>
+    </div>
+    
+    <div class="test-section">
+        <h2>🎯 Typography Test</h2>
+        <p>These elements should look identical to your current site:</p>
+        
+        <div class="comparison">
+            <div class="old-way">
+                <h4>❌ Old Way (with !important)</h4>
+                <div class="code-block">
+.display-1 { font-size: 2.5rem !important; }<br>
+.display-2 { font-size: 2rem !important; }<br>
+.display-7 { font-size: 1rem !important; }
+                </div>
+            </div>
+            
+            <div class="new-way">
+                <h4>✅ New Way (clean CSS)</h4>
+                <div class="code-block">
+:root {<br>
+&nbsp;&nbsp;--font-size-display-1: clamp(2rem, 5vw, 5rem);<br>
+&nbsp;&nbsp;--font-size-display-2: clamp(1.75rem, 4vw, 4rem);<br>
+&nbsp;&nbsp;--font-size-display-7: clamp(0.95rem, 1.5vw, 1.4rem);<br>
+}<br><br>
+.display-1 { font-size: var(--font-size-display-1); }
+                </div>
+            </div>
+        </div>
+        
+        <h3>Test Elements:</h3>
+        <div class="display-1">Display 1 Heading</div>
+        <div class="display-2">Display 2 Heading</div>
+        <div class="display-5">Display 5 Heading</div>
+        <div class="display-7">Display 7 paragraph text that should be readable and properly sized.</div>
+        
+        <div class="process-text">
+            <strong>Process Text Heading</strong><br>
+            <span>Process text paragraph that should match the display-7 sizing above.</span>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>🎯 Navigation Test</h2>
+        <nav class="navbar-nav">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Clients</a>
+            <a href="#" class="nav-link">Contact</a>
+        </nav>
+    </div>
+    
+    <div class="test-section">
+        <h2>🎯 Button Test</h2>
+        <button class="btn">Test Button</button>
+        <button class="btn" style="background: #007bff; color: white; border: none;">Primary Button</button>
+    </div>
+    
+    <div class="test-section">
+        <h2>🎯 Spacing Test</h2>
+        <div class="mb-2" style="background: #e9ecef; padding: 0.5rem;">mb-2 spacing</div>
+        <div class="mb-3" style="background: #e9ecef; padding: 0.5rem;">mb-3 spacing</div>
+        <div class="mb-4" style="background: #e9ecef; padding: 0.5rem;">mb-4 spacing</div>
+        <div class="mt-3" style="background: #e9ecef; padding: 0.5rem;">mt-3 spacing</div>
+    </div>
+    
+    <div class="test-section">
+        <h2>🎯 Responsive Test</h2>
+        <p>Resize your browser window to test responsive typography:</p>
+        <div class="display-1">This should scale smoothly</div>
+        <div class="display-7">This text should remain readable at all sizes</div>
+    </div>
+    
+    <div class="stats">
+        <h3>✅ Phase 1 Benefits</h3>
+        <ul>
+            <li><strong>33 fewer !important declarations</strong></li>
+            <li><strong>Better responsive scaling</strong> with clamp()</li>
+            <li><strong>Easier maintenance</strong> - change fonts via CSS variables</li>
+            <li><strong>Cleaner code</strong> - no more font-size !important</li>
+            <li><strong>Foundation ready</strong> for future phases</li>
+        </ul>
+    </div>
+    
+    <div class="test-section">
+        <h2>🚀 Next Steps</h2>
+        <ol>
+            <li><strong>Test this page</strong> - Ensure everything looks correct</li>
+            <li><strong>Add to your site</strong> - Include typography.css and spacing.css</li>
+            <li><strong>Test all pages</strong> - Verify no visual regressions</li>
+            <li><strong>Remove old !important</strong> - Clean up mobile-text-fixes.css</li>
+            <li><strong>Move to Phase 2</strong> - Component architecture</li>
+        </ol>
+    </div>
+</body>
+</html>

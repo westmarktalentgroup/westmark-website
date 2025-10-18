@@ -21,7 +21,7 @@ Production Environment
 ├── index.html (Homepage)
 ├── clients.html (Clients page)
 ├── contact-us.html (Contact page)
-├── logo.html (Logo page)
+├── logo.html (Brand asset distribution page)
 ├── assets/ (All static assets)
 ├── CNAME (Domain configuration)
 ├── robots.txt (SEO configuration)

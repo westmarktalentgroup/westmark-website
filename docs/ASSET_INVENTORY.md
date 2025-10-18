@@ -14,7 +14,7 @@ This document provides a comprehensive inventory of all assets used in the Westm
 | `index.html` | 580 | Homepage with hero, mission, job listings, FAQ, contact CTA | ✅ Production Ready |
 | `clients.html` | 347 | Clients/employers page with recruitment services | ✅ Production Ready |
 | `contact-us.html` | 291 | Contact information page with business details | ✅ Production Ready |
-| `logo.html` | 168 | Logo showcase and brand assets page | ✅ Production Ready |
+| `logo.html` | 168 | Brand asset distribution page for external use (email signatures, social media, marketing materials) | ✅ Production Ready |
 
 ### Configuration Files
 | File | Purpose | Content | Status |

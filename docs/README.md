@@ -21,7 +21,7 @@ Code/
 │   ├── index.html                 # Homepage
 │   ├── clients.html               # Clients/employers page
 │   ├── contact-us.html            # Contact information page
-│   ├── logo.html                  # Logo showcase page
+│   ├── logo.html                  # Brand asset distribution page for external use
 │   ├── manifest.json              # PWA manifest
 │   ├── sw.js                      # Service worker
 │   └── .gitignore                 # Version control exclusions
