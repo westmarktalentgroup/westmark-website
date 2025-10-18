@@ -1,0 +1,226 @@
+/* Mobile Text Consistency Fixes for Westmark Talent Group */
+
+/* 1. NAVIGATION TEXT CONSISTENCY */
+.navbar-nav .nav-link {
+    font-size: 1.2rem !important;
+    font-weight: 500 !important;
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: #007bff !important;
+}
+
+/* 2. HEADING HIERARCHY CONSISTENCY */
+/* Note: Display classes moved to override section below */
+
+/* 3. BODY TEXT CONSISTENCY */
+/* Note: Display classes moved to override section below */
+
+/* 4. JOB CARD TEXT CONSISTENCY */
+.item-title {
+    font-size: clamp(1.125rem, 2vw, 1.5rem) !important;
+    line-height: 1.3 !important;
+    margin-bottom: 0.5rem !important;
+    font-weight: 600 !important;
+}
+
+.item-content p {
+    font-size: clamp(0.9rem, 1.2vw, 1.1rem) !important;
+    line-height: 1.4 !important;
+    margin-bottom: 0.75rem !important;
+}
+
+/* 5. BUTTON TEXT CONSISTENCY */
+/* Note: Button styles moved to override section below */
+
+/* 6. MOBILE-SPECIFIC IMPROVEMENTS */
+@media (max-width: 768px) {
+    /* Ensure minimum readable font sizes */
+    .display-1 {
+        font-size: 2.5rem !important;
+        line-height: 1.1 !important;
+    }
+    
+    .display-2 {
+        font-size: 2rem !important;
+        line-height: 1.2 !important;
+    }
+    
+    .display-5 {
+        font-size: 1.25rem !important;
+        line-height: 1.3 !important;
+    }
+    
+    .display-7 {
+        font-size: 1rem !important;
+        line-height: 1.5 !important;
+    }
+    
+    /* Improve job card readability on mobile */
+    .item-title {
+        font-size: 1.125rem !important;
+        line-height: 1.3 !important;
+    }
+    
+    .item-content p {
+        font-size: 0.95rem !important;
+        line-height: 1.4 !important;
+    }
+    
+    /* Consistent button sizing */
+    .btn {
+        font-size: 1rem !important;
+        padding: 0.75rem 1.25rem !important;
+    }
+    
+    /* Improve navigation text on mobile */
+    .navbar-nav .nav-link {
+        font-size: 1.1rem !important;
+        padding: 0.5rem 0.75rem !important;
+    }
+}
+
+/* 7. VERY SMALL SCREENS (320px-480px) */
+@media (max-width: 480px) {
+    .display-1 {
+        font-size: 2rem !important;
+    }
+    
+    .display-2 {
+        font-size: 1.75rem !important;
+    }
+    
+    .display-5 {
+        font-size: 1.125rem !important;
+    }
+    
+    .display-7 {
+        font-size: 0.95rem !important;
+    }
+    
+    .item-title {
+        font-size: 1rem !important;
+    }
+    
+    .item-content p {
+        font-size: 0.9rem !important;
+    }
+    
+    .btn {
+        font-size: 0.95rem !important;
+        padding: 0.65rem 1rem !important;
+    }
+}
+
+/* 8. TEXT ALIGNMENT CONSISTENCY */
+.text-center {
+    text-align: center !important;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+/* Override mobile center alignment for job cards */
+@media (max-width: 767px) {
+    .item-content.align-left {
+        text-align: left !important;
+    }
+    
+    .item-title {
+        text-align: left !important;
+    }
+}
+
+/* 9. IMPROVED READABILITY */
+.mbr-text {
+    color: #333 !important;
+    font-weight: 400 !important;
+}
+
+.mbr-white {
+    color: #fff !important;
+}
+
+/* 10. OVERRIDE THEME CSS HARDCODED VALUES */
+.mbr-arrow-up a,
+.mbr-arrow-up a i {
+    font-size: clamp(1rem, 2vw, 1.375rem) !important; /* 16px-22px responsive */
+}
+
+#scrollToTop a i {
+    font-size: clamp(1.5rem, 3vw, 2rem) !important; /* 24px-32px responsive */
+}
+
+.btn {
+    font-size: clamp(0.9rem, 1.2vw, 1.1rem) !important; /* Override theme 1.25rem */
+    font-weight: 500 !important;
+    line-height: 1.2 !important;
+    padding: 0.75rem 1.5rem !important;
+}
+
+.form-control {
+    font-size: clamp(0.9rem, 1.2vw, 1.1rem) !important; /* Override theme 1.1rem */
+}
+
+blockquote {
+    font-size: clamp(0.9rem, 1.2vw, 1.09rem) !important; /* Override theme 1.09rem */
+}
+
+/* 11. OVERRIDE MOBIRISE CSS CONFLICTS */
+.display-1 {
+    font-size: clamp(2.5rem, 5vw, 5rem) !important; /* Override mobirise 5rem */
+    line-height: 1.1 !important;
+    margin-bottom: 1rem !important;
+}
+
+.display-2 {
+    font-size: clamp(2rem, 4vw, 4rem) !important; /* Override mobirise 4rem */
+    line-height: 1.2 !important;
+    margin-bottom: 1rem !important;
+}
+
+.display-5 {
+    font-size: clamp(1.25rem, 2.5vw, 2rem) !important; /* Override mobirise 2rem */
+    line-height: 1.3 !important;
+    margin-bottom: 0.75rem !important;
+}
+
+.display-7 {
+    font-size: clamp(1rem, 1.5vw, 1.4rem) !important; /* Override mobirise 1.4rem */
+    line-height: 1.5 !important;
+    margin-bottom: 1rem !important;
+}
+
+/* 12. OVERRIDE DROPDOWN CSS ISSUES */
+.nav-dropdown {
+    font-size: clamp(0.9rem, 1.2vw, 1rem) !important; /* Override 0.75rem */
+}
+
+.nav-dropdown .btn {
+    font-size: clamp(0.9rem, 1.2vw, 1rem) !important; /* Override 0.75rem */
+}
+
+.nav-dropdown .dropdown-item {
+    font-size: clamp(0.9rem, 1.2vw, 1rem) !important; /* Override 0.8125rem */
+}
+
+/* 13. CONSISTENT SPACING */
+.mb-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+.mb-3 {
+    margin-bottom: 0.75rem !important;
+}
+
+.mb-4 {
+    margin-bottom: 1rem !important;
+}
+
+.mt-3 {
+    margin-top: 0.75rem !important;
+}
