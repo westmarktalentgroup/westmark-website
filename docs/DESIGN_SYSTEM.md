@@ -69134,6 +69134,1032 @@ a.mbr-iconfont:hover {
 - **Focus**: [Auto-detected from :focus states]
 - **Active**: [Auto-detected from :active states]
 
+
+### bg-warning Component
+
+#### bg-warning Specifications
+```css
+/* bg-warning Specifications */
+.bg-warning {
+  background-color: #ffd34f;
+}
+
+.bg-danger {
+  background-color: #e56975;
+}
+
+/* Button System - Clean Architecture with Proper Specificity */
+.btn-primary,
+.btn-primary:active {
+```
+
+#### bg-warning Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### bg-warning States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### btn-danger Component
+
+#### btn-danger Specifications
+```css
+/* btn-danger Specifications */
+.btn-danger,
+.btn-danger:active {
+  background-color: #e56975;
+  border-color: #e56975;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger.focus,
+.btn-danger.active {
+  color: inherit;
+  background-color: #ed949d;
+  border-color: #ed949d;
+  box-shadow: none;
+}
+
+.btn-danger.disabled,
+.btn-danger:disabled {
+```
+
+#### btn-danger Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### btn-danger States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### btn-info Component
+
+#### btn-info Specifications
+```css
+/* btn-info Specifications */
+.btn-info,
+.btn-info:active {
+  background-color: #58dcf6;
+  border-color: #58dcf6;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info.focus,
+.btn-info.active {
+  color: inherit;
+  background-color: #88e6f9;
+  border-color: #88e6f9;
+  box-shadow: none;
+}
+
+.btn-info.disabled,
+.btn-info:disabled {
+```
+
+#### btn-info Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### btn-info States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### btn-lg Component
+
+#### btn-lg Specifications
+```css
+/* btn-lg Specifications */
+.btn-lg {
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+}
+
+/* Button State Styles */
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+```
+
+#### btn-lg Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### btn-lg States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### btn-outline-primary Component
+
+#### btn-outline-primary Specifications
+```css
+/* btn-outline-primary Specifications */
+.btn-outline-primary {
+  color: #000000;
+  background-color: transparent;
+  border-color: #000000;
+  box-shadow: none;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary.focus,
+.btn-outline-primary.active {
+  color: #ffffff;
+  background: #000000;
+  box-shadow: none;
+}
+
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+  color: #000000;
+  background-color: transparent;
+```
+
+#### btn-outline-primary Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### btn-outline-primary States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### btn-primary Component
+
+#### btn-primary Specifications
+```css
+/* btn-primary Specifications */
+.btn-primary,
+.btn-primary:active {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #808080;
+  box-shadow: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary.active {
+  color: inherit;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  box-shadow: none;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+```
+
+#### btn-primary Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### btn-primary States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### btn-secondary Component
+
+#### btn-secondary Specifications
+```css
+/* btn-secondary Specifications */
+.btn-secondary,
+.btn-secondary:active {
+  background-color: #ae301c;
+  border-color: #ae301c;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary.focus,
+.btn-secondary.active {
+  color: inherit;
+  background-color: #da3c23;
+  border-color: #da3c23;
+  box-shadow: none;
+}
+
+.btn-secondary.disabled,
+.btn-secondary:disabled {
+```
+
+#### btn-secondary Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### btn-secondary States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### btn-sm Component
+
+#### btn-sm Specifications
+```css
+/* btn-sm Specifications */
+.btn-sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  border-radius: 0.25rem;
+}
+
+.btn-lg {
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+}
+```
+
+#### btn-sm Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### btn-sm States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### btn-success Component
+
+#### btn-success Specifications
+```css
+/* btn-success Specifications */
+.btn-success,
+.btn-success:active {
+  background-color: #6be3ab;
+  border-color: #6be3ab;
+  color: #0d4229;
+  box-shadow: none;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success.focus,
+.btn-success.active {
+  color: inherit;
+  background-color: #96ebc3;
+  border-color: #96ebc3;
+  box-shadow: none;
+}
+
+.btn-success.disabled,
+.btn-success:disabled {
+```
+
+#### btn-success Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### btn-success States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### btn-warning Component
+
+#### btn-warning Specifications
+```css
+/* btn-warning Specifications */
+.btn-warning,
+.btn-warning:active {
+  background-color: #ffd34f;
+  border-color: #ffd34f;
+  color: #4f3b00;
+  box-shadow: none;
+}
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning.focus,
+.btn-warning.active {
+  color: inherit;
+  background-color: #ffe082;
+  border-color: #ffe082;
+  box-shadow: none;
+}
+
+.btn-warning.disabled,
+.btn-warning:disabled {
+```
+
+#### btn-warning Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### btn-warning States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### card-wrap Component
+
+#### card-wrap Specifications
+```css
+/* card-wrap Specifications */
+.card-wrap img,
+.card-wrapper img,
+.video-wrapper img,
+.mbr-figure img,
+.mbr-figure iframe,
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+```
+
+#### card-wrap Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### card-wrap States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### card-wrapper Component
+
+#### card-wrapper Specifications
+```css
+/* card-wrapper Specifications */
+.card-wrapper img,
+.video-wrapper img,
+.mbr-figure img,
+.mbr-figure iframe,
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+```
+
+#### card-wrapper Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### card-wrapper States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### carousel-control Component
+
+#### carousel-control Specifications
+```css
+/* carousel-control Specifications */
+.carousel-control {
+  background-color: var(--color-brand-primary);
+  opacity: 0.8;
+  color: var(--color-brand-secondary);
+  border-color: var(--color-brand-primary);
+  border-radius: var(--border-radius-base);
+  transition: opacity var(--transition-base);
+}
+
+.embla__button:hover,
+.carousel-control:hover {
+  opacity: 1;
+}
+
+/* Carousel Close Buttons */
+.carousel .close,
+.modalWindow .close {
+  background-color: var(--color-brand-primary);
+  color: var(--color-brand-secondary);
+  border-color: var(--color-brand-primary);
+```
+
+#### carousel-control Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### carousel-control States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### carousel-indicators Component
+
+#### carousel-indicators Specifications
+```css
+/* carousel-indicators Specifications */
+.carousel-indicators li {
+  background-color: var(--color-brand-primary);
+  border: 2px solid var(--color-brand-secondary);
+  border-radius: 50%;
+  transition: opacity var(--transition-base);
+}
+
+.carousel-indicators li:hover,
+.carousel-indicators li:active {
+  opacity: 0.8;
+}
+
+/* ==========================================================================
+   FORM COMPONENTS
+   ========================================================================== */
+
+.form-control {
+  display: block;
+  width: 100%;
+--
+```
+
+#### carousel-indicators Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### carousel-indicators States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### cid-uMOnIucJDw Component
+
+#### cid-uMOnIucJDw Specifications
+```css
+/* cid-uMOnIucJDw Specifications */
+.cid-uMOnIucJDw .phone-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contacts01 .phone-link:hover,
+.cid-uMOnIucJDw .phone-link:hover {
+  color: var(--color-accent);
+  background-color: rgba(0, 123, 255, 0.1);
+  border-radius: var(--border-radius-sm);
+  padding: var(--spacing-1) var(--spacing-2);
+}
+
+/* ==========================================================================
+   LAYOUT COMPONENTS
+   ========================================================================== */
+```
+
+#### cid-uMOnIucJDw Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### cid-uMOnIucJDw States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### contacts01 Component
+
+#### contacts01 Specifications
+```css
+/* contacts01 Specifications */
+.contacts01 .phone-link,
+.cid-uMOnIucJDw .phone-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contacts01 .phone-link:hover,
+.cid-uMOnIucJDw .phone-link:hover {
+  color: var(--color-accent);
+  background-color: rgba(0, 123, 255, 0.1);
+  border-radius: var(--border-radius-sm);
+  padding: var(--spacing-1) var(--spacing-2);
+}
+
+/* ==========================================================================
+   LAYOUT COMPONENTS
+   ========================================================================== */
+```
+
+#### contacts01 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### contacts01 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### display-1 Component
+
+#### display-1 Specifications
+```css
+/* display-1 Specifications */
+.display-1 {
+  font-size: var(--font-size-5xl);
+  line-height: var(--line-height-tight);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-4);
+}
+
+.display-2 {
+  font-size: var(--font-size-4xl);
+  line-height: var(--line-height-snug);
+```
+
+#### display-1 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### display-1 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### display-2 Component
+
+#### display-2 Specifications
+```css
+/* display-2 Specifications */
+.display-2 {
+  font-size: var(--font-size-4xl);
+  line-height: var(--line-height-snug);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-4);
+}
+
+.display-5 {
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-normal);
+```
+
+#### display-2 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### display-2 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### display-4 Component
+
+#### display-4 Specifications
+```css
+/* display-4 Specifications */
+.display-4 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.display-4 > .mbr-iconfont {
+  font-size: 1.5rem;
+}
+
+.display-5 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.display-5 > .mbr-iconfont {
+```
+
+#### display-4 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### display-4 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### embla__button Component
+
+#### embla__button Specifications
+```css
+/* embla__button Specifications */
+.embla__button,
+.carousel-control {
+  background-color: var(--color-brand-primary);
+  opacity: 0.8;
+  color: var(--color-brand-secondary);
+  border-color: var(--color-brand-primary);
+  border-radius: var(--border-radius-base);
+  transition: opacity var(--transition-base);
+}
+
+.embla__button:hover,
+.carousel-control:hover {
+  opacity: 1;
+}
+
+/* Carousel Close Buttons */
+.carousel .close,
+.modalWindow .close {
+  background-color: var(--color-brand-primary);
+  color: var(--color-brand-secondary);
+```
+
+#### embla__button Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### embla__button States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### google-map Component
+
+#### google-map Specifications
+```css
+/* google-map Specifications */
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+}
+```
+
+#### google-map Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### google-map States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### item-wrapper Component
+
+#### item-wrapper Specifications
+```css
+/* item-wrapper Specifications */
+.item-wrapper .item-img img {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Responsive adjustments for opportunities images */
+@media (max-width: 991.98px) {
+  .item-img {
+    margin-bottom: var(--spacing-3);
+  }
+}
+```
+
+#### item-wrapper Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### item-wrapper States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mbr-figure Component
+
+#### mbr-figure Specifications
+```css
+/* mbr-figure Specifications */
+.mbr-figure img,
+.mbr-figure iframe,
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+```
+
+#### mbr-figure Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mbr-figure States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mbr-section-subtitle Component
+
+#### mbr-section-subtitle Specifications
+```css
+/* mbr-section-subtitle Specifications */
+.mbr-section-subtitle {
+  line-height: var(--line-height-tight);
+}
+
+.mbr-text {
+  font-style: normal;
+  line-height: var(--line-height-relaxed);
+}
+
+/* ==========================================================================
+   LEGACY COMPATIBILITY
+```
+
+#### mbr-section-subtitle Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mbr-section-subtitle States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mbr-section-title Component
+
+#### mbr-section-title Specifications
+```css
+/* mbr-section-title Specifications */
+.mbr-section-title {
+  font-style: normal;
+  line-height: var(--line-height-tight);
+}
+
+.mbr-section-subtitle {
+  line-height: var(--line-height-tight);
+}
+
+.mbr-text {
+  font-style: normal;
+```
+
+#### mbr-section-title Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mbr-section-title States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### modalWindow Component
+
+#### modalWindow Specifications
+```css
+/* modalWindow Specifications */
+.modalWindow .close {
+  background-color: var(--color-brand-primary);
+  color: var(--color-brand-secondary);
+  border-color: var(--color-brand-primary);
+  opacity: 0.8;
+  transition: opacity var(--transition-base);
+}
+
+.carousel .close:hover,
+.modalWindow .close:hover {
+  opacity: 1;
+}
+
+/* Carousel Indicators */
+.carousel-indicators li {
+  background-color: var(--color-brand-primary);
+  border: 2px solid var(--color-brand-secondary);
+  border-radius: 50%;
+  transition: opacity var(--transition-base);
+}
+```
+
+#### modalWindow Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### modalWindow States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### modalWindow-video-container Component
+
+#### modalWindow-video-container Specifications
+```css
+/* modalWindow-video-container Specifications */
+.modalWindow-video-container {
+  height: 80%;
+}
+
+/* Article lead content */
+.article .lead p,
+.article .lead ul,
+.article .lead ol,
+.article .lead pre,
+.article .lead blockquote {
+  margin-bottom: 0;
+```
+
+#### modalWindow-video-container Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### modalWindow-video-container States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### phone-link Component
+
+#### phone-link Specifications
+```css
+/* phone-link Specifications */
+.phone-link {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  transition: color var(--transition-fast);
+}
+
+.phone-link:hover,
+.phone-link:focus {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.phone-link:active {
+  color: var(--color-text-primary);
+}
+
+/* Contact section phone links */
+.contacts01 .phone-link,
+.cid-uMOnIucJDw .phone-link {
+```
+
+#### phone-link Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### phone-link States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### plan Component
+
+#### plan Specifications
+```css
+/* plan Specifications */
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+}
+
+/* Body Styles */
+```
+
+#### plan Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### plan States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
 ### Button Specifications
 ```css
 /* Button Base */

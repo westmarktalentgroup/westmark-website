@@ -84627,3 +84627,1270 @@ Auto-detected component with specifications extracted from source code.
 ### Related Components
 - [To be linked to related components]
 
+## bg-success Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* bg-success Specifications */
+.bg-success {
+  background-color: #6be3ab;
+}
+
+.bg-info {
+  background-color: #58dcf6;
+}
+
+.bg-warning {
+  background-color: #ffd34f;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="bg-success">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## bg-warning Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* bg-warning Specifications */
+.bg-warning {
+  background-color: #ffd34f;
+}
+
+.bg-danger {
+  background-color: #e56975;
+}
+
+/* Button System - Clean Architecture with Proper Specificity */
+.btn-primary,
+.btn-primary:active {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="bg-warning">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-danger Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-danger Specifications */
+.btn-danger,
+.btn-danger:active {
+  background-color: #e56975;
+  border-color: #e56975;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger.focus,
+.btn-danger.active {
+  color: inherit;
+  background-color: #ed949d;
+  border-color: #ed949d;
+  box-shadow: none;
+}
+
+.btn-danger.disabled,
+.btn-danger:disabled {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-danger">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-info Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-info Specifications */
+.btn-info,
+.btn-info:active {
+  background-color: #58dcf6;
+  border-color: #58dcf6;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info.focus,
+.btn-info.active {
+  color: inherit;
+  background-color: #88e6f9;
+  border-color: #88e6f9;
+  box-shadow: none;
+}
+
+.btn-info.disabled,
+.btn-info:disabled {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-info">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-lg Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-lg Specifications */
+.btn-lg {
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+}
+
+/* Button State Styles */
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-lg">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-outline-primary Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-outline-primary Specifications */
+.btn-outline-primary {
+  color: #000000;
+  background-color: transparent;
+  border-color: #000000;
+  box-shadow: none;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary.focus,
+.btn-outline-primary.active {
+  color: #ffffff;
+  background: #000000;
+  box-shadow: none;
+}
+
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+  color: #000000;
+  background-color: transparent;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-outline-primary">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-primary Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-primary Specifications */
+.btn-primary,
+.btn-primary:active {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #808080;
+  box-shadow: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary.active {
+  color: inherit;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  box-shadow: none;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-primary">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-secondary Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-secondary Specifications */
+.btn-secondary,
+.btn-secondary:active {
+  background-color: #ae301c;
+  border-color: #ae301c;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary.focus,
+.btn-secondary.active {
+  color: inherit;
+  background-color: #da3c23;
+  border-color: #da3c23;
+  box-shadow: none;
+}
+
+.btn-secondary.disabled,
+.btn-secondary:disabled {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-secondary">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-sm Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-sm Specifications */
+.btn-sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  border-radius: 0.25rem;
+}
+
+.btn-lg {
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-sm">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-success Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-success Specifications */
+.btn-success,
+.btn-success:active {
+  background-color: #6be3ab;
+  border-color: #6be3ab;
+  color: #0d4229;
+  box-shadow: none;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success.focus,
+.btn-success.active {
+  color: inherit;
+  background-color: #96ebc3;
+  border-color: #96ebc3;
+  box-shadow: none;
+}
+
+.btn-success.disabled,
+.btn-success:disabled {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-success">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-warning Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-warning Specifications */
+.btn-warning,
+.btn-warning:active {
+  background-color: #ffd34f;
+  border-color: #ffd34f;
+  color: #4f3b00;
+  box-shadow: none;
+}
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning.focus,
+.btn-warning.active {
+  color: inherit;
+  background-color: #ffe082;
+  border-color: #ffe082;
+  box-shadow: none;
+}
+
+.btn-warning.disabled,
+.btn-warning:disabled {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-warning">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## card-wrap Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* card-wrap Specifications */
+.card-wrap img,
+.card-wrapper img,
+.video-wrapper img,
+.mbr-figure img,
+.mbr-figure iframe,
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="card-wrap">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## card-wrapper Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* card-wrapper Specifications */
+.card-wrapper img,
+.video-wrapper img,
+.mbr-figure img,
+.mbr-figure iframe,
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="card-wrapper">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## carousel-control Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* carousel-control Specifications */
+.carousel-control {
+  background-color: var(--color-brand-primary);
+  opacity: 0.8;
+  color: var(--color-brand-secondary);
+  border-color: var(--color-brand-primary);
+  border-radius: var(--border-radius-base);
+  transition: opacity var(--transition-base);
+}
+
+.embla__button:hover,
+.carousel-control:hover {
+  opacity: 1;
+}
+
+/* Carousel Close Buttons */
+.carousel .close,
+.modalWindow .close {
+  background-color: var(--color-brand-primary);
+  color: var(--color-brand-secondary);
+  border-color: var(--color-brand-primary);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="carousel-control">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## carousel-indicators Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* carousel-indicators Specifications */
+.carousel-indicators li {
+  background-color: var(--color-brand-primary);
+  border: 2px solid var(--color-brand-secondary);
+  border-radius: 50%;
+  transition: opacity var(--transition-base);
+}
+
+.carousel-indicators li:hover,
+.carousel-indicators li:active {
+  opacity: 0.8;
+}
+
+/* ==========================================================================
+   FORM COMPONENTS
+   ========================================================================== */
+
+.form-control {
+  display: block;
+  width: 100%;
+--
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="carousel-indicators">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## cid-uMOnIucJDw Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* cid-uMOnIucJDw Specifications */
+.cid-uMOnIucJDw .phone-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contacts01 .phone-link:hover,
+.cid-uMOnIucJDw .phone-link:hover {
+  color: var(--color-accent);
+  background-color: rgba(0, 123, 255, 0.1);
+  border-radius: var(--border-radius-sm);
+  padding: var(--spacing-1) var(--spacing-2);
+}
+
+/* ==========================================================================
+   LAYOUT COMPONENTS
+   ========================================================================== */
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="cid-uMOnIucJDw">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## contacts01 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* contacts01 Specifications */
+.contacts01 .phone-link,
+.cid-uMOnIucJDw .phone-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contacts01 .phone-link:hover,
+.cid-uMOnIucJDw .phone-link:hover {
+  color: var(--color-accent);
+  background-color: rgba(0, 123, 255, 0.1);
+  border-radius: var(--border-radius-sm);
+  padding: var(--spacing-1) var(--spacing-2);
+}
+
+/* ==========================================================================
+   LAYOUT COMPONENTS
+   ========================================================================== */
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="contacts01">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## display-1 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* display-1 Specifications */
+.display-1 {
+  font-size: var(--font-size-5xl);
+  line-height: var(--line-height-tight);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-4);
+}
+
+.display-2 {
+  font-size: var(--font-size-4xl);
+  line-height: var(--line-height-snug);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="display-1">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## display-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* display-2 Specifications */
+.display-2 {
+  font-size: var(--font-size-4xl);
+  line-height: var(--line-height-snug);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-4);
+}
+
+.display-5 {
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-normal);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="display-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## display-4 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* display-4 Specifications */
+.display-4 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.display-4 > .mbr-iconfont {
+  font-size: 1.5rem;
+}
+
+.display-5 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.display-5 > .mbr-iconfont {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="display-4">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## embla__button Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* embla__button Specifications */
+.embla__button,
+.carousel-control {
+  background-color: var(--color-brand-primary);
+  opacity: 0.8;
+  color: var(--color-brand-secondary);
+  border-color: var(--color-brand-primary);
+  border-radius: var(--border-radius-base);
+  transition: opacity var(--transition-base);
+}
+
+.embla__button:hover,
+.carousel-control:hover {
+  opacity: 1;
+}
+
+/* Carousel Close Buttons */
+.carousel .close,
+.modalWindow .close {
+  background-color: var(--color-brand-primary);
+  color: var(--color-brand-secondary);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="embla__button">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## google-map Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* google-map Specifications */
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="google-map">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## item-wrapper Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* item-wrapper Specifications */
+.item-wrapper .item-img img {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Responsive adjustments for opportunities images */
+@media (max-width: 991.98px) {
+  .item-img {
+    margin-bottom: var(--spacing-3);
+  }
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="item-wrapper">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mbr-figure Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mbr-figure Specifications */
+.mbr-figure img,
+.mbr-figure iframe,
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mbr-figure">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mbr-section-subtitle Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mbr-section-subtitle Specifications */
+.mbr-section-subtitle {
+  line-height: var(--line-height-tight);
+}
+
+.mbr-text {
+  font-style: normal;
+  line-height: var(--line-height-relaxed);
+}
+
+/* ==========================================================================
+   LEGACY COMPATIBILITY
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mbr-section-subtitle">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mbr-section-title Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mbr-section-title Specifications */
+.mbr-section-title {
+  font-style: normal;
+  line-height: var(--line-height-tight);
+}
+
+.mbr-section-subtitle {
+  line-height: var(--line-height-tight);
+}
+
+.mbr-text {
+  font-style: normal;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mbr-section-title">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## modalWindow Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* modalWindow Specifications */
+.modalWindow .close {
+  background-color: var(--color-brand-primary);
+  color: var(--color-brand-secondary);
+  border-color: var(--color-brand-primary);
+  opacity: 0.8;
+  transition: opacity var(--transition-base);
+}
+
+.carousel .close:hover,
+.modalWindow .close:hover {
+  opacity: 1;
+}
+
+/* Carousel Indicators */
+.carousel-indicators li {
+  background-color: var(--color-brand-primary);
+  border: 2px solid var(--color-brand-secondary);
+  border-radius: 50%;
+  transition: opacity var(--transition-base);
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="modalWindow">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## modalWindow-video-container Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* modalWindow-video-container Specifications */
+.modalWindow-video-container {
+  height: 80%;
+}
+
+/* Article lead content */
+.article .lead p,
+.article .lead ul,
+.article .lead ol,
+.article .lead pre,
+.article .lead blockquote {
+  margin-bottom: 0;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="modalWindow-video-container">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## phone-link Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* phone-link Specifications */
+.phone-link {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  transition: color var(--transition-fast);
+}
+
+.phone-link:hover,
+.phone-link:focus {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.phone-link:active {
+  color: var(--color-text-primary);
+}
+
+/* Contact section phone links */
+.contacts01 .phone-link,
+.cid-uMOnIucJDw .phone-link {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="phone-link">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## plan Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* plan Specifications */
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+}
+
+/* Body Styles */
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="plan">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
