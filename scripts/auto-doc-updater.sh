@@ -361,7 +361,7 @@ run_automated_update() {
     COMMIT_HASH=$(git rev-parse --short HEAD)
     COMMIT_MESSAGE=$(git log -1 --pretty=%B)
     
-    # Only update deployment changelog for now - skip CSS class processing
+    # Only update deployment changelog - completely disable CSS processing
     echo -e "${YELLOW}📝 Updating DEPLOYMENT_CHANGELOG.md only...${NC}"
     
     # Update deployment changelog
