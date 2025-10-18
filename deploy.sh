@@ -7,6 +7,13 @@ set -e  # Exit on any error
 
 echo "🚀 Westmark Talent Group - Comprehensive Production Deployment"
 echo "============================================================="
+echo ""
+echo "🚨 CRITICAL WORKFLOW REMINDER:"
+echo "   ✅ This script copies from development/ to production"
+echo "   ✅ NEVER edit production files directly"
+echo "   ✅ Always work in development/ directory first"
+echo "   ✅ Use this script to deploy changes"
+echo ""
 
 # Check if development directory exists
 if [ ! -d "development" ]; then

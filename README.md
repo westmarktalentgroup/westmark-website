@@ -58,6 +58,22 @@ git push origin main
 3. **Use descriptive commit messages** for deployments
 4. **Keep `development/` in sync** with latest changes
 
+### 🚨 CRITICAL WORKFLOW RULES
+
+**⚠️ NEVER MODIFY PRODUCTION FILES DIRECTLY**
+
+- ✅ **DO**: Work only in `development/` directory
+- ✅ **DO**: Use `./deploy.sh` to copy to production
+- ❌ **DON'T**: Edit files in root directory (production)
+- ❌ **DON'T**: Manually copy files to production
+- ❌ **DON'T**: Skip the deployment script
+
+**🔄 Correct Workflow:**
+1. Make changes in `development/`
+2. Test in `development/`
+3. Run `./deploy.sh` to deploy
+4. Commit and push to GitHub
+
 ### 🔧 Recent Optimizations
 
 - ✅ **WebP Image Format**: Quality 95 (near-lossless)

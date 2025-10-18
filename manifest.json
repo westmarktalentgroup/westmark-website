@@ -7,6 +7,7 @@
   "background_color": "#ffffff",
   "theme_color": "#282828",
   "orientation": "portrait-primary",
+  "scope": "/",
   "icons": [
     {
       "src": "assets/images/westmark-logo-128x62-1.webp",
@@ -29,5 +30,39 @@
   ],
   "categories": ["business", "recruitment", "construction"],
   "lang": "en-US",
-  "dir": "ltr"
+  "dir": "ltr",
+  "screenshots": [
+    {
+      "src": "assets/images/screenshot202025-06-0220at207.49.36e280afpm-794x488.webp",
+      "sizes": "794x488",
+      "type": "image/webp",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Job Opportunities",
+      "short_name": "Jobs",
+      "description": "View current job opportunities",
+      "url": "/clients.html",
+      "icons": [
+        {
+          "src": "assets/images/westmark-logo-128x62-1.webp",
+          "sizes": "128x62"
+        }
+      ]
+    },
+    {
+      "name": "Contact Us",
+      "short_name": "Contact",
+      "description": "Get in touch with our team",
+      "url": "/contact-us.html",
+      "icons": [
+        {
+          "src": "assets/images/westmark-logo-128x62-1.webp",
+          "sizes": "128x62"
+        }
+      ]
+    }
+  ]
 }

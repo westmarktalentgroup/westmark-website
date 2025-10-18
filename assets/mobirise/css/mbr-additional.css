@@ -9,10 +9,10 @@
 }
 
 /* Component Border Radius - Using Design Tokens */
-img,
-.card-wrap,
-.card-wrapper,
-.video-wrapper,
+.card-wrap img,
+.card-wrapper img,
+.video-wrapper img,
+.mbr-figure img,
 .mbr-figure iframe,
 .google-map iframe,
 .slide-content,

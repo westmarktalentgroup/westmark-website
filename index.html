@@ -135,6 +135,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://www.googletagmanager.com">
+    
+    <!-- Resource Hints for Performance -->
+    <link rel="dns-prefetch" href="//westmarktalentgroup.zohorecruit.com">
+    <link rel="prefetch" href="assets/images/pexels-apasaric-1437493-2000x1333.webp">
+    <link rel="prefetch" href="assets/images/westmark-logo-128x62-1.webp">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -148,10 +153,18 @@
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap&display=swap"></noscript>
     <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=1.0.0"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=1.0.0" type="text/css">
-    <link rel="stylesheet" href="assets/css/mobile-responsive.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/mobile-text-fixes.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/typography.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/spacing.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/optimized.css" type="text/css">
+    
+    <!-- Critical CSS for Above-the-Fold Content -->
+    <style>
+        /* Critical CSS for immediate rendering */
+        body { margin: 0; font-family: 'Manrope', sans-serif; }
+        .navbar { position: fixed; top: 0; width: 100%; z-index: 1000; }
+        .hero { min-height: 100vh; background-size: cover; background-position: center; }
+        .display-1 { font-size: clamp(2.5rem, 5vw, 5rem); line-height: 1.1; }
+        .mbr-white { color: #fff; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
+    </style>
 
     <!-- Accessibility styles now handled by main CSS -->
     
