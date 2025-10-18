@@ -624,6 +624,15 @@ body {
   line-height: 1.1 !important;
 }
 
+/* Latest Opportunities - Consistent Image Sizing */
+.item-img img {
+  width: 100% !important;
+  height: 200px !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  border-radius: 0.5rem !important;
+}
+
 /* Menu/Navigation Styling */
 .menu2.cid-uMOnIua8FF {
   background: #282828 !important;
