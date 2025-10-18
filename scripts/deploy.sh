@@ -136,6 +136,20 @@ echo "  📱 Mobile optimization: Enhanced"
 echo "  🔒 Security headers: Comprehensive"
 
 echo ""
+# Automated documentation update
+echo "🤖 Running automated documentation update..."
+if [ -f "scripts/auto-doc-updater.sh" ]; then
+    ./scripts/auto-doc-updater.sh auto
+    if [ $? -eq 0 ]; then
+        echo "✅ Documentation updated automatically"
+    else
+        echo "⚠️  Documentation update completed with warnings"
+    fi
+else
+    echo "⚠️  Automated documentation updater not found"
+fi
+
+echo ""
 # Git operations for deployment
 echo "📤 Checking for changes to push..."
 if git status --porcelain | grep -q .; then
