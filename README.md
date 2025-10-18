@@ -15,12 +15,17 @@ This repository uses a **staging-to-production** workflow optimized for GitHub P
 │   ├── logo.html
 │   ├── assets/          # All CSS, JS, images
 │   └── docs/            # Documentation
+├── scripts/             # 🛠️ DEVELOPMENT TOOLS
+│   ├── deploy.sh        # Deployment script
+│   ├── protection-system.sh
+│   └── *.sh            # All development scripts
+├── docs/                # 📚 PROJECT DOCUMENTATION
+├── backups/             # 💾 AUTOMATIC BACKUPS
 ├── index.html           # 🚀 PRODUCTION (GitHub Pages)
 ├── clients.html
 ├── contact-us.html
 ├── logo.html
 ├── assets/              # Production assets
-├── deploy.sh            # Deployment script
 └── .gitignore           # Excludes development/
 ```
 
@@ -36,7 +41,7 @@ This repository uses a **staging-to-production** workflow optimized for GitHub P
 
 ```bash
 # Deploy development changes to production
-./deploy.sh
+./scripts/deploy.sh
 
 # Commit and push to GitHub Pages
 git add .

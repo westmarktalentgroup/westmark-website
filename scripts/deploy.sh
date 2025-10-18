@@ -24,8 +24,8 @@ fi
 
 # Run protection system checks
 echo "🔒 Running protection system checks..."
-if [ -f "protection-system.sh" ]; then
-    ./protection-system.sh --cleanup
+if [ -f "scripts/protection-system.sh" ]; then
+    ./scripts/protection-system.sh --cleanup
     if [ $? -ne 0 ]; then
         echo "❌ Protection system checks failed!"
         exit 1
