@@ -884,8 +884,9 @@
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
   margin: 0 auto;
-  max-width: 800px;
   width: fit-content;
+  min-width: 300px;
+  max-width: 90vw;
   padding: var(--spacing-3) var(--spacing-6);
   transition: all var(--transition-base);
 }
@@ -903,10 +904,13 @@
   width: 100%;
   margin: 0;
   padding: 0;
+  flex-wrap: nowrap;
+  gap: var(--spacing-1);
 }
 
 .soap-bar-nav-items .nav-item {
-  margin: 0 var(--spacing-2);
+  flex: 0 0 auto;
+  white-space: nowrap;
 }
 
 /* Soap Bar Link Styling */
@@ -942,7 +946,8 @@
 @media (max-width: 991.98px) {
   .soap-bar {
     margin: 0 var(--spacing-2);
-    max-width: calc(100% - var(--spacing-4));
+    max-width: calc(100vw - var(--spacing-4));
+    min-width: 280px;
     padding: var(--spacing-2) var(--spacing-4);
     border-radius: 20px;
   }
@@ -951,11 +956,12 @@
     flex-direction: column;
     align-items: stretch;
     padding: var(--spacing-4) 0;
+    gap: var(--spacing-2);
   }
   
   .soap-bar-nav-items .nav-item {
-    margin: var(--spacing-1) 0;
     width: 100%;
+    margin: 0;
   }
   
   .soap-bar-link {
