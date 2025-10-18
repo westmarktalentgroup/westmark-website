@@ -751,13 +751,13 @@
 
 /* Hero Section Background Image */
 .header18.cid-uMOnIuaQSz {
-  background-image: url('assets/images/pexels-apasaric-1437493-2000x1333.jpg') !important;
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  min-height: 100vh !important;
-  width: 100% !important;
-  position: relative !important;
+  background-image: url('assets/images/pexels-apasaric-1437493-2000x1333.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
 }
 
 /* Hero Overlay */
@@ -790,19 +790,19 @@
 
 /* Hero Text Styling */
 .header18.cid-uMOnIuaQSz .mbr-section-title {
-  color: white !important;
+  color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .header18.cid-uMOnIuaQSz .mbr-text {
-  color: white !important;
+  color: white;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
 /* Mobile Hero Adjustments */
 @media (max-width: 768px) {
   .header18.cid-uMOnIuaQSz {
-    min-height: 80vh !important;
+    min-height: 80vh;
   }
   
   .header18.cid-uMOnIuaQSz .container-fluid {
@@ -811,7 +811,7 @@
   }
   
   .header18.cid-uMOnIuaQSz .mbr-section-title {
-    font-size: 2.5rem !important;
+    font-size: 2.5rem;
   }
 }
 
