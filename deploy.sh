@@ -24,7 +24,6 @@ fi
 
 # Run protection system checks
 echo "🔒 Running protection system checks..."
-cd development
 if [ -f "protection-system.sh" ]; then
     ./protection-system.sh --cleanup
     if [ $? -ne 0 ]; then
@@ -32,7 +31,6 @@ if [ -f "protection-system.sh" ]; then
         exit 1
     fi
 fi
-cd ..
 
 # Backup current production files
 echo "📦 Creating backup of current production files..."
