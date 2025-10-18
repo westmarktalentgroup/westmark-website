@@ -1,14 +1,11 @@
-# CSS Architecture Documentation
+# CSS Standards - Westmark Talent Group
 
-## Westmark Talent Group Website
+## Overview
+This document consolidates CSS architecture, quality standards, and implementation guidelines for the Westmark Talent Group website. It replaces the previous separate CSS documentation files with a comprehensive, unified standard.
 
-### Overview
+## 🎯 Core Principles
 
-This document outlines the clean CSS architecture implemented for the Westmark Talent Group website, replacing band-aid fixes with proper CSS specificity and design system principles.
-
-## Architecture Principles
-
-### Core Principles
+### Architecture Principles
 - **No !important declarations** (except for legitimate accessibility and print styles)
 - **CSS Custom Properties** for consistent design tokens
 - **Mobile-first responsive design** with progressive enhancement
@@ -16,13 +13,14 @@ This document outlines the clean CSS architecture implemented for the Westmark T
 - **Component-based architecture** with clear separation of concerns
 - **Performance optimization** with efficient selectors and animations
 
-### Design System Integration
-- **Design Tokens**: All colors, spacing, typography, and other design values use CSS custom properties
-- **Consistent Naming**: BEM methodology for component classes
-- **Responsive Design**: Mobile-first approach with clean breakpoint management
-- **Accessibility**: WCAG 2.1 AA compliance built into all components
+### Quality Standards
+- **Custom CSS files**: 0 `!important` declarations allowed
+- **Framework override file** (`mbr-additional.css`): ≤8 `!important` declarations allowed
+- **Total project limit**: ≤10 `!important` declarations maximum
+- **Design token usage** throughout all components
+- **WCAG 2.1 AA compliance** built into all components
 
-## File Structure
+## 📁 File Structure
 
 ### CSS Files
 ```
@@ -32,8 +30,10 @@ assets/
 ├── mobirise/css/
 │   └── mbr-additional.css          # Component-specific styles (buttons, forms, etc.)
 └── css/
+    ├── typography.css               # Typography system and font management
+    ├── spacing.css                  # Spacing utilities and layout helpers
     ├── mobile-responsive.css        # Mobile-first responsive styles
-    └── mobile-text-fixes.css       # Legacy mobile text fixes
+    └── mobile-text-fixes.css        # Legacy mobile text fixes
 ```
 
 ### File Responsibilities
@@ -51,14 +51,22 @@ assets/
 - **Display Classes**: Typography display utilities
 - **Background Utilities**: Color background classes
 - **Legacy Compatibility**: Maintains existing class names
+- **Framework Overrides**: Only justified `!important` declarations
 
-#### `mobile-responsive.css` - Responsive Design
-- **Breakpoint Management**: Mobile-first responsive design
-- **Touch Optimization**: Touch-friendly sizing and interactions
-- **Performance**: Optimized animations and images for mobile
-- **Accessibility**: Mobile-specific accessibility enhancements
+#### `typography.css` - Typography System
+- **Font Families**: CSS custom properties for consistent typography
+- **Font Sizes**: Responsive typography with `clamp()` functions
+- **Line Heights**: Consistent spacing and readability
+- **Font Weights**: Proper weight hierarchy
+- **Responsive Typography**: Mobile-first font scaling
 
-## Design Token System
+#### `spacing.css` - Spacing System
+- **Spacing Scale**: Consistent spacing values using CSS custom properties
+- **Layout Utilities**: Margin and padding utilities
+- **Grid System**: CSS Grid and Flexbox utilities
+- **Responsive Spacing**: Mobile-first spacing adjustments
+
+## 🎨 Design Token System
 
 ### Color System
 ```css
@@ -86,8 +94,8 @@ assets/
 ```css
 :root {
   /* Font Families */
-  --font-family-primary: 'Playfair Display', serif;
-  --font-family-secondary: 'Manrope', sans-serif;
+  --font-family-heading: 'Playfair Display', serif;
+  --font-family-body: 'Manrope', sans-serif;
   --font-family-fallback: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   
   /* Font Sizes */
@@ -127,7 +135,45 @@ assets/
 }
 ```
 
-## Component Architecture
+## 🚨 !important Prevention Policy
+
+### Zero Tolerance for Band-aid Solutions
+We maintain **ZERO** unnecessary `!important` declarations in our custom CSS files to prevent technical debt and maintain clean, maintainable code.
+
+### Maximum !important Usage Limits
+- **Custom CSS files**: `0 !important` declarations allowed
+- **Framework override file** (`mbr-additional.css`): `≤8 !important` declarations allowed
+- **Total project limit**: `≤10 !important` declarations maximum
+
+### Allowed !important Usage (Framework Overrides Only)
+Only these specific cases are justified in `mbr-additional.css`:
+
+```css
+/* ✅ JUSTIFIED: Framework positioning overrides */
+.header18.cid-uMOnIuaQSz .container-fluid {
+  align-items: flex-end !important;     /* Override Mobirise centering */
+  justify-content: flex-start !important; /* Override Mobirise centering */
+  padding: 2rem !important;             /* Override Mobirise spacing */
+}
+
+/* ✅ JUSTIFIED: Text control overrides */
+.header18.cid-uMOnIuaQSz .mbr-section-title {
+  white-space: nowrap !important;       /* Prevent title line breaks */
+  overflow: visible !important;         /* Override default overflow */
+  text-overflow: unset !important;      /* Override default ellipsis */
+}
+
+/* ✅ JUSTIFIED: Typography overrides */
+.header18.cid-uMOnIuaQSz .display-1 {
+  font-size: 3.5rem !important;         /* Override Mobirise default */
+  line-height: 1.1 !important;          /* Override Mobirise default */
+}
+```
+
+### Prohibited !important Usage
+Never use `!important` for basic styling, layout properties, or responsive typography. Use specific selectors, CSS cascade order, and CSS custom properties instead.
+
+## 🧩 Component Architecture
 
 ### Button System
 ```css
@@ -137,7 +183,7 @@ assets/
   align-items: center;
   justify-content: center;
   padding: var(--spacing-3) var(--spacing-6);
-  font-family: var(--font-family-secondary);
+  font-family: var(--font-family-body);
   font-size: var(--font-size-base);
   font-weight: 600;
   line-height: var(--line-height-normal);
@@ -169,7 +215,7 @@ assets/
   display: block;
   width: 100%;
   padding: var(--spacing-3) var(--spacing-4);
-  font-family: var(--font-family-secondary);
+  font-family: var(--font-family-body);
   font-size: var(--font-size-base);
   line-height: var(--line-height-normal);
   color: var(--color-text-primary);
@@ -187,7 +233,43 @@ assets/
 }
 ```
 
-## Responsive Design
+### Typography Hierarchy
+```css
+/* Typography Hierarchy - Using CSS Custom Properties */
+.display-1 {
+  font-size: clamp(2.5rem, 5vw, 5rem);
+  line-height: 1.1;
+  margin-bottom: 1rem;
+  font-family: var(--font-family-heading); /* Playfair Display */
+  font-weight: var(--font-weight-bold);
+}
+
+.display-2 {
+  font-size: clamp(2rem, 4vw, 4rem);
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  font-family: var(--font-family-body); /* Manrope */
+  font-weight: var(--font-weight-bold);
+}
+
+.display-5 {
+  font-size: clamp(1.25rem, 2.5vw, 2rem);
+  line-height: 1.3;
+  margin-bottom: 0.75rem;
+  font-family: var(--font-family-body); /* Manrope */
+  font-weight: var(--font-weight-semibold);
+}
+
+.display-7 {
+  font-size: clamp(1rem, 1.5vw, 1.4rem);
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  font-family: var(--font-family-body); /* Manrope */
+  font-weight: var(--font-weight-normal);
+}
+```
+
+## 📱 Responsive Design
 
 ### Mobile-First Approach
 ```css
@@ -224,7 +306,7 @@ assets/
 --breakpoint-xxl: 1400px; /* Extra extra large devices */
 ```
 
-## Accessibility Implementation
+## ♿ Accessibility Implementation
 
 ### Focus Management
 ```css
@@ -264,7 +346,27 @@ assets/
 }
 ```
 
-## Performance Optimizations
+## 🎨 Design System Standards
+
+### Latest Opportunities Images
+- **Aspect Ratio**: 1:1 (square) - as specified in design documentation
+- **Minimum Resolution**: 400px × 400px
+- **CSS Implementation**: Uses `padding-bottom: 100%` technique
+- **Responsive**: Scales with container width while maintaining square shape
+
+```css
+/* Latest Opportunities - Square Image Sizing */
+.item-img img {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%; /* Creates 1:1 aspect ratio (square) */
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0.5rem;
+}
+```
+
+## ⚡ Performance Optimizations
 
 ### Efficient Selectors
 - **Avoid deep nesting**: Maximum 3 levels of nesting
@@ -289,90 +391,7 @@ assets/
 }
 ```
 
-## Migration from Legacy Styles
-
-### Removed Band-aid Fixes
-
-#### Phone Link Visibility Crisis (FIXED)
-**Before (Band-aid):**
-```css
-.phone-link {
-  display: inline-block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-  /* ... 50+ more !important declarations */
-}
-```
-
-**After (Clean):**
-```css
-.phone-link {
-  color: inherit;
-  text-decoration: none;
-  display: inline-block;
-  transition: color var(--transition-fast);
-}
-
-.phone-link:hover,
-.phone-link:focus {
-  color: var(--color-accent);
-  text-decoration: none;
-}
-```
-
-#### Button Styling Overrides (FIXED)
-**Before (Band-aid):**
-```css
-.btn-primary {
-  background-color: #ffffff !important;
-  border-color: #ffffff !important;
-  color: #808080 !important;
-}
-```
-
-**After (Clean):**
-```css
-.btn-primary {
-  background-color: var(--color-secondary);
-  border-color: var(--color-secondary);
-  color: var(--color-text-secondary);
-}
-
-.btn-primary:hover,
-.btn-primary:focus {
-  background-color: var(--color-surface);
-  border-color: var(--color-surface);
-  color: var(--color-text-primary);
-}
-```
-
-#### Responsive Layout Issues (FIXED)
-**Before (Band-aid):**
-```css
-@media (max-width: 991px) {
-  .media-size-item {
-    width: auto !important;
-  }
-  .mbr-figure {
-    width: 100% !important;
-  }
-}
-```
-
-**After (Clean):**
-```css
-@media (max-width: 991px) {
-  .media-size-item {
-    width: auto;
-  }
-  
-  .mbr-figure {
-    width: 100%;
-  }
-}
-```
-
-## Best Practices
+## 📋 Best Practices
 
 ### CSS Writing Guidelines
 1. **Use CSS Custom Properties**: All design values should use design tokens
@@ -416,26 +435,28 @@ body { /* Base typography */ }
 @media print { /* Print optimizations */ }
 ```
 
-## Testing and Validation
+## 🔒 Automated Prevention
 
-### CSS Validation
-- **No !important declarations** (except accessibility and print)
-- **Proper CSS specificity** hierarchy
-- **Design token usage** throughout
-- **Mobile-first responsive** design
-- **Accessibility compliance** (WCAG 2.1 AA)
+### Pre-commit Validation
+The protection system automatically:
+- ✅ Counts total `!important` declarations
+- ✅ Blocks commits with excessive usage (>10 total)
+- ✅ Detects anti-patterns in custom CSS files
+- ✅ Validates CSS quality standards
 
-### Browser Testing
-- **Modern Browsers**: Chrome 90+, Firefox 88+, Safari 14+, Edge 90+
-- **Mobile Devices**: iOS Safari, Chrome Mobile, Samsung Internet
-- **Accessibility**: Screen readers, keyboard navigation, high contrast mode
+### Quality Gates
+- **Development**: Protection system validates on every commit
+- **Production**: Deployment blocked if standards violated
+- **Monitoring**: Continuous validation of CSS quality
 
-### Performance Testing
-- **Core Web Vitals**: LCP, FID, CLS optimization
-- **CSS Performance**: Efficient selectors and animations
-- **Mobile Performance**: Touch optimization and battery efficiency
+## 📊 Current Status
 
-## Maintenance Guidelines
+- **Custom CSS files**: 0 `!important` declarations ✅
+- **Framework overrides**: 8 `!important` declarations ✅
+- **Total project**: 8 `!important` declarations ✅
+- **Quality standard**: COMPLIANT ✅
+
+## 🛠️ Maintenance Guidelines
 
 ### Adding New Components
 1. **Use Design Tokens**: Reference CSS custom properties
@@ -456,6 +477,17 @@ body { /* Base typography */ }
 3. **Core Web Vitals**: Track performance metrics
 4. **User Testing**: Validate mobile and accessibility experience
 
+## 📋 Developer Checklist
+
+Before adding any CSS:
+
+- [ ] **Can I use a more specific selector?**
+- [ ] **Is this a framework override that justifies !important?**
+- [ ] **Have I tried using CSS cascade order?**
+- [ ] **Can I use CSS custom properties instead?**
+- [ ] **Is this responsive typography that should use clamp()?**
+- [ ] **Will this create technical debt?**
+
 ---
 
-*This CSS architecture documentation serves as the guide for maintaining clean, performant, and accessible styles for the Westmark Talent Group website. All future CSS development should follow these principles and patterns.*
+*This CSS standards document serves as the comprehensive guide for maintaining clean, performant, and accessible styles for the Westmark Talent Group website. All future CSS development should follow these principles and patterns.*

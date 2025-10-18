@@ -62,7 +62,7 @@ Use this template whenever you make design corrections to ensure the intended de
 ```
 ```
 
-### **CSS_QUALITY_STANDARDS.md**
+### **CSS_STANDARDS.md**
 ```markdown
 ### **[Component/Element Name]**
 - **Implementation**: [Technical approach used]
