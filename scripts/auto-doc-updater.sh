@@ -95,10 +95,10 @@ extract_css_specs() {
     CSS_RULES=$(grep -A 10 "^\\.$class_name" "$css_file" 2>/dev/null | head -20)
     
     if [ ! -z "$CSS_RULES" ]; then
-        echo "```css"
+        echo '```css'
         echo "/* $class_name Specifications */"
         echo "$CSS_RULES"
-        echo "```"
+        echo '```'
     fi
 }
 
@@ -145,7 +145,9 @@ $(extract_css_specs "$class_name" "$css_file")
 EOF
     
     # Copy remaining content
-    tail -n +$INSERTION_POINT "$DESIGN_SYSTEM" >> "$TEMP_FILE"
+    if [ "$INSERTION_POINT" -gt 0 ] 2>/dev/null; then
+        tail -n +$INSERTION_POINT "$DESIGN_SYSTEM" >> "$TEMP_FILE"
+    fi
     
     # Replace original file
     mv "$TEMP_FILE" "$DESIGN_SYSTEM"
@@ -200,7 +202,9 @@ update_layout_guidelines() {
 EOF
     
     # Copy remaining content
-    tail -n +$INSERTION_POINT "$LAYOUT_GUIDELINES" >> "$TEMP_FILE"
+    if [ "$INSERTION_POINT" -gt 0 ] 2>/dev/null; then
+        tail -n +$INSERTION_POINT "$LAYOUT_GUIDELINES" >> "$TEMP_FILE"
+    fi
     
     # Replace original file
     mv "$TEMP_FILE" "$LAYOUT_GUIDELINES"
@@ -256,7 +260,9 @@ update_deployment_changelog() {
 EOF
     
     # Append existing content
-    tail -n +2 "$DEPLOYMENT_CHANGELOG" >> "$TEMP_FILE"
+    if [ -f "$DEPLOYMENT_CHANGELOG" ]; then
+        tail -n +2 "$DEPLOYMENT_CHANGELOG" >> "$TEMP_FILE"
+    fi
     
     # Replace original file
     mv "$TEMP_FILE" "$DEPLOYMENT_CHANGELOG"
@@ -315,7 +321,9 @@ $(extract_css_specs "$class_name" "$css_file")
 EOF
     
     # Copy remaining content
-    tail -n +$INSERTION_POINT "$COMPONENT_LIBRARY" >> "$TEMP_FILE"
+    if [ "$INSERTION_POINT" -gt 0 ] 2>/dev/null; then
+        tail -n +$INSERTION_POINT "$COMPONENT_LIBRARY" >> "$TEMP_FILE"
+    fi
     
     # Replace original file
     mv "$TEMP_FILE" "$COMPONENT_LIBRARY"
