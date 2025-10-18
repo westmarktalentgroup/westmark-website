@@ -746,6 +746,52 @@
 }
 
 /* ==========================================================================
+   OPPORTUNITIES IMAGES STYLING
+   ========================================================================== */
+
+/* Latest Opportunities Section Images */
+.item-img {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: var(--border-radius-md);
+  background-color: var(--color-background-light);
+}
+
+.item-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  border-radius: var(--border-radius-md);
+  transition: transform var(--transition-base);
+}
+
+.item-img:hover img {
+  transform: scale(1.05);
+}
+
+/* Ensure images are visible */
+.item-wrapper .item-img img {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Responsive adjustments for opportunities images */
+@media (max-width: 991.98px) {
+  .item-img {
+    margin-bottom: var(--spacing-3);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .item-img {
+    margin-bottom: var(--spacing-2);
+  }
+}
+
+/* ==========================================================================
    SOAP BAR NAVIGATION STYLING
    ========================================================================== */
 
