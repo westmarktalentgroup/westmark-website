@@ -137,29 +137,35 @@ echo "  🔒 Security headers: Comprehensive"
 
 echo ""
 # Git operations for deployment
-echo "📤 Pushing changes to GitHub..."
+echo "📤 Checking for changes to push..."
 if git status --porcelain | grep -q .; then
     echo "📝 Committing production changes..."
     git add .
-    git commit -m "Deploy: Production update from development
+    git commit -m "Deploy: Production update
 
-- Deploy latest changes from development to production
-- Backup created: $BACKUP_DIR
-- All validation checks passed
-- Performance monitoring active"
+- Backup: $BACKUP_DIR
+- Validation: Passed
+- Performance: Optimized"
+else
+    echo "✅ No changes to commit"
 fi
 
-echo "🚀 Pushing to GitHub Pages..."
-# Temporarily disable protection for deployment push
-if [[ -f ".git/hooks/pre-push" ]]; then
-    mv .git/hooks/pre-push .git/hooks/pre-push.disabled
-fi
+# Only push if there are commits to push
+if git log origin/main..HEAD --oneline | grep -q .; then
+    echo "🚀 Pushing to GitHub Pages..."
+    # Temporarily disable protection for deployment push
+    if [[ -f ".git/hooks/pre-push" ]]; then
+        mv .git/hooks/pre-push .git/hooks/pre-push.disabled
+    fi
 
-git push origin main
+    git push origin main
 
-# Re-enable protection
-if [[ -f ".git/hooks/pre-push.disabled" ]]; then
-    mv .git/hooks/pre-push.disabled .git/hooks/pre-push
+    # Re-enable protection
+    if [[ -f ".git/hooks/pre-push.disabled" ]]; then
+        mv .git/hooks/pre-push.disabled .git/hooks/pre-push
+    fi
+else
+    echo "✅ No new commits to push"
 fi
 
 echo ""
