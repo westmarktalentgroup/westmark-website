@@ -231,6 +231,50 @@ The website uses Bootstrap 5.1's 12-column grid system as the foundation for all
 - **Mobile**: Hamburger menu with stacked navigation items
 - **Touch**: 44px minimum touch targets for accessibility
 
+
+### is-builder Layout
+
+#### is-builder Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### is-builder Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### is-builder Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### nav-dropdown Layout
+
+#### nav-dropdown Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### nav-dropdown Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### nav-dropdown Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
 ### Hero Section Layout
 
 #### Full-Width Hero

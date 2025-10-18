@@ -198,6 +198,42 @@ This document defines the complete design system for the Westmark Talent Group w
 - **Scrolled**: Increased opacity and stronger shadow
 - **Mobile**: Stacked navigation with full-width links
 
+
+### is-builder Component
+
+#### is-builder Specifications
+
+
+#### is-builder Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### is-builder States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### nav-dropdown Component
+
+#### nav-dropdown Specifications
+
+
+#### nav-dropdown Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### nav-dropdown States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
 ### Button Specifications
 ```css
 /* Button Base */
