@@ -613,9 +613,7 @@
             soapBarNav.classList.remove('scrolled');
           }
           
-          // Subtle parallax effect
-          const parallaxOffset = scrollY * 0.1;
-          soapBar.style.transform = `translateY(${parallaxOffset}px)`;
+          // No parallax effect - keep bar fixed in position
           
           lastScrollY = scrollY;
           ticking = false;
