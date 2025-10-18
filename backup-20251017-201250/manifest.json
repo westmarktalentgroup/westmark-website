@@ -9,12 +9,6 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "assets/images/westmark-logo-128x62-1.webp",
-      "sizes": "128x62",
-      "type": "image/webp",
-      "purpose": "any maskable"
-    },
-    {
       "src": "assets/images/westmark-logo-128x62-1.png",
       "sizes": "128x62",
       "type": "image/png",

@@ -2704,7 +2704,28 @@ a {
 }
 .cid-uMOnIuaQSz {
   display: flex;
-  background-image: url("../../../assets/images/pexels-apasaric-1437493-2000x1333.jpg");
+  background-image: url("../../../assets/images/optimized/hero-400x267.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Enhanced responsive hero images for better quality */
+@media (min-width: 800px) {
+  .cid-uMOnIuaQSz {
+    background-image: url("../../../assets/images/optimized/hero-800x533.jpg");
+  }
+}
+
+@media (min-width: 1200px) {
+  .cid-uMOnIuaQSz {
+    background-image: url("../../../assets/images/optimized/hero-1200x800.jpg");
+  }
+}
+
+@media (min-width: 1400px) {
+  .cid-uMOnIuaQSz {
+    background-image: url("../../../assets/images/pexels-apasaric-1437493-2000x1333.jpg");
+  }
 }
 .cid-uMOnIuaQSz .mbr-overlay {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.6) 40%, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0.1) 80%, rgba(0, 0, 0, 0) 100%);

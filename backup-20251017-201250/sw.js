@@ -1,5 +1,5 @@
 // Service Worker for Westmark Talent Group - Production Optimized
-const CACHE_NAME = 'westmark-v2';
+const CACHE_NAME = 'westmark-v1';
 const urlsToCache = [
   './',
   './index.html',
@@ -10,16 +10,7 @@ const urlsToCache = [
   './assets/bootstrap/css/bootstrap.min.css',
   './assets/theme/js/script.js',
   './assets/theme/js/error-handling.js',
-  './manifest.json',
-  // WebP images for better performance
-  './assets/images/architect-engineer-construction-workers-shaking-600nw-1439150765-600x400.webp',
-  './assets/images/pexels-apasaric-1437493-2000x1333.webp',
-  './assets/images/pexels-expect-best-79873-323780-742x478.webp',
-  './assets/images/pexels-pixabay-259588-742x494.webp',
-  './assets/images/pexels-sevenstormphotography-439416-742x557.webp',
-  './assets/images/photo-1567954970774-58d6aa6c50dc-1.webp',
-  './assets/images/screenshot202025-06-0220at207.49.36e280afpm-794x488.webp',
-  './assets/images/westmark-logo-128x62-1.webp'
+  './manifest.json'
 ];
 
 // Install event - cache resources
