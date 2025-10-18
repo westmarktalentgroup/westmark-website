@@ -611,6 +611,19 @@ body {
   max-width: 600px !important;
 }
 
+/* Prevent hero title from breaking into multiple lines */
+.header18.cid-uMOnIuaQSz .mbr-section-title {
+  white-space: nowrap !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
+}
+
+/* Ensure proper text sizing */
+.header18.cid-uMOnIuaQSz .display-1 {
+  font-size: 3.5rem !important;
+  line-height: 1.1 !important;
+}
+
 /* Menu/Navigation Styling */
 .menu2.cid-uMOnIua8FF {
   background: #282828 !important;
