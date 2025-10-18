@@ -1,0 +1,9 @@
+# Westmark Talent Group - Production Protection
+# This file indicates that production protection is active
+# Created: Sat Oct 18 18:52:21 EDT 2025
+# 
+# PROTECTION RULES:
+# 1. Direct pushes to main branch are blocked
+# 2. Only deploy.sh script can update production
+# 3. All changes must go through development/ directory first
+# 4. Backup is created before any production changes

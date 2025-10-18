@@ -14,6 +14,12 @@ echo "   ✅ NEVER edit production files directly"
 echo "   ✅ Always work in development/ directory first"
 echo "   ✅ Use this script to deploy changes"
 echo ""
+echo "🔒 PRODUCTION PROTECTION ACTIVE:"
+echo "   ✅ Direct pushes to main branch are BLOCKED"
+echo "   ✅ Only this deploy script can update production"
+echo "   ✅ All changes must go through development/ first"
+echo "   ✅ Automatic backups created before changes"
+echo ""
 
 # Check if development directory exists
 if [ ! -d "development" ]; then
