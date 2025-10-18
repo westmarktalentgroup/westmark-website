@@ -89,6 +89,7 @@ The logo page (`logo.html`) serves as the official brand asset distribution cent
 - **Hero Images**: Minimum 1200px × 600px (2:1 aspect ratio)
 - **Content Images**: Minimum 600px × 400px (3:2 aspect ratio)
 - **Thumbnail Images**: Minimum 300px × 200px (3:2 aspect ratio)
+- **Latest Opportunities Images**: Minimum 400px × 400px (1:1 aspect ratio - square)
 - **Logo Images**: Vector format preferred, PNG for raster
 
 #### File Format Guidelines
@@ -124,6 +125,12 @@ The logo page (`logo.html`) serves as the official brand asset distribution cent
 - **Consistent Sizing**: Use standard aspect ratios
 - **Caption Support**: Provide space for descriptive text
 - **Responsive Behavior**: Scale appropriately across devices
+
+#### Latest Opportunities Section Images
+- **Square Format**: All job listing images must be 1:1 aspect ratio (square)
+- **Minimum Resolution**: 400px × 400px for optimal quality
+- **Consistent Layout**: Square images create uniform grid appearance
+- **Professional Appearance**: Maintains clean, organized visual hierarchy
 
 ## Icon System Guidelines
 

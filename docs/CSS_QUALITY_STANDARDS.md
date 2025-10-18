@@ -170,6 +170,14 @@ If you absolutely must add `!important`:
 - **Total project**: 8 `!important` declarations ✅
 - **Quality standard**: COMPLIANT ✅
 
+## 🎨 **Design System Standards**
+
+### **Latest Opportunities Images**
+- **Aspect Ratio**: 1:1 (square) - as specified in design documentation
+- **Minimum Resolution**: 400px × 400px
+- **CSS Implementation**: Uses `padding-bottom: 100%` technique
+- **Responsive**: Scales with container width while maintaining square shape
+
 ---
 
 *This document is automatically enforced by the protection system. Violations will block commits and deployments.*

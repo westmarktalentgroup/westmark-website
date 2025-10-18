@@ -207,6 +207,56 @@ Display content in organized, visually appealing card format.
 - **Consistent Spacing**: Uses design system spacing values
 - **Accessible Content**: Proper heading hierarchy and alt text
 
+### Latest Opportunities Component
+
+#### Purpose
+Display job listings in a consistent, professional grid format with square images.
+
+#### HTML Structure
+```html
+<div class="item-img">
+  <img src="assets/images/construction-image.jpg" 
+       alt="Construction project" 
+       class="item-img"
+       loading="lazy">
+</div>
+<div class="item-content align-left">
+  <h5 class="item-title mbr-fonts-style mt-0 mb-2 display-5">
+    <strong>Project Manager</strong><br><strong>Luxury Residential</strong>
+  </h5>
+  <p class="mbr-text mbr-fonts-style mb-3 display-7">Austin - Texas</p>
+  <p class="mbr-text mbr-fonts-style mb-3 display-7">Luxury builder in Austin - $30M builds.</p>
+  <div class="mbr-section-btn item-footer">
+    <a href="#" class="btn item-btn btn-black-outline display-7">Apply</a>
+  </div>
+</div>
+```
+
+#### CSS Classes
+- `.item-img`: Image container with square aspect ratio
+- `.item-img img`: Square image with 1:1 aspect ratio
+- `.item-content`: Content wrapper for job details
+- `.item-title`: Job title heading (display-5)
+- `.item-footer`: Action button container
+
+#### Behavior
+- **Square Images**: All images maintain 1:1 aspect ratio
+- **Responsive Grid**: Adapts to different screen sizes
+- **Consistent Layout**: Uniform appearance across all job listings
+- **Professional Styling**: Clean, organized visual hierarchy
+
+#### Technical Implementation
+```css
+.item-img img {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%; /* Creates 1:1 aspect ratio (square) */
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0.5rem;
+}
+```
+
 ### Content Grid
 
 #### Purpose
