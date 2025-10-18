@@ -336,7 +336,7 @@ echo "🤖 Running automated documentation update..."
 
 # Run documentation updater
 if [ -f "scripts/auto-doc-updater.sh" ]; then
-    ./scripts/auto-doc-updater.sh --auto
+    ./scripts/auto-doc-updater.sh auto
 fi
 EOF
     
