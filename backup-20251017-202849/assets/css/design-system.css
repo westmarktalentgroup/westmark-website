@@ -1,0 +1,174 @@
+/* Westmark Talent Group - Unified Design System */
+/* This file replaces mobile-text-fixes.css with proper architecture */
+
+:root {
+  /* Typography Scale - Mobile First */
+  --font-size-xs: clamp(0.75rem, 1vw, 0.875rem);     /* 12px-14px */
+  --font-size-sm: clamp(0.875rem, 1.2vw, 1rem);      /* 14px-16px */
+  --font-size-base: clamp(1rem, 1.5vw, 1.125rem);    /* 16px-18px */
+  --font-size-lg: clamp(1.125rem, 1.8vw, 1.25rem);   /* 18px-20px */
+  --font-size-xl: clamp(1.25rem, 2vw, 1.5rem);       /* 20px-24px */
+  --font-size-2xl: clamp(1.5rem, 2.5vw, 2rem);      /* 24px-32px */
+  --font-size-3xl: clamp(1.875rem, 3.5vw, 2.5rem);  /* 30px-40px */
+  --font-size-4xl: clamp(2.25rem, 4.5vw, 3.5rem);   /* 36px-56px */
+  --font-size-5xl: clamp(2.5rem, 5vw, 5rem);        /* 40px-80px */
+  
+  /* Line Heights */
+  --line-height-tight: 1.1;
+  --line-height-normal: 1.2;
+  --line-height-relaxed: 1.3;
+  --line-height-loose: 1.4;
+  --line-height-text: 1.5;
+  
+  /* Spacing Scale */
+  --space-1: 0.25rem;   /* 4px */
+  --space-2: 0.5rem;    /* 8px */
+  --space-3: 0.75rem;   /* 12px */
+  --space-4: 1rem;      /* 16px */
+  --space-5: 1.25rem;   /* 20px */
+  --space-6: 1.5rem;    /* 24px */
+  --space-8: 2rem;      /* 32px */
+  --space-10: 2.5rem;   /* 40px */
+  --space-12: 3rem;     /* 48px */
+  
+  /* Colors */
+  --color-primary: #000000;
+  --color-secondary: #007bff;
+  --color-text: #333333;
+  --color-text-light: #666666;
+  --color-white: #ffffff;
+  
+  /* Font Families */
+  --font-family-heading: 'Playfair Display', serif;
+  --font-family-body: 'Manrope', sans-serif;
+}
+
+/* Typography Classes - Using CSS Custom Properties */
+.display-1 {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-5xl);
+  line-height: var(--line-height-tight);
+  margin-bottom: var(--space-4);
+}
+
+.display-2 {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-4xl);
+  line-height: var(--line-height-normal);
+  margin-bottom: var(--space-4);
+}
+
+.display-5 {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-2xl);
+  line-height: var(--line-height-relaxed);
+  margin-bottom: var(--space-3);
+}
+
+.display-7 {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-text);
+  margin-bottom: var(--space-4);
+}
+
+/* Navigation */
+.navbar-nav .nav-link {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: var(--color-secondary);
+}
+
+/* Buttons */
+.btn {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  line-height: var(--line-height-normal);
+  padding: var(--space-3) var(--space-6);
+}
+
+/* Job Cards */
+.item-title {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-relaxed);
+  margin-bottom: var(--space-2);
+  font-weight: 600;
+}
+
+.item-content p {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-loose);
+  margin-bottom: var(--space-3);
+}
+
+/* Form Elements */
+.form-control {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-text);
+}
+
+/* Blockquotes */
+blockquote {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-text);
+}
+
+/* Utility Classes */
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+.mb-2 { margin-bottom: var(--space-2); }
+.mb-3 { margin-bottom: var(--space-3); }
+.mb-4 { margin-bottom: var(--space-4); }
+.mt-3 { margin-top: var(--space-3); }
+
+/* Mobile-Specific Adjustments */
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+    font-size: var(--font-size-base);
+    padding: var(--space-2) var(--space-3);
+  }
+  
+  .btn {
+    font-size: var(--font-size-base);
+    padding: var(--space-3) var(--space-5);
+  }
+}
+
+@media (max-width: 480px) {
+  .btn {
+    font-size: var(--font-size-sm);
+    padding: var(--space-2) var(--space-4);
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: var(--font-size-sm);
+    padding: var(--space-2) var(--space-3);
+  }
+}
+
+/* Override Framework CSS with Higher Specificity */
+body .display-1 { font-size: var(--font-size-5xl) !important; }
+body .display-2 { font-size: var(--font-size-4xl) !important; }
+body .display-5 { font-size: var(--font-size-2xl) !important; }
+body .display-7 { font-size: var(--font-size-base) !important; }
+
+/* Process Text - Specific Fix */
+.process-text {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-text);
+}
