@@ -599,9 +599,9 @@ body {
   z-index: 2;
   height: 100vh;
   display: flex;
-  align-items: flex-end !important;
-  justify-content: flex-start !important;
-  padding: 2rem !important;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 2rem;
 }
 
 .header18.cid-uMOnIuaQSz .content-wrap {
@@ -613,15 +613,15 @@ body {
 
 /* Prevent hero title from breaking into multiple lines */
 .header18.cid-uMOnIuaQSz .mbr-section-title {
-  white-space: nowrap !important;
-  overflow: visible !important;
-  text-overflow: unset !important;
+  white-space: nowrap;
+  overflow: visible;
+  text-overflow: unset;
 }
 
 /* Ensure proper text sizing */
 .header18.cid-uMOnIuaQSz .display-1 {
-  font-size: 3.5rem !important;
-  line-height: 1.1 !important;
+  font-size: 3.5rem;
+  line-height: 1.1;
 }
 
 /* Latest Opportunities - Square Image Sizing */
