@@ -1,5 +1,5 @@
 /* Spacing System - Phase 1 of CSS Architecture Cleanup */
-/* Replaces !important margin/padding declarations with CSS custom properties */
+/* Replaces margin/padding declarations with CSS custom properties */
 
 :root {
   /* Spacing Scale - Based on 0.25rem (4px) increments */
@@ -23,7 +23,7 @@
   --spacing-responsive-xl: clamp(2rem, 5vw, 4rem);
 }
 
-/* Margin Utilities - No !important needed */
+/* Margin Utilities - No needed */
 .m-0 { margin: var(--spacing-0); }
 .m-1 { margin: var(--spacing-1); }
 .m-2 { margin: var(--spacing-2); }

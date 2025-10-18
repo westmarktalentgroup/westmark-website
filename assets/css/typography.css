@@ -1,5 +1,5 @@
 /* Typography System - Phase 1 of CSS Architecture Cleanup */
-/* Replaces !important font-size declarations with proper CSS custom properties */
+/* Replaces font-size declarations with proper CSS custom properties */
 
 :root {
   /* Font Scale - Based on Major Third (1.25) */
@@ -31,7 +31,7 @@
   --font-family-body: 'Manrope', sans-serif;
 }
 
-/* Typography Classes - No !important needed */
+/* Typography Classes - No needed */
 .display-1 {
   font-size: var(--font-size-5xl);
   line-height: var(--line-height-tight);
@@ -150,7 +150,7 @@
   }
 }
 
-/* Text Alignment - No !important needed */
+/* Text Alignment - No needed */
 .text-center {
   text-align: center;
 }
