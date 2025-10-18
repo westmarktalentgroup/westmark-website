@@ -361,34 +361,13 @@ run_automated_update() {
     COMMIT_HASH=$(git rev-parse --short HEAD)
     COMMIT_MESSAGE=$(git log -1 --pretty=%B)
     
-    PROCESSED_COUNT=0
-    START_TIME=$(date +%s)
-    
-    # Detect new components
-    if detect_new_css_classes; then
-        TOTAL_CLASSES=${#NEW_CLASSES[@]}
-        echo -e "${YELLOW}📊 Processing $TOTAL_CLASSES CSS classes...${NC}"
-        
-        for class in "${NEW_CLASSES[@]}"; do
-            CSS_FILE=$(find . -name "*.css" -exec grep -l "^\\.$class" {} \; | head -1)
-            if [ ! -z "$CSS_FILE" ]; then
-                PROCESSED_COUNT=$((PROCESSED_COUNT + 1))
-                if [ $((PROCESSED_COUNT % 10)) -eq 0 ] || [ $PROCESSED_COUNT -eq $TOTAL_CLASSES ]; then
-                    echo -e "${BLUE}📝 Progress: $PROCESSED_COUNT/$TOTAL_CLASSES classes processed${NC}"
-                fi
-                update_design_system "$class" "$CSS_FILE"
-                update_layout_guidelines "$class" "$CSS_FILE"
-                update_component_library "$class" "$CSS_FILE"
-            fi
-        done
-    fi
+    # Only update deployment changelog for now - skip CSS class processing
+    echo -e "${YELLOW}📝 Updating DEPLOYMENT_CHANGELOG.md only...${NC}"
     
     # Update deployment changelog
     update_deployment_changelog "$COMMIT_HASH" "$COMMIT_MESSAGE"
     
-    FINAL_TIME=$(date +%s)
-    ELAPSED_TIME=$((FINAL_TIME - START_TIME))
-    echo -e "${GREEN}✅ Automated documentation update complete (processed $PROCESSED_COUNT classes in ${ELAPSED_TIME}s)${NC}"
+    echo -e "${GREEN}✅ Automated documentation update complete (deployment changelog updated)${NC}"
 }
 
 # Main script logic

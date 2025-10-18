@@ -48464,3 +48464,15017 @@ Auto-detected component with specifications extracted from source code.
 ### Related Components
 - [To be linked to related components]
 
+## mobi-mbri-touch-swipe Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-touch-swipe Specifications */
+.mobi-mbri-touch-swipe:before {
+  content: "\e985";
+}
+.mobi-mbri-touch:before {
+  content: "\e986";
+}
+.mobi-mbri-trash:before {
+  content: "\e987";
+}
+.mobi-mbri-underline:before {
+  content: "\e988";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-touch-swipe">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-trash Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-trash Specifications */
+.mobi-mbri-trash:before {
+  content: "\e987";
+}
+.mobi-mbri-underline:before {
+  content: "\e988";
+}
+.mobi-mbri-undo:before {
+  content: "\e989";
+}
+.mobi-mbri-unlink:before {
+  content: "\e98a";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-trash">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-underline Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-underline Specifications */
+.mobi-mbri-underline:before {
+  content: "\e988";
+}
+.mobi-mbri-undo:before {
+  content: "\e989";
+}
+.mobi-mbri-unlink:before {
+  content: "\e98a";
+}
+.mobi-mbri-unlock:before {
+  content: "\e98b";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-underline">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-undo Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-undo Specifications */
+.mobi-mbri-undo:before {
+  content: "\e989";
+}
+.mobi-mbri-unlink:before {
+  content: "\e98a";
+}
+.mobi-mbri-unlock:before {
+  content: "\e98b";
+}
+.mobi-mbri-up-down:before {
+  content: "\e98c";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-undo">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-unlink Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-unlink Specifications */
+.mobi-mbri-unlink:before {
+  content: "\e98a";
+}
+.mobi-mbri-unlock:before {
+  content: "\e98b";
+}
+.mobi-mbri-up-down:before {
+  content: "\e98c";
+}
+.mobi-mbri-up:before {
+  content: "\e98d";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-unlink">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-unlock Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-unlock Specifications */
+.mobi-mbri-unlock:before {
+  content: "\e98b";
+}
+.mobi-mbri-up-down:before {
+  content: "\e98c";
+}
+.mobi-mbri-up:before {
+  content: "\e98d";
+}
+.mobi-mbri-update:before {
+  content: "\e98e";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-unlock">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-up Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-up Specifications */
+.mobi-mbri-up-down:before {
+  content: "\e98c";
+}
+.mobi-mbri-up:before {
+  content: "\e98d";
+}
+.mobi-mbri-update:before {
+  content: "\e98e";
+}
+.mobi-mbri-upload-2:before {
+  content: "\e98f";
+}
+.mobi-mbri-upload:before {
+  content: "\e990";
+}
+.mobi-mbri-user-2:before {
+  content: "\e991";
+}
+.mobi-mbri-user:before {
+  content: "\e992";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-up">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-up-down Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-up-down Specifications */
+.mobi-mbri-up-down:before {
+  content: "\e98c";
+}
+.mobi-mbri-up:before {
+  content: "\e98d";
+}
+.mobi-mbri-update:before {
+  content: "\e98e";
+}
+.mobi-mbri-upload-2:before {
+  content: "\e98f";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-up-down">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-update Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-update Specifications */
+.mobi-mbri-update:before {
+  content: "\e98e";
+}
+.mobi-mbri-upload-2:before {
+  content: "\e98f";
+}
+.mobi-mbri-upload:before {
+  content: "\e990";
+}
+.mobi-mbri-user-2:before {
+  content: "\e991";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-update">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-upload Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-upload Specifications */
+.mobi-mbri-upload-2:before {
+  content: "\e98f";
+}
+.mobi-mbri-upload:before {
+  content: "\e990";
+}
+.mobi-mbri-user-2:before {
+  content: "\e991";
+}
+.mobi-mbri-user:before {
+  content: "\e992";
+}
+.mobi-mbri-users:before {
+  content: "\e993";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-upload">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-upload-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-upload-2 Specifications */
+.mobi-mbri-upload-2:before {
+  content: "\e98f";
+}
+.mobi-mbri-upload:before {
+  content: "\e990";
+}
+.mobi-mbri-user-2:before {
+  content: "\e991";
+}
+.mobi-mbri-user:before {
+  content: "\e992";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-upload-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-user Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-user Specifications */
+.mobi-mbri-user-2:before {
+  content: "\e991";
+}
+.mobi-mbri-user:before {
+  content: "\e992";
+}
+.mobi-mbri-users:before {
+  content: "\e993";
+}
+.mobi-mbri-video-play:before {
+  content: "\e994";
+}
+.mobi-mbri-video:before {
+  content: "\e995";
+}
+.mobi-mbri-watch:before {
+  content: "\e996";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-user">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-user-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-user-2 Specifications */
+.mobi-mbri-user-2:before {
+  content: "\e991";
+}
+.mobi-mbri-user:before {
+  content: "\e992";
+}
+.mobi-mbri-users:before {
+  content: "\e993";
+}
+.mobi-mbri-video-play:before {
+  content: "\e994";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-user-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-users Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-users Specifications */
+.mobi-mbri-users:before {
+  content: "\e993";
+}
+.mobi-mbri-video-play:before {
+  content: "\e994";
+}
+.mobi-mbri-video:before {
+  content: "\e995";
+}
+.mobi-mbri-watch:before {
+  content: "\e996";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-users">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-video Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-video Specifications */
+.mobi-mbri-video-play:before {
+  content: "\e994";
+}
+.mobi-mbri-video:before {
+  content: "\e995";
+}
+.mobi-mbri-watch:before {
+  content: "\e996";
+}
+.mobi-mbri-website-theme-2:before {
+  content: "\e997";
+}
+.mobi-mbri-website-theme:before {
+  content: "\e998";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-video">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-video-play Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-video-play Specifications */
+.mobi-mbri-video-play:before {
+  content: "\e994";
+}
+.mobi-mbri-video:before {
+  content: "\e995";
+}
+.mobi-mbri-watch:before {
+  content: "\e996";
+}
+.mobi-mbri-website-theme-2:before {
+  content: "\e997";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-video-play">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-watch Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-watch Specifications */
+.mobi-mbri-watch:before {
+  content: "\e996";
+}
+.mobi-mbri-website-theme-2:before {
+  content: "\e997";
+}
+.mobi-mbri-website-theme:before {
+  content: "\e998";
+}
+.mobi-mbri-wifi:before {
+  content: "\e999";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-watch">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-website-theme Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-website-theme Specifications */
+.mobi-mbri-website-theme-2:before {
+  content: "\e997";
+}
+.mobi-mbri-website-theme:before {
+  content: "\e998";
+}
+.mobi-mbri-wifi:before {
+  content: "\e999";
+}
+.mobi-mbri-windows:before {
+  content: "\e99a";
+}
+.mobi-mbri-zoom-in:before {
+  content: "\e99b";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-website-theme">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-website-theme-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-website-theme-2 Specifications */
+.mobi-mbri-website-theme-2:before {
+  content: "\e997";
+}
+.mobi-mbri-website-theme:before {
+  content: "\e998";
+}
+.mobi-mbri-wifi:before {
+  content: "\e999";
+}
+.mobi-mbri-windows:before {
+  content: "\e99a";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-website-theme-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-wifi Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-wifi Specifications */
+.mobi-mbri-wifi:before {
+  content: "\e999";
+}
+.mobi-mbri-windows:before {
+  content: "\e99a";
+}
+.mobi-mbri-zoom-in:before {
+  content: "\e99b";
+}
+.mobi-mbri-zoom-out:before {
+  content: "\e99c";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-wifi">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-windows Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-windows Specifications */
+.mobi-mbri-windows:before {
+  content: "\e99a";
+}
+.mobi-mbri-zoom-in:before {
+  content: "\e99b";
+}
+.mobi-mbri-zoom-out:before {
+  content: "\e99c";
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-windows">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-zoom-in Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-zoom-in Specifications */
+.mobi-mbri-zoom-in:before {
+  content: "\e99b";
+}
+.mobi-mbri-zoom-out:before {
+  content: "\e99c";
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-zoom-in">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-zoom-out Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-zoom-out Specifications */
+.mobi-mbri-zoom-out:before {
+  content: "\e99c";
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-zoom-out">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## jarallax Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* jarallax Specifications */
+.jarallax {
+    position: relative;
+    z-index: 0;
+}
+.jarallax > .jarallax-img {
+    position: absolute;
+    object-fit: cover;
+    /* support for plugin https://github.com/bfred-it/object-fit-images */
+    font-family: 'object-fit: cover;';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="jarallax">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## article Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* article Specifications */
+.article .lead p,
+.article .lead ul,
+.article .lead ol,
+.article .lead pre,
+.article .lead blockquote {
+  margin-bottom: 0;
+}
+
+/* Icon font hover states */
+a.mbr-iconfont:hover {
+  text-decoration: none;
+}
+
+/* Section titles and subtitles */
+.mbr-section-title {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="article">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## bg-danger Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* bg-danger Specifications */
+.bg-danger {
+  background-color: #e56975;
+}
+
+/* Button System - Clean Architecture with Proper Specificity */
+.btn-primary,
+.btn-primary:active {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #808080;
+  box-shadow: none;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="bg-danger">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## bg-info Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* bg-info Specifications */
+.bg-info {
+  background-color: #58dcf6;
+}
+
+.bg-warning {
+  background-color: #ffd34f;
+}
+
+.bg-danger {
+  background-color: #e56975;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="bg-info">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## bg-primary Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* bg-primary Specifications */
+.bg-primary {
+  background-color: #ffffff;
+}
+
+.bg-success {
+  background-color: #6be3ab;
+}
+
+.bg-info {
+  background-color: #58dcf6;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="bg-primary">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## bg-success Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* bg-success Specifications */
+.bg-success {
+  background-color: #6be3ab;
+}
+
+.bg-info {
+  background-color: #58dcf6;
+}
+
+.bg-warning {
+  background-color: #ffd34f;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="bg-success">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## bg-warning Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* bg-warning Specifications */
+.bg-warning {
+  background-color: #ffd34f;
+}
+
+.bg-danger {
+  background-color: #e56975;
+}
+
+/* Button System - Clean Architecture with Proper Specificity */
+.btn-primary,
+.btn-primary:active {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="bg-warning">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-danger Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-danger Specifications */
+.btn-danger,
+.btn-danger:active {
+  background-color: #e56975;
+  border-color: #e56975;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger.focus,
+.btn-danger.active {
+  color: inherit;
+  background-color: #ed949d;
+  border-color: #ed949d;
+  box-shadow: none;
+}
+
+.btn-danger.disabled,
+.btn-danger:disabled {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-danger">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-info Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-info Specifications */
+.btn-info,
+.btn-info:active {
+  background-color: #58dcf6;
+  border-color: #58dcf6;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info.focus,
+.btn-info.active {
+  color: inherit;
+  background-color: #88e6f9;
+  border-color: #88e6f9;
+  box-shadow: none;
+}
+
+.btn-info.disabled,
+.btn-info:disabled {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-info">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-lg Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-lg Specifications */
+.btn-lg {
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+}
+
+/* Button State Styles */
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-lg">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-outline-primary Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-outline-primary Specifications */
+.btn-outline-primary {
+  color: #000000;
+  background-color: transparent;
+  border-color: #000000;
+  box-shadow: none;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary.focus,
+.btn-outline-primary.active {
+  color: #ffffff;
+  background: #000000;
+  box-shadow: none;
+}
+
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+  color: #000000;
+  background-color: transparent;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-outline-primary">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-primary Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-primary Specifications */
+.btn-primary,
+.btn-primary:active {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #808080;
+  box-shadow: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary.active {
+  color: inherit;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  box-shadow: none;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-primary">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-secondary Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-secondary Specifications */
+.btn-secondary,
+.btn-secondary:active {
+  background-color: #ae301c;
+  border-color: #ae301c;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary.focus,
+.btn-secondary.active {
+  color: inherit;
+  background-color: #da3c23;
+  border-color: #da3c23;
+  box-shadow: none;
+}
+
+.btn-secondary.disabled,
+.btn-secondary:disabled {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-secondary">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-sm Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-sm Specifications */
+.btn-sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  border-radius: 0.25rem;
+}
+
+.btn-lg {
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-sm">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-success Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-success Specifications */
+.btn-success,
+.btn-success:active {
+  background-color: #6be3ab;
+  border-color: #6be3ab;
+  color: #0d4229;
+  box-shadow: none;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success.focus,
+.btn-success.active {
+  color: inherit;
+  background-color: #96ebc3;
+  border-color: #96ebc3;
+  box-shadow: none;
+}
+
+.btn-success.disabled,
+.btn-success:disabled {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-success">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-warning Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-warning Specifications */
+.btn-warning,
+.btn-warning:active {
+  background-color: #ffd34f;
+  border-color: #ffd34f;
+  color: #4f3b00;
+  box-shadow: none;
+}
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning.focus,
+.btn-warning.active {
+  color: inherit;
+  background-color: #ffe082;
+  border-color: #ffe082;
+  box-shadow: none;
+}
+
+.btn-warning.disabled,
+.btn-warning:disabled {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-warning">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## card-wrap Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* card-wrap Specifications */
+.card-wrap img,
+.card-wrapper img,
+.video-wrapper img,
+.mbr-figure img,
+.mbr-figure iframe,
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="card-wrap">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## card-wrapper Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* card-wrapper Specifications */
+.card-wrapper img,
+.video-wrapper img,
+.mbr-figure img,
+.mbr-figure iframe,
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="card-wrapper">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## carousel-control Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* carousel-control Specifications */
+.carousel-control {
+  background-color: var(--color-brand-primary);
+  opacity: 0.8;
+  color: var(--color-brand-secondary);
+  border-color: var(--color-brand-primary);
+  border-radius: var(--border-radius-base);
+  transition: opacity var(--transition-base);
+}
+
+.embla__button:hover,
+.carousel-control:hover {
+  opacity: 1;
+}
+
+/* Carousel Close Buttons */
+.carousel .close,
+.modalWindow .close {
+  background-color: var(--color-brand-primary);
+  color: var(--color-brand-secondary);
+  border-color: var(--color-brand-primary);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="carousel-control">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## carousel-indicators Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* carousel-indicators Specifications */
+.carousel-indicators li {
+  background-color: var(--color-brand-primary);
+  border: 2px solid var(--color-brand-secondary);
+  border-radius: 50%;
+  transition: opacity var(--transition-base);
+}
+
+.carousel-indicators li:hover,
+.carousel-indicators li:active {
+  opacity: 0.8;
+}
+
+/* ==========================================================================
+   FORM COMPONENTS
+   ========================================================================== */
+
+.form-control {
+  display: block;
+  width: 100%;
+--
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="carousel-indicators">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## cid-uMOnIucJDw Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* cid-uMOnIucJDw Specifications */
+.cid-uMOnIucJDw .phone-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contacts01 .phone-link:hover,
+.cid-uMOnIucJDw .phone-link:hover {
+  color: var(--color-accent);
+  background-color: rgba(0, 123, 255, 0.1);
+  border-radius: var(--border-radius-sm);
+  padding: var(--spacing-1) var(--spacing-2);
+}
+
+/* ==========================================================================
+   LAYOUT COMPONENTS
+   ========================================================================== */
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="cid-uMOnIucJDw">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## contacts01 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* contacts01 Specifications */
+.contacts01 .phone-link,
+.cid-uMOnIucJDw .phone-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contacts01 .phone-link:hover,
+.cid-uMOnIucJDw .phone-link:hover {
+  color: var(--color-accent);
+  background-color: rgba(0, 123, 255, 0.1);
+  border-radius: var(--border-radius-sm);
+  padding: var(--spacing-1) var(--spacing-2);
+}
+
+/* ==========================================================================
+   LAYOUT COMPONENTS
+   ========================================================================== */
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="contacts01">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## display-1 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* display-1 Specifications */
+.display-1 {
+  font-size: var(--font-size-5xl);
+  line-height: var(--line-height-tight);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-4);
+}
+
+.display-2 {
+  font-size: var(--font-size-4xl);
+  line-height: var(--line-height-snug);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="display-1">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## display-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* display-2 Specifications */
+.display-2 {
+  font-size: var(--font-size-4xl);
+  line-height: var(--line-height-snug);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-4);
+}
+
+.display-5 {
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-normal);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="display-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## display-4 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* display-4 Specifications */
+.display-4 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.display-4 > .mbr-iconfont {
+  font-size: 1.5rem;
+}
+
+.display-5 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.display-5 > .mbr-iconfont {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="display-4">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## embla__button Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* embla__button Specifications */
+.embla__button,
+.carousel-control {
+  background-color: var(--color-brand-primary);
+  opacity: 0.8;
+  color: var(--color-brand-secondary);
+  border-color: var(--color-brand-primary);
+  border-radius: var(--border-radius-base);
+  transition: opacity var(--transition-base);
+}
+
+.embla__button:hover,
+.carousel-control:hover {
+  opacity: 1;
+}
+
+/* Carousel Close Buttons */
+.carousel .close,
+.modalWindow .close {
+  background-color: var(--color-brand-primary);
+  color: var(--color-brand-secondary);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="embla__button">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## google-map Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* google-map Specifications */
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="google-map">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## item-wrapper Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* item-wrapper Specifications */
+.item-wrapper .item-img img {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Responsive adjustments for opportunities images */
+@media (max-width: 991.98px) {
+  .item-img {
+    margin-bottom: var(--spacing-3);
+  }
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="item-wrapper">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mbr-figure Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mbr-figure Specifications */
+.mbr-figure img,
+.mbr-figure iframe,
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mbr-figure">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mbr-section-subtitle Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mbr-section-subtitle Specifications */
+.mbr-section-subtitle {
+  line-height: var(--line-height-tight);
+}
+
+.mbr-text {
+  font-style: normal;
+  line-height: var(--line-height-relaxed);
+}
+
+/* ==========================================================================
+   LEGACY COMPATIBILITY
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mbr-section-subtitle">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mbr-section-title Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mbr-section-title Specifications */
+.mbr-section-title {
+  font-style: normal;
+  line-height: var(--line-height-tight);
+}
+
+.mbr-section-subtitle {
+  line-height: var(--line-height-tight);
+}
+
+.mbr-text {
+  font-style: normal;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mbr-section-title">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## modalWindow Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* modalWindow Specifications */
+.modalWindow .close {
+  background-color: var(--color-brand-primary);
+  color: var(--color-brand-secondary);
+  border-color: var(--color-brand-primary);
+  opacity: 0.8;
+  transition: opacity var(--transition-base);
+}
+
+.carousel .close:hover,
+.modalWindow .close:hover {
+  opacity: 1;
+}
+
+/* Carousel Indicators */
+.carousel-indicators li {
+  background-color: var(--color-brand-primary);
+  border: 2px solid var(--color-brand-secondary);
+  border-radius: 50%;
+  transition: opacity var(--transition-base);
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="modalWindow">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## modalWindow-video-container Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* modalWindow-video-container Specifications */
+.modalWindow-video-container {
+  height: 80%;
+}
+
+/* Article lead content */
+.article .lead p,
+.article .lead ul,
+.article .lead ol,
+.article .lead pre,
+.article .lead blockquote {
+  margin-bottom: 0;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="modalWindow-video-container">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## phone-link Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* phone-link Specifications */
+.phone-link {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  transition: color var(--transition-fast);
+}
+
+.phone-link:hover,
+.phone-link:focus {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.phone-link:active {
+  color: var(--color-text-primary);
+}
+
+/* Contact section phone links */
+.contacts01 .phone-link,
+.cid-uMOnIucJDw .phone-link {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="phone-link">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## plan Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* plan Specifications */
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+}
+
+/* Body Styles */
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="plan">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## skip-link Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* skip-link Specifications */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: var(--color-primary);
+  color: var(--color-text-inverse);
+  padding: 8px;
+  text-decoration: none;
+  z-index: var(--z-tooltip);
+}
+
+.skip-link:focus {
+  top: 6px;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="skip-link">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## slide-content Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* slide-content Specifications */
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="slide-content">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## sr-only Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* sr-only Specifications */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="sr-only">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## video-wrapper Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* video-wrapper Specifications */
+.video-wrapper img,
+.mbr-figure img,
+.mbr-figure iframe,
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+}
+
+/* Body Styles */
+body {
+  background-color: #ffffff;
+  font-family: Manrope;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="video-wrapper">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## display-1 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* display-1 Specifications */
+.display-1 {
+  font-size: var(--font-size-5xl);
+  line-height: var(--line-height-tight);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-4);
+}
+
+.display-2 {
+  font-size: var(--font-size-4xl);
+  line-height: var(--line-height-snug);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="display-1">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## display-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* display-2 Specifications */
+.display-2 {
+  font-size: var(--font-size-4xl);
+  line-height: var(--line-height-snug);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-4);
+}
+
+.display-5 {
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-normal);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="display-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## item-wrapper Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* item-wrapper Specifications */
+.item-wrapper .item-img img {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Responsive adjustments for opportunities images */
+@media (max-width: 991.98px) {
+  .item-img {
+    margin-bottom: var(--spacing-3);
+  }
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="item-wrapper">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## m-0 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* m-0 Specifications */
+.m-0 { margin: var(--spacing-0); }
+.m-1 { margin: var(--spacing-1); }
+.m-2 { margin: var(--spacing-2); }
+.m-3 { margin: var(--spacing-3); }
+.m-4 { margin: var(--spacing-4); }
+.m-5 { margin: var(--spacing-5); }
+.m-6 { margin: var(--spacing-6); }
+.m-8 { margin: var(--spacing-8); }
+
+/* Margin Top */
+.mt-0 { margin-top: var(--spacing-0); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="m-0">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## m-1 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* m-1 Specifications */
+.m-1 { margin: var(--spacing-1); }
+.m-2 { margin: var(--spacing-2); }
+.m-3 { margin: var(--spacing-3); }
+.m-4 { margin: var(--spacing-4); }
+.m-5 { margin: var(--spacing-5); }
+.m-6 { margin: var(--spacing-6); }
+.m-8 { margin: var(--spacing-8); }
+
+/* Margin Top */
+.mt-0 { margin-top: var(--spacing-0); }
+.mt-1 { margin-top: var(--spacing-1); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="m-1">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## m-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* m-2 Specifications */
+.m-2 { margin: var(--spacing-2); }
+.m-3 { margin: var(--spacing-3); }
+.m-4 { margin: var(--spacing-4); }
+.m-5 { margin: var(--spacing-5); }
+.m-6 { margin: var(--spacing-6); }
+.m-8 { margin: var(--spacing-8); }
+
+/* Margin Top */
+.mt-0 { margin-top: var(--spacing-0); }
+.mt-1 { margin-top: var(--spacing-1); }
+.mt-2 { margin-top: var(--spacing-2); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="m-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## m-3 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* m-3 Specifications */
+.m-3 { margin: var(--spacing-3); }
+.m-4 { margin: var(--spacing-4); }
+.m-5 { margin: var(--spacing-5); }
+.m-6 { margin: var(--spacing-6); }
+.m-8 { margin: var(--spacing-8); }
+
+/* Margin Top */
+.mt-0 { margin-top: var(--spacing-0); }
+.mt-1 { margin-top: var(--spacing-1); }
+.mt-2 { margin-top: var(--spacing-2); }
+.mt-3 { margin-top: var(--spacing-3); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="m-3">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## m-4 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* m-4 Specifications */
+.m-4 { margin: var(--spacing-4); }
+.m-5 { margin: var(--spacing-5); }
+.m-6 { margin: var(--spacing-6); }
+.m-8 { margin: var(--spacing-8); }
+
+/* Margin Top */
+.mt-0 { margin-top: var(--spacing-0); }
+.mt-1 { margin-top: var(--spacing-1); }
+.mt-2 { margin-top: var(--spacing-2); }
+.mt-3 { margin-top: var(--spacing-3); }
+.mt-4 { margin-top: var(--spacing-4); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="m-4">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## m-5 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* m-5 Specifications */
+.m-5 { margin: var(--spacing-5); }
+.m-6 { margin: var(--spacing-6); }
+.m-8 { margin: var(--spacing-8); }
+
+/* Margin Top */
+.mt-0 { margin-top: var(--spacing-0); }
+.mt-1 { margin-top: var(--spacing-1); }
+.mt-2 { margin-top: var(--spacing-2); }
+.mt-3 { margin-top: var(--spacing-3); }
+.mt-4 { margin-top: var(--spacing-4); }
+.mt-5 { margin-top: var(--spacing-5); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="m-5">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## m-8 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* m-8 Specifications */
+.m-8 { margin: var(--spacing-8); }
+
+/* Margin Top */
+.mt-0 { margin-top: var(--spacing-0); }
+.mt-1 { margin-top: var(--spacing-1); }
+.mt-2 { margin-top: var(--spacing-2); }
+.mt-3 { margin-top: var(--spacing-3); }
+.mt-4 { margin-top: var(--spacing-4); }
+.mt-5 { margin-top: var(--spacing-5); }
+.mt-6 { margin-top: var(--spacing-6); }
+.mt-8 { margin-top: var(--spacing-8); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="m-8">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mb-0 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mb-0 Specifications */
+.mb-0 { margin-bottom: var(--spacing-0); }
+.mb-1 { margin-bottom: var(--spacing-1); }
+.mb-2 { margin-bottom: var(--spacing-2); }
+.mb-3 { margin-bottom: var(--spacing-3); }
+.mb-4 { margin-bottom: var(--spacing-4); }
+.mb-5 { margin-bottom: var(--spacing-5); }
+.mb-6 { margin-bottom: var(--spacing-6); }
+.mb-8 { margin-bottom: var(--spacing-8); }
+
+/* Margin Left */
+.ml-0 { margin-left: var(--spacing-0); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mb-0">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mb-1 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mb-1 Specifications */
+.mb-1 { margin-bottom: var(--spacing-1); }
+.mb-2 { margin-bottom: var(--spacing-2); }
+.mb-3 { margin-bottom: var(--spacing-3); }
+.mb-4 { margin-bottom: var(--spacing-4); }
+.mb-5 { margin-bottom: var(--spacing-5); }
+.mb-6 { margin-bottom: var(--spacing-6); }
+.mb-8 { margin-bottom: var(--spacing-8); }
+
+/* Margin Left */
+.ml-0 { margin-left: var(--spacing-0); }
+.ml-1 { margin-left: var(--spacing-1); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mb-1">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mb-4 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mb-4 Specifications */
+.mb-4 { margin-bottom: var(--spacing-4); }
+.mb-5 { margin-bottom: var(--spacing-5); }
+.mb-6 { margin-bottom: var(--spacing-6); }
+.mb-8 { margin-bottom: var(--spacing-8); }
+
+/* Margin Left */
+.ml-0 { margin-left: var(--spacing-0); }
+.ml-1 { margin-left: var(--spacing-1); }
+.ml-2 { margin-left: var(--spacing-2); }
+.ml-3 { margin-left: var(--spacing-3); }
+.ml-4 { margin-left: var(--spacing-4); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mb-4">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mb-5 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mb-5 Specifications */
+.mb-5 { margin-bottom: var(--spacing-5); }
+.mb-6 { margin-bottom: var(--spacing-6); }
+.mb-8 { margin-bottom: var(--spacing-8); }
+
+/* Margin Left */
+.ml-0 { margin-left: var(--spacing-0); }
+.ml-1 { margin-left: var(--spacing-1); }
+.ml-2 { margin-left: var(--spacing-2); }
+.ml-3 { margin-left: var(--spacing-3); }
+.ml-4 { margin-left: var(--spacing-4); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mb-5">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mb-6 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mb-6 Specifications */
+.mb-6 { margin-bottom: var(--spacing-6); }
+.mb-8 { margin-bottom: var(--spacing-8); }
+
+/* Margin Left */
+.ml-0 { margin-left: var(--spacing-0); }
+.ml-1 { margin-left: var(--spacing-1); }
+.ml-2 { margin-left: var(--spacing-2); }
+.ml-3 { margin-left: var(--spacing-3); }
+.ml-4 { margin-left: var(--spacing-4); }
+
+/* Margin Right */
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mb-6">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mb-8 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mb-8 Specifications */
+.mb-8 { margin-bottom: var(--spacing-8); }
+
+/* Margin Left */
+.ml-0 { margin-left: var(--spacing-0); }
+.ml-1 { margin-left: var(--spacing-1); }
+.ml-2 { margin-left: var(--spacing-2); }
+.ml-3 { margin-left: var(--spacing-3); }
+.ml-4 { margin-left: var(--spacing-4); }
+
+/* Margin Right */
+.mr-0 { margin-right: var(--spacing-0); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mb-8">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mbr-white Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mbr-white Specifications */
+.mbr-white {
+  color: #fff;
+}
+
+/* ==========================================================================
+   SPACING SYSTEM
+   ========================================================================== */
+
+/* Margin Utilities */
+.m-0 { margin: var(--spacing-0); }
+.m-1 { margin: var(--spacing-1); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mbr-white">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## ml-0 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* ml-0 Specifications */
+.ml-0 { margin-left: var(--spacing-0); }
+.ml-1 { margin-left: var(--spacing-1); }
+.ml-2 { margin-left: var(--spacing-2); }
+.ml-3 { margin-left: var(--spacing-3); }
+.ml-4 { margin-left: var(--spacing-4); }
+
+/* Margin Right */
+.mr-0 { margin-right: var(--spacing-0); }
+.mr-1 { margin-right: var(--spacing-1); }
+.mr-2 { margin-right: var(--spacing-2); }
+.mr-3 { margin-right: var(--spacing-3); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="ml-0">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## ml-1 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* ml-1 Specifications */
+.ml-1 { margin-left: var(--spacing-1); }
+.ml-2 { margin-left: var(--spacing-2); }
+.ml-3 { margin-left: var(--spacing-3); }
+.ml-4 { margin-left: var(--spacing-4); }
+
+/* Margin Right */
+.mr-0 { margin-right: var(--spacing-0); }
+.mr-1 { margin-right: var(--spacing-1); }
+.mr-2 { margin-right: var(--spacing-2); }
+.mr-3 { margin-right: var(--spacing-3); }
+.mr-4 { margin-right: var(--spacing-4); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="ml-1">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## ml-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* ml-2 Specifications */
+.ml-2 { margin-left: var(--spacing-2); }
+.ml-3 { margin-left: var(--spacing-3); }
+.ml-4 { margin-left: var(--spacing-4); }
+
+/* Margin Right */
+.mr-0 { margin-right: var(--spacing-0); }
+.mr-1 { margin-right: var(--spacing-1); }
+.mr-2 { margin-right: var(--spacing-2); }
+.mr-3 { margin-right: var(--spacing-3); }
+.mr-4 { margin-right: var(--spacing-4); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="ml-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## ml-3 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* ml-3 Specifications */
+.ml-3 { margin-left: var(--spacing-3); }
+.ml-4 { margin-left: var(--spacing-4); }
+
+/* Margin Right */
+.mr-0 { margin-right: var(--spacing-0); }
+.mr-1 { margin-right: var(--spacing-1); }
+.mr-2 { margin-right: var(--spacing-2); }
+.mr-3 { margin-right: var(--spacing-3); }
+.mr-4 { margin-right: var(--spacing-4); }
+
+/* Padding Utilities */
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="ml-3">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## ml-4 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* ml-4 Specifications */
+.ml-4 { margin-left: var(--spacing-4); }
+
+/* Margin Right */
+.mr-0 { margin-right: var(--spacing-0); }
+.mr-1 { margin-right: var(--spacing-1); }
+.mr-2 { margin-right: var(--spacing-2); }
+.mr-3 { margin-right: var(--spacing-3); }
+.mr-4 { margin-right: var(--spacing-4); }
+
+/* Padding Utilities */
+.p-0 { padding: var(--spacing-0); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="ml-4">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mr-0 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mr-0 Specifications */
+.mr-0 { margin-right: var(--spacing-0); }
+.mr-1 { margin-right: var(--spacing-1); }
+.mr-2 { margin-right: var(--spacing-2); }
+.mr-3 { margin-right: var(--spacing-3); }
+.mr-4 { margin-right: var(--spacing-4); }
+
+/* Padding Utilities */
+.p-0 { padding: var(--spacing-0); }
+.p-1 { padding: var(--spacing-1); }
+.p-2 { padding: var(--spacing-2); }
+.p-3 { padding: var(--spacing-3); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mr-0">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mr-1 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mr-1 Specifications */
+.mr-1 { margin-right: var(--spacing-1); }
+.mr-2 { margin-right: var(--spacing-2); }
+.mr-3 { margin-right: var(--spacing-3); }
+.mr-4 { margin-right: var(--spacing-4); }
+
+/* Padding Utilities */
+.p-0 { padding: var(--spacing-0); }
+.p-1 { padding: var(--spacing-1); }
+.p-2 { padding: var(--spacing-2); }
+.p-3 { padding: var(--spacing-3); }
+.p-4 { padding: var(--spacing-4); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mr-1">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mr-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mr-2 Specifications */
+.mr-2 { margin-right: var(--spacing-2); }
+.mr-3 { margin-right: var(--spacing-3); }
+.mr-4 { margin-right: var(--spacing-4); }
+
+/* Padding Utilities */
+.p-0 { padding: var(--spacing-0); }
+.p-1 { padding: var(--spacing-1); }
+.p-2 { padding: var(--spacing-2); }
+.p-3 { padding: var(--spacing-3); }
+.p-4 { padding: var(--spacing-4); }
+.p-5 { padding: var(--spacing-5); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mr-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mr-3 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mr-3 Specifications */
+.mr-3 { margin-right: var(--spacing-3); }
+.mr-4 { margin-right: var(--spacing-4); }
+
+/* Padding Utilities */
+.p-0 { padding: var(--spacing-0); }
+.p-1 { padding: var(--spacing-1); }
+.p-2 { padding: var(--spacing-2); }
+.p-3 { padding: var(--spacing-3); }
+.p-4 { padding: var(--spacing-4); }
+.p-5 { padding: var(--spacing-5); }
+.p-6 { padding: var(--spacing-6); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mr-3">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mr-4 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mr-4 Specifications */
+.mr-4 { margin-right: var(--spacing-4); }
+
+/* Padding Utilities */
+.p-0 { padding: var(--spacing-0); }
+.p-1 { padding: var(--spacing-1); }
+.p-2 { padding: var(--spacing-2); }
+.p-3 { padding: var(--spacing-3); }
+.p-4 { padding: var(--spacing-4); }
+.p-5 { padding: var(--spacing-5); }
+.p-6 { padding: var(--spacing-6); }
+.p-8 { padding: var(--spacing-8); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mr-4">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mt-1 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mt-1 Specifications */
+.mt-1 { margin-top: var(--spacing-1); }
+.mt-2 { margin-top: var(--spacing-2); }
+.mt-3 { margin-top: var(--spacing-3); }
+.mt-4 { margin-top: var(--spacing-4); }
+.mt-5 { margin-top: var(--spacing-5); }
+.mt-6 { margin-top: var(--spacing-6); }
+.mt-8 { margin-top: var(--spacing-8); }
+
+/* Margin Bottom */
+.mb-0 { margin-bottom: var(--spacing-0); }
+.mb-1 { margin-bottom: var(--spacing-1); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mt-1">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mt-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mt-2 Specifications */
+.mt-2 { margin-top: var(--spacing-2); }
+.mt-3 { margin-top: var(--spacing-3); }
+.mt-4 { margin-top: var(--spacing-4); }
+.mt-5 { margin-top: var(--spacing-5); }
+.mt-6 { margin-top: var(--spacing-6); }
+.mt-8 { margin-top: var(--spacing-8); }
+
+/* Margin Bottom */
+.mb-0 { margin-bottom: var(--spacing-0); }
+.mb-1 { margin-bottom: var(--spacing-1); }
+.mb-2 { margin-bottom: var(--spacing-2); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mt-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mt-3 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mt-3 Specifications */
+.mt-3 { margin-top: var(--spacing-3); }
+.mt-4 { margin-top: var(--spacing-4); }
+.mt-5 { margin-top: var(--spacing-5); }
+.mt-6 { margin-top: var(--spacing-6); }
+.mt-8 { margin-top: var(--spacing-8); }
+
+/* Margin Bottom */
+.mb-0 { margin-bottom: var(--spacing-0); }
+.mb-1 { margin-bottom: var(--spacing-1); }
+.mb-2 { margin-bottom: var(--spacing-2); }
+.mb-3 { margin-bottom: var(--spacing-3); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mt-3">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mt-4 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mt-4 Specifications */
+.mt-4 { margin-top: var(--spacing-4); }
+.mt-5 { margin-top: var(--spacing-5); }
+.mt-6 { margin-top: var(--spacing-6); }
+.mt-8 { margin-top: var(--spacing-8); }
+
+/* Margin Bottom */
+.mb-0 { margin-bottom: var(--spacing-0); }
+.mb-1 { margin-bottom: var(--spacing-1); }
+.mb-2 { margin-bottom: var(--spacing-2); }
+.mb-3 { margin-bottom: var(--spacing-3); }
+.mb-4 { margin-bottom: var(--spacing-4); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mt-4">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mt-5 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mt-5 Specifications */
+.mt-5 { margin-top: var(--spacing-5); }
+.mt-6 { margin-top: var(--spacing-6); }
+.mt-8 { margin-top: var(--spacing-8); }
+
+/* Margin Bottom */
+.mb-0 { margin-bottom: var(--spacing-0); }
+.mb-1 { margin-bottom: var(--spacing-1); }
+.mb-2 { margin-bottom: var(--spacing-2); }
+.mb-3 { margin-bottom: var(--spacing-3); }
+.mb-4 { margin-bottom: var(--spacing-4); }
+.mb-5 { margin-bottom: var(--spacing-5); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mt-5">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mt-6 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mt-6 Specifications */
+.mt-6 { margin-top: var(--spacing-6); }
+.mt-8 { margin-top: var(--spacing-8); }
+
+/* Margin Bottom */
+.mb-0 { margin-bottom: var(--spacing-0); }
+.mb-1 { margin-bottom: var(--spacing-1); }
+.mb-2 { margin-bottom: var(--spacing-2); }
+.mb-3 { margin-bottom: var(--spacing-3); }
+.mb-4 { margin-bottom: var(--spacing-4); }
+.mb-5 { margin-bottom: var(--spacing-5); }
+.mb-6 { margin-bottom: var(--spacing-6); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mt-6">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mt-8 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mt-8 Specifications */
+.mt-8 { margin-top: var(--spacing-8); }
+
+/* Margin Bottom */
+.mb-0 { margin-bottom: var(--spacing-0); }
+.mb-1 { margin-bottom: var(--spacing-1); }
+.mb-2 { margin-bottom: var(--spacing-2); }
+.mb-3 { margin-bottom: var(--spacing-3); }
+.mb-4 { margin-bottom: var(--spacing-4); }
+.mb-5 { margin-bottom: var(--spacing-5); }
+.mb-6 { margin-bottom: var(--spacing-6); }
+.mb-8 { margin-bottom: var(--spacing-8); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mt-8">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## p-0 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* p-0 Specifications */
+.p-0 { padding: var(--spacing-0); }
+.p-1 { padding: var(--spacing-1); }
+.p-2 { padding: var(--spacing-2); }
+.p-3 { padding: var(--spacing-3); }
+.p-4 { padding: var(--spacing-4); }
+.p-5 { padding: var(--spacing-5); }
+.p-6 { padding: var(--spacing-6); }
+.p-8 { padding: var(--spacing-8); }
+
+/* Padding Top */
+.pt-0 { padding-top: var(--spacing-0); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="p-0">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## p-1 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* p-1 Specifications */
+.p-1 { padding: var(--spacing-1); }
+.p-2 { padding: var(--spacing-2); }
+.p-3 { padding: var(--spacing-3); }
+.p-4 { padding: var(--spacing-4); }
+.p-5 { padding: var(--spacing-5); }
+.p-6 { padding: var(--spacing-6); }
+.p-8 { padding: var(--spacing-8); }
+
+/* Padding Top */
+.pt-0 { padding-top: var(--spacing-0); }
+.pt-1 { padding-top: var(--spacing-1); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="p-1">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## p-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* p-2 Specifications */
+.p-2 { padding: var(--spacing-2); }
+.p-3 { padding: var(--spacing-3); }
+.p-4 { padding: var(--spacing-4); }
+.p-5 { padding: var(--spacing-5); }
+.p-6 { padding: var(--spacing-6); }
+.p-8 { padding: var(--spacing-8); }
+
+/* Padding Top */
+.pt-0 { padding-top: var(--spacing-0); }
+.pt-1 { padding-top: var(--spacing-1); }
+.pt-2 { padding-top: var(--spacing-2); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="p-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## p-3 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* p-3 Specifications */
+.p-3 { padding: var(--spacing-3); }
+.p-4 { padding: var(--spacing-4); }
+.p-5 { padding: var(--spacing-5); }
+.p-6 { padding: var(--spacing-6); }
+.p-8 { padding: var(--spacing-8); }
+
+/* Padding Top */
+.pt-0 { padding-top: var(--spacing-0); }
+.pt-1 { padding-top: var(--spacing-1); }
+.pt-2 { padding-top: var(--spacing-2); }
+.pt-3 { padding-top: var(--spacing-3); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="p-3">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## p-4 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* p-4 Specifications */
+.p-4 { padding: var(--spacing-4); }
+.p-5 { padding: var(--spacing-5); }
+.p-6 { padding: var(--spacing-6); }
+.p-8 { padding: var(--spacing-8); }
+
+/* Padding Top */
+.pt-0 { padding-top: var(--spacing-0); }
+.pt-1 { padding-top: var(--spacing-1); }
+.pt-2 { padding-top: var(--spacing-2); }
+.pt-3 { padding-top: var(--spacing-3); }
+.pt-4 { padding-top: var(--spacing-4); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="p-4">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## p-5 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* p-5 Specifications */
+.p-5 { padding: var(--spacing-5); }
+.p-6 { padding: var(--spacing-6); }
+.p-8 { padding: var(--spacing-8); }
+
+/* Padding Top */
+.pt-0 { padding-top: var(--spacing-0); }
+.pt-1 { padding-top: var(--spacing-1); }
+.pt-2 { padding-top: var(--spacing-2); }
+.pt-3 { padding-top: var(--spacing-3); }
+.pt-4 { padding-top: var(--spacing-4); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="p-5">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## p-6 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* p-6 Specifications */
+.p-6 { padding: var(--spacing-6); }
+.p-8 { padding: var(--spacing-8); }
+
+/* Padding Top */
+.pt-0 { padding-top: var(--spacing-0); }
+.pt-1 { padding-top: var(--spacing-1); }
+.pt-2 { padding-top: var(--spacing-2); }
+.pt-3 { padding-top: var(--spacing-3); }
+.pt-4 { padding-top: var(--spacing-4); }
+
+/* Padding Bottom */
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="p-6">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## p-8 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* p-8 Specifications */
+.p-8 { padding: var(--spacing-8); }
+
+/* Padding Top */
+.pt-0 { padding-top: var(--spacing-0); }
+.pt-1 { padding-top: var(--spacing-1); }
+.pt-2 { padding-top: var(--spacing-2); }
+.pt-3 { padding-top: var(--spacing-3); }
+.pt-4 { padding-top: var(--spacing-4); }
+
+/* Padding Bottom */
+.pb-0 { padding-bottom: var(--spacing-0); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="p-8">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pb-0 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pb-0 Specifications */
+.pb-0 { padding-bottom: var(--spacing-0); }
+.pb-1 { padding-bottom: var(--spacing-1); }
+.pb-2 { padding-bottom: var(--spacing-2); }
+.pb-3 { padding-bottom: var(--spacing-3); }
+.pb-4 { padding-bottom: var(--spacing-4); }
+
+/* Padding Left */
+.pl-0 { padding-left: var(--spacing-0); }
+.pl-1 { padding-left: var(--spacing-1); }
+.pl-2 { padding-left: var(--spacing-2); }
+.pl-3 { padding-left: var(--spacing-3); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pb-0">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pb-1 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pb-1 Specifications */
+.pb-1 { padding-bottom: var(--spacing-1); }
+.pb-2 { padding-bottom: var(--spacing-2); }
+.pb-3 { padding-bottom: var(--spacing-3); }
+.pb-4 { padding-bottom: var(--spacing-4); }
+
+/* Padding Left */
+.pl-0 { padding-left: var(--spacing-0); }
+.pl-1 { padding-left: var(--spacing-1); }
+.pl-2 { padding-left: var(--spacing-2); }
+.pl-3 { padding-left: var(--spacing-3); }
+.pl-4 { padding-left: var(--spacing-4); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pb-1">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pb-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pb-2 Specifications */
+.pb-2 { padding-bottom: var(--spacing-2); }
+.pb-3 { padding-bottom: var(--spacing-3); }
+.pb-4 { padding-bottom: var(--spacing-4); }
+
+/* Padding Left */
+.pl-0 { padding-left: var(--spacing-0); }
+.pl-1 { padding-left: var(--spacing-1); }
+.pl-2 { padding-left: var(--spacing-2); }
+.pl-3 { padding-left: var(--spacing-3); }
+.pl-4 { padding-left: var(--spacing-4); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pb-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pb-3 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pb-3 Specifications */
+.pb-3 { padding-bottom: var(--spacing-3); }
+.pb-4 { padding-bottom: var(--spacing-4); }
+
+/* Padding Left */
+.pl-0 { padding-left: var(--spacing-0); }
+.pl-1 { padding-left: var(--spacing-1); }
+.pl-2 { padding-left: var(--spacing-2); }
+.pl-3 { padding-left: var(--spacing-3); }
+.pl-4 { padding-left: var(--spacing-4); }
+
+/* Padding Right */
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pb-3">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pb-4 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pb-4 Specifications */
+.pb-4 { padding-bottom: var(--spacing-4); }
+
+/* Padding Left */
+.pl-0 { padding-left: var(--spacing-0); }
+.pl-1 { padding-left: var(--spacing-1); }
+.pl-2 { padding-left: var(--spacing-2); }
+.pl-3 { padding-left: var(--spacing-3); }
+.pl-4 { padding-left: var(--spacing-4); }
+
+/* Padding Right */
+.pr-0 { padding-right: var(--spacing-0); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pb-4">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pl-0 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pl-0 Specifications */
+.pl-0 { padding-left: var(--spacing-0); }
+.pl-1 { padding-left: var(--spacing-1); }
+.pl-2 { padding-left: var(--spacing-2); }
+.pl-3 { padding-left: var(--spacing-3); }
+.pl-4 { padding-left: var(--spacing-4); }
+
+/* Padding Right */
+.pr-0 { padding-right: var(--spacing-0); }
+.pr-1 { padding-right: var(--spacing-1); }
+.pr-2 { padding-right: var(--spacing-2); }
+.pr-3 { padding-right: var(--spacing-3); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pl-0">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pl-1 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pl-1 Specifications */
+.pl-1 { padding-left: var(--spacing-1); }
+.pl-2 { padding-left: var(--spacing-2); }
+.pl-3 { padding-left: var(--spacing-3); }
+.pl-4 { padding-left: var(--spacing-4); }
+
+/* Padding Right */
+.pr-0 { padding-right: var(--spacing-0); }
+.pr-1 { padding-right: var(--spacing-1); }
+.pr-2 { padding-right: var(--spacing-2); }
+.pr-3 { padding-right: var(--spacing-3); }
+.pr-4 { padding-right: var(--spacing-4); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pl-1">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pl-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pl-2 Specifications */
+.pl-2 { padding-left: var(--spacing-2); }
+.pl-3 { padding-left: var(--spacing-3); }
+.pl-4 { padding-left: var(--spacing-4); }
+
+/* Padding Right */
+.pr-0 { padding-right: var(--spacing-0); }
+.pr-1 { padding-right: var(--spacing-1); }
+.pr-2 { padding-right: var(--spacing-2); }
+.pr-3 { padding-right: var(--spacing-3); }
+.pr-4 { padding-right: var(--spacing-4); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pl-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pl-3 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pl-3 Specifications */
+.pl-3 { padding-left: var(--spacing-3); }
+.pl-4 { padding-left: var(--spacing-4); }
+
+/* Padding Right */
+.pr-0 { padding-right: var(--spacing-0); }
+.pr-1 { padding-right: var(--spacing-1); }
+.pr-2 { padding-right: var(--spacing-2); }
+.pr-3 { padding-right: var(--spacing-3); }
+.pr-4 { padding-right: var(--spacing-4); }
+
+/* Responsive Spacing */
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pl-3">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pl-4 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pl-4 Specifications */
+.pl-4 { padding-left: var(--spacing-4); }
+
+/* Padding Right */
+.pr-0 { padding-right: var(--spacing-0); }
+.pr-1 { padding-right: var(--spacing-1); }
+.pr-2 { padding-right: var(--spacing-2); }
+.pr-3 { padding-right: var(--spacing-3); }
+.pr-4 { padding-right: var(--spacing-4); }
+
+/* Responsive Spacing */
+.spacing-responsive-sm { margin: var(--spacing-responsive-sm); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pl-4">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pr-0 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pr-0 Specifications */
+.pr-0 { padding-right: var(--spacing-0); }
+.pr-1 { padding-right: var(--spacing-1); }
+.pr-2 { padding-right: var(--spacing-2); }
+.pr-3 { padding-right: var(--spacing-3); }
+.pr-4 { padding-right: var(--spacing-4); }
+
+/* Responsive Spacing */
+.spacing-responsive-sm { margin: var(--spacing-responsive-sm); }
+.spacing-responsive-md { margin: var(--spacing-responsive-md); }
+.spacing-responsive-lg { margin: var(--spacing-responsive-lg); }
+.spacing-responsive-xl { margin: var(--spacing-responsive-xl); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pr-0">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pr-1 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pr-1 Specifications */
+.pr-1 { padding-right: var(--spacing-1); }
+.pr-2 { padding-right: var(--spacing-2); }
+.pr-3 { padding-right: var(--spacing-3); }
+.pr-4 { padding-right: var(--spacing-4); }
+
+/* Responsive Spacing */
+.spacing-responsive-sm { margin: var(--spacing-responsive-sm); }
+.spacing-responsive-md { margin: var(--spacing-responsive-md); }
+.spacing-responsive-lg { margin: var(--spacing-responsive-lg); }
+.spacing-responsive-xl { margin: var(--spacing-responsive-xl); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pr-1">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pr-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pr-2 Specifications */
+.pr-2 { padding-right: var(--spacing-2); }
+.pr-3 { padding-right: var(--spacing-3); }
+.pr-4 { padding-right: var(--spacing-4); }
+
+/* Responsive Spacing */
+.spacing-responsive-sm { margin: var(--spacing-responsive-sm); }
+.spacing-responsive-md { margin: var(--spacing-responsive-md); }
+.spacing-responsive-lg { margin: var(--spacing-responsive-lg); }
+.spacing-responsive-xl { margin: var(--spacing-responsive-xl); }
+
+/* Component-Specific Spacing */
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pr-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pr-3 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pr-3 Specifications */
+.pr-3 { padding-right: var(--spacing-3); }
+.pr-4 { padding-right: var(--spacing-4); }
+
+/* Responsive Spacing */
+.spacing-responsive-sm { margin: var(--spacing-responsive-sm); }
+.spacing-responsive-md { margin: var(--spacing-responsive-md); }
+.spacing-responsive-lg { margin: var(--spacing-responsive-lg); }
+.spacing-responsive-xl { margin: var(--spacing-responsive-xl); }
+
+/* Component-Specific Spacing */
+.card-spacing {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pr-3">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pr-4 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pr-4 Specifications */
+.pr-4 { padding-right: var(--spacing-4); }
+
+/* Responsive Spacing */
+.spacing-responsive-sm { margin: var(--spacing-responsive-sm); }
+.spacing-responsive-md { margin: var(--spacing-responsive-md); }
+.spacing-responsive-lg { margin: var(--spacing-responsive-lg); }
+.spacing-responsive-xl { margin: var(--spacing-responsive-xl); }
+
+/* Component-Specific Spacing */
+.card-spacing {
+  margin-bottom: var(--spacing-6);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pr-4">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## process-text Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* process-text Specifications */
+.process-text {
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-loose);
+  font-family: var(--font-family-body);
+}
+
+.process-text strong {
+  font-size: inherit;
+  font-weight: var(--font-weight-semibold);
+}
+
+.process-text span {
+  font-size: inherit;
+}
+
+/* Navigation Typography */
+.navbar-nav .nav-link {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-medium);
+  font-family: var(--font-family-body);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="process-text">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pt-0 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pt-0 Specifications */
+.pt-0 { padding-top: var(--spacing-0); }
+.pt-1 { padding-top: var(--spacing-1); }
+.pt-2 { padding-top: var(--spacing-2); }
+.pt-3 { padding-top: var(--spacing-3); }
+.pt-4 { padding-top: var(--spacing-4); }
+
+/* Padding Bottom */
+.pb-0 { padding-bottom: var(--spacing-0); }
+.pb-1 { padding-bottom: var(--spacing-1); }
+.pb-2 { padding-bottom: var(--spacing-2); }
+.pb-3 { padding-bottom: var(--spacing-3); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pt-0">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pt-1 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pt-1 Specifications */
+.pt-1 { padding-top: var(--spacing-1); }
+.pt-2 { padding-top: var(--spacing-2); }
+.pt-3 { padding-top: var(--spacing-3); }
+.pt-4 { padding-top: var(--spacing-4); }
+
+/* Padding Bottom */
+.pb-0 { padding-bottom: var(--spacing-0); }
+.pb-1 { padding-bottom: var(--spacing-1); }
+.pb-2 { padding-bottom: var(--spacing-2); }
+.pb-3 { padding-bottom: var(--spacing-3); }
+.pb-4 { padding-bottom: var(--spacing-4); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pt-1">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pt-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pt-2 Specifications */
+.pt-2 { padding-top: var(--spacing-2); }
+.pt-3 { padding-top: var(--spacing-3); }
+.pt-4 { padding-top: var(--spacing-4); }
+
+/* Padding Bottom */
+.pb-0 { padding-bottom: var(--spacing-0); }
+.pb-1 { padding-bottom: var(--spacing-1); }
+.pb-2 { padding-bottom: var(--spacing-2); }
+.pb-3 { padding-bottom: var(--spacing-3); }
+.pb-4 { padding-bottom: var(--spacing-4); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pt-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pt-3 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pt-3 Specifications */
+.pt-3 { padding-top: var(--spacing-3); }
+.pt-4 { padding-top: var(--spacing-4); }
+
+/* Padding Bottom */
+.pb-0 { padding-bottom: var(--spacing-0); }
+.pb-1 { padding-bottom: var(--spacing-1); }
+.pb-2 { padding-bottom: var(--spacing-2); }
+.pb-3 { padding-bottom: var(--spacing-3); }
+.pb-4 { padding-bottom: var(--spacing-4); }
+
+/* Padding Left */
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pt-3">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pt-4 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pt-4 Specifications */
+.pt-4 { padding-top: var(--spacing-4); }
+
+/* Padding Bottom */
+.pb-0 { padding-bottom: var(--spacing-0); }
+.pb-1 { padding-bottom: var(--spacing-1); }
+.pb-2 { padding-bottom: var(--spacing-2); }
+.pb-3 { padding-bottom: var(--spacing-3); }
+.pb-4 { padding-bottom: var(--spacing-4); }
+
+/* Padding Left */
+.pl-0 { padding-left: var(--spacing-0); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pt-4">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## spacing-responsive-md Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* spacing-responsive-md Specifications */
+.spacing-responsive-md { margin: var(--spacing-responsive-md); }
+.spacing-responsive-lg { margin: var(--spacing-responsive-lg); }
+.spacing-responsive-xl { margin: var(--spacing-responsive-xl); }
+
+/* Component-Specific Spacing */
+.card-spacing {
+  margin-bottom: var(--spacing-6);
+}
+
+.section-spacing {
+  margin-bottom: var(--spacing-responsive-lg);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="spacing-responsive-md">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## spacing-responsive-sm Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* spacing-responsive-sm Specifications */
+.spacing-responsive-sm { margin: var(--spacing-responsive-sm); }
+.spacing-responsive-md { margin: var(--spacing-responsive-md); }
+.spacing-responsive-lg { margin: var(--spacing-responsive-lg); }
+.spacing-responsive-xl { margin: var(--spacing-responsive-xl); }
+
+/* Component-Specific Spacing */
+.card-spacing {
+  margin-bottom: var(--spacing-6);
+}
+
+.section-spacing {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="spacing-responsive-sm">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## spacing-responsive-xl Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* spacing-responsive-xl Specifications */
+.spacing-responsive-xl { margin: var(--spacing-responsive-xl); }
+
+/* Component-Specific Spacing */
+.card-spacing {
+  margin-bottom: var(--spacing-6);
+}
+
+.section-spacing {
+  margin-bottom: var(--spacing-responsive-lg);
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="spacing-responsive-xl">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## sr-only Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* sr-only Specifications */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="sr-only">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## text-left Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* text-left Specifications */
+.text-left {
+  text-align: left;
+}
+
+/* Override mobile center alignment for job cards */
+@media (max-width: 767px) {
+  .item-content.align-left {
+    text-align: left;
+  }
+  
+  .item-title {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="text-left">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## bg-danger Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* bg-danger Specifications */
+.bg-danger {
+  background-color: #e56975;
+}
+
+/* Button System - Clean Architecture with Proper Specificity */
+.btn-primary,
+.btn-primary:active {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #808080;
+  box-shadow: none;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="bg-danger">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## bg-info Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* bg-info Specifications */
+.bg-info {
+  background-color: #58dcf6;
+}
+
+.bg-warning {
+  background-color: #ffd34f;
+}
+
+.bg-danger {
+  background-color: #e56975;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="bg-info">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## bg-primary Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* bg-primary Specifications */
+.bg-primary {
+  background-color: #ffffff;
+}
+
+.bg-success {
+  background-color: #6be3ab;
+}
+
+.bg-info {
+  background-color: #58dcf6;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="bg-primary">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## bg-success Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* bg-success Specifications */
+.bg-success {
+  background-color: #6be3ab;
+}
+
+.bg-info {
+  background-color: #58dcf6;
+}
+
+.bg-warning {
+  background-color: #ffd34f;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="bg-success">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## bg-warning Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* bg-warning Specifications */
+.bg-warning {
+  background-color: #ffd34f;
+}
+
+.bg-danger {
+  background-color: #e56975;
+}
+
+/* Button System - Clean Architecture with Proper Specificity */
+.btn-primary,
+.btn-primary:active {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="bg-warning">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-block Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-block Specifications */
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+/* Hero Section Full Screen Fix */
+.header18.cid-uMOnIuaQSz {
+  min-height: 100vh;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+--
+.btn-block + .btn-block {
+  margin-top: 0.5rem;
+}
+
+/* Button Loading State */
+.btn-loading {
+  position: relative;
+  color: transparent;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-block">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-danger Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-danger Specifications */
+.btn-danger,
+.btn-danger:active {
+  background-color: #e56975;
+  border-color: #e56975;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger.focus,
+.btn-danger.active {
+  color: inherit;
+  background-color: #ed949d;
+  border-color: #ed949d;
+  box-shadow: none;
+}
+
+.btn-danger.disabled,
+.btn-danger:disabled {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-danger">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-group Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-group Specifications */
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.btn-group > .btn:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* Button Block */
+.btn-block {
+  display: block;
+  width: 100%;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-group">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-info Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-info Specifications */
+.btn-info,
+.btn-info:active {
+  background-color: #58dcf6;
+  border-color: #58dcf6;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info.focus,
+.btn-info.active {
+  color: inherit;
+  background-color: #88e6f9;
+  border-color: #88e6f9;
+  box-shadow: none;
+}
+
+.btn-info.disabled,
+.btn-info:disabled {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-info">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-lg Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-lg Specifications */
+.btn-lg {
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+}
+
+/* Button State Styles */
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-lg">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-loading Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-loading Specifications */
+.btn-loading {
+  position: relative;
+  color: transparent;
+}
+
+.btn-loading::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -8px;
+  border: 2px solid transparent;
+  border-top-color: currentColor;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-loading">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-outline-danger Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-outline-danger Specifications */
+.btn-outline-danger {
+  color: #d32535;
+  background-color: transparent;
+  border-color: #d32535;
+  box-shadow: none;
+}
+
+.btn-outline-danger:hover,
+.btn-outline-danger:focus,
+.btn-outline-danger.focus,
+.btn-outline-danger.active {
+  color: #ffffff;
+  background: #e56975;
+  box-shadow: none;
+}
+
+.btn-outline-danger.disabled,
+.btn-outline-danger:disabled {
+  color: #d32535;
+  background-color: transparent;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-outline-danger">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-outline-dark Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-outline-dark Specifications */
+.btn-outline-dark {
+  color: #000000;
+  background-color: transparent;
+  border-color: #000000;
+  box-shadow: none;
+}
+
+.btn-outline-dark:hover,
+.btn-outline-dark:focus,
+.btn-outline-dark.focus,
+.btn-outline-dark.active {
+  color: #ffffff;
+  background: #232323;
+  box-shadow: none;
+}
+
+.btn-outline-dark.disabled,
+.btn-outline-dark:disabled {
+  color: #000000;
+  background-color: transparent;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-outline-dark">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-outline-info Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-outline-info Specifications */
+.btn-outline-info {
+  color: #0dc6eb;
+  background-color: transparent;
+  border-color: #0dc6eb;
+  box-shadow: none;
+}
+
+.btn-outline-info:hover,
+.btn-outline-info:focus,
+.btn-outline-info.focus,
+.btn-outline-info.active {
+  color: #ffffff;
+  background: #58dcf6;
+  box-shadow: none;
+}
+
+.btn-outline-info.disabled,
+.btn-outline-info:disabled {
+  color: #0dc6eb;
+  background-color: transparent;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-outline-info">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-outline-light Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-outline-light Specifications */
+.btn-outline-light {
+  color: #cfcfcf;
+  background-color: transparent;
+  border-color: #cfcfcf;
+  box-shadow: none;
+}
+
+.btn-outline-light:hover,
+.btn-outline-light:focus,
+.btn-outline-light.focus,
+.btn-outline-light.active {
+  color: #7a7a7a;
+  background: #fafafa;
+  box-shadow: none;
+}
+
+.btn-outline-light.disabled,
+.btn-outline-light:disabled {
+  color: #cfcfcf;
+  background-color: transparent;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-outline-light">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-outline-primary Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-outline-primary Specifications */
+.btn-outline-primary {
+  color: #000000;
+  background-color: transparent;
+  border-color: #000000;
+  box-shadow: none;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary.focus,
+.btn-outline-primary.active {
+  color: #ffffff;
+  background: #000000;
+  box-shadow: none;
+}
+
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+  color: #000000;
+  background-color: transparent;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-outline-primary">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-outline-secondary Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-outline-secondary Specifications */
+.btn-outline-secondary {
+  color: #ae301c;
+  background-color: transparent;
+  border-color: #ae301c;
+  box-shadow: none;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus,
+.btn-outline-secondary.focus,
+.btn-outline-secondary.active {
+  color: #ffffff;
+  background: #ae301c;
+  box-shadow: none;
+}
+
+.btn-outline-secondary.disabled,
+.btn-outline-secondary:disabled {
+  color: #ae301c;
+  background-color: transparent;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-outline-secondary">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-outline-success Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-outline-success Specifications */
+.btn-outline-success {
+  color: #27d081;
+  background-color: transparent;
+  border-color: #27d081;
+  box-shadow: none;
+}
+
+.btn-outline-success:hover,
+.btn-outline-success:focus,
+.btn-outline-success.focus,
+.btn-outline-success.active {
+  color: #0d4229;
+  background: #6be3ab;
+  box-shadow: none;
+}
+
+.btn-outline-success.disabled,
+.btn-outline-success:disabled {
+  color: #27d081;
+  background-color: transparent;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-outline-success">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-outline-warning Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-outline-warning Specifications */
+.btn-outline-warning {
+  color: #f7b900;
+  background-color: transparent;
+  border-color: #f7b900;
+  box-shadow: none;
+}
+
+.btn-outline-warning:hover,
+.btn-outline-warning:focus,
+.btn-outline-warning.focus,
+.btn-outline-warning.active {
+  color: #4f3b00;
+  background: #ffd34f;
+  box-shadow: none;
+}
+
+.btn-outline-warning.disabled,
+.btn-outline-warning:disabled {
+  color: #f7b900;
+  background-color: transparent;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-outline-warning">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-primary Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-primary Specifications */
+.btn-primary,
+.btn-primary:active {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #808080;
+  box-shadow: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary.active {
+  color: inherit;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  box-shadow: none;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-primary">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-rounded Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-rounded Specifications */
+.btn-rounded {
+  border-radius: 100px;
+}
+
+.btn-rounded-sm {
+  border-radius: 100px;
+}
+
+.btn-rounded-lg {
+  border-radius: 40px;
+}
+
+.btn-rounded-xl {
+  border-radius: 100px;
+}
+
+.btn-rounded-xxl {
+  border-radius: 100px;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-rounded">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-rounded-lg Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-rounded-lg Specifications */
+.btn-rounded-lg {
+  border-radius: 40px;
+}
+
+.btn-rounded-xl {
+  border-radius: 100px;
+}
+
+.btn-rounded-xxl {
+  border-radius: 100px;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-rounded-lg">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-rounded-sm Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-rounded-sm Specifications */
+.btn-rounded-sm {
+  border-radius: 100px;
+}
+
+.btn-rounded-lg {
+  border-radius: 40px;
+}
+
+.btn-rounded-xl {
+  border-radius: 100px;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-rounded-sm">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-rounded-xl Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-rounded-xl Specifications */
+.btn-rounded-xl {
+  border-radius: 100px;
+}
+
+.btn-rounded-xxl {
+  border-radius: 100px;
+}
+
+/* Button Size Variants */
+.btn-sm {
+  padding: 0.5rem 1rem;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-rounded-xl">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-rounded-xxl Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-rounded-xxl Specifications */
+.btn-rounded-xxl {
+  border-radius: 100px;
+}
+
+/* Button Size Variants */
+.btn-sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  border-radius: 0.25rem;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-rounded-xxl">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-secondary Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-secondary Specifications */
+.btn-secondary,
+.btn-secondary:active {
+  background-color: #ae301c;
+  border-color: #ae301c;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary.focus,
+.btn-secondary.active {
+  color: inherit;
+  background-color: #da3c23;
+  border-color: #da3c23;
+  box-shadow: none;
+}
+
+.btn-secondary.disabled,
+.btn-secondary:disabled {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-secondary">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-sm Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-sm Specifications */
+.btn-sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  border-radius: 0.25rem;
+}
+
+.btn-lg {
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-sm">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-success Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-success Specifications */
+.btn-success,
+.btn-success:active {
+  background-color: #6be3ab;
+  border-color: #6be3ab;
+  color: #0d4229;
+  box-shadow: none;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success.focus,
+.btn-success.active {
+  color: inherit;
+  background-color: #96ebc3;
+  border-color: #96ebc3;
+  box-shadow: none;
+}
+
+.btn-success.disabled,
+.btn-success:disabled {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-success">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-warning Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-warning Specifications */
+.btn-warning,
+.btn-warning:active {
+  background-color: #ffd34f;
+  border-color: #ffd34f;
+  color: #4f3b00;
+  box-shadow: none;
+}
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning.focus,
+.btn-warning.active {
+  color: inherit;
+  background-color: #ffe082;
+  border-color: #ffe082;
+  box-shadow: none;
+}
+
+.btn-warning.disabled,
+.btn-warning:disabled {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-warning">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## card-wrap Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* card-wrap Specifications */
+.card-wrap img,
+.card-wrapper img,
+.video-wrapper img,
+.mbr-figure img,
+.mbr-figure iframe,
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="card-wrap">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## card-wrapper Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* card-wrapper Specifications */
+.card-wrapper img,
+.video-wrapper img,
+.mbr-figure img,
+.mbr-figure iframe,
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="card-wrapper">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## display-1 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* display-1 Specifications */
+.display-1 {
+  font-size: var(--font-size-5xl);
+  line-height: var(--line-height-tight);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-4);
+}
+
+.display-2 {
+  font-size: var(--font-size-4xl);
+  line-height: var(--line-height-snug);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="display-1">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## display-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* display-2 Specifications */
+.display-2 {
+  font-size: var(--font-size-4xl);
+  line-height: var(--line-height-snug);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-4);
+}
+
+.display-5 {
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-normal);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="display-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## display-4 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* display-4 Specifications */
+.display-4 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.display-4 > .mbr-iconfont {
+  font-size: 1.5rem;
+}
+
+.display-5 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.display-5 > .mbr-iconfont {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="display-4">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## google-map Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* google-map Specifications */
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="google-map">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## header18 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* header18 Specifications */
+.header18.cid-uMOnIuaQSz {
+  min-height: 100vh;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.header18.cid-uMOnIuaQSz .container-fluid {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hero Overlay Styling */
+.mbr-overlay {
+  background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.1) 100%);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="header18">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## item-wrapper Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* item-wrapper Specifications */
+.item-wrapper .item-img img {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Responsive adjustments for opportunities images */
+@media (max-width: 991.98px) {
+  .item-img {
+    margin-bottom: var(--spacing-3);
+  }
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="item-wrapper">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mbr-figure Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mbr-figure Specifications */
+.mbr-figure img,
+.mbr-figure iframe,
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mbr-figure">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mbr-overlay Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mbr-overlay Specifications */
+.mbr-overlay {
+  background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.1) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* Hero Content Positioning - Bottom Left */
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mbr-overlay">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## menu2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* menu2 Specifications */
+.menu2.cid-uMOnIua8FF {
+  background: #282828;
+  position: relative;
+  z-index: 1030;
+}
+
+.navbar-dropdown {
+  background: #282828;
+  padding: 1rem 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="menu2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## plan Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* plan Specifications */
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+}
+
+/* Body Styles */
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="plan">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## slide-content Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* slide-content Specifications */
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="slide-content">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## text-black Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* text-black Specifications */
+.text-black { color: #000000; }
+
+/* Button Border Radius Variants */
+.btn-rounded {
+  border-radius: 100px;
+}
+
+.btn-rounded-sm {
+  border-radius: 100px;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="text-black">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## text-blue Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* text-blue Specifications */
+.text-blue { color: #0cbadc; }
+.text-yellow { color: #e8ae00; }
+.text-pink { color: #c62232; }
+.text-gray { color: #c7c7c7; }
+.text-black { color: #000000; }
+
+/* Button Border Radius Variants */
+.btn-rounded {
+  border-radius: 100px;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="text-blue">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## text-danger Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* text-danger Specifications */
+.text-danger { color: #e56975; }
+.text-light { color: #fafafa; }
+.text-dark { color: #232323; }
+
+/* Additional Text Colors */
+.text-muted { color: #cccccc; }
+.text-red { color: #56180e; }
+.text-green { color: #25c379; }
+.text-blue { color: #0cbadc; }
+.text-yellow { color: #e8ae00; }
+.text-pink { color: #c62232; }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="text-danger">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## text-dark Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* text-dark Specifications */
+.text-dark { color: #232323; }
+
+/* Additional Text Colors */
+.text-muted { color: #cccccc; }
+.text-red { color: #56180e; }
+.text-green { color: #25c379; }
+.text-blue { color: #0cbadc; }
+.text-yellow { color: #e8ae00; }
+.text-pink { color: #c62232; }
+.text-gray { color: #c7c7c7; }
+.text-black { color: #000000; }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="text-dark">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## text-gray Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* text-gray Specifications */
+.text-gray { color: #c7c7c7; }
+.text-black { color: #000000; }
+
+/* Button Border Radius Variants */
+.btn-rounded {
+  border-radius: 100px;
+}
+
+.btn-rounded-sm {
+  border-radius: 100px;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="text-gray">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## text-green Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* text-green Specifications */
+.text-green { color: #25c379; }
+.text-blue { color: #0cbadc; }
+.text-yellow { color: #e8ae00; }
+.text-pink { color: #c62232; }
+.text-gray { color: #c7c7c7; }
+.text-black { color: #000000; }
+
+/* Button Border Radius Variants */
+.btn-rounded {
+  border-radius: 100px;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="text-green">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## text-info Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* text-info Specifications */
+.text-info { color: #58dcf6; }
+.text-warning { color: #ffd34f; }
+.text-danger { color: #e56975; }
+.text-light { color: #fafafa; }
+.text-dark { color: #232323; }
+
+/* Additional Text Colors */
+.text-muted { color: #cccccc; }
+.text-red { color: #56180e; }
+.text-green { color: #25c379; }
+.text-blue { color: #0cbadc; }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="text-info">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## text-light Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* text-light Specifications */
+.text-light { color: #fafafa; }
+.text-dark { color: #232323; }
+
+/* Additional Text Colors */
+.text-muted { color: #cccccc; }
+.text-red { color: #56180e; }
+.text-green { color: #25c379; }
+.text-blue { color: #0cbadc; }
+.text-yellow { color: #e8ae00; }
+.text-pink { color: #c62232; }
+.text-gray { color: #c7c7c7; }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="text-light">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## text-pink Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* text-pink Specifications */
+.text-pink { color: #c62232; }
+.text-gray { color: #c7c7c7; }
+.text-black { color: #000000; }
+
+/* Button Border Radius Variants */
+.btn-rounded {
+  border-radius: 100px;
+}
+
+.btn-rounded-sm {
+  border-radius: 100px;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="text-pink">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## text-red Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* text-red Specifications */
+.text-red { color: #56180e; }
+.text-green { color: #25c379; }
+.text-blue { color: #0cbadc; }
+.text-yellow { color: #e8ae00; }
+.text-pink { color: #c62232; }
+.text-gray { color: #c7c7c7; }
+.text-black { color: #000000; }
+
+/* Button Border Radius Variants */
+.btn-rounded {
+  border-radius: 100px;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="text-red">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## text-success Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* text-success Specifications */
+.text-success { color: #6be3ab; }
+.text-info { color: #58dcf6; }
+.text-warning { color: #ffd34f; }
+.text-danger { color: #e56975; }
+.text-light { color: #fafafa; }
+.text-dark { color: #232323; }
+
+/* Additional Text Colors */
+.text-muted { color: #cccccc; }
+.text-red { color: #56180e; }
+.text-green { color: #25c379; }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="text-success">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## text-warning Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* text-warning Specifications */
+.text-warning { color: #ffd34f; }
+.text-danger { color: #e56975; }
+.text-light { color: #fafafa; }
+.text-dark { color: #232323; }
+
+/* Additional Text Colors */
+.text-muted { color: #cccccc; }
+.text-red { color: #56180e; }
+.text-green { color: #25c379; }
+.text-blue { color: #0cbadc; }
+.text-yellow { color: #e8ae00; }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="text-warning">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## text-yellow Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* text-yellow Specifications */
+.text-yellow { color: #e8ae00; }
+.text-pink { color: #c62232; }
+.text-gray { color: #c7c7c7; }
+.text-black { color: #000000; }
+
+/* Button Border Radius Variants */
+.btn-rounded {
+  border-radius: 100px;
+}
+
+.btn-rounded-sm {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="text-yellow">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## video-wrapper Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* video-wrapper Specifications */
+.video-wrapper img,
+.mbr-figure img,
+.mbr-figure iframe,
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+}
+
+/* Body Styles */
+body {
+  background-color: #ffffff;
+  font-family: Manrope;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="video-wrapper">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-add-submenu Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-add-submenu Specifications */
+.mobi-mbri-add-submenu:before {
+  content: "\e900";
+}
+.mobi-mbri-alert:before {
+  content: "\e901";
+}
+.mobi-mbri-align-center:before {
+  content: "\e902";
+}
+.mobi-mbri-align-justify:before {
+  content: "\e903";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-add-submenu">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-alert Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-alert Specifications */
+.mobi-mbri-alert:before {
+  content: "\e901";
+}
+.mobi-mbri-align-center:before {
+  content: "\e902";
+}
+.mobi-mbri-align-justify:before {
+  content: "\e903";
+}
+.mobi-mbri-align-left:before {
+  content: "\e904";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-alert">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-align-center Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-align-center Specifications */
+.mobi-mbri-align-center:before {
+  content: "\e902";
+}
+.mobi-mbri-align-justify:before {
+  content: "\e903";
+}
+.mobi-mbri-align-left:before {
+  content: "\e904";
+}
+.mobi-mbri-align-right:before {
+  content: "\e905";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-align-center">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-align-justify Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-align-justify Specifications */
+.mobi-mbri-align-justify:before {
+  content: "\e903";
+}
+.mobi-mbri-align-left:before {
+  content: "\e904";
+}
+.mobi-mbri-align-right:before {
+  content: "\e905";
+}
+.mobi-mbri-android:before {
+  content: "\e906";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-align-justify">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-align-left Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-align-left Specifications */
+.mobi-mbri-align-left:before {
+  content: "\e904";
+}
+.mobi-mbri-align-right:before {
+  content: "\e905";
+}
+.mobi-mbri-android:before {
+  content: "\e906";
+}
+.mobi-mbri-apple:before {
+  content: "\e907";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-align-left">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-align-right Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-align-right Specifications */
+.mobi-mbri-align-right:before {
+  content: "\e905";
+}
+.mobi-mbri-android:before {
+  content: "\e906";
+}
+.mobi-mbri-apple:before {
+  content: "\e907";
+}
+.mobi-mbri-arrow-down:before {
+  content: "\e908";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-align-right">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-android Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-android Specifications */
+.mobi-mbri-android:before {
+  content: "\e906";
+}
+.mobi-mbri-apple:before {
+  content: "\e907";
+}
+.mobi-mbri-arrow-down:before {
+  content: "\e908";
+}
+.mobi-mbri-arrow-next:before {
+  content: "\e909";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-android">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-apple Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-apple Specifications */
+.mobi-mbri-apple:before {
+  content: "\e907";
+}
+.mobi-mbri-arrow-down:before {
+  content: "\e908";
+}
+.mobi-mbri-arrow-next:before {
+  content: "\e909";
+}
+.mobi-mbri-arrow-prev:before {
+  content: "\e90a";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-apple">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-arrow-down Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-arrow-down Specifications */
+.mobi-mbri-arrow-down:before {
+  content: "\e908";
+}
+.mobi-mbri-arrow-next:before {
+  content: "\e909";
+}
+.mobi-mbri-arrow-prev:before {
+  content: "\e90a";
+}
+.mobi-mbri-arrow-up:before {
+  content: "\e90b";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-arrow-down">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-arrow-next Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-arrow-next Specifications */
+.mobi-mbri-arrow-next:before {
+  content: "\e909";
+}
+.mobi-mbri-arrow-prev:before {
+  content: "\e90a";
+}
+.mobi-mbri-arrow-up:before {
+  content: "\e90b";
+}
+.mobi-mbri-bold:before {
+  content: "\e90c";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-arrow-next">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-arrow-prev Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-arrow-prev Specifications */
+.mobi-mbri-arrow-prev:before {
+  content: "\e90a";
+}
+.mobi-mbri-arrow-up:before {
+  content: "\e90b";
+}
+.mobi-mbri-bold:before {
+  content: "\e90c";
+}
+.mobi-mbri-bookmark:before {
+  content: "\e90d";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-arrow-prev">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-arrow-up Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-arrow-up Specifications */
+.mobi-mbri-arrow-up:before {
+  content: "\e90b";
+}
+.mobi-mbri-bold:before {
+  content: "\e90c";
+}
+.mobi-mbri-bookmark:before {
+  content: "\e90d";
+}
+.mobi-mbri-bootstrap:before {
+  content: "\e90e";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-arrow-up">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-bold Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-bold Specifications */
+.mobi-mbri-bold:before {
+  content: "\e90c";
+}
+.mobi-mbri-bookmark:before {
+  content: "\e90d";
+}
+.mobi-mbri-bootstrap:before {
+  content: "\e90e";
+}
+.mobi-mbri-briefcase:before {
+  content: "\e90f";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-bold">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-bookmark Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-bookmark Specifications */
+.mobi-mbri-bookmark:before {
+  content: "\e90d";
+}
+.mobi-mbri-bootstrap:before {
+  content: "\e90e";
+}
+.mobi-mbri-briefcase:before {
+  content: "\e90f";
+}
+.mobi-mbri-browse:before {
+  content: "\e910";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-bookmark">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-bootstrap Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-bootstrap Specifications */
+.mobi-mbri-bootstrap:before {
+  content: "\e90e";
+}
+.mobi-mbri-briefcase:before {
+  content: "\e90f";
+}
+.mobi-mbri-browse:before {
+  content: "\e910";
+}
+.mobi-mbri-bulleted-list:before {
+  content: "\e911";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-bootstrap">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-briefcase Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-briefcase Specifications */
+.mobi-mbri-briefcase:before {
+  content: "\e90f";
+}
+.mobi-mbri-browse:before {
+  content: "\e910";
+}
+.mobi-mbri-bulleted-list:before {
+  content: "\e911";
+}
+.mobi-mbri-calendar:before {
+  content: "\e912";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-briefcase">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-browse Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-browse Specifications */
+.mobi-mbri-browse:before {
+  content: "\e910";
+}
+.mobi-mbri-bulleted-list:before {
+  content: "\e911";
+}
+.mobi-mbri-calendar:before {
+  content: "\e912";
+}
+.mobi-mbri-camera:before {
+  content: "\e913";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-browse">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-bulleted-list Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-bulleted-list Specifications */
+.mobi-mbri-bulleted-list:before {
+  content: "\e911";
+}
+.mobi-mbri-calendar:before {
+  content: "\e912";
+}
+.mobi-mbri-camera:before {
+  content: "\e913";
+}
+.mobi-mbri-cart-add:before {
+  content: "\e914";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-bulleted-list">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-calendar Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-calendar Specifications */
+.mobi-mbri-calendar:before {
+  content: "\e912";
+}
+.mobi-mbri-camera:before {
+  content: "\e913";
+}
+.mobi-mbri-cart-add:before {
+  content: "\e914";
+}
+.mobi-mbri-cart-full:before {
+  content: "\e915";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-calendar">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-camera Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-camera Specifications */
+.mobi-mbri-camera:before {
+  content: "\e913";
+}
+.mobi-mbri-cart-add:before {
+  content: "\e914";
+}
+.mobi-mbri-cart-full:before {
+  content: "\e915";
+}
+.mobi-mbri-cash:before {
+  content: "\e916";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-camera">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-cart-add Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-cart-add Specifications */
+.mobi-mbri-cart-add:before {
+  content: "\e914";
+}
+.mobi-mbri-cart-full:before {
+  content: "\e915";
+}
+.mobi-mbri-cash:before {
+  content: "\e916";
+}
+.mobi-mbri-change-style:before {
+  content: "\e917";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-cart-add">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-cart-full Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-cart-full Specifications */
+.mobi-mbri-cart-full:before {
+  content: "\e915";
+}
+.mobi-mbri-cash:before {
+  content: "\e916";
+}
+.mobi-mbri-change-style:before {
+  content: "\e917";
+}
+.mobi-mbri-chat:before {
+  content: "\e918";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-cart-full">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-cash Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-cash Specifications */
+.mobi-mbri-cash:before {
+  content: "\e916";
+}
+.mobi-mbri-change-style:before {
+  content: "\e917";
+}
+.mobi-mbri-chat:before {
+  content: "\e918";
+}
+.mobi-mbri-clock:before {
+  content: "\e919";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-cash">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-change-style Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-change-style Specifications */
+.mobi-mbri-change-style:before {
+  content: "\e917";
+}
+.mobi-mbri-chat:before {
+  content: "\e918";
+}
+.mobi-mbri-clock:before {
+  content: "\e919";
+}
+.mobi-mbri-close:before {
+  content: "\e91a";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-change-style">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-chat Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-chat Specifications */
+.mobi-mbri-chat:before {
+  content: "\e918";
+}
+.mobi-mbri-clock:before {
+  content: "\e919";
+}
+.mobi-mbri-close:before {
+  content: "\e91a";
+}
+.mobi-mbri-cloud:before {
+  content: "\e91b";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-chat">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-clock Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-clock Specifications */
+.mobi-mbri-clock:before {
+  content: "\e919";
+}
+.mobi-mbri-close:before {
+  content: "\e91a";
+}
+.mobi-mbri-cloud:before {
+  content: "\e91b";
+}
+.mobi-mbri-code:before {
+  content: "\e91c";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-clock">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-close Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-close Specifications */
+.mobi-mbri-close:before {
+  content: "\e91a";
+}
+.mobi-mbri-cloud:before {
+  content: "\e91b";
+}
+.mobi-mbri-code:before {
+  content: "\e91c";
+}
+.mobi-mbri-contact-form:before {
+  content: "\e91d";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-close">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-cloud Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-cloud Specifications */
+.mobi-mbri-cloud:before {
+  content: "\e91b";
+}
+.mobi-mbri-code:before {
+  content: "\e91c";
+}
+.mobi-mbri-contact-form:before {
+  content: "\e91d";
+}
+.mobi-mbri-credit-card:before {
+  content: "\e91e";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-cloud">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-code Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-code Specifications */
+.mobi-mbri-code:before {
+  content: "\e91c";
+}
+.mobi-mbri-contact-form:before {
+  content: "\e91d";
+}
+.mobi-mbri-credit-card:before {
+  content: "\e91e";
+}
+.mobi-mbri-cursor-click:before {
+  content: "\e91f";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-code">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-contact-form Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-contact-form Specifications */
+.mobi-mbri-contact-form:before {
+  content: "\e91d";
+}
+.mobi-mbri-credit-card:before {
+  content: "\e91e";
+}
+.mobi-mbri-cursor-click:before {
+  content: "\e91f";
+}
+.mobi-mbri-cust-feedback:before {
+  content: "\e920";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-contact-form">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-credit-card Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-credit-card Specifications */
+.mobi-mbri-credit-card:before {
+  content: "\e91e";
+}
+.mobi-mbri-cursor-click:before {
+  content: "\e91f";
+}
+.mobi-mbri-cust-feedback:before {
+  content: "\e920";
+}
+.mobi-mbri-database:before {
+  content: "\e921";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-credit-card">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-cursor-click Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-cursor-click Specifications */
+.mobi-mbri-cursor-click:before {
+  content: "\e91f";
+}
+.mobi-mbri-cust-feedback:before {
+  content: "\e920";
+}
+.mobi-mbri-database:before {
+  content: "\e921";
+}
+.mobi-mbri-delivery:before {
+  content: "\e922";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-cursor-click">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-cust-feedback Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-cust-feedback Specifications */
+.mobi-mbri-cust-feedback:before {
+  content: "\e920";
+}
+.mobi-mbri-database:before {
+  content: "\e921";
+}
+.mobi-mbri-delivery:before {
+  content: "\e922";
+}
+.mobi-mbri-desktop:before {
+  content: "\e923";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-cust-feedback">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-database Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-database Specifications */
+.mobi-mbri-database:before {
+  content: "\e921";
+}
+.mobi-mbri-delivery:before {
+  content: "\e922";
+}
+.mobi-mbri-desktop:before {
+  content: "\e923";
+}
+.mobi-mbri-devices:before {
+  content: "\e924";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-database">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-delivery Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-delivery Specifications */
+.mobi-mbri-delivery:before {
+  content: "\e922";
+}
+.mobi-mbri-desktop:before {
+  content: "\e923";
+}
+.mobi-mbri-devices:before {
+  content: "\e924";
+}
+.mobi-mbri-down:before {
+  content: "\e925";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-delivery">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-desktop Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-desktop Specifications */
+.mobi-mbri-desktop:before {
+  content: "\e923";
+}
+.mobi-mbri-devices:before {
+  content: "\e924";
+}
+.mobi-mbri-down:before {
+  content: "\e925";
+}
+.mobi-mbri-download-2:before {
+  content: "\e926";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-desktop">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-devices Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-devices Specifications */
+.mobi-mbri-devices:before {
+  content: "\e924";
+}
+.mobi-mbri-down:before {
+  content: "\e925";
+}
+.mobi-mbri-download-2:before {
+  content: "\e926";
+}
+.mobi-mbri-download:before {
+  content: "\e927";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-devices">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-down Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-down Specifications */
+.mobi-mbri-down:before {
+  content: "\e925";
+}
+.mobi-mbri-download-2:before {
+  content: "\e926";
+}
+.mobi-mbri-download:before {
+  content: "\e927";
+}
+.mobi-mbri-drag-n-drop-2:before {
+  content: "\e928";
+}
+.mobi-mbri-drag-n-drop:before {
+  content: "\e929";
+}
+.mobi-mbri-edit-2:before {
+  content: "\e92a";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-down">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-download Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-download Specifications */
+.mobi-mbri-download-2:before {
+  content: "\e926";
+}
+.mobi-mbri-download:before {
+  content: "\e927";
+}
+.mobi-mbri-drag-n-drop-2:before {
+  content: "\e928";
+}
+.mobi-mbri-drag-n-drop:before {
+  content: "\e929";
+}
+.mobi-mbri-edit-2:before {
+  content: "\e92a";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-download">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-download-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-download-2 Specifications */
+.mobi-mbri-download-2:before {
+  content: "\e926";
+}
+.mobi-mbri-download:before {
+  content: "\e927";
+}
+.mobi-mbri-drag-n-drop-2:before {
+  content: "\e928";
+}
+.mobi-mbri-drag-n-drop:before {
+  content: "\e929";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-download-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-drag-n-drop Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-drag-n-drop Specifications */
+.mobi-mbri-drag-n-drop-2:before {
+  content: "\e928";
+}
+.mobi-mbri-drag-n-drop:before {
+  content: "\e929";
+}
+.mobi-mbri-edit-2:before {
+  content: "\e92a";
+}
+.mobi-mbri-edit:before {
+  content: "\e92b";
+}
+.mobi-mbri-error:before {
+  content: "\e92c";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-drag-n-drop">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-drag-n-drop-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-drag-n-drop-2 Specifications */
+.mobi-mbri-drag-n-drop-2:before {
+  content: "\e928";
+}
+.mobi-mbri-drag-n-drop:before {
+  content: "\e929";
+}
+.mobi-mbri-edit-2:before {
+  content: "\e92a";
+}
+.mobi-mbri-edit:before {
+  content: "\e92b";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-drag-n-drop-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-edit Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-edit Specifications */
+.mobi-mbri-edit-2:before {
+  content: "\e92a";
+}
+.mobi-mbri-edit:before {
+  content: "\e92b";
+}
+.mobi-mbri-error:before {
+  content: "\e92c";
+}
+.mobi-mbri-extension:before {
+  content: "\e92d";
+}
+.mobi-mbri-features:before {
+  content: "\e92e";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-edit">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-edit-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-edit-2 Specifications */
+.mobi-mbri-edit-2:before {
+  content: "\e92a";
+}
+.mobi-mbri-edit:before {
+  content: "\e92b";
+}
+.mobi-mbri-error:before {
+  content: "\e92c";
+}
+.mobi-mbri-extension:before {
+  content: "\e92d";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-edit-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-error Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-error Specifications */
+.mobi-mbri-error:before {
+  content: "\e92c";
+}
+.mobi-mbri-extension:before {
+  content: "\e92d";
+}
+.mobi-mbri-features:before {
+  content: "\e92e";
+}
+.mobi-mbri-file:before {
+  content: "\e92f";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-error">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-extension Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-extension Specifications */
+.mobi-mbri-extension:before {
+  content: "\e92d";
+}
+.mobi-mbri-features:before {
+  content: "\e92e";
+}
+.mobi-mbri-file:before {
+  content: "\e92f";
+}
+.mobi-mbri-flag:before {
+  content: "\e930";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-extension">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-features Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-features Specifications */
+.mobi-mbri-features:before {
+  content: "\e92e";
+}
+.mobi-mbri-file:before {
+  content: "\e92f";
+}
+.mobi-mbri-flag:before {
+  content: "\e930";
+}
+.mobi-mbri-folder:before {
+  content: "\e931";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-features">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-file Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-file Specifications */
+.mobi-mbri-file:before {
+  content: "\e92f";
+}
+.mobi-mbri-flag:before {
+  content: "\e930";
+}
+.mobi-mbri-folder:before {
+  content: "\e931";
+}
+.mobi-mbri-gift:before {
+  content: "\e932";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-file">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-flag Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-flag Specifications */
+.mobi-mbri-flag:before {
+  content: "\e930";
+}
+.mobi-mbri-folder:before {
+  content: "\e931";
+}
+.mobi-mbri-gift:before {
+  content: "\e932";
+}
+.mobi-mbri-github:before {
+  content: "\e933";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-flag">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-folder Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-folder Specifications */
+.mobi-mbri-folder:before {
+  content: "\e931";
+}
+.mobi-mbri-gift:before {
+  content: "\e932";
+}
+.mobi-mbri-github:before {
+  content: "\e933";
+}
+.mobi-mbri-globe-2:before {
+  content: "\e934";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-folder">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-gift Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-gift Specifications */
+.mobi-mbri-gift:before {
+  content: "\e932";
+}
+.mobi-mbri-github:before {
+  content: "\e933";
+}
+.mobi-mbri-globe-2:before {
+  content: "\e934";
+}
+.mobi-mbri-globe:before {
+  content: "\e935";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-gift">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-github Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-github Specifications */
+.mobi-mbri-github:before {
+  content: "\e933";
+}
+.mobi-mbri-globe-2:before {
+  content: "\e934";
+}
+.mobi-mbri-globe:before {
+  content: "\e935";
+}
+.mobi-mbri-growing-chart:before {
+  content: "\e936";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-github">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-globe Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-globe Specifications */
+.mobi-mbri-globe-2:before {
+  content: "\e934";
+}
+.mobi-mbri-globe:before {
+  content: "\e935";
+}
+.mobi-mbri-growing-chart:before {
+  content: "\e936";
+}
+.mobi-mbri-hearth:before {
+  content: "\e937";
+}
+.mobi-mbri-help:before {
+  content: "\e938";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-globe">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-globe-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-globe-2 Specifications */
+.mobi-mbri-globe-2:before {
+  content: "\e934";
+}
+.mobi-mbri-globe:before {
+  content: "\e935";
+}
+.mobi-mbri-growing-chart:before {
+  content: "\e936";
+}
+.mobi-mbri-hearth:before {
+  content: "\e937";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-globe-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-growing-chart Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-growing-chart Specifications */
+.mobi-mbri-growing-chart:before {
+  content: "\e936";
+}
+.mobi-mbri-hearth:before {
+  content: "\e937";
+}
+.mobi-mbri-help:before {
+  content: "\e938";
+}
+.mobi-mbri-home:before {
+  content: "\e939";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-growing-chart">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-hearth Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-hearth Specifications */
+.mobi-mbri-hearth:before {
+  content: "\e937";
+}
+.mobi-mbri-help:before {
+  content: "\e938";
+}
+.mobi-mbri-home:before {
+  content: "\e939";
+}
+.mobi-mbri-hot-cup:before {
+  content: "\e93a";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-hearth">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-help Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-help Specifications */
+.mobi-mbri-help:before {
+  content: "\e938";
+}
+.mobi-mbri-home:before {
+  content: "\e939";
+}
+.mobi-mbri-hot-cup:before {
+  content: "\e93a";
+}
+.mobi-mbri-idea:before {
+  content: "\e93b";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-help">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-home Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-home Specifications */
+.mobi-mbri-home:before {
+  content: "\e939";
+}
+.mobi-mbri-hot-cup:before {
+  content: "\e93a";
+}
+.mobi-mbri-idea:before {
+  content: "\e93b";
+}
+.mobi-mbri-image-gallery:before {
+  content: "\e93c";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-home">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-hot-cup Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-hot-cup Specifications */
+.mobi-mbri-hot-cup:before {
+  content: "\e93a";
+}
+.mobi-mbri-idea:before {
+  content: "\e93b";
+}
+.mobi-mbri-image-gallery:before {
+  content: "\e93c";
+}
+.mobi-mbri-image-slider:before {
+  content: "\e93d";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-hot-cup">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-idea Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-idea Specifications */
+.mobi-mbri-idea:before {
+  content: "\e93b";
+}
+.mobi-mbri-image-gallery:before {
+  content: "\e93c";
+}
+.mobi-mbri-image-slider:before {
+  content: "\e93d";
+}
+.mobi-mbri-info:before {
+  content: "\e93e";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-idea">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-image-gallery Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-image-gallery Specifications */
+.mobi-mbri-image-gallery:before {
+  content: "\e93c";
+}
+.mobi-mbri-image-slider:before {
+  content: "\e93d";
+}
+.mobi-mbri-info:before {
+  content: "\e93e";
+}
+.mobi-mbri-italic:before {
+  content: "\e93f";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-image-gallery">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-image-slider Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-image-slider Specifications */
+.mobi-mbri-image-slider:before {
+  content: "\e93d";
+}
+.mobi-mbri-info:before {
+  content: "\e93e";
+}
+.mobi-mbri-italic:before {
+  content: "\e93f";
+}
+.mobi-mbri-key:before {
+  content: "\e940";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-image-slider">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-info Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-info Specifications */
+.mobi-mbri-info:before {
+  content: "\e93e";
+}
+.mobi-mbri-italic:before {
+  content: "\e93f";
+}
+.mobi-mbri-key:before {
+  content: "\e940";
+}
+.mobi-mbri-laptop:before {
+  content: "\e941";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-info">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-italic Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-italic Specifications */
+.mobi-mbri-italic:before {
+  content: "\e93f";
+}
+.mobi-mbri-key:before {
+  content: "\e940";
+}
+.mobi-mbri-laptop:before {
+  content: "\e941";
+}
+.mobi-mbri-layers:before {
+  content: "\e942";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-italic">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-key Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-key Specifications */
+.mobi-mbri-key:before {
+  content: "\e940";
+}
+.mobi-mbri-laptop:before {
+  content: "\e941";
+}
+.mobi-mbri-layers:before {
+  content: "\e942";
+}
+.mobi-mbri-left-right:before {
+  content: "\e943";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-key">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-laptop Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-laptop Specifications */
+.mobi-mbri-laptop:before {
+  content: "\e941";
+}
+.mobi-mbri-layers:before {
+  content: "\e942";
+}
+.mobi-mbri-left-right:before {
+  content: "\e943";
+}
+.mobi-mbri-left:before {
+  content: "\e944";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-laptop">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-layers Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-layers Specifications */
+.mobi-mbri-layers:before {
+  content: "\e942";
+}
+.mobi-mbri-left-right:before {
+  content: "\e943";
+}
+.mobi-mbri-left:before {
+  content: "\e944";
+}
+.mobi-mbri-letter:before {
+  content: "\e945";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-layers">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-left Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-left Specifications */
+.mobi-mbri-left-right:before {
+  content: "\e943";
+}
+.mobi-mbri-left:before {
+  content: "\e944";
+}
+.mobi-mbri-letter:before {
+  content: "\e945";
+}
+.mobi-mbri-like:before {
+  content: "\e946";
+}
+.mobi-mbri-link:before {
+  content: "\e947";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-left">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-left-right Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-left-right Specifications */
+.mobi-mbri-left-right:before {
+  content: "\e943";
+}
+.mobi-mbri-left:before {
+  content: "\e944";
+}
+.mobi-mbri-letter:before {
+  content: "\e945";
+}
+.mobi-mbri-like:before {
+  content: "\e946";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-left-right">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-letter Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-letter Specifications */
+.mobi-mbri-letter:before {
+  content: "\e945";
+}
+.mobi-mbri-like:before {
+  content: "\e946";
+}
+.mobi-mbri-link:before {
+  content: "\e947";
+}
+.mobi-mbri-lock:before {
+  content: "\e948";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-letter">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-like Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-like Specifications */
+.mobi-mbri-like:before {
+  content: "\e946";
+}
+.mobi-mbri-link:before {
+  content: "\e947";
+}
+.mobi-mbri-lock:before {
+  content: "\e948";
+}
+.mobi-mbri-login:before {
+  content: "\e949";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-like">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-link Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-link Specifications */
+.mobi-mbri-link:before {
+  content: "\e947";
+}
+.mobi-mbri-lock:before {
+  content: "\e948";
+}
+.mobi-mbri-login:before {
+  content: "\e949";
+}
+.mobi-mbri-logout:before {
+  content: "\e94a";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-link">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-lock Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-lock Specifications */
+.mobi-mbri-lock:before {
+  content: "\e948";
+}
+.mobi-mbri-login:before {
+  content: "\e949";
+}
+.mobi-mbri-logout:before {
+  content: "\e94a";
+}
+.mobi-mbri-magic-stick:before {
+  content: "\e94b";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-lock">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-login Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-login Specifications */
+.mobi-mbri-login:before {
+  content: "\e949";
+}
+.mobi-mbri-logout:before {
+  content: "\e94a";
+}
+.mobi-mbri-magic-stick:before {
+  content: "\e94b";
+}
+.mobi-mbri-map-pin:before {
+  content: "\e94c";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-login">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-logout Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-logout Specifications */
+.mobi-mbri-logout:before {
+  content: "\e94a";
+}
+.mobi-mbri-magic-stick:before {
+  content: "\e94b";
+}
+.mobi-mbri-map-pin:before {
+  content: "\e94c";
+}
+.mobi-mbri-menu:before {
+  content: "\e94d";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-logout">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-magic-stick Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-magic-stick Specifications */
+.mobi-mbri-magic-stick:before {
+  content: "\e94b";
+}
+.mobi-mbri-map-pin:before {
+  content: "\e94c";
+}
+.mobi-mbri-menu:before {
+  content: "\e94d";
+}
+.mobi-mbri-mobile-2:before {
+  content: "\e94e";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-magic-stick">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-map-pin Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-map-pin Specifications */
+.mobi-mbri-map-pin:before {
+  content: "\e94c";
+}
+.mobi-mbri-menu:before {
+  content: "\e94d";
+}
+.mobi-mbri-mobile-2:before {
+  content: "\e94e";
+}
+.mobi-mbri-mobile-horizontal:before {
+  content: "\e94f";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-map-pin">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-menu Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-menu Specifications */
+.mobi-mbri-menu:before {
+  content: "\e94d";
+}
+.mobi-mbri-mobile-2:before {
+  content: "\e94e";
+}
+.mobi-mbri-mobile-horizontal:before {
+  content: "\e94f";
+}
+.mobi-mbri-mobile:before {
+  content: "\e950";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-menu">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-mobile Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-mobile Specifications */
+.mobi-mbri-mobile-2:before {
+  content: "\e94e";
+}
+.mobi-mbri-mobile-horizontal:before {
+  content: "\e94f";
+}
+.mobi-mbri-mobile:before {
+  content: "\e950";
+}
+.mobi-mbri-mobirise:before {
+  content: "\e951";
+}
+.mobi-mbri-more-horizontal:before {
+  content: "\e952";
+}
+.mobi-mbri-more-vertical:before {
+  content: "\e953";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-mobile">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-mobile-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-mobile-2 Specifications */
+.mobi-mbri-mobile-2:before {
+  content: "\e94e";
+}
+.mobi-mbri-mobile-horizontal:before {
+  content: "\e94f";
+}
+.mobi-mbri-mobile:before {
+  content: "\e950";
+}
+.mobi-mbri-mobirise:before {
+  content: "\e951";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-mobile-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-mobile-horizontal Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-mobile-horizontal Specifications */
+.mobi-mbri-mobile-horizontal:before {
+  content: "\e94f";
+}
+.mobi-mbri-mobile:before {
+  content: "\e950";
+}
+.mobi-mbri-mobirise:before {
+  content: "\e951";
+}
+.mobi-mbri-more-horizontal:before {
+  content: "\e952";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-mobile-horizontal">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-mobirise Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-mobirise Specifications */
+.mobi-mbri-mobirise:before {
+  content: "\e951";
+}
+.mobi-mbri-more-horizontal:before {
+  content: "\e952";
+}
+.mobi-mbri-more-vertical:before {
+  content: "\e953";
+}
+.mobi-mbri-music:before {
+  content: "\e954";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-mobirise">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-more-horizontal Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-more-horizontal Specifications */
+.mobi-mbri-more-horizontal:before {
+  content: "\e952";
+}
+.mobi-mbri-more-vertical:before {
+  content: "\e953";
+}
+.mobi-mbri-music:before {
+  content: "\e954";
+}
+.mobi-mbri-new-file:before {
+  content: "\e955";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-more-horizontal">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-more-vertical Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-more-vertical Specifications */
+.mobi-mbri-more-vertical:before {
+  content: "\e953";
+}
+.mobi-mbri-music:before {
+  content: "\e954";
+}
+.mobi-mbri-new-file:before {
+  content: "\e955";
+}
+.mobi-mbri-numbered-list:before {
+  content: "\e956";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-more-vertical">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-music Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-music Specifications */
+.mobi-mbri-music:before {
+  content: "\e954";
+}
+.mobi-mbri-new-file:before {
+  content: "\e955";
+}
+.mobi-mbri-numbered-list:before {
+  content: "\e956";
+}
+.mobi-mbri-opened-folder:before {
+  content: "\e957";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-music">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-new-file Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-new-file Specifications */
+.mobi-mbri-new-file:before {
+  content: "\e955";
+}
+.mobi-mbri-numbered-list:before {
+  content: "\e956";
+}
+.mobi-mbri-opened-folder:before {
+  content: "\e957";
+}
+.mobi-mbri-pages:before {
+  content: "\e958";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-new-file">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-numbered-list Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-numbered-list Specifications */
+.mobi-mbri-numbered-list:before {
+  content: "\e956";
+}
+.mobi-mbri-opened-folder:before {
+  content: "\e957";
+}
+.mobi-mbri-pages:before {
+  content: "\e958";
+}
+.mobi-mbri-paper-plane:before {
+  content: "\e959";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-numbered-list">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-opened-folder Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-opened-folder Specifications */
+.mobi-mbri-opened-folder:before {
+  content: "\e957";
+}
+.mobi-mbri-pages:before {
+  content: "\e958";
+}
+.mobi-mbri-paper-plane:before {
+  content: "\e959";
+}
+.mobi-mbri-paperclip:before {
+  content: "\e95a";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-opened-folder">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-pages Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-pages Specifications */
+.mobi-mbri-pages:before {
+  content: "\e958";
+}
+.mobi-mbri-paper-plane:before {
+  content: "\e959";
+}
+.mobi-mbri-paperclip:before {
+  content: "\e95a";
+}
+.mobi-mbri-phone:before {
+  content: "\e95b";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-pages">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-paper-plane Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-paper-plane Specifications */
+.mobi-mbri-paper-plane:before {
+  content: "\e959";
+}
+.mobi-mbri-paperclip:before {
+  content: "\e95a";
+}
+.mobi-mbri-phone:before {
+  content: "\e95b";
+}
+.mobi-mbri-photo:before {
+  content: "\e95c";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-paper-plane">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-paperclip Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-paperclip Specifications */
+.mobi-mbri-paperclip:before {
+  content: "\e95a";
+}
+.mobi-mbri-phone:before {
+  content: "\e95b";
+}
+.mobi-mbri-photo:before {
+  content: "\e95c";
+}
+.mobi-mbri-photos:before {
+  content: "\e95d";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-paperclip">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-phone Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-phone Specifications */
+.mobi-mbri-phone:before {
+  content: "\e95b";
+}
+.mobi-mbri-photo:before {
+  content: "\e95c";
+}
+.mobi-mbri-photos:before {
+  content: "\e95d";
+}
+.mobi-mbri-pin:before {
+  content: "\e95e";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-phone">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-photo Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-photo Specifications */
+.mobi-mbri-photo:before {
+  content: "\e95c";
+}
+.mobi-mbri-photos:before {
+  content: "\e95d";
+}
+.mobi-mbri-pin:before {
+  content: "\e95e";
+}
+.mobi-mbri-play:before {
+  content: "\e95f";
+}
+.mobi-mbri-plus:before {
+  content: "\e960";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-photo">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-photos Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-photos Specifications */
+.mobi-mbri-photos:before {
+  content: "\e95d";
+}
+.mobi-mbri-pin:before {
+  content: "\e95e";
+}
+.mobi-mbri-play:before {
+  content: "\e95f";
+}
+.mobi-mbri-plus:before {
+  content: "\e960";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-photos">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-pin Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-pin Specifications */
+.mobi-mbri-pin:before {
+  content: "\e95e";
+}
+.mobi-mbri-play:before {
+  content: "\e95f";
+}
+.mobi-mbri-plus:before {
+  content: "\e960";
+}
+.mobi-mbri-preview:before {
+  content: "\e961";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-pin">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-play Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-play Specifications */
+.mobi-mbri-play:before {
+  content: "\e95f";
+}
+.mobi-mbri-plus:before {
+  content: "\e960";
+}
+.mobi-mbri-preview:before {
+  content: "\e961";
+}
+.mobi-mbri-print:before {
+  content: "\e962";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-play">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-plus Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-plus Specifications */
+.mobi-mbri-plus:before {
+  content: "\e960";
+}
+.mobi-mbri-preview:before {
+  content: "\e961";
+}
+.mobi-mbri-print:before {
+  content: "\e962";
+}
+.mobi-mbri-protect:before {
+  content: "\e963";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-plus">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-preview Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-preview Specifications */
+.mobi-mbri-preview:before {
+  content: "\e961";
+}
+.mobi-mbri-print:before {
+  content: "\e962";
+}
+.mobi-mbri-protect:before {
+  content: "\e963";
+}
+.mobi-mbri-question:before {
+  content: "\e964";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-preview">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-print Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-print Specifications */
+.mobi-mbri-print:before {
+  content: "\e962";
+}
+.mobi-mbri-protect:before {
+  content: "\e963";
+}
+.mobi-mbri-question:before {
+  content: "\e964";
+}
+.mobi-mbri-quote-left:before {
+  content: "\e965";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-print">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-protect Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-protect Specifications */
+.mobi-mbri-protect:before {
+  content: "\e963";
+}
+.mobi-mbri-question:before {
+  content: "\e964";
+}
+.mobi-mbri-quote-left:before {
+  content: "\e965";
+}
+.mobi-mbri-quote-right:before {
+  content: "\e966";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-protect">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-question Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-question Specifications */
+.mobi-mbri-question:before {
+  content: "\e964";
+}
+.mobi-mbri-quote-left:before {
+  content: "\e965";
+}
+.mobi-mbri-quote-right:before {
+  content: "\e966";
+}
+.mobi-mbri-redo:before {
+  content: "\e967";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-question">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-quote-left Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-quote-left Specifications */
+.mobi-mbri-quote-left:before {
+  content: "\e965";
+}
+.mobi-mbri-quote-right:before {
+  content: "\e966";
+}
+.mobi-mbri-redo:before {
+  content: "\e967";
+}
+.mobi-mbri-refresh:before {
+  content: "\e968";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-quote-left">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-quote-right Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-quote-right Specifications */
+.mobi-mbri-quote-right:before {
+  content: "\e966";
+}
+.mobi-mbri-redo:before {
+  content: "\e967";
+}
+.mobi-mbri-refresh:before {
+  content: "\e968";
+}
+.mobi-mbri-responsive-2:before {
+  content: "\e969";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-quote-right">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-redo Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-redo Specifications */
+.mobi-mbri-redo:before {
+  content: "\e967";
+}
+.mobi-mbri-refresh:before {
+  content: "\e968";
+}
+.mobi-mbri-responsive-2:before {
+  content: "\e969";
+}
+.mobi-mbri-responsive:before {
+  content: "\e96a";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-redo">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-refresh Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-refresh Specifications */
+.mobi-mbri-refresh:before {
+  content: "\e968";
+}
+.mobi-mbri-responsive-2:before {
+  content: "\e969";
+}
+.mobi-mbri-responsive:before {
+  content: "\e96a";
+}
+.mobi-mbri-right:before {
+  content: "\e96b";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-refresh">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-responsive Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-responsive Specifications */
+.mobi-mbri-responsive-2:before {
+  content: "\e969";
+}
+.mobi-mbri-responsive:before {
+  content: "\e96a";
+}
+.mobi-mbri-right:before {
+  content: "\e96b";
+}
+.mobi-mbri-rocket:before {
+  content: "\e96c";
+}
+.mobi-mbri-sad-face:before {
+  content: "\e96d";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-responsive">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-responsive-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-responsive-2 Specifications */
+.mobi-mbri-responsive-2:before {
+  content: "\e969";
+}
+.mobi-mbri-responsive:before {
+  content: "\e96a";
+}
+.mobi-mbri-right:before {
+  content: "\e96b";
+}
+.mobi-mbri-rocket:before {
+  content: "\e96c";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-responsive-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-right Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-right Specifications */
+.mobi-mbri-right:before {
+  content: "\e96b";
+}
+.mobi-mbri-rocket:before {
+  content: "\e96c";
+}
+.mobi-mbri-sad-face:before {
+  content: "\e96d";
+}
+.mobi-mbri-sale:before {
+  content: "\e96e";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-right">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-rocket Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-rocket Specifications */
+.mobi-mbri-rocket:before {
+  content: "\e96c";
+}
+.mobi-mbri-sad-face:before {
+  content: "\e96d";
+}
+.mobi-mbri-sale:before {
+  content: "\e96e";
+}
+.mobi-mbri-save:before {
+  content: "\e96f";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-rocket">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-sad-face Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-sad-face Specifications */
+.mobi-mbri-sad-face:before {
+  content: "\e96d";
+}
+.mobi-mbri-sale:before {
+  content: "\e96e";
+}
+.mobi-mbri-save:before {
+  content: "\e96f";
+}
+.mobi-mbri-search:before {
+  content: "\e970";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-sad-face">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-sale Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-sale Specifications */
+.mobi-mbri-sale:before {
+  content: "\e96e";
+}
+.mobi-mbri-save:before {
+  content: "\e96f";
+}
+.mobi-mbri-search:before {
+  content: "\e970";
+}
+.mobi-mbri-setting-2:before {
+  content: "\e971";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-sale">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-save Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-save Specifications */
+.mobi-mbri-save:before {
+  content: "\e96f";
+}
+.mobi-mbri-search:before {
+  content: "\e970";
+}
+.mobi-mbri-setting-2:before {
+  content: "\e971";
+}
+.mobi-mbri-setting-3:before {
+  content: "\e972";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-save">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-search Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-search Specifications */
+.mobi-mbri-search:before {
+  content: "\e970";
+}
+.mobi-mbri-setting-2:before {
+  content: "\e971";
+}
+.mobi-mbri-setting-3:before {
+  content: "\e972";
+}
+.mobi-mbri-setting:before {
+  content: "\e973";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-search">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-setting Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-setting Specifications */
+.mobi-mbri-setting-2:before {
+  content: "\e971";
+}
+.mobi-mbri-setting-3:before {
+  content: "\e972";
+}
+.mobi-mbri-setting:before {
+  content: "\e973";
+}
+.mobi-mbri-share:before {
+  content: "\e974";
+}
+.mobi-mbri-shopping-bag:before {
+  content: "\e975";
+}
+.mobi-mbri-shopping-basket:before {
+  content: "\e976";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-setting">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-setting-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-setting-2 Specifications */
+.mobi-mbri-setting-2:before {
+  content: "\e971";
+}
+.mobi-mbri-setting-3:before {
+  content: "\e972";
+}
+.mobi-mbri-setting:before {
+  content: "\e973";
+}
+.mobi-mbri-share:before {
+  content: "\e974";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-setting-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-setting-3 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-setting-3 Specifications */
+.mobi-mbri-setting-3:before {
+  content: "\e972";
+}
+.mobi-mbri-setting:before {
+  content: "\e973";
+}
+.mobi-mbri-share:before {
+  content: "\e974";
+}
+.mobi-mbri-shopping-bag:before {
+  content: "\e975";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-setting-3">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-share Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-share Specifications */
+.mobi-mbri-share:before {
+  content: "\e974";
+}
+.mobi-mbri-shopping-bag:before {
+  content: "\e975";
+}
+.mobi-mbri-shopping-basket:before {
+  content: "\e976";
+}
+.mobi-mbri-shopping-cart:before {
+  content: "\e977";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-share">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-shopping-bag Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-shopping-bag Specifications */
+.mobi-mbri-shopping-bag:before {
+  content: "\e975";
+}
+.mobi-mbri-shopping-basket:before {
+  content: "\e976";
+}
+.mobi-mbri-shopping-cart:before {
+  content: "\e977";
+}
+.mobi-mbri-sites:before {
+  content: "\e978";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-shopping-bag">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-shopping-basket Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-shopping-basket Specifications */
+.mobi-mbri-shopping-basket:before {
+  content: "\e976";
+}
+.mobi-mbri-shopping-cart:before {
+  content: "\e977";
+}
+.mobi-mbri-sites:before {
+  content: "\e978";
+}
+.mobi-mbri-smile-face:before {
+  content: "\e979";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-shopping-basket">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-shopping-cart Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-shopping-cart Specifications */
+.mobi-mbri-shopping-cart:before {
+  content: "\e977";
+}
+.mobi-mbri-sites:before {
+  content: "\e978";
+}
+.mobi-mbri-smile-face:before {
+  content: "\e979";
+}
+.mobi-mbri-speed:before {
+  content: "\e97a";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-shopping-cart">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-sites Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-sites Specifications */
+.mobi-mbri-sites:before {
+  content: "\e978";
+}
+.mobi-mbri-smile-face:before {
+  content: "\e979";
+}
+.mobi-mbri-speed:before {
+  content: "\e97a";
+}
+.mobi-mbri-star:before {
+  content: "\e97b";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-sites">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-smile-face Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-smile-face Specifications */
+.mobi-mbri-smile-face:before {
+  content: "\e979";
+}
+.mobi-mbri-speed:before {
+  content: "\e97a";
+}
+.mobi-mbri-star:before {
+  content: "\e97b";
+}
+.mobi-mbri-success:before {
+  content: "\e97c";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-smile-face">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-speed Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-speed Specifications */
+.mobi-mbri-speed:before {
+  content: "\e97a";
+}
+.mobi-mbri-star:before {
+  content: "\e97b";
+}
+.mobi-mbri-success:before {
+  content: "\e97c";
+}
+.mobi-mbri-sun:before {
+  content: "\e97d";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-speed">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-star Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-star Specifications */
+.mobi-mbri-star:before {
+  content: "\e97b";
+}
+.mobi-mbri-success:before {
+  content: "\e97c";
+}
+.mobi-mbri-sun:before {
+  content: "\e97d";
+}
+.mobi-mbri-sun2:before {
+  content: "\e97e";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-star">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-success Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-success Specifications */
+.mobi-mbri-success:before {
+  content: "\e97c";
+}
+.mobi-mbri-sun:before {
+  content: "\e97d";
+}
+.mobi-mbri-sun2:before {
+  content: "\e97e";
+}
+.mobi-mbri-tablet-vertical:before {
+  content: "\e97f";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-success">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-sun Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-sun Specifications */
+.mobi-mbri-sun:before {
+  content: "\e97d";
+}
+.mobi-mbri-sun2:before {
+  content: "\e97e";
+}
+.mobi-mbri-tablet-vertical:before {
+  content: "\e97f";
+}
+.mobi-mbri-tablet:before {
+  content: "\e980";
+}
+.mobi-mbri-target:before {
+  content: "\e981";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-sun">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-sun2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-sun2 Specifications */
+.mobi-mbri-sun2:before {
+  content: "\e97e";
+}
+.mobi-mbri-tablet-vertical:before {
+  content: "\e97f";
+}
+.mobi-mbri-tablet:before {
+  content: "\e980";
+}
+.mobi-mbri-target:before {
+  content: "\e981";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-sun2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-tablet Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-tablet Specifications */
+.mobi-mbri-tablet-vertical:before {
+  content: "\e97f";
+}
+.mobi-mbri-tablet:before {
+  content: "\e980";
+}
+.mobi-mbri-target:before {
+  content: "\e981";
+}
+.mobi-mbri-timer:before {
+  content: "\e982";
+}
+.mobi-mbri-to-ftp:before {
+  content: "\e983";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-tablet">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-tablet-vertical Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-tablet-vertical Specifications */
+.mobi-mbri-tablet-vertical:before {
+  content: "\e97f";
+}
+.mobi-mbri-tablet:before {
+  content: "\e980";
+}
+.mobi-mbri-target:before {
+  content: "\e981";
+}
+.mobi-mbri-timer:before {
+  content: "\e982";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-tablet-vertical">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-target Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-target Specifications */
+.mobi-mbri-target:before {
+  content: "\e981";
+}
+.mobi-mbri-timer:before {
+  content: "\e982";
+}
+.mobi-mbri-to-ftp:before {
+  content: "\e983";
+}
+.mobi-mbri-to-local-drive:before {
+  content: "\e984";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-target">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-timer Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-timer Specifications */
+.mobi-mbri-timer:before {
+  content: "\e982";
+}
+.mobi-mbri-to-ftp:before {
+  content: "\e983";
+}
+.mobi-mbri-to-local-drive:before {
+  content: "\e984";
+}
+.mobi-mbri-touch-swipe:before {
+  content: "\e985";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-timer">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-to-ftp Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-to-ftp Specifications */
+.mobi-mbri-to-ftp:before {
+  content: "\e983";
+}
+.mobi-mbri-to-local-drive:before {
+  content: "\e984";
+}
+.mobi-mbri-touch-swipe:before {
+  content: "\e985";
+}
+.mobi-mbri-touch:before {
+  content: "\e986";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-to-ftp">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-to-local-drive Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-to-local-drive Specifications */
+.mobi-mbri-to-local-drive:before {
+  content: "\e984";
+}
+.mobi-mbri-touch-swipe:before {
+  content: "\e985";
+}
+.mobi-mbri-touch:before {
+  content: "\e986";
+}
+.mobi-mbri-trash:before {
+  content: "\e987";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-to-local-drive">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-touch Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-touch Specifications */
+.mobi-mbri-touch-swipe:before {
+  content: "\e985";
+}
+.mobi-mbri-touch:before {
+  content: "\e986";
+}
+.mobi-mbri-trash:before {
+  content: "\e987";
+}
+.mobi-mbri-underline:before {
+  content: "\e988";
+}
+.mobi-mbri-undo:before {
+  content: "\e989";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-touch">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-touch-swipe Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-touch-swipe Specifications */
+.mobi-mbri-touch-swipe:before {
+  content: "\e985";
+}
+.mobi-mbri-touch:before {
+  content: "\e986";
+}
+.mobi-mbri-trash:before {
+  content: "\e987";
+}
+.mobi-mbri-underline:before {
+  content: "\e988";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-touch-swipe">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-trash Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-trash Specifications */
+.mobi-mbri-trash:before {
+  content: "\e987";
+}
+.mobi-mbri-underline:before {
+  content: "\e988";
+}
+.mobi-mbri-undo:before {
+  content: "\e989";
+}
+.mobi-mbri-unlink:before {
+  content: "\e98a";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-trash">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-underline Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-underline Specifications */
+.mobi-mbri-underline:before {
+  content: "\e988";
+}
+.mobi-mbri-undo:before {
+  content: "\e989";
+}
+.mobi-mbri-unlink:before {
+  content: "\e98a";
+}
+.mobi-mbri-unlock:before {
+  content: "\e98b";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-underline">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-undo Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-undo Specifications */
+.mobi-mbri-undo:before {
+  content: "\e989";
+}
+.mobi-mbri-unlink:before {
+  content: "\e98a";
+}
+.mobi-mbri-unlock:before {
+  content: "\e98b";
+}
+.mobi-mbri-up-down:before {
+  content: "\e98c";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-undo">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-unlink Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-unlink Specifications */
+.mobi-mbri-unlink:before {
+  content: "\e98a";
+}
+.mobi-mbri-unlock:before {
+  content: "\e98b";
+}
+.mobi-mbri-up-down:before {
+  content: "\e98c";
+}
+.mobi-mbri-up:before {
+  content: "\e98d";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-unlink">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-unlock Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-unlock Specifications */
+.mobi-mbri-unlock:before {
+  content: "\e98b";
+}
+.mobi-mbri-up-down:before {
+  content: "\e98c";
+}
+.mobi-mbri-up:before {
+  content: "\e98d";
+}
+.mobi-mbri-update:before {
+  content: "\e98e";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-unlock">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-up Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-up Specifications */
+.mobi-mbri-up-down:before {
+  content: "\e98c";
+}
+.mobi-mbri-up:before {
+  content: "\e98d";
+}
+.mobi-mbri-update:before {
+  content: "\e98e";
+}
+.mobi-mbri-upload-2:before {
+  content: "\e98f";
+}
+.mobi-mbri-upload:before {
+  content: "\e990";
+}
+.mobi-mbri-user-2:before {
+  content: "\e991";
+}
+.mobi-mbri-user:before {
+  content: "\e992";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-up">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-up-down Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-up-down Specifications */
+.mobi-mbri-up-down:before {
+  content: "\e98c";
+}
+.mobi-mbri-up:before {
+  content: "\e98d";
+}
+.mobi-mbri-update:before {
+  content: "\e98e";
+}
+.mobi-mbri-upload-2:before {
+  content: "\e98f";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-up-down">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-update Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-update Specifications */
+.mobi-mbri-update:before {
+  content: "\e98e";
+}
+.mobi-mbri-upload-2:before {
+  content: "\e98f";
+}
+.mobi-mbri-upload:before {
+  content: "\e990";
+}
+.mobi-mbri-user-2:before {
+  content: "\e991";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-update">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-upload Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-upload Specifications */
+.mobi-mbri-upload-2:before {
+  content: "\e98f";
+}
+.mobi-mbri-upload:before {
+  content: "\e990";
+}
+.mobi-mbri-user-2:before {
+  content: "\e991";
+}
+.mobi-mbri-user:before {
+  content: "\e992";
+}
+.mobi-mbri-users:before {
+  content: "\e993";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-upload">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-upload-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-upload-2 Specifications */
+.mobi-mbri-upload-2:before {
+  content: "\e98f";
+}
+.mobi-mbri-upload:before {
+  content: "\e990";
+}
+.mobi-mbri-user-2:before {
+  content: "\e991";
+}
+.mobi-mbri-user:before {
+  content: "\e992";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-upload-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-user Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-user Specifications */
+.mobi-mbri-user-2:before {
+  content: "\e991";
+}
+.mobi-mbri-user:before {
+  content: "\e992";
+}
+.mobi-mbri-users:before {
+  content: "\e993";
+}
+.mobi-mbri-video-play:before {
+  content: "\e994";
+}
+.mobi-mbri-video:before {
+  content: "\e995";
+}
+.mobi-mbri-watch:before {
+  content: "\e996";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-user">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-user-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-user-2 Specifications */
+.mobi-mbri-user-2:before {
+  content: "\e991";
+}
+.mobi-mbri-user:before {
+  content: "\e992";
+}
+.mobi-mbri-users:before {
+  content: "\e993";
+}
+.mobi-mbri-video-play:before {
+  content: "\e994";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-user-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-users Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-users Specifications */
+.mobi-mbri-users:before {
+  content: "\e993";
+}
+.mobi-mbri-video-play:before {
+  content: "\e994";
+}
+.mobi-mbri-video:before {
+  content: "\e995";
+}
+.mobi-mbri-watch:before {
+  content: "\e996";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-users">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-video Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-video Specifications */
+.mobi-mbri-video-play:before {
+  content: "\e994";
+}
+.mobi-mbri-video:before {
+  content: "\e995";
+}
+.mobi-mbri-watch:before {
+  content: "\e996";
+}
+.mobi-mbri-website-theme-2:before {
+  content: "\e997";
+}
+.mobi-mbri-website-theme:before {
+  content: "\e998";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-video">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-video-play Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-video-play Specifications */
+.mobi-mbri-video-play:before {
+  content: "\e994";
+}
+.mobi-mbri-video:before {
+  content: "\e995";
+}
+.mobi-mbri-watch:before {
+  content: "\e996";
+}
+.mobi-mbri-website-theme-2:before {
+  content: "\e997";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-video-play">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-watch Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-watch Specifications */
+.mobi-mbri-watch:before {
+  content: "\e996";
+}
+.mobi-mbri-website-theme-2:before {
+  content: "\e997";
+}
+.mobi-mbri-website-theme:before {
+  content: "\e998";
+}
+.mobi-mbri-wifi:before {
+  content: "\e999";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-watch">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-website-theme Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-website-theme Specifications */
+.mobi-mbri-website-theme-2:before {
+  content: "\e997";
+}
+.mobi-mbri-website-theme:before {
+  content: "\e998";
+}
+.mobi-mbri-wifi:before {
+  content: "\e999";
+}
+.mobi-mbri-windows:before {
+  content: "\e99a";
+}
+.mobi-mbri-zoom-in:before {
+  content: "\e99b";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-website-theme">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-website-theme-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-website-theme-2 Specifications */
+.mobi-mbri-website-theme-2:before {
+  content: "\e997";
+}
+.mobi-mbri-website-theme:before {
+  content: "\e998";
+}
+.mobi-mbri-wifi:before {
+  content: "\e999";
+}
+.mobi-mbri-windows:before {
+  content: "\e99a";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-website-theme-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-wifi Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-wifi Specifications */
+.mobi-mbri-wifi:before {
+  content: "\e999";
+}
+.mobi-mbri-windows:before {
+  content: "\e99a";
+}
+.mobi-mbri-zoom-in:before {
+  content: "\e99b";
+}
+.mobi-mbri-zoom-out:before {
+  content: "\e99c";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-wifi">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-windows Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-windows Specifications */
+.mobi-mbri-windows:before {
+  content: "\e99a";
+}
+.mobi-mbri-zoom-in:before {
+  content: "\e99b";
+}
+.mobi-mbri-zoom-out:before {
+  content: "\e99c";
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-windows">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-zoom-in Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-zoom-in Specifications */
+.mobi-mbri-zoom-in:before {
+  content: "\e99b";
+}
+.mobi-mbri-zoom-out:before {
+  content: "\e99c";
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-zoom-in">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-zoom-out Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-zoom-out Specifications */
+.mobi-mbri-zoom-out:before {
+  content: "\e99c";
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-zoom-out">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## jarallax Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* jarallax Specifications */
+.jarallax {
+    position: relative;
+    z-index: 0;
+}
+.jarallax > .jarallax-img {
+    position: absolute;
+    object-fit: cover;
+    /* support for plugin https://github.com/bfred-it/object-fit-images */
+    font-family: 'object-fit: cover;';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="jarallax">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## article Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* article Specifications */
+.article .lead p,
+.article .lead ul,
+.article .lead ol,
+.article .lead pre,
+.article .lead blockquote {
+  margin-bottom: 0;
+}
+
+/* Icon font hover states */
+a.mbr-iconfont:hover {
+  text-decoration: none;
+}
+
+/* Section titles and subtitles */
+.mbr-section-title {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="article">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## bg-danger Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* bg-danger Specifications */
+.bg-danger {
+  background-color: #e56975;
+}
+
+/* Button System - Clean Architecture with Proper Specificity */
+.btn-primary,
+.btn-primary:active {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #808080;
+  box-shadow: none;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="bg-danger">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## bg-info Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* bg-info Specifications */
+.bg-info {
+  background-color: #58dcf6;
+}
+
+.bg-warning {
+  background-color: #ffd34f;
+}
+
+.bg-danger {
+  background-color: #e56975;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="bg-info">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## bg-primary Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* bg-primary Specifications */
+.bg-primary {
+  background-color: #ffffff;
+}
+
+.bg-success {
+  background-color: #6be3ab;
+}
+
+.bg-info {
+  background-color: #58dcf6;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="bg-primary">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## bg-success Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* bg-success Specifications */
+.bg-success {
+  background-color: #6be3ab;
+}
+
+.bg-info {
+  background-color: #58dcf6;
+}
+
+.bg-warning {
+  background-color: #ffd34f;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="bg-success">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## bg-warning Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* bg-warning Specifications */
+.bg-warning {
+  background-color: #ffd34f;
+}
+
+.bg-danger {
+  background-color: #e56975;
+}
+
+/* Button System - Clean Architecture with Proper Specificity */
+.btn-primary,
+.btn-primary:active {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="bg-warning">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-danger Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-danger Specifications */
+.btn-danger,
+.btn-danger:active {
+  background-color: #e56975;
+  border-color: #e56975;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger.focus,
+.btn-danger.active {
+  color: inherit;
+  background-color: #ed949d;
+  border-color: #ed949d;
+  box-shadow: none;
+}
+
+.btn-danger.disabled,
+.btn-danger:disabled {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-danger">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-info Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-info Specifications */
+.btn-info,
+.btn-info:active {
+  background-color: #58dcf6;
+  border-color: #58dcf6;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info.focus,
+.btn-info.active {
+  color: inherit;
+  background-color: #88e6f9;
+  border-color: #88e6f9;
+  box-shadow: none;
+}
+
+.btn-info.disabled,
+.btn-info:disabled {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-info">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-lg Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-lg Specifications */
+.btn-lg {
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+}
+
+/* Button State Styles */
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-lg">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-outline-primary Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-outline-primary Specifications */
+.btn-outline-primary {
+  color: #000000;
+  background-color: transparent;
+  border-color: #000000;
+  box-shadow: none;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary.focus,
+.btn-outline-primary.active {
+  color: #ffffff;
+  background: #000000;
+  box-shadow: none;
+}
+
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+  color: #000000;
+  background-color: transparent;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-outline-primary">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-primary Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-primary Specifications */
+.btn-primary,
+.btn-primary:active {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #808080;
+  box-shadow: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary.active {
+  color: inherit;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  box-shadow: none;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-primary">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-secondary Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-secondary Specifications */
+.btn-secondary,
+.btn-secondary:active {
+  background-color: #ae301c;
+  border-color: #ae301c;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary.focus,
+.btn-secondary.active {
+  color: inherit;
+  background-color: #da3c23;
+  border-color: #da3c23;
+  box-shadow: none;
+}
+
+.btn-secondary.disabled,
+.btn-secondary:disabled {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-secondary">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-sm Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-sm Specifications */
+.btn-sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  border-radius: 0.25rem;
+}
+
+.btn-lg {
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-sm">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-success Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-success Specifications */
+.btn-success,
+.btn-success:active {
+  background-color: #6be3ab;
+  border-color: #6be3ab;
+  color: #0d4229;
+  box-shadow: none;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success.focus,
+.btn-success.active {
+  color: inherit;
+  background-color: #96ebc3;
+  border-color: #96ebc3;
+  box-shadow: none;
+}
+
+.btn-success.disabled,
+.btn-success:disabled {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-success">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## btn-warning Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* btn-warning Specifications */
+.btn-warning,
+.btn-warning:active {
+  background-color: #ffd34f;
+  border-color: #ffd34f;
+  color: #4f3b00;
+  box-shadow: none;
+}
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning.focus,
+.btn-warning.active {
+  color: inherit;
+  background-color: #ffe082;
+  border-color: #ffe082;
+  box-shadow: none;
+}
+
+.btn-warning.disabled,
+.btn-warning:disabled {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="btn-warning">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## card-wrap Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* card-wrap Specifications */
+.card-wrap img,
+.card-wrapper img,
+.video-wrapper img,
+.mbr-figure img,
+.mbr-figure iframe,
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="card-wrap">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## card-wrapper Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* card-wrapper Specifications */
+.card-wrapper img,
+.video-wrapper img,
+.mbr-figure img,
+.mbr-figure iframe,
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="card-wrapper">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## carousel-control Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* carousel-control Specifications */
+.carousel-control {
+  background-color: var(--color-brand-primary);
+  opacity: 0.8;
+  color: var(--color-brand-secondary);
+  border-color: var(--color-brand-primary);
+  border-radius: var(--border-radius-base);
+  transition: opacity var(--transition-base);
+}
+
+.embla__button:hover,
+.carousel-control:hover {
+  opacity: 1;
+}
+
+/* Carousel Close Buttons */
+.carousel .close,
+.modalWindow .close {
+  background-color: var(--color-brand-primary);
+  color: var(--color-brand-secondary);
+  border-color: var(--color-brand-primary);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="carousel-control">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## carousel-indicators Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* carousel-indicators Specifications */
+.carousel-indicators li {
+  background-color: var(--color-brand-primary);
+  border: 2px solid var(--color-brand-secondary);
+  border-radius: 50%;
+  transition: opacity var(--transition-base);
+}
+
+.carousel-indicators li:hover,
+.carousel-indicators li:active {
+  opacity: 0.8;
+}
+
+/* ==========================================================================
+   FORM COMPONENTS
+   ========================================================================== */
+
+.form-control {
+  display: block;
+  width: 100%;
+--
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="carousel-indicators">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## cid-uMOnIucJDw Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* cid-uMOnIucJDw Specifications */
+.cid-uMOnIucJDw .phone-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contacts01 .phone-link:hover,
+.cid-uMOnIucJDw .phone-link:hover {
+  color: var(--color-accent);
+  background-color: rgba(0, 123, 255, 0.1);
+  border-radius: var(--border-radius-sm);
+  padding: var(--spacing-1) var(--spacing-2);
+}
+
+/* ==========================================================================
+   LAYOUT COMPONENTS
+   ========================================================================== */
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="cid-uMOnIucJDw">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## contacts01 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* contacts01 Specifications */
+.contacts01 .phone-link,
+.cid-uMOnIucJDw .phone-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contacts01 .phone-link:hover,
+.cid-uMOnIucJDw .phone-link:hover {
+  color: var(--color-accent);
+  background-color: rgba(0, 123, 255, 0.1);
+  border-radius: var(--border-radius-sm);
+  padding: var(--spacing-1) var(--spacing-2);
+}
+
+/* ==========================================================================
+   LAYOUT COMPONENTS
+   ========================================================================== */
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="contacts01">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## display-1 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* display-1 Specifications */
+.display-1 {
+  font-size: var(--font-size-5xl);
+  line-height: var(--line-height-tight);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-4);
+}
+
+.display-2 {
+  font-size: var(--font-size-4xl);
+  line-height: var(--line-height-snug);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="display-1">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## display-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* display-2 Specifications */
+.display-2 {
+  font-size: var(--font-size-4xl);
+  line-height: var(--line-height-snug);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-4);
+}
+
+.display-5 {
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-normal);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="display-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## display-4 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* display-4 Specifications */
+.display-4 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.display-4 > .mbr-iconfont {
+  font-size: 1.5rem;
+}
+
+.display-5 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.display-5 > .mbr-iconfont {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="display-4">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## embla__button Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* embla__button Specifications */
+.embla__button,
+.carousel-control {
+  background-color: var(--color-brand-primary);
+  opacity: 0.8;
+  color: var(--color-brand-secondary);
+  border-color: var(--color-brand-primary);
+  border-radius: var(--border-radius-base);
+  transition: opacity var(--transition-base);
+}
+
+.embla__button:hover,
+.carousel-control:hover {
+  opacity: 1;
+}
+
+/* Carousel Close Buttons */
+.carousel .close,
+.modalWindow .close {
+  background-color: var(--color-brand-primary);
+  color: var(--color-brand-secondary);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="embla__button">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## google-map Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* google-map Specifications */
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="google-map">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## item-wrapper Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* item-wrapper Specifications */
+.item-wrapper .item-img img {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Responsive adjustments for opportunities images */
+@media (max-width: 991.98px) {
+  .item-img {
+    margin-bottom: var(--spacing-3);
+  }
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="item-wrapper">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mbr-figure Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mbr-figure Specifications */
+.mbr-figure img,
+.mbr-figure iframe,
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mbr-figure">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mbr-section-subtitle Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mbr-section-subtitle Specifications */
+.mbr-section-subtitle {
+  line-height: var(--line-height-tight);
+}
+
+.mbr-text {
+  font-style: normal;
+  line-height: var(--line-height-relaxed);
+}
+
+/* ==========================================================================
+   LEGACY COMPATIBILITY
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mbr-section-subtitle">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mbr-section-title Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mbr-section-title Specifications */
+.mbr-section-title {
+  font-style: normal;
+  line-height: var(--line-height-tight);
+}
+
+.mbr-section-subtitle {
+  line-height: var(--line-height-tight);
+}
+
+.mbr-text {
+  font-style: normal;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mbr-section-title">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## modalWindow Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* modalWindow Specifications */
+.modalWindow .close {
+  background-color: var(--color-brand-primary);
+  color: var(--color-brand-secondary);
+  border-color: var(--color-brand-primary);
+  opacity: 0.8;
+  transition: opacity var(--transition-base);
+}
+
+.carousel .close:hover,
+.modalWindow .close:hover {
+  opacity: 1;
+}
+
+/* Carousel Indicators */
+.carousel-indicators li {
+  background-color: var(--color-brand-primary);
+  border: 2px solid var(--color-brand-secondary);
+  border-radius: 50%;
+  transition: opacity var(--transition-base);
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="modalWindow">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## modalWindow-video-container Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* modalWindow-video-container Specifications */
+.modalWindow-video-container {
+  height: 80%;
+}
+
+/* Article lead content */
+.article .lead p,
+.article .lead ul,
+.article .lead ol,
+.article .lead pre,
+.article .lead blockquote {
+  margin-bottom: 0;
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="modalWindow-video-container">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## phone-link Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* phone-link Specifications */
+.phone-link {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  transition: color var(--transition-fast);
+}
+
+.phone-link:hover,
+.phone-link:focus {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.phone-link:active {
+  color: var(--color-text-primary);
+}
+
+/* Contact section phone links */
+.contacts01 .phone-link,
+.cid-uMOnIucJDw .phone-link {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="phone-link">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## plan Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* plan Specifications */
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+}
+
+/* Body Styles */
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="plan">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## skip-link Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* skip-link Specifications */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: var(--color-primary);
+  color: var(--color-text-inverse);
+  padding: 8px;
+  text-decoration: none;
+  z-index: var(--z-tooltip);
+}
+
+.skip-link:focus {
+  top: 6px;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="skip-link">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## slide-content Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* slide-content Specifications */
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="slide-content">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## sr-only Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* sr-only Specifications */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="sr-only">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
