@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "description": "Automatic documentation protection system",
   "scripts": {
-    "postinstall": "./auto-activate.sh",
-    "precommit": "./auto-activate.sh",
-    "prepush": "./auto-activate.sh"
+    "postinstall": "./protection-system.sh",
+    "precommit": "./protection-system.sh",
+    "prepush": "./protection-system.sh",
+    "cleanup": "./protection-system.sh --cleanup"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "./auto-activate.sh",
-      "pre-push": "./auto-activate.sh"
+      "pre-commit": "./protection-system.sh",
+      "pre-push": "./protection-system.sh"
     }
   }
 }

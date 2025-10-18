@@ -17,7 +17,8 @@ fi
 
 # Backup current production files
 echo "📦 Creating backup of current production files..."
-BACKUP_DIR="backup-$(date +%Y%m%d-%H%M%S)"
+mkdir -p backups
+BACKUP_DIR="backups/backup-$(date +%Y%m%d-%H%M%S)"
 mkdir -p "$BACKUP_DIR"
 
 # Copy current production files to backup
