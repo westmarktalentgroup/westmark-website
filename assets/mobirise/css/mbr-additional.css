@@ -593,20 +593,22 @@ body {
   z-index: 1 !important;
 }
 
-/* Hero Content Positioning */
+/* Hero Content Positioning - Bottom Left */
 .header18.cid-uMOnIuaQSz .container-fluid {
   position: relative !important;
   z-index: 2 !important;
   height: 100vh !important;
   display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
+  align-items: flex-end !important;
+  justify-content: flex-start !important;
+  padding: 2rem !important;
 }
 
 .header18.cid-uMOnIuaQSz .content-wrap {
-  text-align: center !important;
+  text-align: left !important;
   position: relative !important;
   z-index: 3 !important;
+  max-width: 600px !important;
 }
 
 /* Menu/Navigation Styling */
