@@ -35541,6 +35541,270 @@ The website uses Bootstrap 5.1's 12-column grid system as the foundation for all
 - **Mobile**: [To be documented]
 - **Touch**: [Auto-detected from touch targets]
 
+
+### video-wrapper Layout
+
+#### video-wrapper Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### video-wrapper Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### video-wrapper Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### display-1 Layout
+
+#### display-1 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### display-1 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### display-1 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### display-2 Layout
+
+#### display-2 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### display-2 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### display-2 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### m-0 Layout
+
+#### m-0 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### m-0 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### m-0 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### m-1 Layout
+
+#### m-1 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### m-1 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### m-1 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### m-2 Layout
+
+#### m-2 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### m-2 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### m-2 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### m-3 Layout
+
+#### m-3 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### m-3 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### m-3 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### m-4 Layout
+
+#### m-4 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### m-4 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### m-4 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### m-5 Layout
+
+#### m-5 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### m-5 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### m-5 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### m-8 Layout
+
+#### m-8 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### m-8 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### m-8 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mb-0 Layout
+
+#### mb-0 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mb-0 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mb-0 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mb-1 Layout
+
+#### mb-1 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mb-1 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mb-1 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
 ### Hero Section Layout
 
 #### Full-Width Hero

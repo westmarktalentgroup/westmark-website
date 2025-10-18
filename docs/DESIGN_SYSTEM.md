@@ -51799,6 +51799,387 @@ a.mbr-iconfont:hover {
 - **Focus**: [Auto-detected from :focus states]
 - **Active**: [Auto-detected from :active states]
 
+
+### video-wrapper Component
+
+#### video-wrapper Specifications
+```css
+/* video-wrapper Specifications */
+.video-wrapper img,
+.mbr-figure img,
+.mbr-figure iframe,
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+}
+
+/* Body Styles */
+body {
+  background-color: #ffffff;
+  font-family: Manrope;
+}
+```
+
+#### video-wrapper Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### video-wrapper States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### display-1 Component
+
+#### display-1 Specifications
+```css
+/* display-1 Specifications */
+.display-1 {
+  font-size: var(--font-size-5xl);
+  line-height: var(--line-height-tight);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-4);
+}
+
+.display-2 {
+  font-size: var(--font-size-4xl);
+  line-height: var(--line-height-snug);
+```
+
+#### display-1 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### display-1 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### display-2 Component
+
+#### display-2 Specifications
+```css
+/* display-2 Specifications */
+.display-2 {
+  font-size: var(--font-size-4xl);
+  line-height: var(--line-height-snug);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-4);
+}
+
+.display-5 {
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-normal);
+```
+
+#### display-2 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### display-2 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### m-0 Component
+
+#### m-0 Specifications
+```css
+/* m-0 Specifications */
+.m-0 { margin: var(--spacing-0); }
+.m-1 { margin: var(--spacing-1); }
+.m-2 { margin: var(--spacing-2); }
+.m-3 { margin: var(--spacing-3); }
+.m-4 { margin: var(--spacing-4); }
+.m-5 { margin: var(--spacing-5); }
+.m-6 { margin: var(--spacing-6); }
+.m-8 { margin: var(--spacing-8); }
+
+/* Margin Top */
+.mt-0 { margin-top: var(--spacing-0); }
+```
+
+#### m-0 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### m-0 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### m-1 Component
+
+#### m-1 Specifications
+```css
+/* m-1 Specifications */
+.m-1 { margin: var(--spacing-1); }
+.m-2 { margin: var(--spacing-2); }
+.m-3 { margin: var(--spacing-3); }
+.m-4 { margin: var(--spacing-4); }
+.m-5 { margin: var(--spacing-5); }
+.m-6 { margin: var(--spacing-6); }
+.m-8 { margin: var(--spacing-8); }
+
+/* Margin Top */
+.mt-0 { margin-top: var(--spacing-0); }
+.mt-1 { margin-top: var(--spacing-1); }
+```
+
+#### m-1 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### m-1 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### m-2 Component
+
+#### m-2 Specifications
+```css
+/* m-2 Specifications */
+.m-2 { margin: var(--spacing-2); }
+.m-3 { margin: var(--spacing-3); }
+.m-4 { margin: var(--spacing-4); }
+.m-5 { margin: var(--spacing-5); }
+.m-6 { margin: var(--spacing-6); }
+.m-8 { margin: var(--spacing-8); }
+
+/* Margin Top */
+.mt-0 { margin-top: var(--spacing-0); }
+.mt-1 { margin-top: var(--spacing-1); }
+.mt-2 { margin-top: var(--spacing-2); }
+```
+
+#### m-2 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### m-2 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### m-3 Component
+
+#### m-3 Specifications
+```css
+/* m-3 Specifications */
+.m-3 { margin: var(--spacing-3); }
+.m-4 { margin: var(--spacing-4); }
+.m-5 { margin: var(--spacing-5); }
+.m-6 { margin: var(--spacing-6); }
+.m-8 { margin: var(--spacing-8); }
+
+/* Margin Top */
+.mt-0 { margin-top: var(--spacing-0); }
+.mt-1 { margin-top: var(--spacing-1); }
+.mt-2 { margin-top: var(--spacing-2); }
+.mt-3 { margin-top: var(--spacing-3); }
+```
+
+#### m-3 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### m-3 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### m-4 Component
+
+#### m-4 Specifications
+```css
+/* m-4 Specifications */
+.m-4 { margin: var(--spacing-4); }
+.m-5 { margin: var(--spacing-5); }
+.m-6 { margin: var(--spacing-6); }
+.m-8 { margin: var(--spacing-8); }
+
+/* Margin Top */
+.mt-0 { margin-top: var(--spacing-0); }
+.mt-1 { margin-top: var(--spacing-1); }
+.mt-2 { margin-top: var(--spacing-2); }
+.mt-3 { margin-top: var(--spacing-3); }
+.mt-4 { margin-top: var(--spacing-4); }
+```
+
+#### m-4 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### m-4 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### m-5 Component
+
+#### m-5 Specifications
+```css
+/* m-5 Specifications */
+.m-5 { margin: var(--spacing-5); }
+.m-6 { margin: var(--spacing-6); }
+.m-8 { margin: var(--spacing-8); }
+
+/* Margin Top */
+.mt-0 { margin-top: var(--spacing-0); }
+.mt-1 { margin-top: var(--spacing-1); }
+.mt-2 { margin-top: var(--spacing-2); }
+.mt-3 { margin-top: var(--spacing-3); }
+.mt-4 { margin-top: var(--spacing-4); }
+.mt-5 { margin-top: var(--spacing-5); }
+```
+
+#### m-5 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### m-5 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### m-8 Component
+
+#### m-8 Specifications
+```css
+/* m-8 Specifications */
+.m-8 { margin: var(--spacing-8); }
+
+/* Margin Top */
+.mt-0 { margin-top: var(--spacing-0); }
+.mt-1 { margin-top: var(--spacing-1); }
+.mt-2 { margin-top: var(--spacing-2); }
+.mt-3 { margin-top: var(--spacing-3); }
+.mt-4 { margin-top: var(--spacing-4); }
+.mt-5 { margin-top: var(--spacing-5); }
+.mt-6 { margin-top: var(--spacing-6); }
+.mt-8 { margin-top: var(--spacing-8); }
+```
+
+#### m-8 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### m-8 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mb-0 Component
+
+#### mb-0 Specifications
+```css
+/* mb-0 Specifications */
+.mb-0 { margin-bottom: var(--spacing-0); }
+.mb-1 { margin-bottom: var(--spacing-1); }
+.mb-2 { margin-bottom: var(--spacing-2); }
+.mb-3 { margin-bottom: var(--spacing-3); }
+.mb-4 { margin-bottom: var(--spacing-4); }
+.mb-5 { margin-bottom: var(--spacing-5); }
+.mb-6 { margin-bottom: var(--spacing-6); }
+.mb-8 { margin-bottom: var(--spacing-8); }
+
+/* Margin Left */
+.ml-0 { margin-left: var(--spacing-0); }
+```
+
+#### mb-0 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mb-0 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mb-1 Component
+
+#### mb-1 Specifications
+```css
+/* mb-1 Specifications */
+.mb-1 { margin-bottom: var(--spacing-1); }
+.mb-2 { margin-bottom: var(--spacing-2); }
+.mb-3 { margin-bottom: var(--spacing-3); }
+.mb-4 { margin-bottom: var(--spacing-4); }
+.mb-5 { margin-bottom: var(--spacing-5); }
+.mb-6 { margin-bottom: var(--spacing-6); }
+.mb-8 { margin-bottom: var(--spacing-8); }
+
+/* Margin Left */
+.ml-0 { margin-left: var(--spacing-0); }
+.ml-1 { margin-left: var(--spacing-1); }
+```
+
+#### mb-1 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mb-1 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
 ### Button Specifications
 ```css
 /* Button Base */

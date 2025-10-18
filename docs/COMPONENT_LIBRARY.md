@@ -63478,3 +63478,468 @@ Auto-detected component with specifications extracted from source code.
 ### Related Components
 - [To be linked to related components]
 
+## video-wrapper Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* video-wrapper Specifications */
+.video-wrapper img,
+.mbr-figure img,
+.mbr-figure iframe,
+.google-map iframe,
+.slide-content,
+.plan,
+.card,
+.item-wrapper {
+  border-radius: 2rem;
+}
+
+.video-wrapper {
+  overflow: hidden;
+}
+
+/* Body Styles */
+body {
+  background-color: #ffffff;
+  font-family: Manrope;
+}
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="video-wrapper">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## display-1 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* display-1 Specifications */
+.display-1 {
+  font-size: var(--font-size-5xl);
+  line-height: var(--line-height-tight);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-4);
+}
+
+.display-2 {
+  font-size: var(--font-size-4xl);
+  line-height: var(--line-height-snug);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="display-1">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## display-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* display-2 Specifications */
+.display-2 {
+  font-size: var(--font-size-4xl);
+  line-height: var(--line-height-snug);
+  font-family: var(--font-family-heading);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--spacing-4);
+}
+
+.display-5 {
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-normal);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="display-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## m-0 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* m-0 Specifications */
+.m-0 { margin: var(--spacing-0); }
+.m-1 { margin: var(--spacing-1); }
+.m-2 { margin: var(--spacing-2); }
+.m-3 { margin: var(--spacing-3); }
+.m-4 { margin: var(--spacing-4); }
+.m-5 { margin: var(--spacing-5); }
+.m-6 { margin: var(--spacing-6); }
+.m-8 { margin: var(--spacing-8); }
+
+/* Margin Top */
+.mt-0 { margin-top: var(--spacing-0); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="m-0">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## m-1 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* m-1 Specifications */
+.m-1 { margin: var(--spacing-1); }
+.m-2 { margin: var(--spacing-2); }
+.m-3 { margin: var(--spacing-3); }
+.m-4 { margin: var(--spacing-4); }
+.m-5 { margin: var(--spacing-5); }
+.m-6 { margin: var(--spacing-6); }
+.m-8 { margin: var(--spacing-8); }
+
+/* Margin Top */
+.mt-0 { margin-top: var(--spacing-0); }
+.mt-1 { margin-top: var(--spacing-1); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="m-1">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## m-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* m-2 Specifications */
+.m-2 { margin: var(--spacing-2); }
+.m-3 { margin: var(--spacing-3); }
+.m-4 { margin: var(--spacing-4); }
+.m-5 { margin: var(--spacing-5); }
+.m-6 { margin: var(--spacing-6); }
+.m-8 { margin: var(--spacing-8); }
+
+/* Margin Top */
+.mt-0 { margin-top: var(--spacing-0); }
+.mt-1 { margin-top: var(--spacing-1); }
+.mt-2 { margin-top: var(--spacing-2); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="m-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## m-3 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* m-3 Specifications */
+.m-3 { margin: var(--spacing-3); }
+.m-4 { margin: var(--spacing-4); }
+.m-5 { margin: var(--spacing-5); }
+.m-6 { margin: var(--spacing-6); }
+.m-8 { margin: var(--spacing-8); }
+
+/* Margin Top */
+.mt-0 { margin-top: var(--spacing-0); }
+.mt-1 { margin-top: var(--spacing-1); }
+.mt-2 { margin-top: var(--spacing-2); }
+.mt-3 { margin-top: var(--spacing-3); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="m-3">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## m-4 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* m-4 Specifications */
+.m-4 { margin: var(--spacing-4); }
+.m-5 { margin: var(--spacing-5); }
+.m-6 { margin: var(--spacing-6); }
+.m-8 { margin: var(--spacing-8); }
+
+/* Margin Top */
+.mt-0 { margin-top: var(--spacing-0); }
+.mt-1 { margin-top: var(--spacing-1); }
+.mt-2 { margin-top: var(--spacing-2); }
+.mt-3 { margin-top: var(--spacing-3); }
+.mt-4 { margin-top: var(--spacing-4); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="m-4">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## m-5 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* m-5 Specifications */
+.m-5 { margin: var(--spacing-5); }
+.m-6 { margin: var(--spacing-6); }
+.m-8 { margin: var(--spacing-8); }
+
+/* Margin Top */
+.mt-0 { margin-top: var(--spacing-0); }
+.mt-1 { margin-top: var(--spacing-1); }
+.mt-2 { margin-top: var(--spacing-2); }
+.mt-3 { margin-top: var(--spacing-3); }
+.mt-4 { margin-top: var(--spacing-4); }
+.mt-5 { margin-top: var(--spacing-5); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="m-5">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## m-8 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* m-8 Specifications */
+.m-8 { margin: var(--spacing-8); }
+
+/* Margin Top */
+.mt-0 { margin-top: var(--spacing-0); }
+.mt-1 { margin-top: var(--spacing-1); }
+.mt-2 { margin-top: var(--spacing-2); }
+.mt-3 { margin-top: var(--spacing-3); }
+.mt-4 { margin-top: var(--spacing-4); }
+.mt-5 { margin-top: var(--spacing-5); }
+.mt-6 { margin-top: var(--spacing-6); }
+.mt-8 { margin-top: var(--spacing-8); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="m-8">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mb-0 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mb-0 Specifications */
+.mb-0 { margin-bottom: var(--spacing-0); }
+.mb-1 { margin-bottom: var(--spacing-1); }
+.mb-2 { margin-bottom: var(--spacing-2); }
+.mb-3 { margin-bottom: var(--spacing-3); }
+.mb-4 { margin-bottom: var(--spacing-4); }
+.mb-5 { margin-bottom: var(--spacing-5); }
+.mb-6 { margin-bottom: var(--spacing-6); }
+.mb-8 { margin-bottom: var(--spacing-8); }
+
+/* Margin Left */
+.ml-0 { margin-left: var(--spacing-0); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mb-0">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mb-1 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mb-1 Specifications */
+.mb-1 { margin-bottom: var(--spacing-1); }
+.mb-2 { margin-bottom: var(--spacing-2); }
+.mb-3 { margin-bottom: var(--spacing-3); }
+.mb-4 { margin-bottom: var(--spacing-4); }
+.mb-5 { margin-bottom: var(--spacing-5); }
+.mb-6 { margin-bottom: var(--spacing-6); }
+.mb-8 { margin-bottom: var(--spacing-8); }
+
+/* Margin Left */
+.ml-0 { margin-left: var(--spacing-0); }
+.ml-1 { margin-left: var(--spacing-1); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mb-1">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
