@@ -269,8 +269,8 @@ CUSTOM_CSS_FILES=(
 TOTAL_IMPORTANT=0
 for css_file in "${CUSTOM_CSS_FILES[@]}"; do
     if [ -f "$css_file" ]; then
-        IMPORTANT_COUNT=$(grep -c "!important" "$css_file" 2>/dev/null)
-        if [ $? -ne 0 ] || [ -z "$IMPORTANT_COUNT" ]; then
+        IMPORTANT_COUNT=$(grep -c "!important" "$css_file" 2>/dev/null || echo "0")
+        if [ -z "$IMPORTANT_COUNT" ]; then
             IMPORTANT_COUNT=0
         fi
         TOTAL_IMPORTANT=$((TOTAL_IMPORTANT + IMPORTANT_COUNT))
@@ -294,8 +294,8 @@ if [ "$TOTAL_IMPORTANT" -gt 10 ]; then
     echo "📋 !important Usage Breakdown:"
     for css_file in "${CUSTOM_CSS_FILES[@]}"; do
         if [ -f "$css_file" ]; then
-            IMPORTANT_COUNT=$(grep -c "!important" "$css_file" 2>/dev/null)
-            if [ $? -ne 0 ] || [ -z "$IMPORTANT_COUNT" ]; then
+            IMPORTANT_COUNT=$(grep -c "!important" "$css_file" 2>/dev/null || echo "0")
+            if [ -z "$IMPORTANT_COUNT" ]; then
                 IMPORTANT_COUNT=0
             fi
             if [ "$IMPORTANT_COUNT" -gt 0 ]; then
