@@ -70,7 +70,7 @@
 .display-2 {
   font-size: var(--font-size-4xl);
   line-height: var(--line-height-snug);
-  font-family: var(--font-family-heading);
+  font-family: var(--font-family-body);
   font-weight: var(--font-weight-bold);
   margin-bottom: var(--spacing-4);
 }
@@ -78,7 +78,7 @@
 .display-5 {
   font-size: var(--font-size-xl);
   line-height: var(--line-height-normal);
-  font-family: var(--font-family-heading);
+  font-family: var(--font-family-body);
   font-weight: var(--font-weight-semibold);
   margin-bottom: var(--spacing-3);
 }
@@ -135,7 +135,7 @@
   font-size: var(--font-size-lg);
   line-height: var(--line-height-normal);
   font-weight: var(--font-weight-semibold);
-  font-family: var(--font-family-heading);
+  font-family: var(--font-family-body);
   margin-bottom: var(--spacing-2);
 }
 
