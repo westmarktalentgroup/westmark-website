@@ -22693,6 +22693,4472 @@ The website uses Bootstrap 5.1's 12-column grid system as the foundation for all
 - **Mobile**: [To be documented]
 - **Touch**: [Auto-detected from touch targets]
 
+
+### pr-3 Layout
+
+#### pr-3 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### pr-3 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### pr-3 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### pr-4 Layout
+
+#### pr-4 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### pr-4 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### pr-4 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### process-text Layout
+
+#### process-text Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### process-text Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### process-text Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### pt-0 Layout
+
+#### pt-0 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### pt-0 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### pt-0 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### pt-1 Layout
+
+#### pt-1 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### pt-1 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### pt-1 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### pt-2 Layout
+
+#### pt-2 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### pt-2 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### pt-2 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### pt-3 Layout
+
+#### pt-3 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### pt-3 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### pt-3 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### pt-4 Layout
+
+#### pt-4 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### pt-4 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### pt-4 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### spacing-responsive-md Layout
+
+#### spacing-responsive-md Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### spacing-responsive-md Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### spacing-responsive-md Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### spacing-responsive-sm Layout
+
+#### spacing-responsive-sm Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### spacing-responsive-sm Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### spacing-responsive-sm Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### spacing-responsive-xl Layout
+
+#### spacing-responsive-xl Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### spacing-responsive-xl Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### spacing-responsive-xl Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### sr-only Layout
+
+#### sr-only Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### sr-only Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### sr-only Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### text-left Layout
+
+#### text-left Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### text-left Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### text-left Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### bg-danger Layout
+
+#### bg-danger Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### bg-danger Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### bg-danger Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### bg-info Layout
+
+#### bg-info Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### bg-info Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### bg-info Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### bg-primary Layout
+
+#### bg-primary Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### bg-primary Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### bg-primary Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### bg-success Layout
+
+#### bg-success Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### bg-success Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### bg-success Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### bg-warning Layout
+
+#### bg-warning Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### bg-warning Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### bg-warning Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### btn-block Layout
+
+#### btn-block Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### btn-block Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### btn-block Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### btn-danger Layout
+
+#### btn-danger Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### btn-danger Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### btn-danger Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### btn-group Layout
+
+#### btn-group Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### btn-group Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### btn-group Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### btn-info Layout
+
+#### btn-info Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### btn-info Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### btn-info Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### btn-lg Layout
+
+#### btn-lg Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### btn-lg Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### btn-lg Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### btn-loading Layout
+
+#### btn-loading Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### btn-loading Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### btn-loading Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### btn-outline-danger Layout
+
+#### btn-outline-danger Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### btn-outline-danger Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### btn-outline-danger Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### btn-outline-dark Layout
+
+#### btn-outline-dark Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### btn-outline-dark Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### btn-outline-dark Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### btn-outline-info Layout
+
+#### btn-outline-info Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### btn-outline-info Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### btn-outline-info Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### btn-outline-light Layout
+
+#### btn-outline-light Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### btn-outline-light Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### btn-outline-light Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### btn-outline-primary Layout
+
+#### btn-outline-primary Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### btn-outline-primary Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### btn-outline-primary Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### btn-outline-secondary Layout
+
+#### btn-outline-secondary Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### btn-outline-secondary Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### btn-outline-secondary Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### btn-outline-success Layout
+
+#### btn-outline-success Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### btn-outline-success Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### btn-outline-success Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### btn-outline-warning Layout
+
+#### btn-outline-warning Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### btn-outline-warning Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### btn-outline-warning Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### btn-primary Layout
+
+#### btn-primary Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### btn-primary Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### btn-primary Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### btn-rounded Layout
+
+#### btn-rounded Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### btn-rounded Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### btn-rounded Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### btn-rounded-lg Layout
+
+#### btn-rounded-lg Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### btn-rounded-lg Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### btn-rounded-lg Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### btn-rounded-sm Layout
+
+#### btn-rounded-sm Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### btn-rounded-sm Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### btn-rounded-sm Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### btn-rounded-xl Layout
+
+#### btn-rounded-xl Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### btn-rounded-xl Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### btn-rounded-xl Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### btn-rounded-xxl Layout
+
+#### btn-rounded-xxl Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### btn-rounded-xxl Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### btn-rounded-xxl Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### btn-secondary Layout
+
+#### btn-secondary Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### btn-secondary Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### btn-secondary Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### btn-sm Layout
+
+#### btn-sm Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### btn-sm Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### btn-sm Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### btn-success Layout
+
+#### btn-success Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### btn-success Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### btn-success Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### btn-warning Layout
+
+#### btn-warning Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### btn-warning Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### btn-warning Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### card-wrap Layout
+
+#### card-wrap Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### card-wrap Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### card-wrap Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### card-wrapper Layout
+
+#### card-wrapper Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### card-wrapper Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### card-wrapper Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### display-1 Layout
+
+#### display-1 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### display-1 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### display-1 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### display-2 Layout
+
+#### display-2 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### display-2 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### display-2 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### display-4 Layout
+
+#### display-4 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### display-4 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### display-4 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### google-map Layout
+
+#### google-map Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### google-map Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### google-map Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### header18 Layout
+
+#### header18 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### header18 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### header18 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### item-wrapper Layout
+
+#### item-wrapper Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### item-wrapper Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### item-wrapper Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mbr-figure Layout
+
+#### mbr-figure Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mbr-figure Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mbr-figure Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mbr-overlay Layout
+
+#### mbr-overlay Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mbr-overlay Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mbr-overlay Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### menu2 Layout
+
+#### menu2 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### menu2 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### menu2 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### plan Layout
+
+#### plan Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### plan Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### plan Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### slide-content Layout
+
+#### slide-content Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### slide-content Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### slide-content Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### text-black Layout
+
+#### text-black Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### text-black Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### text-black Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### text-blue Layout
+
+#### text-blue Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### text-blue Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### text-blue Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### text-danger Layout
+
+#### text-danger Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### text-danger Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### text-danger Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### text-dark Layout
+
+#### text-dark Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### text-dark Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### text-dark Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### text-gray Layout
+
+#### text-gray Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### text-gray Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### text-gray Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### text-green Layout
+
+#### text-green Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### text-green Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### text-green Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### text-info Layout
+
+#### text-info Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### text-info Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### text-info Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### text-light Layout
+
+#### text-light Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### text-light Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### text-light Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### text-pink Layout
+
+#### text-pink Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### text-pink Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### text-pink Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### text-red Layout
+
+#### text-red Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### text-red Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### text-red Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### text-success Layout
+
+#### text-success Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### text-success Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### text-success Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### text-warning Layout
+
+#### text-warning Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### text-warning Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### text-warning Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### text-yellow Layout
+
+#### text-yellow Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### text-yellow Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### text-yellow Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### video-wrapper Layout
+
+#### video-wrapper Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### video-wrapper Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### video-wrapper Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-add-submenu Layout
+
+#### mobi-mbri-add-submenu Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-add-submenu Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-add-submenu Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-alert Layout
+
+#### mobi-mbri-alert Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-alert Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-alert Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-align-center Layout
+
+#### mobi-mbri-align-center Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-align-center Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-align-center Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-align-justify Layout
+
+#### mobi-mbri-align-justify Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-align-justify Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-align-justify Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-align-left Layout
+
+#### mobi-mbri-align-left Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-align-left Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-align-left Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-align-right Layout
+
+#### mobi-mbri-align-right Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-align-right Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-align-right Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-android Layout
+
+#### mobi-mbri-android Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-android Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-android Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-apple Layout
+
+#### mobi-mbri-apple Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-apple Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-apple Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-arrow-down Layout
+
+#### mobi-mbri-arrow-down Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-arrow-down Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-arrow-down Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-arrow-next Layout
+
+#### mobi-mbri-arrow-next Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-arrow-next Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-arrow-next Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-arrow-prev Layout
+
+#### mobi-mbri-arrow-prev Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-arrow-prev Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-arrow-prev Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-arrow-up Layout
+
+#### mobi-mbri-arrow-up Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-arrow-up Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-arrow-up Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-bold Layout
+
+#### mobi-mbri-bold Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-bold Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-bold Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-bookmark Layout
+
+#### mobi-mbri-bookmark Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-bookmark Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-bookmark Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-bootstrap Layout
+
+#### mobi-mbri-bootstrap Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-bootstrap Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-bootstrap Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-briefcase Layout
+
+#### mobi-mbri-briefcase Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-briefcase Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-briefcase Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-browse Layout
+
+#### mobi-mbri-browse Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-browse Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-browse Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-bulleted-list Layout
+
+#### mobi-mbri-bulleted-list Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-bulleted-list Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-bulleted-list Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-calendar Layout
+
+#### mobi-mbri-calendar Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-calendar Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-calendar Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-camera Layout
+
+#### mobi-mbri-camera Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-camera Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-camera Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-cart-add Layout
+
+#### mobi-mbri-cart-add Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-cart-add Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-cart-add Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-cart-full Layout
+
+#### mobi-mbri-cart-full Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-cart-full Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-cart-full Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-cash Layout
+
+#### mobi-mbri-cash Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-cash Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-cash Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-change-style Layout
+
+#### mobi-mbri-change-style Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-change-style Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-change-style Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-chat Layout
+
+#### mobi-mbri-chat Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-chat Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-chat Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-clock Layout
+
+#### mobi-mbri-clock Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-clock Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-clock Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-close Layout
+
+#### mobi-mbri-close Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-close Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-close Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-cloud Layout
+
+#### mobi-mbri-cloud Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-cloud Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-cloud Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-code Layout
+
+#### mobi-mbri-code Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-code Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-code Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-contact-form Layout
+
+#### mobi-mbri-contact-form Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-contact-form Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-contact-form Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-credit-card Layout
+
+#### mobi-mbri-credit-card Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-credit-card Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-credit-card Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-cursor-click Layout
+
+#### mobi-mbri-cursor-click Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-cursor-click Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-cursor-click Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-cust-feedback Layout
+
+#### mobi-mbri-cust-feedback Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-cust-feedback Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-cust-feedback Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-database Layout
+
+#### mobi-mbri-database Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-database Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-database Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-delivery Layout
+
+#### mobi-mbri-delivery Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-delivery Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-delivery Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-desktop Layout
+
+#### mobi-mbri-desktop Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-desktop Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-desktop Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-devices Layout
+
+#### mobi-mbri-devices Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-devices Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-devices Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-down Layout
+
+#### mobi-mbri-down Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-down Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-down Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-download Layout
+
+#### mobi-mbri-download Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-download Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-download Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-download-2 Layout
+
+#### mobi-mbri-download-2 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-download-2 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-download-2 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-drag-n-drop Layout
+
+#### mobi-mbri-drag-n-drop Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-drag-n-drop Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-drag-n-drop Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-drag-n-drop-2 Layout
+
+#### mobi-mbri-drag-n-drop-2 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-drag-n-drop-2 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-drag-n-drop-2 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-edit Layout
+
+#### mobi-mbri-edit Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-edit Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-edit Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-edit-2 Layout
+
+#### mobi-mbri-edit-2 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-edit-2 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-edit-2 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-error Layout
+
+#### mobi-mbri-error Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-error Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-error Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-extension Layout
+
+#### mobi-mbri-extension Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-extension Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-extension Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-features Layout
+
+#### mobi-mbri-features Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-features Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-features Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-file Layout
+
+#### mobi-mbri-file Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-file Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-file Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-flag Layout
+
+#### mobi-mbri-flag Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-flag Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-flag Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-folder Layout
+
+#### mobi-mbri-folder Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-folder Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-folder Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-gift Layout
+
+#### mobi-mbri-gift Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-gift Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-gift Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-github Layout
+
+#### mobi-mbri-github Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-github Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-github Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-globe Layout
+
+#### mobi-mbri-globe Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-globe Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-globe Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-globe-2 Layout
+
+#### mobi-mbri-globe-2 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-globe-2 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-globe-2 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-growing-chart Layout
+
+#### mobi-mbri-growing-chart Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-growing-chart Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-growing-chart Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-hearth Layout
+
+#### mobi-mbri-hearth Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-hearth Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-hearth Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-help Layout
+
+#### mobi-mbri-help Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-help Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-help Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-home Layout
+
+#### mobi-mbri-home Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-home Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-home Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-hot-cup Layout
+
+#### mobi-mbri-hot-cup Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-hot-cup Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-hot-cup Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-idea Layout
+
+#### mobi-mbri-idea Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-idea Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-idea Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-image-gallery Layout
+
+#### mobi-mbri-image-gallery Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-image-gallery Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-image-gallery Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-image-slider Layout
+
+#### mobi-mbri-image-slider Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-image-slider Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-image-slider Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-info Layout
+
+#### mobi-mbri-info Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-info Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-info Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-italic Layout
+
+#### mobi-mbri-italic Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-italic Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-italic Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-key Layout
+
+#### mobi-mbri-key Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-key Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-key Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-laptop Layout
+
+#### mobi-mbri-laptop Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-laptop Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-laptop Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-layers Layout
+
+#### mobi-mbri-layers Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-layers Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-layers Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-left Layout
+
+#### mobi-mbri-left Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-left Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-left Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-left-right Layout
+
+#### mobi-mbri-left-right Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-left-right Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-left-right Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-letter Layout
+
+#### mobi-mbri-letter Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-letter Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-letter Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-like Layout
+
+#### mobi-mbri-like Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-like Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-like Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-link Layout
+
+#### mobi-mbri-link Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-link Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-link Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-lock Layout
+
+#### mobi-mbri-lock Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-lock Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-lock Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-login Layout
+
+#### mobi-mbri-login Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-login Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-login Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-logout Layout
+
+#### mobi-mbri-logout Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-logout Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-logout Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-magic-stick Layout
+
+#### mobi-mbri-magic-stick Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-magic-stick Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-magic-stick Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-map-pin Layout
+
+#### mobi-mbri-map-pin Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-map-pin Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-map-pin Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-menu Layout
+
+#### mobi-mbri-menu Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-menu Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-menu Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-mobile Layout
+
+#### mobi-mbri-mobile Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-mobile Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-mobile Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-mobile-2 Layout
+
+#### mobi-mbri-mobile-2 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-mobile-2 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-mobile-2 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-mobile-horizontal Layout
+
+#### mobi-mbri-mobile-horizontal Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-mobile-horizontal Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-mobile-horizontal Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-mobirise Layout
+
+#### mobi-mbri-mobirise Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-mobirise Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-mobirise Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-more-horizontal Layout
+
+#### mobi-mbri-more-horizontal Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-more-horizontal Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-more-horizontal Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-more-vertical Layout
+
+#### mobi-mbri-more-vertical Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-more-vertical Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-more-vertical Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-music Layout
+
+#### mobi-mbri-music Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-music Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-music Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-new-file Layout
+
+#### mobi-mbri-new-file Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-new-file Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-new-file Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-numbered-list Layout
+
+#### mobi-mbri-numbered-list Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-numbered-list Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-numbered-list Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-opened-folder Layout
+
+#### mobi-mbri-opened-folder Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-opened-folder Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-opened-folder Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-pages Layout
+
+#### mobi-mbri-pages Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-pages Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-pages Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-paper-plane Layout
+
+#### mobi-mbri-paper-plane Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-paper-plane Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-paper-plane Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-paperclip Layout
+
+#### mobi-mbri-paperclip Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-paperclip Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-paperclip Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-phone Layout
+
+#### mobi-mbri-phone Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-phone Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-phone Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-photo Layout
+
+#### mobi-mbri-photo Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-photo Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-photo Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-photos Layout
+
+#### mobi-mbri-photos Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-photos Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-photos Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-pin Layout
+
+#### mobi-mbri-pin Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-pin Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-pin Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-play Layout
+
+#### mobi-mbri-play Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-play Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-play Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-plus Layout
+
+#### mobi-mbri-plus Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-plus Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-plus Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-preview Layout
+
+#### mobi-mbri-preview Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-preview Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-preview Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-print Layout
+
+#### mobi-mbri-print Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-print Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-print Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-protect Layout
+
+#### mobi-mbri-protect Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-protect Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-protect Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-question Layout
+
+#### mobi-mbri-question Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-question Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-question Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-quote-left Layout
+
+#### mobi-mbri-quote-left Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-quote-left Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-quote-left Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-quote-right Layout
+
+#### mobi-mbri-quote-right Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-quote-right Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-quote-right Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-redo Layout
+
+#### mobi-mbri-redo Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-redo Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-redo Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-refresh Layout
+
+#### mobi-mbri-refresh Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-refresh Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-refresh Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-responsive Layout
+
+#### mobi-mbri-responsive Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-responsive Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-responsive Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-responsive-2 Layout
+
+#### mobi-mbri-responsive-2 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-responsive-2 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-responsive-2 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-right Layout
+
+#### mobi-mbri-right Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-right Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-right Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-rocket Layout
+
+#### mobi-mbri-rocket Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-rocket Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-rocket Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-sad-face Layout
+
+#### mobi-mbri-sad-face Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-sad-face Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-sad-face Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-sale Layout
+
+#### mobi-mbri-sale Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-sale Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-sale Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-save Layout
+
+#### mobi-mbri-save Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-save Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-save Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-search Layout
+
+#### mobi-mbri-search Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-search Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-search Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-setting Layout
+
+#### mobi-mbri-setting Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-setting Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-setting Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-setting-2 Layout
+
+#### mobi-mbri-setting-2 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-setting-2 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-setting-2 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-setting-3 Layout
+
+#### mobi-mbri-setting-3 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-setting-3 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-setting-3 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-share Layout
+
+#### mobi-mbri-share Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-share Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-share Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-shopping-bag Layout
+
+#### mobi-mbri-shopping-bag Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-shopping-bag Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-shopping-bag Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-shopping-basket Layout
+
+#### mobi-mbri-shopping-basket Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-shopping-basket Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-shopping-basket Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-shopping-cart Layout
+
+#### mobi-mbri-shopping-cart Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-shopping-cart Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-shopping-cart Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-sites Layout
+
+#### mobi-mbri-sites Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-sites Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-sites Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-smile-face Layout
+
+#### mobi-mbri-smile-face Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-smile-face Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-smile-face Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-speed Layout
+
+#### mobi-mbri-speed Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-speed Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-speed Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-star Layout
+
+#### mobi-mbri-star Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-star Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-star Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-success Layout
+
+#### mobi-mbri-success Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-success Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-success Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-sun Layout
+
+#### mobi-mbri-sun Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-sun Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-sun Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-sun2 Layout
+
+#### mobi-mbri-sun2 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-sun2 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-sun2 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-tablet Layout
+
+#### mobi-mbri-tablet Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-tablet Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-tablet Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-tablet-vertical Layout
+
+#### mobi-mbri-tablet-vertical Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-tablet-vertical Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-tablet-vertical Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-target Layout
+
+#### mobi-mbri-target Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-target Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-target Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-timer Layout
+
+#### mobi-mbri-timer Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-timer Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-timer Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-to-ftp Layout
+
+#### mobi-mbri-to-ftp Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-to-ftp Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-to-ftp Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-to-local-drive Layout
+
+#### mobi-mbri-to-local-drive Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-to-local-drive Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-to-local-drive Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### mobi-mbri-touch Layout
+
+#### mobi-mbri-touch Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### mobi-mbri-touch Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### mobi-mbri-touch Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
 ### Hero Section Layout
 
 #### Full-Width Hero
