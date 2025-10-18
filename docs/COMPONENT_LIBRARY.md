@@ -78786,3 +78786,2266 @@ Auto-detected component with specifications extracted from source code.
 ### Related Components
 - [To be linked to related components]
 
+## mobi-mbri-arrow-prev Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-arrow-prev Specifications */
+.mobi-mbri-arrow-prev:before {
+  content: "\e90a";
+}
+.mobi-mbri-arrow-up:before {
+  content: "\e90b";
+}
+.mobi-mbri-bold:before {
+  content: "\e90c";
+}
+.mobi-mbri-bookmark:before {
+  content: "\e90d";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-arrow-prev">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-arrow-up Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-arrow-up Specifications */
+.mobi-mbri-arrow-up:before {
+  content: "\e90b";
+}
+.mobi-mbri-bold:before {
+  content: "\e90c";
+}
+.mobi-mbri-bookmark:before {
+  content: "\e90d";
+}
+.mobi-mbri-bootstrap:before {
+  content: "\e90e";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-arrow-up">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-bold Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-bold Specifications */
+.mobi-mbri-bold:before {
+  content: "\e90c";
+}
+.mobi-mbri-bookmark:before {
+  content: "\e90d";
+}
+.mobi-mbri-bootstrap:before {
+  content: "\e90e";
+}
+.mobi-mbri-briefcase:before {
+  content: "\e90f";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-bold">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-bookmark Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-bookmark Specifications */
+.mobi-mbri-bookmark:before {
+  content: "\e90d";
+}
+.mobi-mbri-bootstrap:before {
+  content: "\e90e";
+}
+.mobi-mbri-briefcase:before {
+  content: "\e90f";
+}
+.mobi-mbri-browse:before {
+  content: "\e910";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-bookmark">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-bootstrap Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-bootstrap Specifications */
+.mobi-mbri-bootstrap:before {
+  content: "\e90e";
+}
+.mobi-mbri-briefcase:before {
+  content: "\e90f";
+}
+.mobi-mbri-browse:before {
+  content: "\e910";
+}
+.mobi-mbri-bulleted-list:before {
+  content: "\e911";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-bootstrap">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-briefcase Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-briefcase Specifications */
+.mobi-mbri-briefcase:before {
+  content: "\e90f";
+}
+.mobi-mbri-browse:before {
+  content: "\e910";
+}
+.mobi-mbri-bulleted-list:before {
+  content: "\e911";
+}
+.mobi-mbri-calendar:before {
+  content: "\e912";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-briefcase">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-browse Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-browse Specifications */
+.mobi-mbri-browse:before {
+  content: "\e910";
+}
+.mobi-mbri-bulleted-list:before {
+  content: "\e911";
+}
+.mobi-mbri-calendar:before {
+  content: "\e912";
+}
+.mobi-mbri-camera:before {
+  content: "\e913";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-browse">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-bulleted-list Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-bulleted-list Specifications */
+.mobi-mbri-bulleted-list:before {
+  content: "\e911";
+}
+.mobi-mbri-calendar:before {
+  content: "\e912";
+}
+.mobi-mbri-camera:before {
+  content: "\e913";
+}
+.mobi-mbri-cart-add:before {
+  content: "\e914";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-bulleted-list">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-calendar Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-calendar Specifications */
+.mobi-mbri-calendar:before {
+  content: "\e912";
+}
+.mobi-mbri-camera:before {
+  content: "\e913";
+}
+.mobi-mbri-cart-add:before {
+  content: "\e914";
+}
+.mobi-mbri-cart-full:before {
+  content: "\e915";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-calendar">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-camera Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-camera Specifications */
+.mobi-mbri-camera:before {
+  content: "\e913";
+}
+.mobi-mbri-cart-add:before {
+  content: "\e914";
+}
+.mobi-mbri-cart-full:before {
+  content: "\e915";
+}
+.mobi-mbri-cash:before {
+  content: "\e916";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-camera">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-cart-add Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-cart-add Specifications */
+.mobi-mbri-cart-add:before {
+  content: "\e914";
+}
+.mobi-mbri-cart-full:before {
+  content: "\e915";
+}
+.mobi-mbri-cash:before {
+  content: "\e916";
+}
+.mobi-mbri-change-style:before {
+  content: "\e917";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-cart-add">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-cart-full Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-cart-full Specifications */
+.mobi-mbri-cart-full:before {
+  content: "\e915";
+}
+.mobi-mbri-cash:before {
+  content: "\e916";
+}
+.mobi-mbri-change-style:before {
+  content: "\e917";
+}
+.mobi-mbri-chat:before {
+  content: "\e918";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-cart-full">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-cash Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-cash Specifications */
+.mobi-mbri-cash:before {
+  content: "\e916";
+}
+.mobi-mbri-change-style:before {
+  content: "\e917";
+}
+.mobi-mbri-chat:before {
+  content: "\e918";
+}
+.mobi-mbri-clock:before {
+  content: "\e919";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-cash">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-change-style Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-change-style Specifications */
+.mobi-mbri-change-style:before {
+  content: "\e917";
+}
+.mobi-mbri-chat:before {
+  content: "\e918";
+}
+.mobi-mbri-clock:before {
+  content: "\e919";
+}
+.mobi-mbri-close:before {
+  content: "\e91a";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-change-style">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-chat Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-chat Specifications */
+.mobi-mbri-chat:before {
+  content: "\e918";
+}
+.mobi-mbri-clock:before {
+  content: "\e919";
+}
+.mobi-mbri-close:before {
+  content: "\e91a";
+}
+.mobi-mbri-cloud:before {
+  content: "\e91b";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-chat">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-clock Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-clock Specifications */
+.mobi-mbri-clock:before {
+  content: "\e919";
+}
+.mobi-mbri-close:before {
+  content: "\e91a";
+}
+.mobi-mbri-cloud:before {
+  content: "\e91b";
+}
+.mobi-mbri-code:before {
+  content: "\e91c";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-clock">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-close Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-close Specifications */
+.mobi-mbri-close:before {
+  content: "\e91a";
+}
+.mobi-mbri-cloud:before {
+  content: "\e91b";
+}
+.mobi-mbri-code:before {
+  content: "\e91c";
+}
+.mobi-mbri-contact-form:before {
+  content: "\e91d";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-close">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-cloud Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-cloud Specifications */
+.mobi-mbri-cloud:before {
+  content: "\e91b";
+}
+.mobi-mbri-code:before {
+  content: "\e91c";
+}
+.mobi-mbri-contact-form:before {
+  content: "\e91d";
+}
+.mobi-mbri-credit-card:before {
+  content: "\e91e";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-cloud">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-code Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-code Specifications */
+.mobi-mbri-code:before {
+  content: "\e91c";
+}
+.mobi-mbri-contact-form:before {
+  content: "\e91d";
+}
+.mobi-mbri-credit-card:before {
+  content: "\e91e";
+}
+.mobi-mbri-cursor-click:before {
+  content: "\e91f";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-code">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-contact-form Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-contact-form Specifications */
+.mobi-mbri-contact-form:before {
+  content: "\e91d";
+}
+.mobi-mbri-credit-card:before {
+  content: "\e91e";
+}
+.mobi-mbri-cursor-click:before {
+  content: "\e91f";
+}
+.mobi-mbri-cust-feedback:before {
+  content: "\e920";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-contact-form">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-credit-card Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-credit-card Specifications */
+.mobi-mbri-credit-card:before {
+  content: "\e91e";
+}
+.mobi-mbri-cursor-click:before {
+  content: "\e91f";
+}
+.mobi-mbri-cust-feedback:before {
+  content: "\e920";
+}
+.mobi-mbri-database:before {
+  content: "\e921";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-credit-card">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-cursor-click Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-cursor-click Specifications */
+.mobi-mbri-cursor-click:before {
+  content: "\e91f";
+}
+.mobi-mbri-cust-feedback:before {
+  content: "\e920";
+}
+.mobi-mbri-database:before {
+  content: "\e921";
+}
+.mobi-mbri-delivery:before {
+  content: "\e922";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-cursor-click">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-cust-feedback Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-cust-feedback Specifications */
+.mobi-mbri-cust-feedback:before {
+  content: "\e920";
+}
+.mobi-mbri-database:before {
+  content: "\e921";
+}
+.mobi-mbri-delivery:before {
+  content: "\e922";
+}
+.mobi-mbri-desktop:before {
+  content: "\e923";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-cust-feedback">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-database Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-database Specifications */
+.mobi-mbri-database:before {
+  content: "\e921";
+}
+.mobi-mbri-delivery:before {
+  content: "\e922";
+}
+.mobi-mbri-desktop:before {
+  content: "\e923";
+}
+.mobi-mbri-devices:before {
+  content: "\e924";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-database">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-delivery Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-delivery Specifications */
+.mobi-mbri-delivery:before {
+  content: "\e922";
+}
+.mobi-mbri-desktop:before {
+  content: "\e923";
+}
+.mobi-mbri-devices:before {
+  content: "\e924";
+}
+.mobi-mbri-down:before {
+  content: "\e925";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-delivery">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-desktop Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-desktop Specifications */
+.mobi-mbri-desktop:before {
+  content: "\e923";
+}
+.mobi-mbri-devices:before {
+  content: "\e924";
+}
+.mobi-mbri-down:before {
+  content: "\e925";
+}
+.mobi-mbri-download-2:before {
+  content: "\e926";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-desktop">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-devices Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-devices Specifications */
+.mobi-mbri-devices:before {
+  content: "\e924";
+}
+.mobi-mbri-down:before {
+  content: "\e925";
+}
+.mobi-mbri-download-2:before {
+  content: "\e926";
+}
+.mobi-mbri-download:before {
+  content: "\e927";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-devices">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-down Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-down Specifications */
+.mobi-mbri-down:before {
+  content: "\e925";
+}
+.mobi-mbri-download-2:before {
+  content: "\e926";
+}
+.mobi-mbri-download:before {
+  content: "\e927";
+}
+.mobi-mbri-drag-n-drop-2:before {
+  content: "\e928";
+}
+.mobi-mbri-drag-n-drop:before {
+  content: "\e929";
+}
+.mobi-mbri-edit-2:before {
+  content: "\e92a";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-down">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-download Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-download Specifications */
+.mobi-mbri-download-2:before {
+  content: "\e926";
+}
+.mobi-mbri-download:before {
+  content: "\e927";
+}
+.mobi-mbri-drag-n-drop-2:before {
+  content: "\e928";
+}
+.mobi-mbri-drag-n-drop:before {
+  content: "\e929";
+}
+.mobi-mbri-edit-2:before {
+  content: "\e92a";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-download">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-download-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-download-2 Specifications */
+.mobi-mbri-download-2:before {
+  content: "\e926";
+}
+.mobi-mbri-download:before {
+  content: "\e927";
+}
+.mobi-mbri-drag-n-drop-2:before {
+  content: "\e928";
+}
+.mobi-mbri-drag-n-drop:before {
+  content: "\e929";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-download-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-drag-n-drop Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-drag-n-drop Specifications */
+.mobi-mbri-drag-n-drop-2:before {
+  content: "\e928";
+}
+.mobi-mbri-drag-n-drop:before {
+  content: "\e929";
+}
+.mobi-mbri-edit-2:before {
+  content: "\e92a";
+}
+.mobi-mbri-edit:before {
+  content: "\e92b";
+}
+.mobi-mbri-error:before {
+  content: "\e92c";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-drag-n-drop">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-drag-n-drop-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-drag-n-drop-2 Specifications */
+.mobi-mbri-drag-n-drop-2:before {
+  content: "\e928";
+}
+.mobi-mbri-drag-n-drop:before {
+  content: "\e929";
+}
+.mobi-mbri-edit-2:before {
+  content: "\e92a";
+}
+.mobi-mbri-edit:before {
+  content: "\e92b";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-drag-n-drop-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-edit Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-edit Specifications */
+.mobi-mbri-edit-2:before {
+  content: "\e92a";
+}
+.mobi-mbri-edit:before {
+  content: "\e92b";
+}
+.mobi-mbri-error:before {
+  content: "\e92c";
+}
+.mobi-mbri-extension:before {
+  content: "\e92d";
+}
+.mobi-mbri-features:before {
+  content: "\e92e";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-edit">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-edit-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-edit-2 Specifications */
+.mobi-mbri-edit-2:before {
+  content: "\e92a";
+}
+.mobi-mbri-edit:before {
+  content: "\e92b";
+}
+.mobi-mbri-error:before {
+  content: "\e92c";
+}
+.mobi-mbri-extension:before {
+  content: "\e92d";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-edit-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-error Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-error Specifications */
+.mobi-mbri-error:before {
+  content: "\e92c";
+}
+.mobi-mbri-extension:before {
+  content: "\e92d";
+}
+.mobi-mbri-features:before {
+  content: "\e92e";
+}
+.mobi-mbri-file:before {
+  content: "\e92f";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-error">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-extension Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-extension Specifications */
+.mobi-mbri-extension:before {
+  content: "\e92d";
+}
+.mobi-mbri-features:before {
+  content: "\e92e";
+}
+.mobi-mbri-file:before {
+  content: "\e92f";
+}
+.mobi-mbri-flag:before {
+  content: "\e930";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-extension">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-features Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-features Specifications */
+.mobi-mbri-features:before {
+  content: "\e92e";
+}
+.mobi-mbri-file:before {
+  content: "\e92f";
+}
+.mobi-mbri-flag:before {
+  content: "\e930";
+}
+.mobi-mbri-folder:before {
+  content: "\e931";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-features">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-file Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-file Specifications */
+.mobi-mbri-file:before {
+  content: "\e92f";
+}
+.mobi-mbri-flag:before {
+  content: "\e930";
+}
+.mobi-mbri-folder:before {
+  content: "\e931";
+}
+.mobi-mbri-gift:before {
+  content: "\e932";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-file">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-flag Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-flag Specifications */
+.mobi-mbri-flag:before {
+  content: "\e930";
+}
+.mobi-mbri-folder:before {
+  content: "\e931";
+}
+.mobi-mbri-gift:before {
+  content: "\e932";
+}
+.mobi-mbri-github:before {
+  content: "\e933";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-flag">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-folder Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-folder Specifications */
+.mobi-mbri-folder:before {
+  content: "\e931";
+}
+.mobi-mbri-gift:before {
+  content: "\e932";
+}
+.mobi-mbri-github:before {
+  content: "\e933";
+}
+.mobi-mbri-globe-2:before {
+  content: "\e934";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-folder">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-gift Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-gift Specifications */
+.mobi-mbri-gift:before {
+  content: "\e932";
+}
+.mobi-mbri-github:before {
+  content: "\e933";
+}
+.mobi-mbri-globe-2:before {
+  content: "\e934";
+}
+.mobi-mbri-globe:before {
+  content: "\e935";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-gift">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-github Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-github Specifications */
+.mobi-mbri-github:before {
+  content: "\e933";
+}
+.mobi-mbri-globe-2:before {
+  content: "\e934";
+}
+.mobi-mbri-globe:before {
+  content: "\e935";
+}
+.mobi-mbri-growing-chart:before {
+  content: "\e936";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-github">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-globe Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-globe Specifications */
+.mobi-mbri-globe-2:before {
+  content: "\e934";
+}
+.mobi-mbri-globe:before {
+  content: "\e935";
+}
+.mobi-mbri-growing-chart:before {
+  content: "\e936";
+}
+.mobi-mbri-hearth:before {
+  content: "\e937";
+}
+.mobi-mbri-help:before {
+  content: "\e938";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-globe">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-globe-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-globe-2 Specifications */
+.mobi-mbri-globe-2:before {
+  content: "\e934";
+}
+.mobi-mbri-globe:before {
+  content: "\e935";
+}
+.mobi-mbri-growing-chart:before {
+  content: "\e936";
+}
+.mobi-mbri-hearth:before {
+  content: "\e937";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-globe-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-growing-chart Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-growing-chart Specifications */
+.mobi-mbri-growing-chart:before {
+  content: "\e936";
+}
+.mobi-mbri-hearth:before {
+  content: "\e937";
+}
+.mobi-mbri-help:before {
+  content: "\e938";
+}
+.mobi-mbri-home:before {
+  content: "\e939";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-growing-chart">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-hearth Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-hearth Specifications */
+.mobi-mbri-hearth:before {
+  content: "\e937";
+}
+.mobi-mbri-help:before {
+  content: "\e938";
+}
+.mobi-mbri-home:before {
+  content: "\e939";
+}
+.mobi-mbri-hot-cup:before {
+  content: "\e93a";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-hearth">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-help Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-help Specifications */
+.mobi-mbri-help:before {
+  content: "\e938";
+}
+.mobi-mbri-home:before {
+  content: "\e939";
+}
+.mobi-mbri-hot-cup:before {
+  content: "\e93a";
+}
+.mobi-mbri-idea:before {
+  content: "\e93b";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-help">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-home Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-home Specifications */
+.mobi-mbri-home:before {
+  content: "\e939";
+}
+.mobi-mbri-hot-cup:before {
+  content: "\e93a";
+}
+.mobi-mbri-idea:before {
+  content: "\e93b";
+}
+.mobi-mbri-image-gallery:before {
+  content: "\e93c";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-home">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-hot-cup Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-hot-cup Specifications */
+.mobi-mbri-hot-cup:before {
+  content: "\e93a";
+}
+.mobi-mbri-idea:before {
+  content: "\e93b";
+}
+.mobi-mbri-image-gallery:before {
+  content: "\e93c";
+}
+.mobi-mbri-image-slider:before {
+  content: "\e93d";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-hot-cup">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-idea Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-idea Specifications */
+.mobi-mbri-idea:before {
+  content: "\e93b";
+}
+.mobi-mbri-image-gallery:before {
+  content: "\e93c";
+}
+.mobi-mbri-image-slider:before {
+  content: "\e93d";
+}
+.mobi-mbri-info:before {
+  content: "\e93e";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-idea">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-image-gallery Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-image-gallery Specifications */
+.mobi-mbri-image-gallery:before {
+  content: "\e93c";
+}
+.mobi-mbri-image-slider:before {
+  content: "\e93d";
+}
+.mobi-mbri-info:before {
+  content: "\e93e";
+}
+.mobi-mbri-italic:before {
+  content: "\e93f";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-image-gallery">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-image-slider Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-image-slider Specifications */
+.mobi-mbri-image-slider:before {
+  content: "\e93d";
+}
+.mobi-mbri-info:before {
+  content: "\e93e";
+}
+.mobi-mbri-italic:before {
+  content: "\e93f";
+}
+.mobi-mbri-key:before {
+  content: "\e940";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-image-slider">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-info Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-info Specifications */
+.mobi-mbri-info:before {
+  content: "\e93e";
+}
+.mobi-mbri-italic:before {
+  content: "\e93f";
+}
+.mobi-mbri-key:before {
+  content: "\e940";
+}
+.mobi-mbri-laptop:before {
+  content: "\e941";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-info">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-italic Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-italic Specifications */
+.mobi-mbri-italic:before {
+  content: "\e93f";
+}
+.mobi-mbri-key:before {
+  content: "\e940";
+}
+.mobi-mbri-laptop:before {
+  content: "\e941";
+}
+.mobi-mbri-layers:before {
+  content: "\e942";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-italic">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-key Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-key Specifications */
+.mobi-mbri-key:before {
+  content: "\e940";
+}
+.mobi-mbri-laptop:before {
+  content: "\e941";
+}
+.mobi-mbri-layers:before {
+  content: "\e942";
+}
+.mobi-mbri-left-right:before {
+  content: "\e943";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-key">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-laptop Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-laptop Specifications */
+.mobi-mbri-laptop:before {
+  content: "\e941";
+}
+.mobi-mbri-layers:before {
+  content: "\e942";
+}
+.mobi-mbri-left-right:before {
+  content: "\e943";
+}
+.mobi-mbri-left:before {
+  content: "\e944";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-laptop">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-layers Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-layers Specifications */
+.mobi-mbri-layers:before {
+  content: "\e942";
+}
+.mobi-mbri-left-right:before {
+  content: "\e943";
+}
+.mobi-mbri-left:before {
+  content: "\e944";
+}
+.mobi-mbri-letter:before {
+  content: "\e945";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-layers">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-left Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-left Specifications */
+.mobi-mbri-left-right:before {
+  content: "\e943";
+}
+.mobi-mbri-left:before {
+  content: "\e944";
+}
+.mobi-mbri-letter:before {
+  content: "\e945";
+}
+.mobi-mbri-like:before {
+  content: "\e946";
+}
+.mobi-mbri-link:before {
+  content: "\e947";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-left">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## mobi-mbri-left-right Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* mobi-mbri-left-right Specifications */
+.mobi-mbri-left-right:before {
+  content: "\e943";
+}
+.mobi-mbri-left:before {
+  content: "\e944";
+}
+.mobi-mbri-letter:before {
+  content: "\e945";
+}
+.mobi-mbri-like:before {
+  content: "\e946";
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="mobi-mbri-left-right">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+

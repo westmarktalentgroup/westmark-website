@@ -64357,6 +64357,1825 @@ body {
 - **Focus**: [Auto-detected from :focus states]
 - **Active**: [Auto-detected from :active states]
 
+
+### mobi-mbri-arrow-up Component
+
+#### mobi-mbri-arrow-up Specifications
+```css
+/* mobi-mbri-arrow-up Specifications */
+.mobi-mbri-arrow-up:before {
+  content: "\e90b";
+}
+.mobi-mbri-bold:before {
+  content: "\e90c";
+}
+.mobi-mbri-bookmark:before {
+  content: "\e90d";
+}
+.mobi-mbri-bootstrap:before {
+  content: "\e90e";
+```
+
+#### mobi-mbri-arrow-up Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-arrow-up States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-bold Component
+
+#### mobi-mbri-bold Specifications
+```css
+/* mobi-mbri-bold Specifications */
+.mobi-mbri-bold:before {
+  content: "\e90c";
+}
+.mobi-mbri-bookmark:before {
+  content: "\e90d";
+}
+.mobi-mbri-bootstrap:before {
+  content: "\e90e";
+}
+.mobi-mbri-briefcase:before {
+  content: "\e90f";
+```
+
+#### mobi-mbri-bold Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-bold States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-bookmark Component
+
+#### mobi-mbri-bookmark Specifications
+```css
+/* mobi-mbri-bookmark Specifications */
+.mobi-mbri-bookmark:before {
+  content: "\e90d";
+}
+.mobi-mbri-bootstrap:before {
+  content: "\e90e";
+}
+.mobi-mbri-briefcase:before {
+  content: "\e90f";
+}
+.mobi-mbri-browse:before {
+  content: "\e910";
+```
+
+#### mobi-mbri-bookmark Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-bookmark States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-bootstrap Component
+
+#### mobi-mbri-bootstrap Specifications
+```css
+/* mobi-mbri-bootstrap Specifications */
+.mobi-mbri-bootstrap:before {
+  content: "\e90e";
+}
+.mobi-mbri-briefcase:before {
+  content: "\e90f";
+}
+.mobi-mbri-browse:before {
+  content: "\e910";
+}
+.mobi-mbri-bulleted-list:before {
+  content: "\e911";
+```
+
+#### mobi-mbri-bootstrap Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-bootstrap States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-briefcase Component
+
+#### mobi-mbri-briefcase Specifications
+```css
+/* mobi-mbri-briefcase Specifications */
+.mobi-mbri-briefcase:before {
+  content: "\e90f";
+}
+.mobi-mbri-browse:before {
+  content: "\e910";
+}
+.mobi-mbri-bulleted-list:before {
+  content: "\e911";
+}
+.mobi-mbri-calendar:before {
+  content: "\e912";
+```
+
+#### mobi-mbri-briefcase Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-briefcase States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-browse Component
+
+#### mobi-mbri-browse Specifications
+```css
+/* mobi-mbri-browse Specifications */
+.mobi-mbri-browse:before {
+  content: "\e910";
+}
+.mobi-mbri-bulleted-list:before {
+  content: "\e911";
+}
+.mobi-mbri-calendar:before {
+  content: "\e912";
+}
+.mobi-mbri-camera:before {
+  content: "\e913";
+```
+
+#### mobi-mbri-browse Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-browse States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-bulleted-list Component
+
+#### mobi-mbri-bulleted-list Specifications
+```css
+/* mobi-mbri-bulleted-list Specifications */
+.mobi-mbri-bulleted-list:before {
+  content: "\e911";
+}
+.mobi-mbri-calendar:before {
+  content: "\e912";
+}
+.mobi-mbri-camera:before {
+  content: "\e913";
+}
+.mobi-mbri-cart-add:before {
+  content: "\e914";
+```
+
+#### mobi-mbri-bulleted-list Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-bulleted-list States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-calendar Component
+
+#### mobi-mbri-calendar Specifications
+```css
+/* mobi-mbri-calendar Specifications */
+.mobi-mbri-calendar:before {
+  content: "\e912";
+}
+.mobi-mbri-camera:before {
+  content: "\e913";
+}
+.mobi-mbri-cart-add:before {
+  content: "\e914";
+}
+.mobi-mbri-cart-full:before {
+  content: "\e915";
+```
+
+#### mobi-mbri-calendar Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-calendar States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-camera Component
+
+#### mobi-mbri-camera Specifications
+```css
+/* mobi-mbri-camera Specifications */
+.mobi-mbri-camera:before {
+  content: "\e913";
+}
+.mobi-mbri-cart-add:before {
+  content: "\e914";
+}
+.mobi-mbri-cart-full:before {
+  content: "\e915";
+}
+.mobi-mbri-cash:before {
+  content: "\e916";
+```
+
+#### mobi-mbri-camera Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-camera States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-cart-add Component
+
+#### mobi-mbri-cart-add Specifications
+```css
+/* mobi-mbri-cart-add Specifications */
+.mobi-mbri-cart-add:before {
+  content: "\e914";
+}
+.mobi-mbri-cart-full:before {
+  content: "\e915";
+}
+.mobi-mbri-cash:before {
+  content: "\e916";
+}
+.mobi-mbri-change-style:before {
+  content: "\e917";
+```
+
+#### mobi-mbri-cart-add Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-cart-add States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-cart-full Component
+
+#### mobi-mbri-cart-full Specifications
+```css
+/* mobi-mbri-cart-full Specifications */
+.mobi-mbri-cart-full:before {
+  content: "\e915";
+}
+.mobi-mbri-cash:before {
+  content: "\e916";
+}
+.mobi-mbri-change-style:before {
+  content: "\e917";
+}
+.mobi-mbri-chat:before {
+  content: "\e918";
+```
+
+#### mobi-mbri-cart-full Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-cart-full States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-cash Component
+
+#### mobi-mbri-cash Specifications
+```css
+/* mobi-mbri-cash Specifications */
+.mobi-mbri-cash:before {
+  content: "\e916";
+}
+.mobi-mbri-change-style:before {
+  content: "\e917";
+}
+.mobi-mbri-chat:before {
+  content: "\e918";
+}
+.mobi-mbri-clock:before {
+  content: "\e919";
+```
+
+#### mobi-mbri-cash Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-cash States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-change-style Component
+
+#### mobi-mbri-change-style Specifications
+```css
+/* mobi-mbri-change-style Specifications */
+.mobi-mbri-change-style:before {
+  content: "\e917";
+}
+.mobi-mbri-chat:before {
+  content: "\e918";
+}
+.mobi-mbri-clock:before {
+  content: "\e919";
+}
+.mobi-mbri-close:before {
+  content: "\e91a";
+```
+
+#### mobi-mbri-change-style Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-change-style States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-chat Component
+
+#### mobi-mbri-chat Specifications
+```css
+/* mobi-mbri-chat Specifications */
+.mobi-mbri-chat:before {
+  content: "\e918";
+}
+.mobi-mbri-clock:before {
+  content: "\e919";
+}
+.mobi-mbri-close:before {
+  content: "\e91a";
+}
+.mobi-mbri-cloud:before {
+  content: "\e91b";
+```
+
+#### mobi-mbri-chat Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-chat States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-clock Component
+
+#### mobi-mbri-clock Specifications
+```css
+/* mobi-mbri-clock Specifications */
+.mobi-mbri-clock:before {
+  content: "\e919";
+}
+.mobi-mbri-close:before {
+  content: "\e91a";
+}
+.mobi-mbri-cloud:before {
+  content: "\e91b";
+}
+.mobi-mbri-code:before {
+  content: "\e91c";
+```
+
+#### mobi-mbri-clock Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-clock States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-close Component
+
+#### mobi-mbri-close Specifications
+```css
+/* mobi-mbri-close Specifications */
+.mobi-mbri-close:before {
+  content: "\e91a";
+}
+.mobi-mbri-cloud:before {
+  content: "\e91b";
+}
+.mobi-mbri-code:before {
+  content: "\e91c";
+}
+.mobi-mbri-contact-form:before {
+  content: "\e91d";
+```
+
+#### mobi-mbri-close Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-close States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-cloud Component
+
+#### mobi-mbri-cloud Specifications
+```css
+/* mobi-mbri-cloud Specifications */
+.mobi-mbri-cloud:before {
+  content: "\e91b";
+}
+.mobi-mbri-code:before {
+  content: "\e91c";
+}
+.mobi-mbri-contact-form:before {
+  content: "\e91d";
+}
+.mobi-mbri-credit-card:before {
+  content: "\e91e";
+```
+
+#### mobi-mbri-cloud Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-cloud States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-code Component
+
+#### mobi-mbri-code Specifications
+```css
+/* mobi-mbri-code Specifications */
+.mobi-mbri-code:before {
+  content: "\e91c";
+}
+.mobi-mbri-contact-form:before {
+  content: "\e91d";
+}
+.mobi-mbri-credit-card:before {
+  content: "\e91e";
+}
+.mobi-mbri-cursor-click:before {
+  content: "\e91f";
+```
+
+#### mobi-mbri-code Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-code States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-contact-form Component
+
+#### mobi-mbri-contact-form Specifications
+```css
+/* mobi-mbri-contact-form Specifications */
+.mobi-mbri-contact-form:before {
+  content: "\e91d";
+}
+.mobi-mbri-credit-card:before {
+  content: "\e91e";
+}
+.mobi-mbri-cursor-click:before {
+  content: "\e91f";
+}
+.mobi-mbri-cust-feedback:before {
+  content: "\e920";
+```
+
+#### mobi-mbri-contact-form Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-contact-form States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-credit-card Component
+
+#### mobi-mbri-credit-card Specifications
+```css
+/* mobi-mbri-credit-card Specifications */
+.mobi-mbri-credit-card:before {
+  content: "\e91e";
+}
+.mobi-mbri-cursor-click:before {
+  content: "\e91f";
+}
+.mobi-mbri-cust-feedback:before {
+  content: "\e920";
+}
+.mobi-mbri-database:before {
+  content: "\e921";
+```
+
+#### mobi-mbri-credit-card Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-credit-card States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-cursor-click Component
+
+#### mobi-mbri-cursor-click Specifications
+```css
+/* mobi-mbri-cursor-click Specifications */
+.mobi-mbri-cursor-click:before {
+  content: "\e91f";
+}
+.mobi-mbri-cust-feedback:before {
+  content: "\e920";
+}
+.mobi-mbri-database:before {
+  content: "\e921";
+}
+.mobi-mbri-delivery:before {
+  content: "\e922";
+```
+
+#### mobi-mbri-cursor-click Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-cursor-click States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-cust-feedback Component
+
+#### mobi-mbri-cust-feedback Specifications
+```css
+/* mobi-mbri-cust-feedback Specifications */
+.mobi-mbri-cust-feedback:before {
+  content: "\e920";
+}
+.mobi-mbri-database:before {
+  content: "\e921";
+}
+.mobi-mbri-delivery:before {
+  content: "\e922";
+}
+.mobi-mbri-desktop:before {
+  content: "\e923";
+```
+
+#### mobi-mbri-cust-feedback Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-cust-feedback States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-database Component
+
+#### mobi-mbri-database Specifications
+```css
+/* mobi-mbri-database Specifications */
+.mobi-mbri-database:before {
+  content: "\e921";
+}
+.mobi-mbri-delivery:before {
+  content: "\e922";
+}
+.mobi-mbri-desktop:before {
+  content: "\e923";
+}
+.mobi-mbri-devices:before {
+  content: "\e924";
+```
+
+#### mobi-mbri-database Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-database States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-delivery Component
+
+#### mobi-mbri-delivery Specifications
+```css
+/* mobi-mbri-delivery Specifications */
+.mobi-mbri-delivery:before {
+  content: "\e922";
+}
+.mobi-mbri-desktop:before {
+  content: "\e923";
+}
+.mobi-mbri-devices:before {
+  content: "\e924";
+}
+.mobi-mbri-down:before {
+  content: "\e925";
+```
+
+#### mobi-mbri-delivery Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-delivery States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-desktop Component
+
+#### mobi-mbri-desktop Specifications
+```css
+/* mobi-mbri-desktop Specifications */
+.mobi-mbri-desktop:before {
+  content: "\e923";
+}
+.mobi-mbri-devices:before {
+  content: "\e924";
+}
+.mobi-mbri-down:before {
+  content: "\e925";
+}
+.mobi-mbri-download-2:before {
+  content: "\e926";
+```
+
+#### mobi-mbri-desktop Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-desktop States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-devices Component
+
+#### mobi-mbri-devices Specifications
+```css
+/* mobi-mbri-devices Specifications */
+.mobi-mbri-devices:before {
+  content: "\e924";
+}
+.mobi-mbri-down:before {
+  content: "\e925";
+}
+.mobi-mbri-download-2:before {
+  content: "\e926";
+}
+.mobi-mbri-download:before {
+  content: "\e927";
+```
+
+#### mobi-mbri-devices Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-devices States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-down Component
+
+#### mobi-mbri-down Specifications
+```css
+/* mobi-mbri-down Specifications */
+.mobi-mbri-down:before {
+  content: "\e925";
+}
+.mobi-mbri-download-2:before {
+  content: "\e926";
+}
+.mobi-mbri-download:before {
+  content: "\e927";
+}
+.mobi-mbri-drag-n-drop-2:before {
+  content: "\e928";
+}
+.mobi-mbri-drag-n-drop:before {
+  content: "\e929";
+}
+.mobi-mbri-edit-2:before {
+  content: "\e92a";
+```
+
+#### mobi-mbri-down Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-down States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-download Component
+
+#### mobi-mbri-download Specifications
+```css
+/* mobi-mbri-download Specifications */
+.mobi-mbri-download-2:before {
+  content: "\e926";
+}
+.mobi-mbri-download:before {
+  content: "\e927";
+}
+.mobi-mbri-drag-n-drop-2:before {
+  content: "\e928";
+}
+.mobi-mbri-drag-n-drop:before {
+  content: "\e929";
+}
+.mobi-mbri-edit-2:before {
+  content: "\e92a";
+```
+
+#### mobi-mbri-download Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-download States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-download-2 Component
+
+#### mobi-mbri-download-2 Specifications
+```css
+/* mobi-mbri-download-2 Specifications */
+.mobi-mbri-download-2:before {
+  content: "\e926";
+}
+.mobi-mbri-download:before {
+  content: "\e927";
+}
+.mobi-mbri-drag-n-drop-2:before {
+  content: "\e928";
+}
+.mobi-mbri-drag-n-drop:before {
+  content: "\e929";
+```
+
+#### mobi-mbri-download-2 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-download-2 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-drag-n-drop Component
+
+#### mobi-mbri-drag-n-drop Specifications
+```css
+/* mobi-mbri-drag-n-drop Specifications */
+.mobi-mbri-drag-n-drop-2:before {
+  content: "\e928";
+}
+.mobi-mbri-drag-n-drop:before {
+  content: "\e929";
+}
+.mobi-mbri-edit-2:before {
+  content: "\e92a";
+}
+.mobi-mbri-edit:before {
+  content: "\e92b";
+}
+.mobi-mbri-error:before {
+  content: "\e92c";
+```
+
+#### mobi-mbri-drag-n-drop Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-drag-n-drop States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-drag-n-drop-2 Component
+
+#### mobi-mbri-drag-n-drop-2 Specifications
+```css
+/* mobi-mbri-drag-n-drop-2 Specifications */
+.mobi-mbri-drag-n-drop-2:before {
+  content: "\e928";
+}
+.mobi-mbri-drag-n-drop:before {
+  content: "\e929";
+}
+.mobi-mbri-edit-2:before {
+  content: "\e92a";
+}
+.mobi-mbri-edit:before {
+  content: "\e92b";
+```
+
+#### mobi-mbri-drag-n-drop-2 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-drag-n-drop-2 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-edit Component
+
+#### mobi-mbri-edit Specifications
+```css
+/* mobi-mbri-edit Specifications */
+.mobi-mbri-edit-2:before {
+  content: "\e92a";
+}
+.mobi-mbri-edit:before {
+  content: "\e92b";
+}
+.mobi-mbri-error:before {
+  content: "\e92c";
+}
+.mobi-mbri-extension:before {
+  content: "\e92d";
+}
+.mobi-mbri-features:before {
+  content: "\e92e";
+```
+
+#### mobi-mbri-edit Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-edit States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-edit-2 Component
+
+#### mobi-mbri-edit-2 Specifications
+```css
+/* mobi-mbri-edit-2 Specifications */
+.mobi-mbri-edit-2:before {
+  content: "\e92a";
+}
+.mobi-mbri-edit:before {
+  content: "\e92b";
+}
+.mobi-mbri-error:before {
+  content: "\e92c";
+}
+.mobi-mbri-extension:before {
+  content: "\e92d";
+```
+
+#### mobi-mbri-edit-2 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-edit-2 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-error Component
+
+#### mobi-mbri-error Specifications
+```css
+/* mobi-mbri-error Specifications */
+.mobi-mbri-error:before {
+  content: "\e92c";
+}
+.mobi-mbri-extension:before {
+  content: "\e92d";
+}
+.mobi-mbri-features:before {
+  content: "\e92e";
+}
+.mobi-mbri-file:before {
+  content: "\e92f";
+```
+
+#### mobi-mbri-error Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-error States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-extension Component
+
+#### mobi-mbri-extension Specifications
+```css
+/* mobi-mbri-extension Specifications */
+.mobi-mbri-extension:before {
+  content: "\e92d";
+}
+.mobi-mbri-features:before {
+  content: "\e92e";
+}
+.mobi-mbri-file:before {
+  content: "\e92f";
+}
+.mobi-mbri-flag:before {
+  content: "\e930";
+```
+
+#### mobi-mbri-extension Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-extension States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-features Component
+
+#### mobi-mbri-features Specifications
+```css
+/* mobi-mbri-features Specifications */
+.mobi-mbri-features:before {
+  content: "\e92e";
+}
+.mobi-mbri-file:before {
+  content: "\e92f";
+}
+.mobi-mbri-flag:before {
+  content: "\e930";
+}
+.mobi-mbri-folder:before {
+  content: "\e931";
+```
+
+#### mobi-mbri-features Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-features States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-file Component
+
+#### mobi-mbri-file Specifications
+```css
+/* mobi-mbri-file Specifications */
+.mobi-mbri-file:before {
+  content: "\e92f";
+}
+.mobi-mbri-flag:before {
+  content: "\e930";
+}
+.mobi-mbri-folder:before {
+  content: "\e931";
+}
+.mobi-mbri-gift:before {
+  content: "\e932";
+```
+
+#### mobi-mbri-file Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-file States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-flag Component
+
+#### mobi-mbri-flag Specifications
+```css
+/* mobi-mbri-flag Specifications */
+.mobi-mbri-flag:before {
+  content: "\e930";
+}
+.mobi-mbri-folder:before {
+  content: "\e931";
+}
+.mobi-mbri-gift:before {
+  content: "\e932";
+}
+.mobi-mbri-github:before {
+  content: "\e933";
+```
+
+#### mobi-mbri-flag Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-flag States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-folder Component
+
+#### mobi-mbri-folder Specifications
+```css
+/* mobi-mbri-folder Specifications */
+.mobi-mbri-folder:before {
+  content: "\e931";
+}
+.mobi-mbri-gift:before {
+  content: "\e932";
+}
+.mobi-mbri-github:before {
+  content: "\e933";
+}
+.mobi-mbri-globe-2:before {
+  content: "\e934";
+```
+
+#### mobi-mbri-folder Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-folder States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-gift Component
+
+#### mobi-mbri-gift Specifications
+```css
+/* mobi-mbri-gift Specifications */
+.mobi-mbri-gift:before {
+  content: "\e932";
+}
+.mobi-mbri-github:before {
+  content: "\e933";
+}
+.mobi-mbri-globe-2:before {
+  content: "\e934";
+}
+.mobi-mbri-globe:before {
+  content: "\e935";
+```
+
+#### mobi-mbri-gift Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-gift States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-github Component
+
+#### mobi-mbri-github Specifications
+```css
+/* mobi-mbri-github Specifications */
+.mobi-mbri-github:before {
+  content: "\e933";
+}
+.mobi-mbri-globe-2:before {
+  content: "\e934";
+}
+.mobi-mbri-globe:before {
+  content: "\e935";
+}
+.mobi-mbri-growing-chart:before {
+  content: "\e936";
+```
+
+#### mobi-mbri-github Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-github States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-globe Component
+
+#### mobi-mbri-globe Specifications
+```css
+/* mobi-mbri-globe Specifications */
+.mobi-mbri-globe-2:before {
+  content: "\e934";
+}
+.mobi-mbri-globe:before {
+  content: "\e935";
+}
+.mobi-mbri-growing-chart:before {
+  content: "\e936";
+}
+.mobi-mbri-hearth:before {
+  content: "\e937";
+}
+.mobi-mbri-help:before {
+  content: "\e938";
+```
+
+#### mobi-mbri-globe Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-globe States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-globe-2 Component
+
+#### mobi-mbri-globe-2 Specifications
+```css
+/* mobi-mbri-globe-2 Specifications */
+.mobi-mbri-globe-2:before {
+  content: "\e934";
+}
+.mobi-mbri-globe:before {
+  content: "\e935";
+}
+.mobi-mbri-growing-chart:before {
+  content: "\e936";
+}
+.mobi-mbri-hearth:before {
+  content: "\e937";
+```
+
+#### mobi-mbri-globe-2 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-globe-2 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-growing-chart Component
+
+#### mobi-mbri-growing-chart Specifications
+```css
+/* mobi-mbri-growing-chart Specifications */
+.mobi-mbri-growing-chart:before {
+  content: "\e936";
+}
+.mobi-mbri-hearth:before {
+  content: "\e937";
+}
+.mobi-mbri-help:before {
+  content: "\e938";
+}
+.mobi-mbri-home:before {
+  content: "\e939";
+```
+
+#### mobi-mbri-growing-chart Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-growing-chart States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-hearth Component
+
+#### mobi-mbri-hearth Specifications
+```css
+/* mobi-mbri-hearth Specifications */
+.mobi-mbri-hearth:before {
+  content: "\e937";
+}
+.mobi-mbri-help:before {
+  content: "\e938";
+}
+.mobi-mbri-home:before {
+  content: "\e939";
+}
+.mobi-mbri-hot-cup:before {
+  content: "\e93a";
+```
+
+#### mobi-mbri-hearth Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-hearth States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-help Component
+
+#### mobi-mbri-help Specifications
+```css
+/* mobi-mbri-help Specifications */
+.mobi-mbri-help:before {
+  content: "\e938";
+}
+.mobi-mbri-home:before {
+  content: "\e939";
+}
+.mobi-mbri-hot-cup:before {
+  content: "\e93a";
+}
+.mobi-mbri-idea:before {
+  content: "\e93b";
+```
+
+#### mobi-mbri-help Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-help States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-home Component
+
+#### mobi-mbri-home Specifications
+```css
+/* mobi-mbri-home Specifications */
+.mobi-mbri-home:before {
+  content: "\e939";
+}
+.mobi-mbri-hot-cup:before {
+  content: "\e93a";
+}
+.mobi-mbri-idea:before {
+  content: "\e93b";
+}
+.mobi-mbri-image-gallery:before {
+  content: "\e93c";
+```
+
+#### mobi-mbri-home Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-home States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-hot-cup Component
+
+#### mobi-mbri-hot-cup Specifications
+```css
+/* mobi-mbri-hot-cup Specifications */
+.mobi-mbri-hot-cup:before {
+  content: "\e93a";
+}
+.mobi-mbri-idea:before {
+  content: "\e93b";
+}
+.mobi-mbri-image-gallery:before {
+  content: "\e93c";
+}
+.mobi-mbri-image-slider:before {
+  content: "\e93d";
+```
+
+#### mobi-mbri-hot-cup Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-hot-cup States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-idea Component
+
+#### mobi-mbri-idea Specifications
+```css
+/* mobi-mbri-idea Specifications */
+.mobi-mbri-idea:before {
+  content: "\e93b";
+}
+.mobi-mbri-image-gallery:before {
+  content: "\e93c";
+}
+.mobi-mbri-image-slider:before {
+  content: "\e93d";
+}
+.mobi-mbri-info:before {
+  content: "\e93e";
+```
+
+#### mobi-mbri-idea Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-idea States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-image-gallery Component
+
+#### mobi-mbri-image-gallery Specifications
+```css
+/* mobi-mbri-image-gallery Specifications */
+.mobi-mbri-image-gallery:before {
+  content: "\e93c";
+}
+.mobi-mbri-image-slider:before {
+  content: "\e93d";
+}
+.mobi-mbri-info:before {
+  content: "\e93e";
+}
+.mobi-mbri-italic:before {
+  content: "\e93f";
+```
+
+#### mobi-mbri-image-gallery Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-image-gallery States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-image-slider Component
+
+#### mobi-mbri-image-slider Specifications
+```css
+/* mobi-mbri-image-slider Specifications */
+.mobi-mbri-image-slider:before {
+  content: "\e93d";
+}
+.mobi-mbri-info:before {
+  content: "\e93e";
+}
+.mobi-mbri-italic:before {
+  content: "\e93f";
+}
+.mobi-mbri-key:before {
+  content: "\e940";
+```
+
+#### mobi-mbri-image-slider Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-image-slider States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-info Component
+
+#### mobi-mbri-info Specifications
+```css
+/* mobi-mbri-info Specifications */
+.mobi-mbri-info:before {
+  content: "\e93e";
+}
+.mobi-mbri-italic:before {
+  content: "\e93f";
+}
+.mobi-mbri-key:before {
+  content: "\e940";
+}
+.mobi-mbri-laptop:before {
+  content: "\e941";
+```
+
+#### mobi-mbri-info Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-info States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-italic Component
+
+#### mobi-mbri-italic Specifications
+```css
+/* mobi-mbri-italic Specifications */
+.mobi-mbri-italic:before {
+  content: "\e93f";
+}
+.mobi-mbri-key:before {
+  content: "\e940";
+}
+.mobi-mbri-laptop:before {
+  content: "\e941";
+}
+.mobi-mbri-layers:before {
+  content: "\e942";
+```
+
+#### mobi-mbri-italic Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-italic States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-key Component
+
+#### mobi-mbri-key Specifications
+```css
+/* mobi-mbri-key Specifications */
+.mobi-mbri-key:before {
+  content: "\e940";
+}
+.mobi-mbri-laptop:before {
+  content: "\e941";
+}
+.mobi-mbri-layers:before {
+  content: "\e942";
+}
+.mobi-mbri-left-right:before {
+  content: "\e943";
+```
+
+#### mobi-mbri-key Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-key States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-laptop Component
+
+#### mobi-mbri-laptop Specifications
+```css
+/* mobi-mbri-laptop Specifications */
+.mobi-mbri-laptop:before {
+  content: "\e941";
+}
+.mobi-mbri-layers:before {
+  content: "\e942";
+}
+.mobi-mbri-left-right:before {
+  content: "\e943";
+}
+.mobi-mbri-left:before {
+  content: "\e944";
+```
+
+#### mobi-mbri-laptop Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-laptop States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-layers Component
+
+#### mobi-mbri-layers Specifications
+```css
+/* mobi-mbri-layers Specifications */
+.mobi-mbri-layers:before {
+  content: "\e942";
+}
+.mobi-mbri-left-right:before {
+  content: "\e943";
+}
+.mobi-mbri-left:before {
+  content: "\e944";
+}
+.mobi-mbri-letter:before {
+  content: "\e945";
+```
+
+#### mobi-mbri-layers Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-layers States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-left Component
+
+#### mobi-mbri-left Specifications
+```css
+/* mobi-mbri-left Specifications */
+.mobi-mbri-left-right:before {
+  content: "\e943";
+}
+.mobi-mbri-left:before {
+  content: "\e944";
+}
+.mobi-mbri-letter:before {
+  content: "\e945";
+}
+.mobi-mbri-like:before {
+  content: "\e946";
+}
+.mobi-mbri-link:before {
+  content: "\e947";
+```
+
+#### mobi-mbri-left Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-left States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### mobi-mbri-left-right Component
+
+#### mobi-mbri-left-right Specifications
+```css
+/* mobi-mbri-left-right Specifications */
+.mobi-mbri-left-right:before {
+  content: "\e943";
+}
+.mobi-mbri-left:before {
+  content: "\e944";
+}
+.mobi-mbri-letter:before {
+  content: "\e945";
+}
+.mobi-mbri-like:before {
+  content: "\e946";
+```
+
+#### mobi-mbri-left-right Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### mobi-mbri-left-right States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
 ### Button Specifications
 ```css
 /* Button Base */
