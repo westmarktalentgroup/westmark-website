@@ -65571,3 +65571,353 @@ Auto-detected component with specifications extracted from source code.
 ### Related Components
 - [To be linked to related components]
 
+## pr-3 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pr-3 Specifications */
+.pr-3 { padding-right: var(--spacing-3); }
+.pr-4 { padding-right: var(--spacing-4); }
+
+/* Responsive Spacing */
+.spacing-responsive-sm { margin: var(--spacing-responsive-sm); }
+.spacing-responsive-md { margin: var(--spacing-responsive-md); }
+.spacing-responsive-lg { margin: var(--spacing-responsive-lg); }
+.spacing-responsive-xl { margin: var(--spacing-responsive-xl); }
+
+/* Component-Specific Spacing */
+.card-spacing {
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pr-3">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pr-4 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pr-4 Specifications */
+.pr-4 { padding-right: var(--spacing-4); }
+
+/* Responsive Spacing */
+.spacing-responsive-sm { margin: var(--spacing-responsive-sm); }
+.spacing-responsive-md { margin: var(--spacing-responsive-md); }
+.spacing-responsive-lg { margin: var(--spacing-responsive-lg); }
+.spacing-responsive-xl { margin: var(--spacing-responsive-xl); }
+
+/* Component-Specific Spacing */
+.card-spacing {
+  margin-bottom: var(--spacing-6);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pr-4">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## process-text Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* process-text Specifications */
+.process-text {
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-loose);
+  font-family: var(--font-family-body);
+}
+
+.process-text strong {
+  font-size: inherit;
+  font-weight: var(--font-weight-semibold);
+}
+
+.process-text span {
+  font-size: inherit;
+}
+
+/* Navigation Typography */
+.navbar-nav .nav-link {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-medium);
+  font-family: var(--font-family-body);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="process-text">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pt-0 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pt-0 Specifications */
+.pt-0 { padding-top: var(--spacing-0); }
+.pt-1 { padding-top: var(--spacing-1); }
+.pt-2 { padding-top: var(--spacing-2); }
+.pt-3 { padding-top: var(--spacing-3); }
+.pt-4 { padding-top: var(--spacing-4); }
+
+/* Padding Bottom */
+.pb-0 { padding-bottom: var(--spacing-0); }
+.pb-1 { padding-bottom: var(--spacing-1); }
+.pb-2 { padding-bottom: var(--spacing-2); }
+.pb-3 { padding-bottom: var(--spacing-3); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pt-0">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pt-1 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pt-1 Specifications */
+.pt-1 { padding-top: var(--spacing-1); }
+.pt-2 { padding-top: var(--spacing-2); }
+.pt-3 { padding-top: var(--spacing-3); }
+.pt-4 { padding-top: var(--spacing-4); }
+
+/* Padding Bottom */
+.pb-0 { padding-bottom: var(--spacing-0); }
+.pb-1 { padding-bottom: var(--spacing-1); }
+.pb-2 { padding-bottom: var(--spacing-2); }
+.pb-3 { padding-bottom: var(--spacing-3); }
+.pb-4 { padding-bottom: var(--spacing-4); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pt-1">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pt-2 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pt-2 Specifications */
+.pt-2 { padding-top: var(--spacing-2); }
+.pt-3 { padding-top: var(--spacing-3); }
+.pt-4 { padding-top: var(--spacing-4); }
+
+/* Padding Bottom */
+.pb-0 { padding-bottom: var(--spacing-0); }
+.pb-1 { padding-bottom: var(--spacing-1); }
+.pb-2 { padding-bottom: var(--spacing-2); }
+.pb-3 { padding-bottom: var(--spacing-3); }
+.pb-4 { padding-bottom: var(--spacing-4); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pt-2">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pt-3 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pt-3 Specifications */
+.pt-3 { padding-top: var(--spacing-3); }
+.pt-4 { padding-top: var(--spacing-4); }
+
+/* Padding Bottom */
+.pb-0 { padding-bottom: var(--spacing-0); }
+.pb-1 { padding-bottom: var(--spacing-1); }
+.pb-2 { padding-bottom: var(--spacing-2); }
+.pb-3 { padding-bottom: var(--spacing-3); }
+.pb-4 { padding-bottom: var(--spacing-4); }
+
+/* Padding Left */
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pt-3">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## pt-4 Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* pt-4 Specifications */
+.pt-4 { padding-top: var(--spacing-4); }
+
+/* Padding Bottom */
+.pb-0 { padding-bottom: var(--spacing-0); }
+.pb-1 { padding-bottom: var(--spacing-1); }
+.pb-2 { padding-bottom: var(--spacing-2); }
+.pb-3 { padding-bottom: var(--spacing-3); }
+.pb-4 { padding-bottom: var(--spacing-4); }
+
+/* Padding Left */
+.pl-0 { padding-left: var(--spacing-0); }
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="pt-4">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+
+## spacing-responsive-md Component
+
+### Overview
+Auto-detected component with specifications extracted from source code.
+
+### CSS Specifications
+```css
+/* spacing-responsive-md Specifications */
+.spacing-responsive-md { margin: var(--spacing-responsive-md); }
+.spacing-responsive-lg { margin: var(--spacing-responsive-lg); }
+.spacing-responsive-xl { margin: var(--spacing-responsive-xl); }
+
+/* Component-Specific Spacing */
+.card-spacing {
+  margin-bottom: var(--spacing-6);
+}
+
+.section-spacing {
+  margin-bottom: var(--spacing-responsive-lg);
+```
+
+### Usage Guidelines
+- **When to use**: [To be documented]
+- **When not to use**: [To be documented]
+- **Accessibility**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+### Examples
+```html
+<!-- Add usage examples here -->
+<div class="spacing-responsive-md">
+  <!-- Component content -->
+</div>
+```
+
+### Related Components
+- [To be linked to related components]
+

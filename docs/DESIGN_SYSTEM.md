@@ -53507,6 +53507,293 @@ body {
 - **Focus**: [Auto-detected from :focus states]
 - **Active**: [Auto-detected from :active states]
 
+
+### pr-3 Component
+
+#### pr-3 Specifications
+```css
+/* pr-3 Specifications */
+.pr-3 { padding-right: var(--spacing-3); }
+.pr-4 { padding-right: var(--spacing-4); }
+
+/* Responsive Spacing */
+.spacing-responsive-sm { margin: var(--spacing-responsive-sm); }
+.spacing-responsive-md { margin: var(--spacing-responsive-md); }
+.spacing-responsive-lg { margin: var(--spacing-responsive-lg); }
+.spacing-responsive-xl { margin: var(--spacing-responsive-xl); }
+
+/* Component-Specific Spacing */
+.card-spacing {
+```
+
+#### pr-3 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### pr-3 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### pr-4 Component
+
+#### pr-4 Specifications
+```css
+/* pr-4 Specifications */
+.pr-4 { padding-right: var(--spacing-4); }
+
+/* Responsive Spacing */
+.spacing-responsive-sm { margin: var(--spacing-responsive-sm); }
+.spacing-responsive-md { margin: var(--spacing-responsive-md); }
+.spacing-responsive-lg { margin: var(--spacing-responsive-lg); }
+.spacing-responsive-xl { margin: var(--spacing-responsive-xl); }
+
+/* Component-Specific Spacing */
+.card-spacing {
+  margin-bottom: var(--spacing-6);
+```
+
+#### pr-4 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### pr-4 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### process-text Component
+
+#### process-text Specifications
+```css
+/* process-text Specifications */
+.process-text {
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-loose);
+  font-family: var(--font-family-body);
+}
+
+.process-text strong {
+  font-size: inherit;
+  font-weight: var(--font-weight-semibold);
+}
+
+.process-text span {
+  font-size: inherit;
+}
+
+/* Navigation Typography */
+.navbar-nav .nav-link {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-medium);
+  font-family: var(--font-family-body);
+```
+
+#### process-text Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### process-text States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### pt-0 Component
+
+#### pt-0 Specifications
+```css
+/* pt-0 Specifications */
+.pt-0 { padding-top: var(--spacing-0); }
+.pt-1 { padding-top: var(--spacing-1); }
+.pt-2 { padding-top: var(--spacing-2); }
+.pt-3 { padding-top: var(--spacing-3); }
+.pt-4 { padding-top: var(--spacing-4); }
+
+/* Padding Bottom */
+.pb-0 { padding-bottom: var(--spacing-0); }
+.pb-1 { padding-bottom: var(--spacing-1); }
+.pb-2 { padding-bottom: var(--spacing-2); }
+.pb-3 { padding-bottom: var(--spacing-3); }
+```
+
+#### pt-0 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### pt-0 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### pt-1 Component
+
+#### pt-1 Specifications
+```css
+/* pt-1 Specifications */
+.pt-1 { padding-top: var(--spacing-1); }
+.pt-2 { padding-top: var(--spacing-2); }
+.pt-3 { padding-top: var(--spacing-3); }
+.pt-4 { padding-top: var(--spacing-4); }
+
+/* Padding Bottom */
+.pb-0 { padding-bottom: var(--spacing-0); }
+.pb-1 { padding-bottom: var(--spacing-1); }
+.pb-2 { padding-bottom: var(--spacing-2); }
+.pb-3 { padding-bottom: var(--spacing-3); }
+.pb-4 { padding-bottom: var(--spacing-4); }
+```
+
+#### pt-1 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### pt-1 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### pt-2 Component
+
+#### pt-2 Specifications
+```css
+/* pt-2 Specifications */
+.pt-2 { padding-top: var(--spacing-2); }
+.pt-3 { padding-top: var(--spacing-3); }
+.pt-4 { padding-top: var(--spacing-4); }
+
+/* Padding Bottom */
+.pb-0 { padding-bottom: var(--spacing-0); }
+.pb-1 { padding-bottom: var(--spacing-1); }
+.pb-2 { padding-bottom: var(--spacing-2); }
+.pb-3 { padding-bottom: var(--spacing-3); }
+.pb-4 { padding-bottom: var(--spacing-4); }
+```
+
+#### pt-2 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### pt-2 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### pt-3 Component
+
+#### pt-3 Specifications
+```css
+/* pt-3 Specifications */
+.pt-3 { padding-top: var(--spacing-3); }
+.pt-4 { padding-top: var(--spacing-4); }
+
+/* Padding Bottom */
+.pb-0 { padding-bottom: var(--spacing-0); }
+.pb-1 { padding-bottom: var(--spacing-1); }
+.pb-2 { padding-bottom: var(--spacing-2); }
+.pb-3 { padding-bottom: var(--spacing-3); }
+.pb-4 { padding-bottom: var(--spacing-4); }
+
+/* Padding Left */
+```
+
+#### pt-3 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### pt-3 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### pt-4 Component
+
+#### pt-4 Specifications
+```css
+/* pt-4 Specifications */
+.pt-4 { padding-top: var(--spacing-4); }
+
+/* Padding Bottom */
+.pb-0 { padding-bottom: var(--spacing-0); }
+.pb-1 { padding-bottom: var(--spacing-1); }
+.pb-2 { padding-bottom: var(--spacing-2); }
+.pb-3 { padding-bottom: var(--spacing-3); }
+.pb-4 { padding-bottom: var(--spacing-4); }
+
+/* Padding Left */
+.pl-0 { padding-left: var(--spacing-0); }
+```
+
+#### pt-4 Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### pt-4 States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
+
+### spacing-responsive-md Component
+
+#### spacing-responsive-md Specifications
+```css
+/* spacing-responsive-md Specifications */
+.spacing-responsive-md { margin: var(--spacing-responsive-md); }
+.spacing-responsive-lg { margin: var(--spacing-responsive-lg); }
+.spacing-responsive-xl { margin: var(--spacing-responsive-xl); }
+
+/* Component-Specific Spacing */
+.card-spacing {
+  margin-bottom: var(--spacing-6);
+}
+
+.section-spacing {
+  margin-bottom: var(--spacing-responsive-lg);
+```
+
+#### spacing-responsive-md Design Principles
+- **Purpose**: [Auto-detected from CSS properties]
+- **Usage**: [To be documented]
+- **Responsive**: [Auto-detected from media queries]
+- **Accessibility**: [Auto-detected from touch targets]
+
+#### spacing-responsive-md States
+- **Default**: [Auto-detected from base styles]
+- **Hover**: [Auto-detected from :hover states]
+- **Focus**: [Auto-detected from :focus states]
+- **Active**: [Auto-detected from :active states]
+
 ### Button Specifications
 ```css
 /* Button Base */

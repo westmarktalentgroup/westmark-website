@@ -36751,6 +36751,204 @@ The website uses Bootstrap 5.1's 12-column grid system as the foundation for all
 - **Mobile**: [To be documented]
 - **Touch**: [Auto-detected from touch targets]
 
+
+### pr-3 Layout
+
+#### pr-3 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### pr-3 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### pr-3 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### pr-4 Layout
+
+#### pr-4 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### pr-4 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### pr-4 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### process-text Layout
+
+#### process-text Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### process-text Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### process-text Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### pt-0 Layout
+
+#### pt-0 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### pt-0 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### pt-0 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### pt-1 Layout
+
+#### pt-1 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### pt-1 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### pt-1 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### pt-2 Layout
+
+#### pt-2 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### pt-2 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### pt-2 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### pt-3 Layout
+
+#### pt-3 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### pt-3 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### pt-3 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### pt-4 Layout
+
+#### pt-4 Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### pt-4 Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### pt-4 Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
+
+### spacing-responsive-md Layout
+
+#### spacing-responsive-md Layout Structure
+```html
+<!-- Auto-generated from HTML files -->
+<!-- Add specific HTML structure here -->
+```
+
+#### spacing-responsive-md Layout Specifications
+- **Position**: [Auto-detected from CSS]
+- **Width**: [Auto-detected from CSS]
+- **Height**: [Auto-detected from CSS]
+- **Spacing**: [Auto-detected from CSS]
+- **Responsive**: [Auto-detected from media queries]
+
+#### spacing-responsive-md Responsive Behavior
+- **Desktop**: [To be documented]
+- **Tablet**: [To be documented]
+- **Mobile**: [To be documented]
+- **Touch**: [Auto-detected from touch targets]
+
 ### Hero Section Layout
 
 #### Full-Width Hero
