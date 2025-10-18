@@ -584,7 +584,7 @@ body {
 
 /* Hero Overlay Styling */
 .mbr-overlay {
-  background: linear-gradient(135deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.5) 100%) !important;
+  background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.1) 100%) !important;
   position: absolute !important;
   top: 0 !important;
   left: 0 !important;
