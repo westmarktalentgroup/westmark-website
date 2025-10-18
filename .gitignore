@@ -33,3 +33,7 @@ node_modules/
 # Build outputs
 dist/
 build/
+
+# Backup directories
+backup-*/
+archive-production/

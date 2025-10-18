@@ -1,8 +1,0 @@
-User-agent: *
-Disallow: /logo.html
-
-# Allow all other pages
-Allow: /
-
-# Sitemap location
-Sitemap: https://westmarktalentgroup.com/sitemap.xml
