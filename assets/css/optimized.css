@@ -14,7 +14,7 @@
   --font-size-2xl: clamp(1.5rem, 2.5vw, 2rem);      /* 24-32px */
   --font-size-3xl: clamp(1.875rem, 3vw, 2.5rem);     /* 30-40px */
   --font-size-4xl: clamp(2.25rem, 4vw, 3.5rem);     /* 36-56px */
-  --font-size-5xl: clamp(3rem, 5vw, 4.5rem);       /* 48-72px */
+  --font-size-5xl: clamp(3.5rem, 6vw, 6rem);       /* 56-96px */
   
   /* Line Heights */
   --line-height-tight: 1.1;
@@ -812,7 +812,7 @@
   }
   
   .header18.cid-uMOnIuaQSz .mbr-section-title {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 }
 
