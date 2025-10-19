@@ -321,6 +321,36 @@
   color: var(--color-text-primary);
 }
 
+/* Legacy Mobirise Classes (to prevent black bars) */
+.menu,
+.menu2,
+.cid-uMOnIua8FF {
+  /* Reset any conflicting styles */
+}
+
+.navbar-dropdown,
+.navbar-fixed-top,
+.navbar-expand-lg {
+  /* Reset positioning conflicts */
+  position: static;
+}
+
+.opacityScroll {
+  /* Reset opacity issues */
+  opacity: 1;
+}
+
+.nav-dropdown,
+.navbar-nav-top-padding {
+  /* Reset padding issues */
+  padding: 0;
+}
+
+.link {
+  /* Reset link styling */
+  text-decoration: none;
+}
+
 /* ==========================================================================
    BASE STYLES
    ========================================================================== */
