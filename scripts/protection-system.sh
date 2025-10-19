@@ -227,6 +227,40 @@ if ! grep -q "\.item-wrapper.*\.item-img.*img\|padding-bottom.*100%" assets/css/
     exit 1
 fi
 
+# COMPREHENSIVE HTML-CSS VALIDATION
+echo "🔍 Validating ALL HTML classes have CSS definitions..."
+
+# Extract all unique class names from HTML files (improved regex)
+HTML_CLASSES=$(grep -h 'class="[^"]*"' *.html development/*.html 2>/dev/null | \
+    sed 's/.*class="\([^"]*\)".*/\1/' | \
+    tr ' ' '\n' | \
+    grep -v '^$' | \
+    grep -E '^[a-zA-Z][a-zA-Z0-9_-]*$' | \
+    sort | uniq)
+
+# Extract all CSS class definitions
+CSS_CLASSES=$(grep -o '^\.[a-zA-Z][a-zA-Z0-9_-]*' assets/css/optimized.css | \
+    sed 's/^\.//' | sort | uniq)
+
+# Check for missing CSS definitions
+MISSING_CLASSES=""
+for class in $HTML_CLASSES; do
+    if ! echo "$CSS_CLASSES" | grep -q "^$class$"; then
+        MISSING_CLASSES="$MISSING_CLASSES $class"
+    fi
+done
+
+if [ ! -z "$MISSING_CLASSES" ]; then
+    echo "❌ FAILED: HTML classes missing CSS definitions:"
+    echo "$MISSING_CLASSES" | tr ' ' '\n' | grep -v '^$' | while read class; do
+        echo "  - Missing: .$class"
+    done
+    echo "💡 SOLUTION: Add CSS definitions for missing classes to optimized.css"
+    exit 1
+fi
+
+echo "✅ All HTML classes have CSS definitions"
+
 # Check for critical CSS classes in HTML
 CRITICAL_COMPONENTS=(
     "soap-bar-nav"

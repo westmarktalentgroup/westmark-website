@@ -235,6 +235,92 @@
   gap: var(--spacing-4);
 }
 
+/* Additional Missing Classes */
+.collapsed {
+  /* Already defined above in panel-title.collapsed */
+}
+
+.contact-form {
+  background-color: var(--color-white);
+  padding: var(--spacing-6);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+.content-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  max-width: 600px;
+}
+
+.item {
+  margin-bottom: var(--spacing-6);
+}
+
+.item-content {
+  padding: var(--spacing-4);
+}
+
+.item-footer {
+  margin-top: var(--spacing-4);
+  padding-top: var(--spacing-4);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.item-title {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-3);
+}
+
+.logo {
+  max-height: 50px;
+  width: auto;
+}
+
+.nav-item {
+  margin: 0 var(--spacing-2);
+}
+
+.nav-link {
+  color: var(--color-text-primary);
+  text-decoration: none;
+  font-weight: var(--font-weight-medium);
+  transition: color var(--transition-base);
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.panel-body {
+  padding: var(--spacing-4);
+  background-color: var(--color-white);
+}
+
+.panel-group {
+  margin-bottom: var(--spacing-6);
+}
+
+.panel-text {
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}
+
+.panel-title-edit {
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+}
+
 /* ==========================================================================
    BASE STYLES
    ========================================================================== */
