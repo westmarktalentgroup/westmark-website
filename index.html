@@ -141,19 +141,14 @@
     <link rel="prefetch" href="assets/images/pexels-apasaric-1437493-2000x1333.webp">
     <link rel="prefetch" href="assets/images/westmark-logo-128x62-1.webp">
     <link rel="manifest" href="manifest.json">
-    <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="assets/parallax/jarallax.css">
-    <link rel="stylesheet" href="assets/dropdown/css/style.css">
-    <link rel="stylesheet" href="assets/theme/css/style.css">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
+    <!-- Consolidated CSS - All styles in one file -->
+    <link rel="stylesheet" href="assets/css/optimized.css" type="text/css">
+    
+    <!-- Google Fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"></noscript>
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap&display=swap"></noscript>
-    <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=1.0.0"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=1.0.0" type="text/css">
-    <link rel="stylesheet" href="assets/css/optimized.css" type="text/css">
     
     <!-- Critical CSS for Above-the-Fold Content -->
     <style>
@@ -574,7 +569,8 @@
     </div>
 </section>
 
-<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/parallax/jarallax.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  <script src="assets/theme/js/error-handling.js"></script>  <script>
+  <!-- Consolidated JavaScript - All functionality in one file -->
+  <script src="assets/js/consolidated.js"></script>  <script>
     // Service Worker Registration - No Visual Changes
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
@@ -589,65 +585,9 @@
     }
   </script>
   
-  <!-- Performance Monitoring -->
-  <script src="assets/js/performance-monitor.js"></script>
+  <!-- Performance monitoring is now included in consolidated.js -->
   
-  <!-- Soap Bar Navigation Enhancement -->
-  <script>
-    // Enhanced scroll effect for soap bar navigation
-    document.addEventListener('DOMContentLoaded', function() {
-      const soapBarNav = document.querySelector('.soap-bar-nav');
-      const soapBar = document.querySelector('.soap-bar');
-      
-      if (soapBarNav && soapBar) {
-        let lastScrollY = window.scrollY;
-        let ticking = false;
-        
-        function updateSoapBar() {
-          const scrollY = window.scrollY;
-          
-          // Add scrolled class for enhanced styling
-          if (scrollY > 50) {
-            soapBarNav.classList.add('scrolled');
-          } else {
-            soapBarNav.classList.remove('scrolled');
-          }
-          
-          // No parallax effect - keep bar fixed in position
-          
-          lastScrollY = scrollY;
-          ticking = false;
-        }
-        
-        function requestTick() {
-          if (!ticking) {
-            requestAnimationFrame(updateSoapBar);
-            ticking = true;
-          }
-        }
-        
-        window.addEventListener('scroll', requestTick, { passive: true });
-        
-        // Smooth scroll for navigation links
-        const navLinks = document.querySelectorAll('.soap-bar-link[href^="#"]');
-        navLinks.forEach(link => {
-          link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const targetId = this.getAttribute('href').substring(1);
-            const targetElement = document.getElementById(targetId);
-            
-            if (targetElement) {
-              const offsetTop = targetElement.offsetTop - 100; // Account for fixed nav
-              window.scrollTo({
-                top: offsetTop,
-                behavior: 'smooth'
-              });
-            }
-          });
-        });
-      }
-    });
-  </script>
+  <!-- Soap bar navigation is now included in consolidated.js -->
   
 </body>
 </html>
