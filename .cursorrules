@@ -1,7 +1,74 @@
-# Cursor AI Rules - Documentation Prevention
+# Cursor AI Rules - Optimized for AI Coding Efficiency
 # This file is automatically read by Cursor AI
 
-## 🚨 MANDATORY DOCUMENTATION RULES
+## 🎯 **AI CODING OPTIMIZATION**
+
+### **CRITICAL WORKFLOW RULES**
+- **ALWAYS work in `development/` directory first**
+- **NEVER edit production files directly** (main directory)
+- **ALWAYS use `./scripts/deploy.sh` for deployment**
+- **Test thoroughly before deploying**
+
+### **FILE STRUCTURE REFERENCE**
+```
+development/           # 🧪 WORK HERE
+├── index.html        # Main homepage
+├── clients.html      # Clients page
+├── contact-us.html   # Contact page
+├── assets/
+│   ├── css/optimized.css    # ALL styles (72 classes)
+│   ├── js/consolidated.js   # ALL functionality (15 functions)
+│   └── images/              # All images
+└── sw.js             # Service worker
+
+docs/                 # 📚 AI REFERENCE
+├── AI_CODING_EFFICIENCY_GUIDE.md  # ESSENTIAL
+├── TECHNICAL_ARCHITECTURE.md      # System overview
+├── DESIGN_SYSTEM.md               # Design patterns
+└── CSS_STANDARDS.md               # CSS conventions
+```
+
+### **DESIGN SYSTEM QUICK REFERENCE**
+- **Navigation**: `soap-bar-nav`, `soap-bar`, `soap-bar-link`
+- **Typography**: `display-1`, `hero-title`, `section-title`, `text-content`
+- **Components**: `btn-primary`, `card`, `form-group`, `form-control`
+- **Layout**: `hero-section`, `about-section`, `contact-section`
+
+### **CSS DESIGN TOKENS**
+```css
+--font-family-heading: 'Playfair Display', serif;
+--font-family-body: 'Manrope', sans-serif;
+--color-primary: #000000;
+--color-secondary: #ae301c;
+--spacing-1: 0.25rem; /* 4px */
+--spacing-4: 1rem;    /* 16px */
+```
+
+### **JAVASCRIPT FUNCTIONS**
+- **Utilities**: `$`, `$$`, `addClass`, `removeClass`, `hasClass`, `toggleClass`
+- **Core**: `initNavigation()`, `initSoapBarScroll()`, `initAccordion()`, `initForms()`
+- **Performance**: `initPerformanceMonitoring()`, `initServiceWorker()`, `initLazyLoading()`
+
+### **COMMON AI TASKS**
+1. **Add new section**: Use `<section class="[name]-section" id="[name]">`
+2. **Style component**: Add to `optimized.css` with design tokens
+3. **Add functionality**: Add function to `consolidated.js`
+4. **Deploy changes**: Run `./scripts/deploy.sh`
+
+### **DEPLOYMENT WORKFLOW**
+```bash
+# 1. Edit development files
+edit development/index.html
+edit development/assets/css/optimized.css
+
+# 2. Test locally
+open development/index.html
+
+# 3. Deploy to production
+./scripts/deploy.sh
+```
+
+## 🚨 **MANDATORY DOCUMENTATION RULES**
 
 ### PROHIBITED FILE PATTERNS:
 - *_SUMMARY.md
@@ -18,11 +85,10 @@
 
 ### ESSENTIAL FILES (MUST EXIST):
 - README.md
-- docs/ASSET_INVENTORY.md
+- docs/AI_CODING_EFFICIENCY_GUIDE.md
 - docs/TECHNICAL_ARCHITECTURE.md
-- docs/DEPLOYMENT_MAINTENANCE.md
 - docs/DESIGN_SYSTEM.md
-- docs/VISUAL_STANDARDS.md
+- docs/CSS_STANDARDS.md
 
 ### ENFORCEMENT:
 - Git hooks will block commits with violations
