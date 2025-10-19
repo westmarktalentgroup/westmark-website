@@ -171,12 +171,12 @@ echo "  ✅ No duplicate scripts found"
 echo "🎨 Validating visual components..."
 
 # Check hero section has required elements
-if ! grep -q "mbr-parallax-background" index.html; then
-    echo "❌ FAILED: Hero section missing parallax background class"
+if ! grep -q "hero-section" index.html; then
+    echo "❌ FAILED: Hero section missing clean structure"
     exit 1
 fi
 
-if ! grep -q "mbr-overlay" index.html; then
+if ! grep -q "hero-overlay" index.html; then
     echo "❌ FAILED: Hero section missing overlay element"
     exit 1
 fi
@@ -214,14 +214,14 @@ fi
 echo "🎨 Validating component styling..."
 
 # Check for menu/navigation styling
-if ! grep -q "\.menu2\|\.navbar-dropdown\|\.nav-link" assets/mobirise/css/mbr-additional.css; then
+if ! grep -q "\.soap-bar-nav\|\.navbar-dropdown\|\.nav-link" assets/css/optimized.css; then
     echo "❌ FAILED: Menu/navigation styling missing from CSS"
-    echo "💡 SOLUTION: Add menu styling rules to mbr-additional.css"
+    echo "💡 SOLUTION: Add menu styling rules to optimized.css"
     exit 1
 fi
 
 # Check for Latest Opportunities image styling (critical for square images)
-if ! grep -q "\.item-wrapper.*\.item-img.*img\|padding-bottom.*100%" assets/mobirise/css/mbr-additional.css; then
+if ! grep -q "\.item-wrapper.*\.item-img.*img\|padding-bottom.*100%" assets/css/optimized.css; then
     echo "❌ FAILED: Latest Opportunities square image styling missing"
     echo "💡 SOLUTION: Add .item-wrapper .item-img img { padding-bottom: 100%; object-fit: cover; }"
     exit 1
@@ -229,10 +229,10 @@ fi
 
 # Check for critical CSS classes in HTML
 CRITICAL_COMPONENTS=(
-    "menu.*cid-uMOnIua8FF"
-    "navbar-dropdown"
+    "soap-bar-nav"
+    "hero-section"
+    "hero-overlay"
     "nav-link"
-    "header18.*cid-uMOnIuaQSz"
 )
 
 for component in "${CRITICAL_COMPONENTS[@]}"; do
@@ -243,13 +243,13 @@ done
 
 # Check CSS file integrity
 echo "📄 Validating CSS file integrity..."
-if [ ! -f "assets/mobirise/css/mbr-additional.css" ]; then
-    echo "❌ FAILED: Critical CSS file missing: mbr-additional.css"
+if [ ! -f "assets/css/optimized.css" ]; then
+    echo "❌ FAILED: Critical CSS file missing: optimized.css"
     exit 1
 fi
 
 # Check for minimum CSS content
-CSS_SIZE=$(wc -c < "assets/mobirise/css/mbr-additional.css")
+CSS_SIZE=$(wc -c < "assets/css/optimized.css")
 if [ "$CSS_SIZE" -lt 1000 ]; then
     echo "❌ FAILED: CSS file too small ($CSS_SIZE bytes) - may be corrupted"
     exit 1
@@ -280,12 +280,18 @@ for css_file in "${CUSTOM_CSS_FILES[@]}"; do
     fi
 done
 
-# Check mbr-additional.css for justified !important only
-MBR_IMPORTANT=$(grep -c "!important" "assets/mobirise/css/mbr-additional.css" 2>/dev/null)
-if [ $? -ne 0 ] || [ -z "$MBR_IMPORTANT" ]; then
-    MBR_IMPORTANT=0
+# Check optimized.css for justified !important only
+OPTIMIZED_IMPORTANT=$(grep -c "!important" "assets/css/optimized.css" 2>/dev/null || echo "0")
+if [ "$OPTIMIZED_IMPORTANT" -gt 0 ]; then
+    echo "❌ FAILED: !important anti-pattern detected: !important found in optimized.css"
+    echo "🚨 Found $OPTIMIZED_IMPORTANT violations in custom CSS files"
+    echo "💡 SOLUTION: Remove !important and use specific selectors"
+    exit 1
 fi
-TOTAL_IMPORTANT=$((TOTAL_IMPORTANT + MBR_IMPORTANT))
+
+# Initialize TOTAL_IMPORTANT if not set
+TOTAL_IMPORTANT=${TOTAL_IMPORTANT:-0}
+TOTAL_IMPORTANT=$((TOTAL_IMPORTANT + OPTIMIZED_IMPORTANT))
 
 if [ "$TOTAL_IMPORTANT" -gt 10 ]; then
     echo "❌ FAILED: Excessive !important usage detected ($TOTAL_IMPORTANT total)"
@@ -480,19 +486,19 @@ echo "✅ Documentation efficiency analysis completed"
 echo "🏗️  Validating HTML structure..."
 
 # Check hero section exists
-if ! grep -q "header18" index.html; then
+if ! grep -q "hero-section" index.html; then
     echo "❌ FAILED: Hero section missing from HTML"
     exit 1
 fi
 
 # Check navigation exists
-if ! grep -q "navbar-dropdown" index.html; then
+if ! grep -q "soap-bar-nav" index.html; then
     echo "❌ FAILED: Navigation missing from HTML"
     exit 1
 fi
 
 # Check hero overlay exists
-if ! grep -q "mbr-overlay" index.html; then
+if ! grep -q "hero-overlay" index.html; then
     echo "❌ FAILED: Hero overlay missing from HTML"
     exit 1
 fi
