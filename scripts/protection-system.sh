@@ -478,6 +478,25 @@ fi
 
 echo "✅ Design documentation validation completed"
 
+# Design Intent Enforcement
+echo "🎯 Running design intent enforcement..."
+
+# Run design intent enforcer
+if [ -f "design-intent-enforcer.sh" ]; then
+    ./design-intent-enforcer.sh
+    if [ $? -ne 0 ]; then
+        echo "❌ FAILED: Design intent violations detected"
+        echo "🚨 Changes violate documented design principles"
+        echo "💡 Review docs/CURRENT_DESIGN_IMPLEMENTATION.md"
+        exit 1
+    fi
+else
+    echo "⚠️  WARNING: Design intent enforcer not available"
+    echo "💡 Install: cp ../scripts/design-intent-enforcer.sh ."
+fi
+
+echo "✅ Design intent enforcement completed"
+
 # Documentation Efficiency Analysis
 echo "📊 Running documentation efficiency analysis..."
 
