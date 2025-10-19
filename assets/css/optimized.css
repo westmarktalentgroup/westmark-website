@@ -510,7 +510,12 @@ body {
 
 .about-section,
 .faq-section,
-.opportunities-section {
+.opportunities-section,
+.process-section,
+.services-section,
+.contact-section,
+.info-section,
+.cta-section {
   padding: var(--spacing-16) 0;
 }
 
@@ -545,9 +550,65 @@ body {
   transition: color var(--transition-base);
 }
 
-.footer-link:hover {
+/* ==========================================================================
+   FORM STYLING
+   ========================================================================== */
+
+.form-group {
+  margin-bottom: var(--spacing-4);
+}
+
+.form-label {
+  display: block;
+  margin-bottom: var(--spacing-2);
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-primary);
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: var(--spacing-3);
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-base);
+  line-height: 1.5;
+  color: var(--color-text-primary);
+  background-color: var(--color-white);
+  border: 1px solid #ccc;
+  border-radius: var(--border-radius);
+  transition: border-color var(--transition-base), box-shadow var(--transition-base);
+}
+
+.form-control:focus {
+  outline: 0;
+  border-color: var(--color-secondary);
+  box-shadow: 0 0 0 0.2rem rgba(174, 48, 28, 0.25);
+}
+
+.form-control.error {
+  border-color: var(--color-danger);
+}
+
+/* Process Number Styling */
+.process-number {
+  text-align: center;
+  margin-bottom: var(--spacing-4);
+}
+
+.number {
+  display: inline-block;
   color: var(--color-secondary);
-  text-decoration: none;
+  font-weight: var(--font-weight-bold);
+}
+
+/* CTA Buttons */
+.cta-buttons {
+  display: flex;
+  gap: var(--spacing-4);
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: var(--spacing-6);
 }
 
 /* Mobile Typography */
@@ -587,13 +648,23 @@ body {
 
   .about-section,
   .faq-section,
-  .opportunities-section {
+  .opportunities-section,
+  .process-section,
+  .services-section,
+  .contact-section,
+  .info-section,
+  .cta-section {
     padding: var(--spacing-12) 0;
   }
 
   .footer-links {
     flex-direction: column;
     gap: var(--spacing-2);
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
   }
 }
 

@@ -1,7 +1,7 @@
 // Service Worker for Westmark Talent Group - Enhanced Performance
-const CACHE_NAME = 'westmark-v3';
-const STATIC_CACHE = 'westmark-static-v3';
-const DYNAMIC_CACHE = 'westmark-dynamic-v3';
+const CACHE_NAME = 'westmark-v4';
+const STATIC_CACHE = 'westmark-static-v4';
+const DYNAMIC_CACHE = 'westmark-dynamic-v4';
 
 const urlsToCache = [
   './',
@@ -10,13 +10,7 @@ const urlsToCache = [
   './contact-us.html',
   './logo.html',
   './assets/css/optimized.css',
-  './assets/theme/css/style.css',
-  './assets/bootstrap/css/bootstrap.min.css',
-  './assets/bootstrap/css/bootstrap-grid.min.css',
-  './assets/bootstrap/css/bootstrap-reboot.min.css',
-  './assets/theme/js/script.js',
-  './assets/theme/js/error-handling.js',
-  './assets/js/performance-monitor.js',
+  './assets/js/consolidated.js',
   './manifest.json',
   './linkedin.webp',
   // WebP images for better performance
@@ -38,94 +32,110 @@ self.addEventListener('install', event => {
         return cache.addAll(urlsToCache);
       })
       .then(() => {
+        console.log('Service Worker: Static cache installed');
         return self.skipWaiting();
       })
       .catch(error => {
-        // Silent fail in production
-        if (self.location.hostname === 'localhost' || self.location.hostname === '127.0.0.1') {
-          console.error('Service Worker install failed:', error);
-        }
+        console.error('Service Worker: Cache installation failed', error);
       })
   );
 });
 
-// Fetch event - enhanced caching strategy
+// Activate event - clean up old caches
+self.addEventListener('activate', event => {
+  event.waitUntil(
+    caches.keys()
+      .then(cacheNames => {
+        return Promise.all(
+          cacheNames.map(cacheName => {
+            if (cacheName !== STATIC_CACHE && cacheName !== DYNAMIC_CACHE) {
+              console.log('Service Worker: Deleting old cache', cacheName);
+              return caches.delete(cacheName);
+            }
+          })
+        );
+      })
+      .then(() => {
+        console.log('Service Worker: Activated');
+        return self.clients.claim();
+      })
+  );
+});
+
+// Fetch event - serve from cache with network fallback
 self.addEventListener('fetch', event => {
+  const { request } = event;
+  const url = new URL(request.url);
+
   // Skip non-GET requests
-  if (event.request.method !== 'GET') return;
-  
+  if (request.method !== 'GET') {
+    return;
+  }
+
   // Skip external requests
-  if (!event.request.url.startsWith(self.location.origin)) return;
-  
+  if (url.origin !== location.origin) {
+    return;
+  }
+
   event.respondWith(
-    caches.match(event.request)
+    caches.match(request)
       .then(response => {
         // Return cached version if available
         if (response) {
           return response;
         }
-        
-        // Fetch from network and cache for future use
-        return fetch(event.request)
-          .then(fetchResponse => {
+
+        // Otherwise fetch from network
+        return fetch(request)
+          .then(response => {
             // Don't cache non-successful responses
-            if (!fetchResponse || fetchResponse.status !== 200 || fetchResponse.type !== 'basic') {
-              return fetchResponse;
+            if (!response || response.status !== 200 || response.type !== 'basic') {
+              return response;
             }
-            
+
             // Clone the response
-            const responseToCache = fetchResponse.clone();
-            
-            // Cache in dynamic cache
+            const responseToCache = response.clone();
+
+            // Cache the response
             caches.open(DYNAMIC_CACHE)
               .then(cache => {
-                cache.put(event.request, responseToCache);
+                cache.put(request, responseToCache);
               });
-            
-            return fetchResponse;
+
+            return response;
           })
-          .catch(() => {
+          .catch(error => {
+            console.error('Service Worker: Fetch failed', error);
+            
             // Return offline page for navigation requests
-            if (event.request.destination === 'document') {
+            if (request.mode === 'navigate') {
               return caches.match('./index.html');
             }
+            
+            throw error;
           });
       })
   );
 });
 
-// Activate event - clean up old caches and claim clients
-self.addEventListener('activate', event => {
-  event.waitUntil(
-    caches.keys().then(cacheNames => {
-      return Promise.all(
-        cacheNames.map(cacheName => {
-          if (cacheName !== STATIC_CACHE && cacheName !== DYNAMIC_CACHE) {
-            return caches.delete(cacheName);
-          }
-        })
-      );
-    }).then(() => {
-      return self.clients.claim();
-    })
-  );
-});
-
-// Background sync for offline form submissions
+// Background sync for form submissions
 self.addEventListener('sync', event => {
   if (event.tag === 'background-sync') {
-    event.waitUntil(doBackgroundSync());
+    event.waitUntil(
+      // Handle background sync logic here
+      console.log('Service Worker: Background sync triggered')
+    );
   }
 });
 
-// Push notifications
+// Push notifications (if needed in future)
 self.addEventListener('push', event => {
   if (event.data) {
     const data = event.data.json();
     const options = {
       body: data.body,
-      icon: '/assets/images/westmark-logo-128x62-1.webp',
-      badge: '/assets/images/westmark-logo-128x62-1.webp',
+      icon: './assets/images/westmark-logo-128x62-1.webp',
+      badge: './assets/images/westmark-logo-128x62-1.webp',
       vibrate: [100, 50, 100],
       data: {
         dateOfArrival: Date.now(),
@@ -134,25 +144,32 @@ self.addEventListener('push', event => {
       actions: [
         {
           action: 'explore',
-          title: 'View Jobs',
-          icon: '/assets/images/westmark-logo-128x62-1.webp'
+          title: 'View Details',
+          icon: './assets/images/westmark-logo-128x62-1.webp'
         },
         {
           action: 'close',
           title: 'Close',
-          icon: '/assets/images/westmark-logo-128x62-1.webp'
+          icon: './assets/images/westmark-logo-128x62-1.webp'
         }
       ]
     };
-    
+
     event.waitUntil(
       self.registration.showNotification(data.title, options)
     );
   }
 });
 
-// Background sync function
-function doBackgroundSync() {
-  // Handle offline form submissions or other background tasks
-  return Promise.resolve();
-}
+// Notification click handler
+self.addEventListener('notificationclick', event => {
+  event.notification.close();
+
+  if (event.action === 'explore') {
+    event.waitUntil(
+      clients.openWindow('/')
+    );
+  }
+});
+
+console.log('Service Worker: Loaded successfully');

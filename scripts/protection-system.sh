@@ -368,11 +368,12 @@ echo "📋 Validating design documentation completeness..."
 DESIGN_CHANGES_DETECTED=false
 
 # Check for new CSS classes or components that might need documentation
-NEW_CSS_CLASSES=$(grep -r "^\." assets/css/ assets/mobirise/css/ 2>/dev/null | grep -v "/*" | grep -v "//" | awk '{print $1}' | cut -d: -f2 | sort -u)
+# Check for new CSS classes
+NEW_CSS_CLASSES=$(grep -r "^\." assets/css/ 2>/dev/null | grep -v "/*" | grep -v "//" | awk '{print $1}' | cut -d: -f2 | sort -u)
 DOCUMENTED_COMPONENTS=$(grep -r "### .*Component\|#### .*Component" ../docs/ 2>/dev/null | awk -F'### |#### ' '{print $2}' | awk -F' Component' '{print $1}' | sort -u)
 
 # Check for image-related CSS changes
-if grep -r "\.item-img\|\.hero\|\.card.*img\|aspect-ratio\|object-fit" assets/css/ assets/mobirise/css/ 2>/dev/null | grep -v "/*" >/dev/null; then
+if grep -r "\.item-img\|\.hero\|\.card.*img\|aspect-ratio\|object-fit" assets/css/ 2>/dev/null | grep -v "/*" >/dev/null; then
     echo "  🔍 Image-related CSS changes detected"
     
     # Check if Latest Opportunities images are documented
@@ -384,7 +385,7 @@ if grep -r "\.item-img\|\.hero\|\.card.*img\|aspect-ratio\|object-fit" assets/cs
 fi
 
 # Check for typography changes
-if grep -r "font-family\|font-size\|display-[0-9]" assets/css/ assets/mobirise/css/ 2>/dev/null | grep -v "/*" >/dev/null; then
+if grep -r "font-family\|font-size\|display-[0-9]" assets/css/ 2>/dev/null | grep -v "/*" >/dev/null; then
     echo "  🔍 Typography changes detected"
     
     # Check if typography hierarchy is documented
@@ -396,7 +397,7 @@ if grep -r "font-family\|font-size\|display-[0-9]" assets/css/ assets/mobirise/c
 fi
 
 # Check for layout changes
-if grep -r "grid\|flex\|width.*%\|height.*vh" assets/css/ assets/mobirise/css/ 2>/dev/null | grep -v "/*" >/dev/null; then
+if grep -r "grid\|flex\|width.*%\|height.*vh" assets/css/ 2>/dev/null | grep -v "/*" >/dev/null; then
     echo "  🔍 Layout changes detected"
     
     # Check if layout guidelines are documented
