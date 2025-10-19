@@ -259,7 +259,15 @@ if [ ! -z "$MISSING_CLASSES" ]; then
     exit 1
 fi
 
-echo "✅ All HTML classes have CSS definitions"
+# Check for Mobirise classes in documentation (should not exist)
+MOBIRISE_DOCS=$(grep -r "menu2\|navbar-dropdown\|mobi-mbri\|cid-uMOnIucJDw\|\.header18\.cid-uMOnIuaQSz" docs/ 2>/dev/null | wc -l)
+if [ "$MOBIRISE_DOCS" -gt 0 ]; then
+    echo "❌ FAILED: Mobirise classes found in documentation files"
+    echo "💡 SOLUTION: Remove all Mobirise class references from docs/"
+    exit 1
+fi
+
+echo "✅ No Mobirise classes in documentation"
 
 # Check for critical CSS classes in HTML
 CRITICAL_COMPONENTS=(
