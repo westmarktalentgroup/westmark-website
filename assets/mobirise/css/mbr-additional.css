@@ -572,8 +572,8 @@ body {
   position: relative;
 } */
 
-/* Hero Overlay Styling */
-.mbr-overlay {
+/* Hero Overlay Styling - DISABLED to prevent conflicts */
+/* .mbr-overlay {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.05) 30%, transparent 60%);
   position: absolute;
   top: 0;
@@ -581,7 +581,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: 1;
-}
+} */
 
 /* Hero Content Positioning - Bottom Left */
 /* Hero Content Positioning - DISABLED to prevent conflicts */
