@@ -77,6 +77,64 @@
 }
 
 /* ==========================================================================
+   GRID SYSTEM (Bootstrap Grid Replacement)
+   ========================================================================== */
+
+.container {
+  width: 100%;
+  padding-right: var(--spacing-4);
+  padding-left: var(--spacing-4);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: var(--spacing-4);
+  padding-left: var(--spacing-4);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: calc(var(--spacing-3) * -1);
+  margin-left: calc(var(--spacing-3) * -1);
+}
+
+.col-12 { flex: 0 0 100%; max-width: 100%; }
+.col-md-6 { flex: 0 0 50%; max-width: 50%; }
+.col-md-12 { flex: 0 0 100%; max-width: 100%; }
+.col-lg-4 { flex: 0 0 33.333333%; max-width: 33.333333%; }
+.col-lg-8 { flex: 0 0 66.666667%; max-width: 66.666667%; }
+.col-lg-10 { flex: 0 0 83.333333%; max-width: 83.333333%; }
+
+.col-12,
+.col-md-6,
+.col-md-12,
+.col-lg-4,
+.col-lg-8,
+.col-lg-10 {
+  position: relative;
+  width: 100%;
+  padding-right: var(--spacing-3);
+  padding-left: var(--spacing-3);
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* ==========================================================================
    BASE STYLES
    ========================================================================== */
 * {
@@ -473,6 +531,24 @@ body {
 /* ==========================================================================
    RESPONSIVE DESIGN
    ========================================================================== */
+
+/* Grid System Responsive Breakpoints */
+@media (max-width: 767.98px) {
+  .col-md-6,
+  .col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .col-lg-4,
+  .col-lg-8,
+  .col-lg-10 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
 
 /* Mobile Navigation */
 @media (max-width: 991.98px) {
