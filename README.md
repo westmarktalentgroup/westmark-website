@@ -1,5 +1,23 @@
 # Westmark Talent Group Website
 
+## 🚨 **CRITICAL: AI AGENTS READ THIS FIRST**
+
+### **MANDATORY WORKFLOW**
+- **ALWAYS work in `development/` directory first**
+- **NEVER edit production files directly** (main directory)
+- **ALWAYS use `./scripts/deploy.sh` for deployment**
+
+### **QUICK REFERENCE**
+- **CSS Classes**: `soap-bar-nav`, `hero-section`, `btn-primary`, `card`, `form-group`
+- **JS Functions**: `initNavigation()`, `initSoapBarScroll()`, `initAccordion()`, `initForms()`
+- **Design Tokens**: `--font-family-heading`, `--color-primary`, `--spacing-*`
+- **Patterns**: `<section class="[name]-section" id="[name]">`
+
+### **FULL AI GUIDE**
+📖 **See `AI_GUIDE.md` for complete reference**
+
+---
+
 ## 🏗️ Development Workflow
 
 This repository uses a **staging-to-production** workflow optimized for GitHub Pages deployment.
