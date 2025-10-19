@@ -65,7 +65,7 @@ check_generic_selectors() {
             FILE=$(echo "$line" | cut -d: -f1)
             LINE_NUM=$(echo "$line" | cut -d: -f2)
             CONTENT=$(echo "$line" | cut -d: -f3-)
-            if echo "$CONTENT" | grep -q "^[[:space:]]*p[[:space:]]*{" && [[ "$FILE" != *"theme/css/style.css"* ]]; then
+            if echo "$CONTENT" | grep -q "^[[:space:]]*p[[:space:]]*{" && [[ "$FILE" != *"optimized.css"* ]]; then
                 report_issue "Generic p selector" "$FILE" "$LINE_NUM" "$CONTENT"
             fi
         fi
@@ -74,12 +74,12 @@ check_generic_selectors() {
 
 # Check for missing critical CSS rules
 check_missing_css() {
-    if ! grep -q "padding-bottom.*100%" assets/mobirise/css/mbr-additional.css; then
-        report_issue "Missing CSS rule" "assets/mobirise/css/mbr-additional.css" "N/A" "Latest Opportunities square image styling"
+    if ! grep -q "padding-bottom.*100%" assets/css/optimized.css; then
+        report_issue "Missing CSS rule" "assets/css/optimized.css" "N/A" "Latest Opportunities square image styling"
     fi
     
-    if ! grep -q "object-fit.*cover" assets/mobirise/css/mbr-additional.css; then
-        report_issue "Missing CSS rule" "assets/mobirise/css/mbr-additional.css" "N/A" "Object-fit cover styling"
+    if ! grep -q "object-fit.*cover" assets/css/optimized.css; then
+        report_issue "Missing CSS rule" "assets/css/optimized.css" "N/A" "Object-fit cover styling"
     fi
 }
 

@@ -31,7 +31,7 @@ The Westmark Talent Group website follows a **static site architecture** built w
 ```
 
 #### Component Pattern
-- **Menu Components**: Navigation with dropdown support
+- **Menu Components**: Navigation with soap bar design
 - **Hero Sections**: Full-screen landing areas with parallax backgrounds
 - **Content Cards**: Bootstrap card-based content presentation
 - **Contact Components**: Professional contact CTAs and information
@@ -41,9 +41,9 @@ The Westmark Talent Group website follows a **static site architecture** built w
 
 #### File Organization
 ```
-assets/theme/css/style.css (965 lines)
+assets/css/optimized.css (consolidated)
 ├── Base Styles (body, typography, buttons)
-├── Component Styles (carousel, modal, navigation)
+├── Component Styles (hero, navigation, cards)
 ├── Utility Classes (spacing, colors, typography)
 ├── Responsive Breakpoints (mobile-first approach)
 └── Custom Animations (transitions, hover effects)
@@ -67,7 +67,7 @@ assets/theme/css/style.css (965 lines)
 ```
 
 #### Plugin Integration
-- **Bootstrap Components**: Carousel, modal, dropdown, accordion
+- **Consolidated Components**: Custom navigation, hero sections, content cards
 - **Parallax Effects**: Jarallax integration for scroll effects
 - **Contact Handling**: Direct contact information and call-to-action buttons
 - **Smooth Scrolling**: Custom smooth scroll implementation
@@ -458,8 +458,8 @@ class MobileLoadingStrategy {
   setupResourceHints() {
     // Preload critical resources
     const criticalResources = [
-      '/assets/theme/css/style.css',
-      '/assets/bootstrap/css/bootstrap.min.css',
+      '/assets/css/optimized.css',
+      '/assets/js/consolidated.js',
       '/assets/images/westmark-logo-128x62-1.png'
     ];
     

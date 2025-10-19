@@ -214,7 +214,7 @@ fi
 echo "🎨 Validating component styling..."
 
 # Check for menu/navigation styling
-if ! grep -q "\.soap-bar-nav\|\.navbar-dropdown\|\.nav-link" assets/css/optimized.css; then
+if ! grep -q "\.soap-bar-nav\|\.nav-link" assets/css/optimized.css; then
     echo "❌ FAILED: Menu/navigation styling missing from CSS"
     echo "💡 SOLUTION: Add menu styling rules to optimized.css"
     exit 1

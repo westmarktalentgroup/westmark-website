@@ -21,7 +21,7 @@ check_design_documentation() {
     local doc_file="$2"
     local description="$3"
     
-    if grep -r "$pattern" assets/css/ assets/mobirise/css/ 2>/dev/null | grep -v "/*" >/dev/null; then
+    if grep -r "$pattern" assets/css/ 2>/dev/null | grep -v "/*" >/dev/null; then
         if ! grep -q "$pattern" "../docs/$doc_file" 2>/dev/null; then
             echo "  ⚠️  WARNING: $description detected but not documented in $doc_file"
             echo "  💡 Consider adding design specifications for this pattern"
@@ -102,7 +102,7 @@ CSS_TECHNIQUES=(
 )
 
 for technique in "${CSS_TECHNIQUES[@]}"; do
-    if grep -r "$technique" assets/css/ assets/mobirise/css/ 2>/dev/null | grep -v "/*" >/dev/null; then
+    if grep -r "$technique" assets/css/ 2>/dev/null | grep -v "/*" >/dev/null; then
         if ! grep -q "$technique" "../docs/"*.md 2>/dev/null; then
             echo "  ⚠️  WARNING: CSS technique '$technique' used but not documented"
             echo "  💡 Consider adding technical implementation details"

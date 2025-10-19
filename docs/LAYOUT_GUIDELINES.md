@@ -254,47 +254,34 @@ The website uses Bootstrap 5.1's 12-column grid system as the foundation for all
 - **Touch**: [Auto-detected from touch targets]
 
 
-### nav-dropdown Layout
+### soap-bar-nav Layout
 
-#### nav-dropdown Layout Structure
+#### soap-bar-nav Layout Structure
 ```html
-<!-- Auto-generated from HTML files -->
-<!-- Add specific HTML structure here -->
+<nav class="soap-bar-nav">
+  <div class="soap-bar">
+    <ul class="soap-bar-nav-items">
+      <li class="nav-item">
+        <a class="nav-link soap-bar-link" href="index.html">Home</a>
+      </li>
+      <!-- Additional nav items -->
+    </ul>
+  </div>
+</nav>
 ```
 
-#### nav-dropdown Layout Specifications
-- **Position**: [Auto-detected from CSS]
-- **Width**: [Auto-detected from CSS]
-- **Height**: [Auto-detected from CSS]
-- **Spacing**: [Auto-detected from CSS]
-- **Responsive**: [Auto-detected from media queries]
+#### soap-bar-nav Layout Specifications
+- **Position**: Fixed top, centered horizontally
+- **Width**: Fit-content with max-width constraints
+- **Height**: Auto-sizing based on content
+- **Spacing**: Dynamic padding relative to first/last buttons
+- **Responsive**: Mobile hamburger menu, desktop horizontal
 
-#### nav-dropdown Responsive Behavior
-- **Desktop**: [To be documented]
-- **Tablet**: [To be documented]
-- **Mobile**: [To be documented]
-- **Touch**: [Auto-detected from touch targets]
-
-
-### nav-dropdown-sm Layout
-
-#### nav-dropdown-sm Layout Structure
-```html
-<!-- Auto-generated from HTML files -->
-<!-- Add specific HTML structure here -->
-```
-
-#### nav-dropdown-sm Layout Specifications
-- **Position**: [Auto-detected from CSS]
-- **Width**: [Auto-detected from CSS]
-- **Height**: [Auto-detected from CSS]
-- **Spacing**: [Auto-detected from CSS]
-- **Responsive**: [Auto-detected from media queries]
-
-#### nav-dropdown-sm Responsive Behavior
-- **Desktop**: [To be documented]
-- **Tablet**: [To be documented]
-- **Mobile**: [To be documented]
+#### soap-bar-nav Responsive Behavior
+- **Desktop**: Horizontal navigation with soap bar styling
+- **Tablet**: Horizontal navigation with adjusted spacing
+- **Mobile**: Hamburger menu with dropdown
+- **Touch**: 44px minimum touch targets
 - **Touch**: [Auto-detected from touch targets]
 
 

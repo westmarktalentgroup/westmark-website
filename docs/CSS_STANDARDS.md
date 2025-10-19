@@ -25,10 +25,8 @@ This document consolidates CSS architecture, quality standards, and implementati
 ### CSS Files
 ```
 assets/
-├── theme/css/
-│   └── style.css                    # Main stylesheet with design tokens and base styles
-├── mobirise/css/
-│   └── mbr-additional.css          # Component-specific styles (buttons, forms, etc.)
+├── css/
+│   └── optimized.css                  # Consolidated stylesheet with all design tokens and components
 └── css/
     ├── typography.css               # Typography system and font management
     ├── spacing.css                  # Spacing utilities and layout helpers

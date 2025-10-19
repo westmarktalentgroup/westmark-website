@@ -29,13 +29,10 @@ CRITICAL_ASSETS=(
     "assets/images/westmark-logo-128x62-1.png"
     
     # CSS Framework Assets
-    "assets/mobirise/css/mbr-additional.css"
-    "assets/bootstrap/css/bootstrap.min.css"
-    "assets/theme/css/style.css"
+    "assets/css/optimized.css"
     
-    # Navigation Assets
-    "assets/dropdown/css/style.css"
-    "assets/dropdown/js/navbar-dropdown.js"
+    # JavaScript Assets
+    "assets/js/consolidated.js"
     
     # Parallax Assets
     "assets/parallax/jarallax.css"
@@ -65,7 +62,7 @@ validate_assets() {
 # Define ALL critical HTML components that must exist
 CRITICAL_COMPONENTS=(
     # Navigation Components
-    '<nav class="navbar navbar-dropdown"'
+    '<nav class="soap-bar-nav"'
     '<div class="navbar-nav"'
     '<a class="nav-link"'
     
@@ -102,10 +99,7 @@ validate_html_structure() {
 ```bash
 # Define ALL critical CSS files that must exist and be valid
 CRITICAL_CSS_FILES=(
-    "assets/mobirise/css/mbr-additional.css"
-    "assets/bootstrap/css/bootstrap.min.css"
-    "assets/theme/css/style.css"
-    "assets/dropdown/css/style.css"
+    "assets/css/optimized.css"
     "assets/parallax/jarallax.css"
 )
 ```
@@ -207,7 +201,7 @@ validate_file_integrity() {
 ### CSS Pattern Matching (Too Brittle)
 ```bash
 # DON'T DO THIS - Too unreliable
-if ! grep -q "linear-gradient.*rgba(0,0,0,0.8)" assets/mobirise/css/mbr-additional.css; then
+if ! grep -q "linear-gradient.*rgba(0,0,0,0.8)" assets/css/optimized.css; then
     echo "❌ FAILED: Specific gradient missing"
 fi
 ```
@@ -221,7 +215,7 @@ fi
 ### Visual Validation via Text (Impossible)
 ```bash
 # DON'T DO THIS - Can't validate visual appearance via text
-if ! grep -q "rgba(0,0,0,0.8)" assets/mobirise/css/mbr-additional.css; then
+if ! grep -q "rgba(0,0,0,0.8)" assets/css/optimized.css; then
     echo "❌ FAILED: Gradient opacity missing"
 fi
 ```

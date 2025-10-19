@@ -27,10 +27,8 @@ This document outlines the clean CSS architecture implemented for the Westmark T
 ### CSS Files
 ```
 assets/
-├── theme/css/
-│   └── style.css                    # Main stylesheet with design tokens and base styles
-├── mobirise/css/
-│   └── mbr-additional.css          # Component-specific styles (buttons, forms, etc.)
+├── css/
+│   └── optimized.css                  # Consolidated stylesheet with all design tokens and components
 └── css/
     ├── mobile-responsive.css        # Mobile-first responsive styles
     └── mobile-text-fixes.css       # Legacy mobile text fixes
