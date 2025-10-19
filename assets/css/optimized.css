@@ -104,6 +104,7 @@
 }
 
 .col-12 { flex: 0 0 100%; max-width: 100%; }
+.col-md-4 { flex: 0 0 33.333333%; max-width: 33.333333%; }
 .col-md-6 { flex: 0 0 50%; max-width: 50%; }
 .col-md-12 { flex: 0 0 100%; max-width: 100%; }
 .col-lg-4 { flex: 0 0 33.333333%; max-width: 33.333333%; }
@@ -111,6 +112,7 @@
 .col-lg-10 { flex: 0 0 83.333333%; max-width: 83.333333%; }
 
 .col-12,
+.col-md-4,
 .col-md-6,
 .col-md-12,
 .col-lg-4,
@@ -132,6 +134,105 @@
 
 .text-center {
   text-align: center;
+}
+
+/* ==========================================================================
+   BOOTSTRAP COMPONENT REPLACEMENTS
+   ========================================================================== */
+
+/* Navigation Components */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-toggler {
+  border: none;
+  background: none;
+  padding: var(--spacing-2);
+  cursor: pointer;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.collapse {
+  display: none;
+}
+
+.collapse.show {
+  display: block;
+}
+
+/* Card Components */
+.card-header {
+  padding: var(--spacing-4);
+  background-color: var(--color-light);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-content-text {
+  padding: var(--spacing-4);
+}
+
+/* Button Components */
+.btn-lg {
+  padding: var(--spacing-3) var(--spacing-6);
+  font-size: var(--font-size-lg);
+  line-height: 1.5;
+  border-radius: var(--border-radius-lg);
+}
+
+/* Layout Utilities */
+.align-left {
+  text-align: left;
+}
+
+.features-without-image {
+  padding: var(--spacing-4);
+}
+
+/* Accordion Components */
+.panel-collapse {
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.panel-title {
+  cursor: pointer;
+  padding: var(--spacing-4);
+  margin: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.panel-title.collapsed {
+  border-bottom: none;
+}
+
+.noScroll {
+  overflow: hidden;
+}
+
+/* Accordion Styles */
+.accordion {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+}
+
+.accordionStyles {
+  background-color: var(--color-white);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: var(--border-radius-lg);
+}
+
+.card-box {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4);
 }
 
 /* ==========================================================================
@@ -534,6 +635,7 @@ body {
 
 /* Grid System Responsive Breakpoints */
 @media (max-width: 767.98px) {
+  .col-md-4,
   .col-md-6,
   .col-md-12 {
     flex: 0 0 100%;
