@@ -5,12 +5,6 @@
 ### **1. Hero Section**
 ```css
 /* Current Implementation */
-.header18.cid-uMOnIuaQSz {
-  background-image: url('assets/images/pexels-apasaric-1437493-2000x1333.jpg');
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-}
 
 /* Hero Gradient - Minimal Contrast */
 .mbr-overlay.hero-overlay {
@@ -22,12 +16,6 @@
 }
 
 /* Hero Text Positioning */
-.header18.cid-uMOnIuaQSz .container-fluid {
-  align-items: flex-end;           /* Bottom positioning */
-  justify-content: flex-start;     /* Left positioning */
-}
-
-.header18.cid-uMOnIuaQSz .content-wrap {
   text-align: left;               /* Left text alignment */
   max-width: 600px;               /* Constrained width */
 }
@@ -100,12 +88,6 @@
 
 /* Mobile Hero */
 @media (max-width: 768px) {
-  .header18.cid-uMOnIuaQSz .mbr-section-title {
-    font-size: 3rem;              /* 48px on mobile */
-  }
-}
-```
-
 ## 📊 **DESIGN PRINCIPLES**
 
 ### **Hero Section**
