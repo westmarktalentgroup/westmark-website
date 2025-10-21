@@ -516,6 +516,38 @@ fi
 
 echo "✅ Design documentation validation completed"
 
+# Architectural Documentation Enforcement
+echo "🏗️ Running architectural documentation enforcement..."
+if [ -f "architectural-enforcer.sh" ]; then
+    ./architectural-enforcer.sh
+    if [ $? -ne 0 ]; then
+        echo "❌ FAILED: Architectural documentation violations detected"
+        echo "🚨 AI agent must update architectural blueprints"
+        echo "💡 Run: ./scripts/architectural-enforcer.sh"
+        exit 1
+    fi
+else
+    echo "⚠️  WARNING: Architectural enforcer not available"
+    echo "💡 Install: cp ../scripts/architectural-enforcer.sh ."
+fi
+echo "✅ Architectural documentation enforcement completed"
+
+# AI Agent Workflow Enforcement
+echo "🤖 Running AI agent workflow enforcement..."
+if [ -f "ai-agent-workflow-enforcer.sh" ]; then
+    ./ai-agent-workflow-enforcer.sh
+    if [ $? -ne 0 ]; then
+        echo "❌ FAILED: AI agent workflow violations detected"
+        echo "🚨 AI agent must follow mandatory workflow"
+        echo "💡 Review: development/.ai-agent-workflow"
+        exit 1
+    fi
+else
+    echo "⚠️  WARNING: AI agent workflow enforcer not available"
+    echo "💡 Install: cp ../scripts/ai-agent-workflow-enforcer.sh ."
+fi
+echo "✅ AI agent workflow enforcement completed"
+
 # Design Intent Enforcement
 echo "🎯 Running design intent enforcement..."
 
