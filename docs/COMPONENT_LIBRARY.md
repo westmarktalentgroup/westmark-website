@@ -207,55 +207,125 @@ Display content in organized, visually appealing card format.
 - **Consistent Spacing**: Uses design system spacing values
 - **Accessible Content**: Proper heading hierarchy and alt text
 
-### Latest Opportunities Component
+### Current Opportunities Component (Updated Implementation)
 
 #### Purpose
-Display job listings in a consistent, professional grid format with square images.
+Display job listings in a single row with flexbox layout and square images. This component shows 4 job opportunities in a horizontal layout that maintains single-row display across all screen sizes.
 
 #### HTML Structure
 ```html
-<div class="item-img">
-  <img src="assets/images/construction-image.jpg" 
-       alt="Construction project" 
-       class="item-img"
-       loading="lazy">
-</div>
-<div class="item-content align-left">
-  <h5 class="item-title mbr-fonts-style mt-0 mb-2 display-5">
-    <strong>Project Manager</strong><br><strong>Luxury Residential</strong>
-  </h5>
-  <p class="mbr-text mbr-fonts-style mb-3 display-7">Austin - Texas</p>
-  <p class="mbr-text mbr-fonts-style mb-3 display-7">Luxury builder in Austin - $30M builds.</p>
-  <div class="mbr-section-btn item-footer">
-    <a href="#" class="btn item-btn btn-black-outline display-7">Apply</a>
-  </div>
-</div>
+<!-- Current Opportunities Section -->
+<section class="opportunities-section" id="opportunities">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="section-head">
+                    <h4 class="section-title text-center display-2">
+                        <strong>Current Opportunities</strong>
+                    </h4>
+                </div>
+                <div style="display: flex; gap: 1.5rem; flex-wrap: nowrap; padding: 0 1.5rem;">
+                    <div style="flex: 1; min-width: 0;">
+                        <div class="card">
+                            <div class="item-wrapper">
+                                <div class="item-img" style="position: relative; width: 100%; height: 0; padding-bottom: 100%; overflow: hidden;">
+                                    <img src="assets/images/job-image.webp" alt="Job Position" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: center;">
+                                </div>
+                                <div class="item-content">
+                                    <h5 class="item-title display-5"><strong>Sr. PM</strong><br><strong>Luxury Residential</strong></h5>
+                                    <p class="text-content display-7">Santa Monica - California</p>
+                                    <p class="text-content display-7">Luxury builder in Santa Monica $30M+ builds.</p>
+                                    <div class="item-footer">
+                                        <a href="job-url" class="btn btn-outline-primary display-7" target="_blank" rel="noopener noreferrer">Apply</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Repeat for 3 more job cards -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+```
+
+#### CSS Implementation
+```css
+/* Flexbox Layout for Single Row */
+.opportunities-container {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: nowrap;
+    padding: 0 1.5rem;
+}
+
+.opportunity-card {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Square Image Implementation */
+.item-img {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    overflow: hidden;
+}
+
+.item-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Text Content Sizing */
+.text-content {
+    font-family: var(--font-family-body);
+    font-size: 1.575rem;
+    line-height: 1.6;
+    margin-bottom: var(--spacing-1);
+}
 ```
 
 #### CSS Classes
-- `.item-img`: Image container with square aspect ratio
-- `.item-img img`: Square image with 1:1 aspect ratio
+- `.opportunities-section`: Main section container
+- `.opportunity-card`: Individual job card wrapper
+- `.item-img`: Square image container with 1:1 aspect ratio
+- `.item-img img`: Square image with absolute positioning
 - `.item-content`: Content wrapper for job details
 - `.item-title`: Job title heading (display-5)
+- `.text-content`: Job description text with custom sizing
 - `.item-footer`: Action button container
 
 #### Behavior
-- **Square Images**: All images maintain 1:1 aspect ratio
-- **Responsive Grid**: Adapts to different screen sizes
-- **Consistent Layout**: Uniform appearance across all job listings
+- **Single Row Layout**: All 4 job cards display in one horizontal row
+- **Square Images**: All images maintain 1:1 aspect ratio (square)
+- **Responsive**: Maintains single row across all screen sizes using flexbox
+- **Equal Spacing**: Consistent 1.5rem gap between cards and container edges
 - **Professional Styling**: Clean, organized visual hierarchy
+- **No Wrapping**: `flex-wrap: nowrap` prevents cards from wrapping to new rows
 
 #### Technical Implementation
-```css
-.item-img img {
-  width: 100%;
-  height: 0;
-  padding-bottom: 100%; /* Creates 1:1 aspect ratio (square) */
-  object-fit: cover;
-  object-position: center;
-  border-radius: 0.5rem;
-}
-```
+- **Flexbox**: Uses `display: flex` with `flex-wrap: nowrap`
+- **Equal Width**: Each card takes `flex: 1` for equal distribution
+- **Square Images**: CSS padding-bottom technique for 1:1 aspect ratio
+- **Image Optimization**: `object-fit: cover` maintains aspect ratio while filling space
+- **Positioning**: Absolute positioning within relative containers for precise image placement
+- **Overflow Control**: `overflow: hidden` ensures clean image boundaries
+
+#### Layout Specifications
+- **Card Count**: 4 job opportunity cards
+- **Layout Type**: Flexbox single-row layout
+- **Spacing**: 1.5rem gap between cards, 1.5rem padding on container edges
+- **Image Format**: Square (1:1 aspect ratio)
+- **Responsive Behavior**: Maintains single row across all screen sizes
+- **Container**: Full width (`col-12`) for maximum space utilization
 
 ### Content Grid
 

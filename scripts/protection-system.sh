@@ -21,11 +21,38 @@ cd development
 echo "📋 Checking documentation compliance..."
 
 # Check for prohibited documentation patterns
-PROHIBITED_FILES=$(find . -name "*_SUMMARY.md" -o -name "*_CLEANUP.md" -o -name "*_COMPARISON.md" -o -name "*_IMPACT.md" -o -name "PHASE_*.md")
+PROHIBITED_FILES=$(find . -name "*_SUMMARY.md" -o -name "*_CLEANUP.md" -o -name "*_COMPARISON.md" -o -name "*_IMPACT.md" -o -name "*_ANALYSIS.md" -o -name "*_COMPLETED.md" -o -name "*_OPTIMIZATION.md" -o -name "*_CONSOLIDATION.md" -o -name "*_EFFICIENCY.md" -o -name "PHASE_*.md")
 if [ ! -z "$PROHIBITED_FILES" ]; then
     echo "❌ FAILED: Prohibited documentation patterns found:"
     echo "$PROHIBITED_FILES"
     echo "🚨 These file patterns are not allowed"
+    echo "💡 Documentation must contain structural information only, not development summaries"
+    exit 1
+fi
+
+# Check for prohibited content in documentation files
+echo "📋 Checking documentation content compliance..."
+PROHIBITED_CONTENT_FOUND=false
+
+for doc_file in $(find . -name "*.md"); do
+    # Check for development summary language
+    if grep -q -i "this document summarizes\|we have successfully completed\|the following improvements were implemented\|analysis of the current system shows" "$doc_file"; then
+        echo "❌ FAILED: Prohibited content found in $doc_file"
+        echo "🚨 Documentation must contain structural information only"
+        echo "💡 Remove development summaries and focus on specifications"
+        PROHIBITED_CONTENT_FOUND=true
+    fi
+    
+    # Check for step-by-step process language
+    if grep -q -i "step [0-9]\|the process involves\|to implement this feature, follow these steps" "$doc_file"; then
+        echo "❌ FAILED: Step-by-step process content found in $doc_file"
+        echo "🚨 Documentation must contain specifications, not processes"
+        echo "💡 Focus on structural information and reference material"
+        PROHIBITED_CONTENT_FOUND=true
+    fi
+done
+
+if [ "$PROHIBITED_CONTENT_FOUND" = true ]; then
     exit 1
 fi
 

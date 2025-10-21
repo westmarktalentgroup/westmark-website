@@ -137,10 +137,10 @@ echo "  🔒 Security headers: Comprehensive"
 
 echo ""
 # Automated documentation update - SMART UPDATER
-echo "🤖 Running smart documentation updater..."
+echo "🤖 Running automated documentation updater..."
 if [ -f "scripts/auto-doc-updater.sh" ]; then
-    ./scripts/auto-doc-updater.sh update
-    echo "✅ Smart documentation update completed"
+    ./scripts/auto-doc-updater.sh
+    echo "✅ Automated documentation update completed"
 else
     echo "⚠️  Documentation updater not found - skipping"
 fi
