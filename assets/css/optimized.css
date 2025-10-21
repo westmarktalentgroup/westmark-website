@@ -684,8 +684,8 @@ body {
 }
 
 .soap-bar-link:hover {
-  color: var(--color-secondary);
-  background-color: rgba(174, 48, 28, 0.1);
+  color: var(--color-text-primary);
+  background-color: rgba(128, 128, 128, 0.1);
   text-decoration: none;
 }
 
@@ -852,8 +852,8 @@ body {
   }
   
   .soap-bar-link:hover {
-    color: var(--color-secondary);
-    background-color: rgba(174, 48, 28, 0.1);
+    color: var(--color-text-primary);
+    background-color: rgba(128, 128, 128, 0.1);
     text-decoration: none;
   }
 }
@@ -1125,9 +1125,9 @@ body {
 }
 
 .btn-cta-primary {
-    background-color: var(--color-secondary);
+    background-color: transparent;
     border: 2px solid var(--color-secondary);
-    color: var(--color-primary);
+    color: var(--color-secondary);
     padding: var(--spacing-3) var(--spacing-5);
     border-radius: 50px; /* Match menu bar rounded style */
     font-family: var(--font-family-body);
@@ -1143,8 +1143,8 @@ body {
 }
 
 .btn-cta-primary:hover {
-    background-color: transparent;
-    color: var(--color-secondary);
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
     border-color: var(--color-secondary);
     text-decoration: none;
     transform: translateY(-2px);
