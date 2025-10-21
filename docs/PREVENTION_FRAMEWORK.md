@@ -67,8 +67,8 @@ CRITICAL_COMPONENTS=(
     '<a class="nav-link"'
     
     # Hero Section Components
-    '<section.*class="header18.*mbr-fullscreen"'
-    '<div.*class="mbr-overlay"'
+    '<section.*class="hero-section.*fullscreen"'
+    '<div.*class="hero-overlay"'
     '<div.*class="container-fluid"'
     
     # Content Components

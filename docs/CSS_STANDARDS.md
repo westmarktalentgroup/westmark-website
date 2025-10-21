@@ -15,7 +15,7 @@ This document consolidates CSS architecture, quality standards, and implementati
 
 ### Quality Standards
 - **Custom CSS files**: 0 `!important` declarations allowed
-- **Framework override file** (`mbr-additional.css`): ≤8 `!important` declarations allowed
+- **Framework override file** (`override.css`): ≤8 `!important` declarations allowed
 - **Total project limit**: ≤10 `!important` declarations maximum
 - **Design token usage** throughout all components
 - **WCAG 2.1 AA compliance** built into all components
@@ -43,7 +43,7 @@ assets/
 - **Accessibility**: Screen reader styles, focus management, reduced motion
 - **Print Styles**: Optimized print layouts
 
-#### `mbr-additional.css` - Component Styles
+#### `override.css` - Component Styles
 - **Button Variants**: All button styles with proper specificity
 - **Form Components**: Input styling, validation states
 - **Display Classes**: Typography display utilities
@@ -80,6 +80,12 @@ assets/
   --color-text-primary: #232323;
   --color-text-secondary: #6C757D;
   --color-text-muted: #ADB5BD;
+  
+  /* Process Number Colors */
+  --process-number-color: var(--color-primary); /* Black for consistency */
+  
+  /* Border Radius Patterns */
+  --border-radius-cta: 50px; /* 50px border-radius pattern for CTA buttons */
   --color-text-inverse: #FFFFFF;
   
   /* Brand Colors */
@@ -140,31 +146,31 @@ We maintain **ZERO** unnecessary `!important` declarations in our custom CSS fil
 
 ### Maximum !important Usage Limits
 - **Custom CSS files**: `0 !important` declarations allowed
-- **Framework override file** (`mbr-additional.css`): `≤8 !important` declarations allowed
+- **Framework override file** (`override.css`): `≤8 !important` declarations allowed
 - **Total project limit**: `≤10 !important` declarations maximum
 
 ### Allowed !important Usage (Framework Overrides Only)
-Only these specific cases are justified in `mbr-additional.css`:
+Only these specific cases are justified in `override.css`:
 
 ```css
 /* ✅ JUSTIFIED: Framework positioning overrides */
-.header18.cid-uMOnIuaQSz .container-fluid {
-  align-items: flex-end !important;     /* Override Mobirise centering */
-  justify-content: flex-start !important; /* Override Mobirise centering */
-  padding: 2rem !important;             /* Override Mobirise spacing */
+.hero-section .container-fluid {
+  align-items: flex-end !important;     /* Override framework centering */
+  justify-content: flex-start !important; /* Override framework centering */
+  padding: 2rem !important;             /* Override framework spacing */
 }
 
 /* ✅ JUSTIFIED: Text control overrides */
-.header18.cid-uMOnIuaQSz .mbr-section-title {
+.hero-section .section-title {
   white-space: nowrap !important;       /* Prevent title line breaks */
   overflow: visible !important;         /* Override default overflow */
   text-overflow: unset !important;      /* Override default ellipsis */
 }
 
 /* ✅ JUSTIFIED: Typography overrides */
-.header18.cid-uMOnIuaQSz .display-1 {
-  font-size: 3.5rem !important;         /* Override Mobirise default */
-  line-height: 1.1 !important;          /* Override Mobirise default */
+.hero-section .display-1 {
+  font-size: 3.5rem !important;         /* Override framework default */
+  line-height: 1.1 !important;          /* Override framework default */
 }
 ```
 

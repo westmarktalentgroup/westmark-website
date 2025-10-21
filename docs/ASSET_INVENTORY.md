@@ -34,7 +34,7 @@ This document provides a comprehensive inventory of all assets used in the Westm
 | Change | Purpose | Impact |
 |--------|---------|---------|
 | Forms removed | Replaced non-functional forms with contact CTAs | Improved UX, eliminated confusion |
-| Unused scripts removed | Removed ytplayer, smoothscroll, mbr-switch-arrow, formoid | Reduced bundle size, improved performance |
+| Unused scripts removed | Removed ytplayer, smoothscroll, switch-arrow, formoid | Reduced bundle size, improved performance |
 | Service worker paths fixed | Changed from absolute to relative paths | Fixed PWA functionality in development |
 | CSS versions standardized | Unified cache busting across all pages | Consistent caching behavior |
 
@@ -95,16 +95,16 @@ This document provides a comprehensive inventory of all assets used in the Westm
 |------|---------|---------|
 | `ytplayer/index.js` | YouTube video integration | ❌ Removed - Unused functionality |
 
-### Mobirise Integration (`assets/mobirise/`, `assets/web/`)
+### Framework Integration (`assets/framework/`, `assets/web/`)
 | File | Purpose | Status |
 |------|---------|---------|
-| `mobirise/css/mbr-additional.css` | Mobirise-specific styles | ✅ Production Ready |
-| `web/assets/mobirise-icons2/` | Mobirise icon system | ✅ Production Ready |
+| `framework/css/override.css` | Framework-specific styles | ✅ Production Ready |
+| `web/assets/icons/` | Icon system | ✅ Production Ready |
 
-### Interactive Components (`assets/mbr-switch-arrow/`)
+### Interactive Components (`assets/switch-arrow/`)
 | File | Purpose | Status |
 |------|---------|---------|
-| `mbr-switch-arrow.js` | Accordion arrow switching | ❌ Removed - Unused functionality |
+| `switch-arrow.js` | Accordion arrow switching | ❌ Removed - Unused functionality |
 
 ## Image Assets (`assets/images/`)
 

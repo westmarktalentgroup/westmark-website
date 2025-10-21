@@ -43,7 +43,7 @@ assets/
 - **Accessibility**: Screen reader styles, focus management, reduced motion
 - **Print Styles**: Optimized print layouts
 
-#### `mbr-additional.css` - Component Styles
+#### `override.css` - Component Styles
 - **Button Variants**: All button styles with proper specificity
 - **Form Components**: Input styling, validation states
 - **Display Classes**: Typography display utilities
@@ -351,7 +351,7 @@ assets/
   .media-size-item {
     width: auto !important;
   }
-  .mbr-figure {
+  .item-img {
     width: 100% !important;
   }
 }
@@ -364,7 +364,7 @@ assets/
     width: auto;
   }
   
-  .mbr-figure {
+  .item-img {
     width: 100%;
   }
 }

@@ -20,8 +20,12 @@ echo "============================================="
 echo ""
 
 # Configuration
-DEVELOPMENT_DIR="development"
-DOCS_DIR="docs"
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+
+DEVELOPMENT_DIR="$PROJECT_ROOT/development"
+DOCS_DIR="$PROJECT_ROOT/docs"
 CSS_FILE="$DEVELOPMENT_DIR/assets/css/optimized.css"
 HTML_FILES=("$DEVELOPMENT_DIR/index.html" "$DEVELOPMENT_DIR/clients.html" "$DEVELOPMENT_DIR/contact-us.html")
 
@@ -167,7 +171,7 @@ check_architectural_drift() {
     fi
     
     # Check for Mobirise references (should be removed)
-    if grep -r -i "mbr-\|mobirise" "$DEVELOPMENT_DIR" --include="*.html" --include="*.css" 2>/dev/null | grep -v "Binary file" | head -1 > /dev/null; then
+    if grep -r -i "mbr-\|mobirise" "$DEVELOPMENT_DIR" --include="*.html" --include="*.css" 2>/dev/null | grep -v "Binary file" | grep -q .; then
         drift_violations+=("Mobirise references still present (should be removed)")
     fi
     

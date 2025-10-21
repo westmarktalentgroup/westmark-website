@@ -20,8 +20,10 @@ echo "================================="
 echo ""
 
 # Configuration
-DEVELOPMENT_DIR="development"
-DOCS_DIR="docs"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+DEVELOPMENT_DIR="$PROJECT_ROOT/development"
+DOCS_DIR="$PROJECT_ROOT/docs"
 
 # Function to log with timestamp
 log() {
@@ -48,8 +50,8 @@ check_mandatory_workflow() {
     fi
     
     # Check if documentation was updated after changes
-    local last_doc_change=$(stat -c %Y "$DOCS_DIR/COMPONENT_LIBRARY.md" 2>/dev/null || echo "0")
-    local last_code_change=$(find "$DEVELOPMENT_DIR" -name "*.html" -o -name "*.css" -o -name "*.js" | xargs stat -c %Y 2>/dev/null | sort -n | tail -1 || echo "0")
+    local last_doc_change=$(stat -f %m "$DOCS_DIR/COMPONENT_LIBRARY.md" 2>/dev/null || echo "0")
+    local last_code_change=$(find "$DEVELOPMENT_DIR" -name "*.html" -o -name "*.css" -o -name "*.js" | xargs stat -f %m 2>/dev/null | sort -n | tail -1 || echo "0")
     
     if [ "$last_doc_change" -lt "$last_code_change" ]; then
         workflow_violations+=("Documentation not updated after code changes")

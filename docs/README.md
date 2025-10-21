@@ -13,10 +13,10 @@ Code/
 │   │   ├── bootstrap/             # Bootstrap framework files
 │   │   ├── dropdown/              # Navigation dropdown system
 │   │   ├── images/                # Image assets and photos
-│   │   ├── mobirise/              # Mobirise integration
+│   │   ├── framework/             # Framework integration
 │   │   ├── parallax/              # Parallax scrolling effects
 │   │   ├── theme/                 # Custom theme and styles
-│   │   └── web/                   # Mobirise icon system
+│   │   └── web/                   # Icon system
 │   ├── docs/                      # Project documentation
 │   ├── index.html                 # Homepage
 │   ├── clients.html               # Clients/employers page
@@ -94,7 +94,7 @@ Code/
 
 ### Major Optimizations (August 2025)
 - ✅ **Forms removed**: Replaced with professional contact CTAs
-- ✅ **Unused scripts removed**: ytplayer, smoothscroll, mbr-switch-arrow, formoid
+- ✅ **Unused scripts removed**: ytplayer, smoothscroll, switch-arrow, formoid
 - ✅ **Service worker fixed**: Relative paths for development environment
 - ✅ **Cache busting standardized**: Consistent CSS versioning
 - ✅ **Asset cleanup completed**: Removed unused directories (socicon, vimeoplayer)

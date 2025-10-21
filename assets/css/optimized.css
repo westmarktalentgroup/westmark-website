@@ -982,7 +982,7 @@ body {
 
 .number {
   display: inline-block;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   font-weight: var(--font-weight-bold);
 }
 

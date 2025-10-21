@@ -7,7 +7,7 @@
 /* Current Implementation */
 
 /* Hero Gradient - Minimal Contrast */
-.mbr-overlay.hero-overlay {
+.hero-overlay {
   background: linear-gradient(to bottom, 
     rgba(0, 0, 0, 0.15) 0%,      /* 15% opacity at top */
     rgba(0, 0, 0, 0.05) 30%,      /* 5% opacity at 30% */

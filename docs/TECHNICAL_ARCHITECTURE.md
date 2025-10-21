@@ -4,7 +4,7 @@
 
 ### Architecture Overview
 
-The Westmark Talent Group website follows a **static site architecture** built with modern web technologies, optimized for performance, SEO, and maintainability. The site leverages the Mobirise Website Builder platform while maintaining custom functionality and styling.
+The Westmark Talent Group website follows a **static site architecture** built with modern web technologies, optimized for performance, SEO, and maintainability. The site uses a custom-built architecture with consolidated CSS and JavaScript for optimal performance.
 
 ## Technical Stack Deep Dive
 
@@ -14,7 +14,7 @@ The Westmark Talent Group website follows a **static site architecture** built w
 - **JavaScript Architecture**: ES6+ compatible with polyfills for legacy browser support
 
 ### Build System
-- **Mobirise v6.0.5**: Visual website builder with automated export capabilities
+- **Custom Build System**: Automated build and deployment system
 - **Asset Pipeline**: Automated minification and optimization of CSS/JS files
 - **Version Control**: Git-based development workflow with structured asset management
 
@@ -84,7 +84,7 @@ assets/css/optimized.css (consolidated)
 - **Google Fonts Integration**: Playfair Display and Manrope font families
 - **Font Preloading**: Critical font loading optimization
 - **Fallback Strategy**: System font fallbacks for performance
-- **Icon System**: Mobirise icon system for UI elements
+- **Icon System**: Custom icon system for UI elements
 
 ### Script Loading Strategy
 - **Critical Path**: Essential JavaScript loaded synchronously
@@ -223,7 +223,7 @@ gtag('config', 'G-WKB103GCWX', {
 
 ### Social Media Integration
 - **LinkedIn Integration**: Professional networking and sharing
-- **Social Icons**: Mobirise icon system for UI elements
+- **Social Icons**: Custom icon system for UI elements
 - **Sharing Optimization**: Open Graph and Twitter Card support
 - **Social Analytics**: Social media engagement tracking
 
@@ -237,7 +237,7 @@ gtag('config', 'G-WKB103GCWX', {
 
 ### Build and Deploy Process
 ```
-Development → Mobirise Builder → Export → Optimization → Deployment
+Development → Build System → Optimization → Deployment
      ↓              ↓              ↓          ↓           ↓
   Local Dev    Visual Editor   Static Files  Minify   Live Site
 ```
@@ -289,6 +289,48 @@ Development → Mobirise Builder → Export → Optimization → Deployment
 - **Performance Budgets**: Core Web Vitals performance targets
 - **Code Quality**: Automated linting and testing
 - **Documentation**: Comprehensive technical documentation
+
+## Page Structure Specifications
+
+### Index Page Architecture
+- **Hero section**: Main banner with background image, overlay, title, and subtitle
+- **About section**: Mission statement and company information
+- **Opportunities section**: Current job listings in horizontal layout
+- **CTA section**: "Connecting Construction Management Professionals" call-to-action
+- **FAQ section**: Frequently asked questions with accordion interface
+- **Footer section**: Site links and copyright information
+
+### Clients Page Architecture
+- **Process section**: Three-step process explanation with numbered steps
+- **Services section**: Service offerings in card layout
+- **CTA section**: Call-to-action for client engagement
+- **Footer section**: Site links and copyright information
+
+### Contact Page Architecture
+- **Contact section**: Contact form and information display
+- **Info section**: Additional contact details and information
+- **Footer section**: Site links and copyright information
+
+## Component Hierarchy
+
+### Navigation Component
+- **Soap Bar Navigation**: Fixed navigation with rounded design
+- **Mobile Responsive**: Hamburger menu for mobile devices
+- **Desktop Layout**: Horizontal navigation with hover effects
+
+### Content Components
+- **Hero Components**: Full-screen banners with background images
+- **Card Components**: Bootstrap card-based content presentation
+- **Form Components**: Contact forms with validation
+- **Accordion Components**: FAQ sections with smooth transitions
+
+## Design Pattern Enforcement
+
+### CSS Class Standards
+- **Consistent Naming**: Semantic class names following BEM methodology
+- **Component Isolation**: Each component has isolated styling
+- **Responsive Behavior**: All components adapt to screen sizes
+- **Accessibility**: WCAG 2.1 AA compliance built into all components
 
 ## Mobile Technical Architecture
 
@@ -1322,4 +1364,4 @@ const mobileTestingFramework = new MobileTestingFramework();
 
 ## Architecture Overview
 
-The Westmark Talent Group website follows a **static site architecture** built with modern web technologies, optimized for performance, SEO, and maintainability. The site leverages the Mobirise Website Builder platform while maintaining custom functionality and styling.
+The Westmark Talent Group website follows a **static site architecture** built with modern web technologies, optimized for performance, SEO, and maintainability. The site uses a custom-built architecture with consolidated CSS and JavaScript for optimal performance.

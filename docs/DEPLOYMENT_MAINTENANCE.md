@@ -464,7 +464,7 @@ The website is built using **Mobirise Website Builder v6.0.5** with a modular ar
 **HTML Foundation (`index.html`)**:
 - **Semantic Structure**: Uses HTML5 semantic elements (`<section>`, `<nav>`, `<article>`) for accessibility and SEO
 - **Bootstrap Integration**: Built on Bootstrap 5.1 framework for responsive grid system
-- **Mobirise Classes**: Custom CSS classes (`cid-uMOnIuaQSz`, `cid-uMOnIua8FF`) that control specific section styling
+- **Framework Classes**: Custom CSS classes that control specific section styling
 - **Data Attributes**: Bootstrap 5.1 data attributes (`data-bs-version="5.1"`) for component functionality
 
 #### **CSS Architecture & Dependencies**
@@ -474,9 +474,9 @@ The website is built using **Mobirise Website Builder v6.0.5** with a modular ar
 - **`bootstrap-grid.min.css`**: Responsive grid system for layout management
 - **`bootstrap-reboot.min.css`**: CSS reset and base styling normalization
 
-**2. Mobirise Icon System (`assets/web/assets/mobirise-icons2/`)**:
-- **`mobirise2.css`**: Icon font definitions and styling
-- **`mobirise2.woff/.ttf/.eot/.svg`**: Icon font files for cross-browser compatibility
+**2. Icon System (`assets/web/assets/icons/`)**:
+- **`icons.css`**: Icon font definitions and styling
+- **`icons.woff/.ttf/.eot/.svg`**: Icon font files for cross-browser compatibility
 - **Purpose**: Provides scalable vector icons for navigation, buttons, and UI elements
 
 **3. Parallax Effects (`assets/parallax/`)**:
@@ -487,17 +487,17 @@ The website is built using **Mobirise Website Builder v6.0.5** with a modular ar
 - **`style.css`**: Custom styling for responsive navigation dropdowns
 - **Purpose**: Controls mobile hamburger menu, dropdown behavior, and navigation animations
 
-**5. Icon System (`assets/web/assets/mobirise-icons2/`)**:
-- **`mobirise2.css`**: Icon system styling and positioning
+**5. Icon System (`assets/web/assets/icons/`)**:
+- **`icons.css`**: Icon system styling and positioning
 - **Purpose**: Provides consistent icon display and hover effects
 
 **6. Theme Customization (`assets/theme/`)**:
 - **`style.css`**: Custom website-specific styling and overrides
 - **Purpose**: Contains brand colors, typography, and custom component styling
 
-**7. Mobirise Core (`assets/mobirise/`)**:
-- **`mbr-additional.css`**: Critical Mobirise-specific styling and layout rules
-- **Purpose**: Contains section-specific CSS rules (e.g., `.cid-uMOnIuaQSz` for hero section background)
+**7. Framework Core (`assets/framework/`)**:
+- **`override.css`**: Critical framework-specific styling and layout rules
+- **Purpose**: Contains section-specific CSS rules for hero section background
 
 #### **JavaScript Functionality & Dependencies**
 
@@ -523,8 +523,8 @@ The website is built using **Mobirise Website Builder v6.0.5** with a modular ar
 - **`navbar-dropdown.js`**: Custom navigation behavior and animations
 - **Purpose**: Controls mobile menu behavior, dropdown animations, and responsive navigation
 
-**6. Interactive Elements (`assets/mbr-switch-arrow/`)**:
-- **`mbr-switch-arrow.js`**: Toggle and accordion functionality
+**6. Interactive Elements (`assets/switch-arrow/`)**:
+- **`switch-arrow.js`**: Toggle and accordion functionality
 - **Purpose**: Powers FAQ accordion sections and interactive content toggles
 - **Status**: ❌ Removed - Unused functionality
 
@@ -579,12 +579,12 @@ The development environment must maintain the exact asset path structure:
 development/
 ├── assets/
 │   ├── bootstrap/css/          # Bootstrap framework
-│   ├── web/assets/mobirise-icons2/  # Icon system
+│   ├── web/assets/icons/            # Icon system
 │   ├── parallax/               # Parallax effects
 │   ├── dropdown/               # Navigation system
-│   ├── web/assets/mobirise-icons2/  # Icon system
+│   ├── web/assets/icons/            # Icon system
 │   ├── theme/                  # Custom styling
-│   ├── mobirise/               # Core Mobirise styling
+│   ├── framework/              # Core framework styling
 │   ├── images/                 # All media assets
 │   └── [other asset folders]   # Additional dependencies
 ```
@@ -596,7 +596,7 @@ Critical CSS files must load in this specific order:
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 
 <!-- 2. Mobirise Icon System (Visual elements) -->
-<link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+<link rel="stylesheet" href="assets/web/assets/icons/icons.css">
 
 <!-- 3. Parallax Effects (Background animations) -->
 <link rel="stylesheet" href="assets/parallax/jarallax.css">
@@ -605,13 +605,13 @@ Critical CSS files must load in this specific order:
 <link rel="stylesheet" href="assets/dropdown/css/style.css">
 
 <!-- 5. Social Icons (UI elements) -->
-<link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+<link rel="stylesheet" href="assets/web/assets/icons/icons.css">
 
 <!-- 6. Theme Customization (Brand styling) -->
 <link rel="stylesheet" href="assets/theme/css/style.css">
 
-<!-- 7. Mobirise Core (Layout and section styling) -->
-<link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css">
+<!-- 7. Framework Core (Layout and section styling) -->
+<link rel="stylesheet" href="assets/framework/css/override.css">
 ```
 
 **3. JavaScript Loading Order**:
@@ -627,7 +627,7 @@ JavaScript files must load in this sequence:
 <script src="assets/dropdown/js/navbar-dropdown.js"></script>
 
 <!-- 4. Interactive Elements (Accordions, toggles) -->
-<script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>
+<script src="assets/switch-arrow/switch-arrow.js"></script>
 
 <!-- 5. Form Handling (Contact forms) -->
 <script src="assets/formoid/formoid.min.js"></script>
@@ -640,8 +640,8 @@ JavaScript files must load in this sequence:
 
 **1. Missing Hero Background Image**:
 - **Symptom**: Hero section appears as dark grey block
-- **Cause**: Missing `mbr-additional.css` or incorrect asset paths
-- **Solution**: Ensure `assets/mobirise/css/mbr-additional.css` loads correctly
+- **Cause**: Missing `override.css` or incorrect asset paths
+- **Solution**: Ensure `assets/framework/css/override.css` loads correctly
 
 **2. Navigation Not Responsive**:
 - **Symptom**: Mobile menu doesn't work, navigation appears vertical
@@ -650,8 +650,8 @@ JavaScript files must load in this sequence:
 
 **3. Job Cards Not Styled**:
 - **Symptom**: Job listings appear as plain boxes without styling
-- **Cause**: Missing `mbr-additional.css` or incorrect CSS class references
-- **Solution**: Check CSS loading order and verify all Mobirise classes are defined
+- **Cause**: Missing `override.css` or incorrect CSS class references
+- **Solution**: Check CSS loading order and verify all framework classes are defined
 
 **4. Forms Not Functional**:
 - **Symptom**: Contact form doesn't submit or validate

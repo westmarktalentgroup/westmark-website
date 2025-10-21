@@ -518,35 +518,58 @@ echo "✅ Design documentation validation completed"
 
 # Architectural Documentation Enforcement
 echo "🏗️ Running architectural documentation enforcement..."
-if [ -f "architectural-enforcer.sh" ]; then
-    ./architectural-enforcer.sh
+
+# Get the directory where this script is located and adjust for working directory
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# If we're running from development directory, go up one level to find scripts
+if [[ "$PWD" == *"/development" ]]; then
+    PROJECT_ROOT="$(dirname "$PWD")"
+    ARCHITECTURAL_ENFORCER="$PROJECT_ROOT/scripts/architectural-enforcer.sh"
+    WORKFLOW_ENFORCER="$PROJECT_ROOT/scripts/ai-agent-workflow-enforcer.sh"
+else
+    ARCHITECTURAL_ENFORCER="$SCRIPT_DIR/architectural-enforcer.sh"
+    WORKFLOW_ENFORCER="$SCRIPT_DIR/ai-agent-workflow-enforcer.sh"
+fi
+
+if [ -f "$ARCHITECTURAL_ENFORCER" ]; then
+    echo "🔍 Found architectural enforcer at: $ARCHITECTURAL_ENFORCER"
+    "$ARCHITECTURAL_ENFORCER"
     if [ $? -ne 0 ]; then
         echo "❌ FAILED: Architectural documentation violations detected"
         echo "🚨 AI agent must update architectural blueprints"
-        echo "💡 Run: ./scripts/architectural-enforcer.sh"
+        echo "💡 Run: $ARCHITECTURAL_ENFORCER"
+        echo ""
+        echo "🚨 DEPLOYMENT BLOCKED - Fix documentation violations first"
         exit 1
     fi
+    echo "✅ Architectural documentation enforcement completed"
 else
-    echo "⚠️  WARNING: Architectural enforcer not available"
-    echo "💡 Install: cp ../scripts/architectural-enforcer.sh ."
+    echo "⚠️  WARNING: Architectural enforcer not found at: $ARCHITECTURAL_ENFORCER"
+    echo "💡 Expected location: $ARCHITECTURAL_ENFORCER"
+    echo "🚨 DEPLOYMENT BLOCKED - Architectural enforcer missing"
+    exit 1
 fi
-echo "✅ Architectural documentation enforcement completed"
 
 # AI Agent Workflow Enforcement
 echo "🤖 Running AI agent workflow enforcement..."
-if [ -f "ai-agent-workflow-enforcer.sh" ]; then
-    ./ai-agent-workflow-enforcer.sh
+if [ -f "$WORKFLOW_ENFORCER" ]; then
+    echo "🔍 Found workflow enforcer at: $WORKFLOW_ENFORCER"
+    "$WORKFLOW_ENFORCER"
     if [ $? -ne 0 ]; then
         echo "❌ FAILED: AI agent workflow violations detected"
         echo "🚨 AI agent must follow mandatory workflow"
         echo "💡 Review: development/.ai-agent-workflow"
+        echo ""
+        echo "🚨 DEPLOYMENT BLOCKED - Fix workflow violations first"
         exit 1
     fi
+    echo "✅ AI agent workflow enforcement completed"
 else
-    echo "⚠️  WARNING: AI agent workflow enforcer not available"
-    echo "💡 Install: cp ../scripts/ai-agent-workflow-enforcer.sh ."
+    echo "⚠️  WARNING: AI agent workflow enforcer not found at: $WORKFLOW_ENFORCER"
+    echo "💡 Expected location: $WORKFLOW_ENFORCER"
+    echo "🚨 DEPLOYMENT BLOCKED - Workflow enforcer missing"
+    exit 1
 fi
-echo "✅ AI agent workflow enforcement completed"
 
 # Design Intent Enforcement
 echo "🎯 Running design intent enforcement..."
