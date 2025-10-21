@@ -85,8 +85,9 @@ This document defines all components, CSS classes, and HTML structures used in t
 - **`.faq-header`**: FAQ item header
 - **`.faq-toggle`**: FAQ toggle button
 - **`.faq-question`**: FAQ question text
-- **`.faq-icon`**: FAQ expand/collapse icon
-- **`.faq-collapse`**: FAQ collapsible content
+- **`.faq-icon`**: FAQ expand/collapse icon (chevron ▼/▲)
+- **`.faq-collapse`**: FAQ collapsible content (hidden by default)
+- **`.faq-collapse.show`**: FAQ expanded state
 - **`.faq-answer`**: FAQ answer container
 
 ### Section Classes
@@ -286,10 +287,12 @@ Display process step numbers in a consistent, prominent style for the clients pa
   - `display: inline-block` - Proper spacing and alignment
 
 #### FAQ Dropdown Clean Design
-- **FAQ dropdown clean pattern**: Clean dropdown design with no background color
+- **FAQ dropdown clean pattern**: Clean dropdown design with chevron icons and proper accordion behavior
   - Implementation: Transparent background with border-bottom separators
   - Usage: FAQ accordion sections with clean, minimal appearance
-  - Features: Smooth transitions, hover effects, icon rotation
+  - Features: Smooth transitions, hover effects, chevron rotation (▼/▲)
+  - Behavior: All panels start collapsed, only one can be open at a time
+  - Icons: Downward chevron (▼) for collapsed, upward chevron (▲) for expanded
 
 ### Current Opportunities Component (Updated Implementation)
 

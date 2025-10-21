@@ -144,13 +144,13 @@
         
         if (target) {
           // Close other open accordion items
-          const allPanels = $$('.panel-collapse');
+          const allPanels = $$('.faq-collapse');
           allPanels.forEach(function(panel) {
             if (panel !== target && hasClass(panel, 'show')) {
               removeClass(panel, 'show');
               const panelHeader = $('[data-bs-target="#' + panel.id + '"]');
               if (panelHeader) {
-                removeClass(panelHeader, 'collapsed');
+                addClass(panelHeader, 'collapsed');
                 panelHeader.setAttribute('aria-expanded', 'false');
               }
             }

@@ -34,8 +34,8 @@ Production Environment
 
 #### 1. Development Phase
 ```bash
-# Local development using Mobirise
-1. Open Mobirise Website Builder v6.0.5
+# Local development using framework
+1. Open framework editor
 2. Load project from local directory
 3. Make content and design changes
 4. Preview changes in browser
@@ -44,8 +44,8 @@ Production Environment
 
 #### 2. Build and Export
 ```bash
-# Export from Mobirise
-1. Click "Publish" in Mobirise
+# Export from framework
+1. Click "Publish" in framework editor
 2. Select export directory
 3. Choose "Publish to local folder"
 4. Wait for export completion
@@ -160,7 +160,7 @@ jobs:
 #### HTML Content Updates
 ```bash
 # Process for updating content
-1. Make changes in Mobirise builder
+1. Make changes in framework builder
 2. Export updated files
 3. Test changes locally
 4. Deploy to staging (if available)
@@ -182,7 +182,7 @@ jobs:
 #### Form Updates
 ```bash
 # Process for updating forms
-1. Modify form in Mobirise
+1. Modify form in framework editor
 2. Update Formoid configuration
 3. Test form submission
 4. Verify email delivery
@@ -459,7 +459,7 @@ const monitorPerformance = () => {
 ### Complete Asset Dependency Analysis
 
 #### **Core HTML Structure**
-The website is built using **Mobirise Website Builder v6.0.5** with a modular architecture that separates content, styling, and functionality into distinct layers:
+The website is built using **modern web technologies** with a modular architecture that separates content, styling, and functionality into distinct layers:
 
 **HTML Foundation (`index.html`)**:
 - **Semantic Structure**: Uses HTML5 semantic elements (`<section>`, `<nav>`, `<article>`) for accessibility and SEO
@@ -595,7 +595,7 @@ Critical CSS files must load in this specific order:
 <!-- 1. Bootstrap Core (Foundation) -->
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
 
-<!-- 2. Mobirise Icon System (Visual elements) -->
+<!-- 2. Icon System (Visual elements) -->
 <link rel="stylesheet" href="assets/web/assets/icons/icons.css">
 
 <!-- 3. Parallax Effects (Background animations) -->
@@ -669,11 +669,11 @@ JavaScript files must load in this sequence:
 
 **1. CSS Build Process**:
 - **Base Layer**: Bootstrap provides foundation grid and components
-- **Icon Layer**: Mobirise icon system adds visual elements
+- **Icon Layer**: Icon system adds visual elements
 - **Effect Layer**: Parallax and animation CSS adds interactivity
 - **Navigation Layer**: Custom navigation styling controls menu behavior
 - **Theme Layer**: Brand-specific styling and customizations
-- **Mobirise Layer**: Section-specific styling and layout rules
+- **Framework Layer**: Section-specific styling and layout rules
 
 **2. JavaScript Build Process**:
 - **Framework Layer**: Bootstrap handles component interactions
@@ -692,7 +692,7 @@ JavaScript files must load in this sequence:
 
 **Critical Dependencies** (Site won't function without):
 - Bootstrap CSS/JS (layout and components)
-- Mobirise core CSS (section styling)
+- Framework core CSS (section styling)
 - Navigation assets (menu functionality)
 
 **Functional Dependencies** (Features won't work without):
