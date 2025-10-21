@@ -99,7 +99,9 @@ This document defines all components, CSS classes, and HTML structures used in t
 - **`.services-section`**: Services section
 - **`.contact-section`**: Contact form section
 - **`.info-section`**: Information section
-- **`.cta-section`**: Call-to-action section
+- **`.cta-section`**: Call-to-action section (black background, white text)
+- **`.cta-section .section-title`**: CTA section title (white color)
+- **`.cta-section .text-content`**: CTA section text content (white color)
 - **`.footer-section`**: Footer section
 
 ### Hero Section Classes

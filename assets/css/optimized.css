@@ -1108,6 +1108,10 @@ body {
     color: var(--color-white);
 }
 
+.cta-section .text-content {
+    color: var(--color-white);
+}
+
 .cta-buttons {
     margin-top: var(--spacing-4);
     display: flex;
