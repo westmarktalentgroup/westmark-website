@@ -173,6 +173,71 @@ Never use `!important` for basic styling, layout properties, or responsive typog
 
 ## 🧩 Component Architecture
 
+### Section Header System
+```css
+/* Section Header Hierarchy - Standard Patterns */
+
+/* 1. Main Section Headers */
+.section-title {
+  font-family: var(--font-family-body); /* Manrope */
+  font-size: clamp(2.8rem, 4.8vw, 4.8rem); /* 80% of hero text */
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  text-align: center;
+  margin-bottom: var(--spacing-4);
+}
+
+/* 2. Card/Content Headers */
+.card-title {
+  font-family: var(--font-family-body); /* Manrope */
+  font-size: clamp(2.8rem, 4.8vw, 4.8rem); /* Same as section-title */
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-4);
+}
+
+/* 3. Call-to-Action Headers */
+.cta-title {
+  font-family: var(--font-family-body); /* Manrope */
+  font-size: clamp(2.8rem, 4.8vw, 4.8rem); /* Same as section-title */
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-4);
+}
+```
+
+### Section Header Usage Patterns
+```html
+<!-- 1. Main Section Headers (centered, full-width sections) -->
+<section class="opportunities-section">
+  <div class="container">
+    <div class="section-head">
+      <h4 class="section-title text-center display-2">
+        <strong>Current Opportunities</strong>
+      </h4>
+    </div>
+  </div>
+</section>
+
+<!-- 2. Card/Content Headers (within cards, left-aligned) -->
+<div class="card">
+  <div class="card-content-text">
+    <h3 class="card-title display-2">
+      <strong>Our Mission</strong>
+    </h3>
+  </div>
+</div>
+
+<!-- 3. Call-to-Action Headers (CTA sections, left-aligned) -->
+<section class="cta-section">
+  <div class="container">
+    <h1 class="section-title display-2 mb-4">
+      <strong>Connecting Construction Management Professionals</strong>
+    </h1>
+  </div>
+</section>
+```
+
 ### Button System
 ```css
 /* Base Button */

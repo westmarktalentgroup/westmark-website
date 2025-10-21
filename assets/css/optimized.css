@@ -191,6 +191,97 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
+/* ==========================================================================
+   FAQ SECTION - CLEAN DROPDOWN DESIGN
+   ========================================================================== */
+
+.faq-accordion {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 0;
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq-header {
+  padding: 0;
+  background: transparent;
+  border: none;
+}
+
+.faq-toggle {
+  width: 100%;
+  padding: var(--spacing-5) 0;
+  background: transparent;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: all var(--transition-base);
+  text-align: left;
+}
+
+.faq-toggle:hover {
+  background: transparent;
+}
+
+.faq-toggle:focus {
+  outline: 2px solid var(--color-secondary);
+  outline-offset: 2px;
+}
+
+.faq-question {
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  line-height: 1.4;
+}
+
+.faq-icon {
+  font-size: 1.5rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-secondary);
+  transition: transform var(--transition-base);
+  margin-left: var(--spacing-4);
+  min-width: 24px;
+  text-align: center;
+}
+
+.faq-toggle:not(.collapsed) .faq-icon {
+  transform: rotate(45deg);
+}
+
+.faq-collapse {
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.faq-answer {
+  padding: 0 0 var(--spacing-5) 0;
+  background: transparent;
+}
+
+.faq-answer .panel-text {
+  margin: 0;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}
+
+.panel-text {
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin-bottom: var(--spacing-4);
+}
+
 .card-content-text {
   padding: var(--spacing-4);
 }
@@ -213,38 +304,6 @@
 }
 
 /* Accordion Components */
-.panel-collapse {
-  overflow: hidden;
-  transition: height 0.3s ease;
-}
-
-.panel-title {
-  cursor: pointer;
-  padding: var(--spacing-4);
-  margin: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-}
-
-.panel-title.collapsed {
-  border-bottom: none;
-}
-
-.noScroll {
-  overflow: hidden;
-}
-
-/* Accordion Styles */
-.accordion {
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: var(--border-radius-lg);
-  overflow: hidden;
-}
-
-.accordionStyles {
-  background-color: var(--color-white);
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: var(--border-radius-lg);
-}
 
 .card-box {
   display: flex;
@@ -319,24 +378,6 @@
   padding: 0;
 }
 
-.panel-body {
-  padding: var(--spacing-4);
-  background-color: var(--color-white);
-}
-
-.panel-group {
-  margin-bottom: var(--spacing-6);
-}
-
-.panel-text {
-  color: var(--color-text-secondary);
-  line-height: 1.6;
-}
-
-.panel-title-edit {
-  font-weight: var(--font-weight-semibold);
-  color: var(--color-text-primary);
-}
 
 /* ==========================================================================
    BASE STYLES
@@ -1057,13 +1098,6 @@ body {
     padding: var(--spacing-6) 0;
 }
 
-.cta-title {
-    font-family: var(--font-family-heading);
-    font-size: clamp(2.5rem, 4vw, 3.5rem);
-    font-weight: var(--font-weight-bold);
-    color: var(--color-primary);
-    margin-bottom: var(--spacing-4);
-}
 
 .cta-buttons {
     margin-top: var(--spacing-4);

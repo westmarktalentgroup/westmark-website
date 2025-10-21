@@ -207,6 +207,92 @@ Display content in organized, visually appealing card format.
 - **Consistent Spacing**: Uses design system spacing values
 - **Accessible Content**: Proper heading hierarchy and alt text
 
+## Section Header Component
+
+### Purpose
+Standardized section headers with consistent typography and spacing across all page sections.
+
+### Header Class Hierarchy
+- **`.section-title`**: Main section headers (centered, full-width sections)
+- **`.card-title`**: Content headers within cards (left-aligned)
+- **`.cta-title`**: Call-to-action headers (left-aligned, CTA sections)
+
+### CSS Classes
+- `.section-title`: Main section headers with center alignment
+- `.card-title`: Card content headers with left alignment
+- `.cta-title`: CTA section headers with left alignment
+- `.text-center`: Center alignment utility
+- `.display-2`: Typography class for consistent sizing
+- `.mb-4`: Bottom margin utility
+
+### HTML Structure
+```html
+<!-- Main Section Header Pattern -->
+<section class="opportunities-section">
+  <div class="container">
+    <div class="section-head">
+      <h4 class="section-title text-center display-2">
+        <strong>Section Title</strong>
+      </h4>
+    </div>
+  </div>
+</section>
+
+<!-- Card Header Pattern -->
+<div class="card">
+  <div class="card-content-text">
+    <h3 class="card-title display-2">
+      <strong>Card Title</strong>
+    </h3>
+  </div>
+</div>
+
+<!-- CTA Header Pattern -->
+<section class="cta-section">
+  <div class="container">
+    <h1 class="section-title display-2 mb-4">
+      <strong>CTA Title</strong>
+    </h1>
+  </div>
+</section>
+```
+
+### CSS Implementation
+```css
+/* Section Header System */
+.section-title {
+  font-family: var(--font-family-body);
+  font-size: clamp(2.8rem, 4.8vw, 4.8rem);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  text-align: center;
+  margin-bottom: var(--spacing-4);
+}
+
+.card-title {
+  font-family: var(--font-family-body);
+  font-size: clamp(2.8rem, 4.8vw, 4.8rem);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-4);
+}
+
+.cta-title {
+  font-family: var(--font-family-body);
+  font-size: clamp(2.8rem, 4.8vw, 4.8rem);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-4);
+}
+```
+
+### Usage Guidelines
+- **Main sections**: Use `.section-title` with `.text-center` for full-width sections
+- **Card content**: Use `.card-title` for headers within cards
+- **CTA sections**: Use `.section-title` with `.mb-4` for call-to-action sections
+- **Consistency**: Always pair with `.display-2` for typography consistency
+- **Semantic HTML**: Use appropriate heading tags (h1, h3, h4) based on content hierarchy
+
 ### Current Opportunities Component (Updated Implementation)
 
 #### Purpose
