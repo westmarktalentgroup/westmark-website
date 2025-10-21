@@ -1,6 +1,7 @@
 /* ==========================================================================
    WESTMARK TALENT GROUP - CONSOLIDATED JAVASCRIPT
-   All essential functionality consolidated from Bootstrap, Mobirise, and custom code
+   All essential functionality consolidated for performance and maintainability
+   Custom interactions with responsive behavior
    ========================================================================== */
 
 (function() {

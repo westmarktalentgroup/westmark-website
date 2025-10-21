@@ -62,6 +62,17 @@ if [ "$PROHIBITED_CONTENT_FOUND" = true ]; then
     exit 1
 fi
 
+# Check for Mobirise references in code (should not exist)
+echo "🚫 Validating no Mobirise references..."
+MOBIRISE_CODE=$(grep -r -i "mbr-\|mobirise\|header[0-9]\|cid-uMOnIu" . 2>/dev/null | grep -v "Binary file" | wc -l)
+if [ "$MOBIRISE_CODE" -gt 0 ]; then
+    echo "❌ VIOLATION: Mobirise references detected in code"
+    grep -r -i "mbr-\|mobirise\|header[0-9]\|cid-uMOnIu" . 2>/dev/null | grep -v "Binary file" | while read line; do
+        echo "  - $line"
+    done
+    exit 1
+fi
+
 # CSS Quality Validation
 echo "🎨 Validating CSS quality..."
 if grep -q "display:\s*none.*!important" assets/css/optimized.css; then

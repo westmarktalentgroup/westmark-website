@@ -1,6 +1,7 @@
 /* ==========================================================================
    WESTMARK TALENT GROUP - CONSOLIDATED CSS
-   All essential styles consolidated from Mobirise and custom code
+   All essential styles consolidated for performance and maintainability
+   Custom design system with responsive components
    ========================================================================== */
 
 /* ==========================================================================
@@ -572,7 +573,6 @@ body {
 .card-wrap img,
 .card-wrapper img,
 .video-wrapper img,
-.mbr-figure img,
 .item-wrapper img {
   border-radius: var(--border-radius-xl);
   width: 100%;
@@ -1052,12 +1052,12 @@ body {
    CONNECTING CONSTRUCTION MANAGEMENT PROFESSIONALS SECTION
    ========================================================================== */
 
-.header09 {
+.cta-section {
     background-color: var(--color-surface);
     padding: var(--spacing-6) 0;
 }
 
-.header09 .mbr-section-title {
+.cta-title {
     font-family: var(--font-family-heading);
     font-size: clamp(2.5rem, 4vw, 3.5rem);
     font-weight: var(--font-weight-bold);
@@ -1065,19 +1065,8 @@ body {
     margin-bottom: var(--spacing-4);
 }
 
-/* Missing CSS classes for the restored section */
-.cid-uMOnIubMlE {
-    /* Section ID class - no specific styling needed */
-}
-
-.mbr-fonts-style {
-    font-family: var(--font-family-body);
-}
-
-.mbr-section-title {
-    font-family: var(--font-family-heading);
-    font-weight: var(--font-weight-bold);
-    color: var(--color-primary);
+.cta-buttons {
+    margin-top: var(--spacing-4);
 }
 
 /* Bootstrap column classes */
@@ -1091,10 +1080,6 @@ body {
         flex: 0 0 auto;
         width: 66.66666667%;
     }
-}
-
-.mbr-section-btn {
-    margin-top: var(--spacing-4);
 }
 
 .btn-white-outline {
@@ -1127,7 +1112,7 @@ body {
     border: 1px solid #000;
   }
   
-  .mbr-section-title {
+  .section-title {
     page-break-after: avoid;
   }
   

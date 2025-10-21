@@ -286,6 +286,17 @@ if [ ! -z "$MISSING_CLASSES" ]; then
     exit 1
 fi
 
+# Check for Mobirise references in code (should not exist)
+MOBIRISE_CODE=$(grep -r -i "mbr-\|mobirise\|header[0-9]\|cid-uMOnIu" development/ 2>/dev/null | grep -v "Binary file" | wc -l)
+if [ "$MOBIRISE_CODE" -gt 0 ]; then
+    echo "❌ FAILED: Mobirise references detected in code:"
+    grep -r -i "mbr-\|mobirise\|header[0-9]\|cid-uMOnIu" development/ 2>/dev/null | grep -v "Binary file" | while read line; do
+        echo "  - $line"
+    done
+    echo "💡 SOLUTION: Remove all Mobirise references and use custom classes"
+    exit 1
+fi
+
 # Check for Mobirise classes in documentation (should not exist)
 MOBIRISE_DOCS=$(grep -r "menu2\|navbar-dropdown\|mobi-mbri\|cid-uMOnIucJDw\|\.header18\.cid-uMOnIuaQSz" docs/ 2>/dev/null | wc -l)
 if [ "$MOBIRISE_DOCS" -gt 0 ]; then
