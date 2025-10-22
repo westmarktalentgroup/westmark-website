@@ -57,6 +57,8 @@ This document defines all components, CSS classes, and HTML structures used in t
 - **`.hamburger span`**: Individual hamburger menu lines
 - **`.hamburger span:last-child`**: Last hamburger line (no bottom margin)
 
+**Important**: The mobile menu uses custom JavaScript, not Bootstrap. The HTML should use `class="navbar-collapse"` (not `class="collapse navbar-collapse"`) to avoid conflicts with Bootstrap CSS that would prevent the menu from working.
+
 ### Touch ID Authentication Classes
 - **`.simple-touchid-auth.sh`**: Touch ID authentication script with quiet mode support
 - **`.cursor-touchid-auth.sh`**: Original Touch ID authentication script (legacy)

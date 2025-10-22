@@ -536,25 +536,10 @@ The protection system automatically:
   - Desktop: `display: flex` (always visible)
 
 ### Hamburger Menu Implementation
-```css
-/* Mobile hamburger menu */
-.hamburger {
-  display: flex;
-  flex-direction: column;
-  width: 24px;
-  height: 18px;
-  cursor: pointer;
-}
-
-.hamburger span {
-  display: block;
-  height: 2px;
-  width: 100%;
-  background-color: var(--color-text-primary);
-  margin-bottom: 4px;
-  transition: all var(--transition-base);
-}
-```
+- **Custom JavaScript**: Uses custom toggle mechanism (not Bootstrap)
+- **HTML Structure**: Should use `class="navbar-collapse"` only
+- **Bootstrap Conflict**: Avoid `class="collapse navbar-collapse"` as it conflicts with Bootstrap CSS
+- **Toggle Class**: JavaScript adds/removes `.show` class for visibility control
 
 ### Mobile Menu Layout
 - **Vertical Stack**: Navigation items stack vertically on mobile

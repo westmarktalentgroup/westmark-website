@@ -41,6 +41,8 @@ The Westmark Talent Group website follows a **static site architecture** built w
 - **Responsive Design**: Mobile-first approach with progressive enhancement
 - **Toggle Mechanism**: JavaScript-controlled hamburger menu with CSS class toggling
 - **State Management**: `.navbar-collapse.show` class controls visibility
+- **HTML Structure**: Uses `class="navbar-collapse"` only (avoids Bootstrap conflicts)
+- **Bootstrap Compatibility**: Prevents conflicts with Bootstrap CSS that would break menu functionality
 - **Touch Optimization**: 44px minimum touch targets for mobile usability
 - **Accessibility**: Proper ARIA attributes and keyboard navigation support
 
