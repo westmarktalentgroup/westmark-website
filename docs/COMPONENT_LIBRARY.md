@@ -155,8 +155,14 @@ This document defines all components, CSS classes, and HTML structures used in t
 ### CTA Classes
 - **`.cta-buttons`**: Call-to-action buttons container
 
+### Logo Page Classes
+- **`.logo`**: High-quality SVG logo display with professional styling
+- **`.download-links`**: Container for download buttons with flexbox layout
+- **`.download-links a`**: Download button styling with hover effects
+
+**Important**: The logo page now uses the high-quality SVG vector logo (`Westmark_logo-3.svg`) instead of the small PNG for better sharing quality and professional appearance.
+
 ### Utility Classes
-- **`.logo`**: Logo styling
 - **`.features-without-image`**: Features without image layout
 - **`.collapsed`**: Collapsed state styling
 - **`.panel-text`**: Panel text styling
