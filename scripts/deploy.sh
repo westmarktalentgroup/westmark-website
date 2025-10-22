@@ -38,6 +38,17 @@ if [ -f "scripts/protection-system.sh" ]; then
     fi
 fi
 
+# Run AI circumvention protection
+echo "🛡️ Running AI circumvention protection..."
+if [ -f "scripts/ai-circumvention-protection.sh" ]; then
+    export DEPLOYMENT_IN_PROGRESS=true
+    ./scripts/ai-circumvention-protection.sh
+    if [ $? -ne 0 ]; then
+        echo "❌ AI circumvention protection failed!"
+        exit 1
+    fi
+fi
+
 # Backup current production files
 echo "📦 Creating backup of current production files..."
 mkdir -p backups

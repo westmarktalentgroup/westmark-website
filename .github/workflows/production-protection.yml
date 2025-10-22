@@ -1,0 +1,127 @@
+name: Westmark Production Protection
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  production-protection:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Detect unauthorized deployment attempts
+      run: |
+        echo "🛡️ GITHUB ACTIONS PRODUCTION PROTECTION"
+        echo "======================================"
+        
+        # Check if this is a direct push to main (should be blocked)
+        if [[ "${{ github.event_name }}" == "push" ]]; then
+          echo "🚨 CRITICAL: Direct push to main branch detected"
+          echo "❌ This should be blocked by local git hooks"
+          echo "🔒 Deployment blocked for security"
+          exit 1
+        fi
+        
+        # Check if this is a pull request (allowed)
+        if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+          echo "✅ Pull request detected - proceeding with checks"
+        fi
+        
+        # Verify required files exist
+        REQUIRED_FILES=(
+          "index.html"
+          "clients.html"
+          "contact-us.html"
+          "assets/css/optimized.css"
+          "assets/js/consolidated.js"
+        )
+        
+        for file in "${REQUIRED_FILES[@]}"; do
+          if [[ ! -f "$file" ]]; then
+            echo "🚨 CRITICAL: Required production file missing: $file"
+            echo "🔒 Deployment blocked for security"
+            exit 1
+          fi
+        done
+        
+        echo "✅ All required files present"
+        
+    - name: Validate deployment workflow
+      run: |
+        echo "🔍 Validating deployment workflow..."
+        
+        # Check if development directory exists
+        if [[ ! -d "development" ]]; then
+          echo "🚨 CRITICAL: Development directory missing"
+          echo "🔒 Deployment blocked for security"
+          exit 1
+        fi
+        
+        # Check if protection scripts exist
+        REQUIRED_SCRIPTS=(
+          "scripts/protection-system.sh"
+          "scripts/ai-agent-workflow-enforcer.sh"
+          "scripts/architectural-enforcer.sh"
+          "scripts/production-protection.sh"
+          "scripts/ai-circumvention-protection.sh"
+        )
+        
+        for script in "${REQUIRED_SCRIPTS[@]}"; do
+          if [[ ! -f "$script" ]]; then
+            echo "🚨 CRITICAL: Required protection script missing: $script"
+            echo "🔒 Deployment blocked for security"
+            exit 1
+          fi
+        done
+        
+        echo "✅ All protection scripts present"
+        
+    - name: Security validation
+      run: |
+        echo "🔐 Running security validation..."
+        
+        # Check for suspicious patterns in commit messages
+        if git log -1 --pretty=%B | grep -iE "(bypass|circumvent|force|override|skip)" >/dev/null; then
+          echo "🚨 CRITICAL: Suspicious commit message detected"
+          echo "🔒 Deployment blocked for security"
+          exit 1
+        fi
+        
+        # Check for large file additions (potential security risk)
+        if git diff --stat HEAD~1 | grep -E "(\+.*[0-9]{4,})" >/dev/null; then
+          echo "⚠️  WARNING: Large file changes detected"
+          echo "🔍 Reviewing changes..."
+        fi
+        
+        echo "✅ Security validation passed"
+        
+    - name: Deploy to GitHub Pages
+      if: github.event_name == 'pull_request' && github.event.action == 'opened'
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./
+        
+    - name: Block unauthorized deployments
+      if: github.event_name == 'push'
+      run: |
+        echo "🚨 UNAUTHORIZED DEPLOYMENT ATTEMPT BLOCKED"
+        echo "=========================================="
+        echo "❌ Direct pushes to main branch are not allowed"
+        echo "✅ Use the proper deployment workflow:"
+        echo "   1. Work in development/ directory"
+        echo "   2. Test changes locally"
+        echo "   3. Run: ./scripts/deploy.sh"
+        echo "   4. Deploy script handles production update"
+        echo ""
+        echo "🛡️ This protection ensures:"
+        echo "   • All changes are properly tested"
+        echo "   • Backups are created automatically"
+        echo "   • Production integrity is maintained"
+        echo "   • AI agents cannot bypass deployment controls"
+        exit 1
