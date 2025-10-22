@@ -37,17 +37,24 @@ The Westmark Talent Group website follows a **static site architecture** built w
 - **Contact Components**: Professional contact CTAs and information
 - **Interactive Elements**: Accordion, carousel, and modal components
 
-### CSS Architecture
+### Mobile Navigation Architecture
+- **Responsive Design**: Mobile-first approach with progressive enhancement
+- **Toggle Mechanism**: JavaScript-controlled hamburger menu with CSS class toggling
+- **State Management**: `.navbar-collapse.show` class controls visibility
+- **Touch Optimization**: 44px minimum touch targets for mobile usability
+- **Accessibility**: Proper ARIA attributes and keyboard navigation support
 
-#### File Organization
-```
-assets/css/optimized.css (consolidated)
-├── Base Styles (body, typography, buttons)
-├── Component Styles (hero, navigation, cards)
-├── Utility Classes (spacing, colors, typography)
-├── Responsive Breakpoints (mobile-first approach)
-└── Custom Animations (transitions, hover effects)
-```
+### Form Handling Architecture
+- **Client-Side Validation**: JavaScript form validation with error states
+- **Custom Styling**: Black SVG arrows for select dropdowns
+- **Browser Compatibility**: Cross-browser appearance normalization
+- **User Experience**: Real-time validation feedback with notifications
+
+### Performance Optimizations
+- **Horizontal Scroll Prevention**: Global `overflow-x: hidden` on body
+- **Mobile Responsiveness**: Proper flex wrapping and container constraints
+- **Typography Scaling**: Responsive font sizes with `clamp()` functions
+- **Asset Optimization**: Consolidated CSS and JavaScript files
 
 #### CSS Methodology
 - **Mobile-First**: Responsive design starting from mobile breakpoints

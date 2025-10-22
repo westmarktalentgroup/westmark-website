@@ -158,7 +158,7 @@
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
-  display: flex; /* Default to showing navigation */
+  display: none; /* Hide by default, show on desktop */
 }
 
 .collapse {
@@ -399,6 +399,7 @@ body {
   background-color: var(--color-white);
   margin: 0;
   padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 /* ==========================================================================
@@ -412,7 +413,6 @@ body {
   font-weight: var(--font-weight-bold);
   line-height: 1.1;
   margin-bottom: var(--spacing-4);
-  white-space: nowrap;
 }
 
 .display-2 {
@@ -484,7 +484,6 @@ body {
   font-size: clamp(1.17rem, 2vw, 2rem); /* One-third of hero title size */
   color: var(--color-white);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
-  white-space: nowrap; /* Single line */
   margin-left: 0.2em; /* Slight left margin to compensate for optical alignment */
   margin-bottom: 0; /* Remove bottom margin */
 }
@@ -865,6 +864,18 @@ body {
 
 /* Mobile Navigation */
 @media (max-width: 991.98px) {
+  .navbar-toggler {
+    display: block; /* Show hamburger menu on mobile */
+  }
+
+  .navbar-collapse {
+    display: none; /* Hide navigation by default on mobile */
+  }
+
+  .navbar-collapse.show {
+    display: flex; /* Show navigation when toggled */
+  }
+
   .soap-bar {
     margin: 0 var(--spacing-2);
     max-width: calc(100vw - var(--spacing-4));
@@ -979,6 +990,23 @@ body {
   border-color: var(--color-danger);
 }
 
+/* Select dropdown arrow styling */
+.form-control[type="select"],
+select.form-control {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23000000' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 8px 10px;
+  padding-right: 2.5rem;
+}
+
+/* Remove default browser arrow */
+select.form-control {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 /* Process Number Styling */
 .process-number {
   text-align: center;
@@ -1056,6 +1084,21 @@ body {
     flex-direction: column;
     align-items: center;
   }
+
+  /* Fix opportunities section on mobile */
+  .opportunities-section .row > div {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: var(--spacing-4);
+  }
+
+  /* Ensure containers don't overflow */
+  .container,
+  .container-fluid {
+    max-width: 100%;
+    padding-left: var(--spacing-3);
+    padding-right: var(--spacing-3);
+  }
 }
 
 /* ==========================================================================
@@ -1099,7 +1142,7 @@ body {
    ========================================================================== */
 
 .cta-section {
-    background-color: var(--color-primary);
+    background-color: #404040;
     padding: var(--spacing-6) 0;
     color: var(--color-secondary);
 }

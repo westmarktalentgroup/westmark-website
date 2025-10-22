@@ -525,6 +525,78 @@ The protection system automatically:
 - **Total project**: 8 `!important` declarations ✅
 - **Quality standard**: COMPLIANT ✅
 
+## 📱 Mobile Navigation Standards
+
+### Responsive Navigation Behavior
+- **Mobile (< 992px)**: Navigation hidden by default, hamburger menu visible
+- **Desktop (≥ 992px)**: Navigation always visible, hamburger hidden
+- **Toggle Mechanism**: JavaScript controls `.navbar-collapse.show` class
+- **Display States**: 
+  - Mobile: `display: none` (default), `display: flex` (when `.show` active)
+  - Desktop: `display: flex` (always visible)
+
+### Hamburger Menu Implementation
+```css
+/* Mobile hamburger menu */
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  width: 24px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: var(--color-text-primary);
+  margin-bottom: 4px;
+  transition: all var(--transition-base);
+}
+```
+
+### Mobile Menu Layout
+- **Vertical Stack**: Navigation items stack vertically on mobile
+- **Full Width**: Links take full width of container
+- **Proper Spacing**: Consistent padding and gaps
+- **Touch Friendly**: Minimum 44px touch targets
+
+## 🎨 Form Control Standards
+
+### Select Dropdown Styling
+- **Custom Arrows**: Black SVG arrows using data URI
+- **Browser Compatibility**: Remove default arrows with `appearance: none`
+- **Arrow Color**: `#000000` (black) for consistency
+- **Positioning**: Right-aligned with proper padding
+
+```css
+/* Custom select dropdown styling */
+select.form-control {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23000000' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 8px 10px;
+  padding-right: 2.5rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+```
+
+## 🚫 Horizontal Scroll Prevention
+
+### Global Overflow Control
+- **Body Level**: `overflow-x: hidden` prevents horizontal scrolling
+- **Container Constraints**: All containers respect viewport boundaries
+- **Flex Wrapping**: `flex-wrap: wrap` instead of `nowrap` on mobile
+- **Text Wrapping**: Removed `white-space: nowrap` from hero elements
+
+### Mobile Responsiveness
+- **Typography**: Responsive font sizes with `clamp()` functions
+- **Layout**: Proper column stacking on mobile devices
+- **Spacing**: Consistent padding and margins across screen sizes
+
 ## 🛠️ Maintenance Guidelines
 
 ### Adding New Components

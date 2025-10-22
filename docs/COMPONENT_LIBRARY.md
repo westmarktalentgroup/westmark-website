@@ -44,10 +44,25 @@ This document defines all components, CSS classes, and HTML structures used in t
 - **`.hamburger`**: Mobile hamburger menu icon
 
 ### Soap Bar Navigation Classes
-- **`.soap-bar-nav`**: Fixed navigation bar container
-- **`.soap-bar`**: Main navigation bar styling
-- **`.soap-bar-nav-items`**: Navigation items container
-- **`.soap-bar-link`**: Navigation link styling with hover effects
+- **`.soap-bar-nav`**: Fixed navigation bar container with transparent background
+- **`.soap-bar`**: Main navigation bar styling with rounded corners and backdrop blur
+- **`.soap-bar-nav-items`**: Navigation items container with flex layout
+- **`.soap-bar-link`**: Navigation link styling with hover effects and transitions
+
+### Mobile Navigation Classes
+- **`.navbar-toggler`**: Mobile hamburger menu button (hidden on desktop, visible on mobile)
+- **`.navbar-collapse`**: Navigation container (hidden by default on mobile, shown when toggled)
+- **`.navbar-collapse.show`**: Active state for mobile navigation (displayed when hamburger is clicked)
+- **`.hamburger`**: Hamburger menu icon with 4 spans
+- **`.hamburger span`**: Individual hamburger menu lines
+- **`.hamburger span:last-child`**: Last hamburger line (no bottom margin)
+
+### Form Control Classes
+- **`.form-control`**: Base form input styling
+- **`.form-control:focus`**: Focus state with secondary color border and shadow
+- **`.form-control.error`**: Error state with danger color border
+- **`select.form-control`**: Select dropdown with custom black arrow styling
+- **`.form-control[type="select"]`**: Alternative selector for select elements
 
 ### Typography Classes
 - **`.display-1`**: Largest display text (hero titles)
