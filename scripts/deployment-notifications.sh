@@ -38,10 +38,10 @@ notify_deployment_start() {
     # Update deployment status
     cat > "$DEPLOYMENT_STATUS_FILE" << EOF
 STATUS=IN_PROGRESS
-START_TIME=$(date '+%Y-%m-%d %H:%M:%S')
-BACKUP_DIR=$backup_dir
-USER=$(whoami)
-HOST=$(hostname)
+START_TIME="$(date '+%Y-%m-%d %H:%M:%S')"
+BACKUP_DIR="$backup_dir"
+USER="$(whoami)"
+HOST="$(hostname)"
 EOF
     
     echo -e "${BLUE}📢 Deployment notification sent${NC}"
@@ -60,12 +60,12 @@ notify_deployment_success() {
     # Update deployment status
     cat > "$DEPLOYMENT_STATUS_FILE" << EOF
 STATUS=SUCCESS
-START_TIME=$(grep START_TIME "$DEPLOYMENT_STATUS_FILE" 2>/dev/null | cut -d'=' -f2)
-END_TIME=$(date '+%Y-%m-%d %H:%M:%S')
-BACKUP_DIR=$backup_dir
-PERFORMANCE_TIME=$performance_time
-USER=$(whoami)
-HOST=$(hostname)
+START_TIME="$(grep START_TIME "$DEPLOYMENT_STATUS_FILE" 2>/dev/null | cut -d'=' -f2-)"
+END_TIME="$(date '+%Y-%m-%d %H:%M:%S')"
+BACKUP_DIR="$backup_dir"
+PERFORMANCE_TIME="$performance_time"
+USER="$(whoami)"
+HOST="$(hostname)"
 EOF
     
     echo -e "${GREEN}📢 Success notification sent${NC}"
