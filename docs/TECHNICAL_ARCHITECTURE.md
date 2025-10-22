@@ -59,6 +59,33 @@ The Westmark Talent Group website follows a **static site architecture** built w
 - **Professional Styling**: Clean, modern design with proper spacing and visual hierarchy
 - **Responsive Design**: Logo scales appropriately across all device sizes
 
+### Enhanced Deployment System Architecture
+- **Multi-Layer Security**: Pre-push hooks, AI circumvention protection, GitHub Branch Protection Rules
+- **Automated Rollback**: Emergency rollback capability with backup management
+- **Deployment Notifications**: Comprehensive logging and status tracking
+- **Performance Monitoring**: Enhanced performance analysis with thresholds and reporting
+- **Error Handling**: Improved error detection and recovery mechanisms
+- **File Synchronization**: Automatic development-to-production synchronization
+
+### Deployment Rollback Architecture
+- **Backup Management**: Automatic timestamped backups with cleanup
+- **Emergency Recovery**: Quick rollback to previous stable state
+- **Safety Measures**: Emergency backup creation before rollback
+- **Status Tracking**: Comprehensive rollback logging and notifications
+
+### Deployment Notification Architecture
+- **Real-Time Tracking**: Start, success, and failure notifications
+- **Status Persistence**: Deployment status file for current state
+- **Historical Logging**: Complete deployment history tracking
+- **Performance Integration**: Performance metrics in notifications
+
+### Enhanced Performance Monitoring Architecture
+- **Multi-Page Testing**: Comprehensive page load time analysis
+- **Asset Performance**: CSS and JavaScript loading optimization
+- **Memory Analysis**: File size monitoring and optimization
+- **Threshold Monitoring**: Performance regression detection
+- **Historical Tracking**: Performance trend analysis over time
+
 ### Form Handling Architecture
 - **Client-Side Validation**: JavaScript form validation with error states
 - **Custom Styling**: Black SVG arrows for select dropdowns

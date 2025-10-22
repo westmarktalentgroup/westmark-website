@@ -62,6 +62,11 @@ cp *.png *.svg *.jpg *.jpeg "$BACKUP_DIR/" 2>/dev/null || true
 
 echo "✅ Backup created in: $BACKUP_DIR"
 
+# Send deployment start notification
+if [ -f "scripts/deployment-notifications.sh" ]; then
+    ./scripts/deployment-notifications.sh start "$BACKUP_DIR"
+fi
+
 # Copy development files to production
 echo "🔄 Copying development files to production..."
 
@@ -140,6 +145,11 @@ if command -v python3 >/dev/null 2>&1; then
     
     # Kill the test server
     kill $SERVER_PID 2>/dev/null || true
+    
+    # Send deployment success notification
+    if [ -f "scripts/deployment-notifications.sh" ]; then
+        ./scripts/deployment-notifications.sh success "$BACKUP_DIR" "$LOAD_TIME"
+    fi
 fi
 
 # Security check
