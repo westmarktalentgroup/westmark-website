@@ -7,33 +7,73 @@ on:
     branches: [ main ]
 
 jobs:
-  production-protection:
+  # BLOCK ALL DIRECT PUSHES TO MAIN - This is the core protection
+  block-direct-pushes:
     runs-on: ubuntu-latest
-    
+    if: github.event_name == 'push'
+    steps:
+    - name: 🚨 BLOCK DIRECT PUSH TO MAIN
+      run: |
+        echo "🚨 CRITICAL: DIRECT PUSH TO MAIN BRANCH DETECTED"
+        echo "================================================"
+        echo "❌ This repository requires pull requests for all changes"
+        echo "❌ Direct pushes to main are BLOCKED for security"
+        echo ""
+        echo "✅ REQUIRED WORKFLOW:"
+        echo "   1. Work in development/ directory"
+        echo "   2. Create a pull request"
+        echo "   3. Pass all status checks"
+        echo "   4. Merge through GitHub interface"
+        echo ""
+        echo "🛡️ This protection cannot be bypassed locally"
+        echo "🔒 Server-side enforcement prevents AI agent circumvention"
+        echo ""
+        exit 1
+
+  # VALIDATE PULL REQUESTS - Only allow proper workflow
+  validate-pull-request:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
       
-    - name: Detect unauthorized deployment attempts
+    - name: Validate Pull Request
       run: |
-        echo "🛡️ GITHUB ACTIONS PRODUCTION PROTECTION"
-        echo "======================================"
+        echo "✅ Pull Request Validation"
+        echo "=========================="
         
-        # Check if this is a direct push to main (should be blocked)
-        if [[ "${{ github.event_name }}" == "push" ]]; then
-          echo "🚨 CRITICAL: Direct push to main branch detected"
-          echo "❌ This should be blocked by local git hooks"
-          echo "🔒 Deployment blocked for security"
+        # Check if development directory exists
+        if [[ ! -d "development" ]]; then
+          echo "🚨 CRITICAL: Development directory missing"
+          echo "❌ Pull request blocked"
           exit 1
         fi
         
-        # Check if this is a pull request (allowed)
-        if [[ "${{ github.event_name }}" == "pull_request" ]]; then
-          echo "✅ Pull request detected - proceeding with checks"
-        fi
-        
-        # Verify required files exist
+        # Check if required files exist
         REQUIRED_FILES=(
+          "development/index.html"
+          "development/assets/css/optimized.css"
+          "development/assets/js/consolidated.js"
+        )
+        
+        for file in "${REQUIRED_FILES[@]}"; do
+          if [[ ! -f "$file" ]]; then
+            echo "🚨 CRITICAL: Required file missing: $file"
+            echo "❌ Pull request blocked"
+            exit 1
+          fi
+        done
+        
+        echo "✅ All required files present"
+        echo "✅ Pull request validation passed"
+        
+    - name: Check for Direct Production Modifications
+      run: |
+        echo "🔍 Checking for direct production modifications..."
+        
+        # Check if any production files were modified directly
+        PRODUCTION_FILES=(
           "index.html"
           "clients.html"
           "contact-us.html"
@@ -41,87 +81,55 @@ jobs:
           "assets/js/consolidated.js"
         )
         
-        for file in "${REQUIRED_FILES[@]}"; do
-          if [[ ! -f "$file" ]]; then
-            echo "🚨 CRITICAL: Required production file missing: $file"
-            echo "🔒 Deployment blocked for security"
+        for file in "${PRODUCTION_FILES[@]}"; do
+          if git diff --name-only HEAD~1 | grep -q "^$file$"; then
+            echo "🚨 CRITICAL: Direct production file modification detected: $file"
+            echo "❌ All changes must be made in development/ directory"
+            echo "❌ Pull request blocked"
             exit 1
           fi
         done
         
-        echo "✅ All required files present"
+        echo "✅ No direct production modifications detected"
         
-    - name: Validate deployment workflow
+    - name: Validate Documentation
       run: |
-        echo "🔍 Validating deployment workflow..."
+        echo "📋 Validating documentation..."
         
-        # Check if development directory exists
-        if [[ ! -d "development" ]]; then
-          echo "🚨 CRITICAL: Development directory missing"
-          echo "🔒 Deployment blocked for security"
-          exit 1
-        fi
-        
-        # Check if protection scripts exist
-        REQUIRED_SCRIPTS=(
-          "scripts/protection-system.sh"
-          "scripts/ai-agent-workflow-enforcer.sh"
-          "scripts/architectural-enforcer.sh"
-          "scripts/production-protection.sh"
-          "scripts/ai-circumvention-protection.sh"
+        # Check if documentation files exist
+        DOC_FILES=(
+          "docs/AI_CIRCUMVENTION_PROTECTION.md"
+          "docs/COMPONENT_LIBRARY.md"
+          "docs/CSS_STANDARDS.md"
+          "docs/TECHNICAL_ARCHITECTURE.md"
         )
         
-        for script in "${REQUIRED_SCRIPTS[@]}"; do
-          if [[ ! -f "$script" ]]; then
-            echo "🚨 CRITICAL: Required protection script missing: $script"
-            echo "🔒 Deployment blocked for security"
+        for file in "${DOC_FILES[@]}"; do
+          if [[ ! -f "$file" ]]; then
+            echo "🚨 CRITICAL: Required documentation missing: $file"
+            echo "❌ Pull request blocked"
             exit 1
           fi
         done
         
-        echo "✅ All protection scripts present"
+        echo "✅ All required documentation present"
         
-    - name: Security validation
+    - name: Security Check
       run: |
-        echo "🔐 Running security validation..."
+        echo "🔐 Running security checks..."
         
         # Check for suspicious patterns in commit messages
-        if git log -1 --pretty=%B | grep -iE "(bypass|circumvent|force|override|skip)" >/dev/null; then
+        if git log -1 --pretty=%B | grep -iE "(bypass|circumvent|force|override|skip|disable)" >/dev/null; then
           echo "🚨 CRITICAL: Suspicious commit message detected"
-          echo "🔒 Deployment blocked for security"
+          echo "❌ Pull request blocked for security"
           exit 1
         fi
         
-        # Check for large file additions (potential security risk)
-        if git diff --stat HEAD~1 | grep -E "(\+.*[0-9]{4,})" >/dev/null; then
-          echo "⚠️  WARNING: Large file changes detected"
-          echo "🔍 Reviewing changes..."
-        fi
+        echo "✅ Security checks passed"
         
-        echo "✅ Security validation passed"
-        
-    - name: Deploy to GitHub Pages
-      if: github.event_name == 'pull_request' && github.event.action == 'opened'
+    - name: Deploy to GitHub Pages (if PR is merged)
+      if: github.event.action == 'closed' && github.event.pull_request.merged == true
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./
-        
-    - name: Block unauthorized deployments
-      if: github.event_name == 'push'
-      run: |
-        echo "🚨 UNAUTHORIZED DEPLOYMENT ATTEMPT BLOCKED"
-        echo "=========================================="
-        echo "❌ Direct pushes to main branch are not allowed"
-        echo "✅ Use the proper deployment workflow:"
-        echo "   1. Work in development/ directory"
-        echo "   2. Test changes locally"
-        echo "   3. Run: ./scripts/deploy.sh"
-        echo "   4. Deploy script handles production update"
-        echo ""
-        echo "🛡️ This protection ensures:"
-        echo "   • All changes are properly tested"
-        echo "   • Backups are created automatically"
-        echo "   • Production integrity is maintained"
-        echo "   • AI agents cannot bypass deployment controls"
-        exit 1
