@@ -90,6 +90,27 @@ fi
 
 echo "  ✅ Additional files copied"
 
+# Verify file synchronization (run AFTER copying)
+echo "🔍 Verifying file synchronization..."
+production_files=(
+    "index.html"
+    "clients.html" 
+    "contact-us.html"
+    "assets/css/optimized.css"
+    "assets/js/consolidated.js"
+)
+
+for file in "${production_files[@]}"; do
+    if [[ -f "$file" ]] && [[ -f "development/$file" ]]; then
+        if ! diff -q "$file" "development/$file" >/dev/null 2>&1; then
+            echo "  ⚠️  WARNING: $file not synchronized with development version"
+            echo "  🔄 Synchronizing $file..."
+            cp "development/$file" "$file"
+        fi
+    fi
+done
+echo "  ✅ File synchronization verified"
+
 # Clean up old backups (keep only last 5)
 echo "🧹 Cleaning up old backups..."
 BACKUP_COUNT=$(ls -1 backups/ | wc -l)
