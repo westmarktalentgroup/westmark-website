@@ -50,11 +50,13 @@ The Westmark Talent Group website follows a **static site architecture** built w
 - **Browser Compatibility**: Cross-browser appearance normalization
 - **User Experience**: Real-time validation feedback with notifications
 
-### Performance Optimizations
-- **Horizontal Scroll Prevention**: Global `overflow-x: hidden` on body
-- **Mobile Responsiveness**: Proper flex wrapping and container constraints
-- **Typography Scaling**: Responsive font sizes with `clamp()` functions
-- **Asset Optimization**: Consolidated CSS and JavaScript files
+### Touch ID Security Architecture
+- **Biometric Authentication**: Uses macOS Touch ID for deployment authorization
+- **Keychain Integration**: Secure token storage with app-specific access control
+- **Cursor Environment Detection**: Scripts only function within Cursor environment
+- **GitHub API Verification**: Real-time token validation with GitHub
+- **Quiet Mode Support**: Silent operation for automated deployment scripts
+- **Audit Trail**: Complete logging of all authentication attempts
 
 #### CSS Methodology
 - **Mobile-First**: Responsive design starting from mobile breakpoints

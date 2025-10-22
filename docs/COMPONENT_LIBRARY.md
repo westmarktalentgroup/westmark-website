@@ -57,12 +57,12 @@ This document defines all components, CSS classes, and HTML structures used in t
 - **`.hamburger span`**: Individual hamburger menu lines
 - **`.hamburger span:last-child`**: Last hamburger line (no bottom margin)
 
-### Form Control Classes
-- **`.form-control`**: Base form input styling
-- **`.form-control:focus`**: Focus state with secondary color border and shadow
-- **`.form-control.error`**: Error state with danger color border
-- **`select.form-control`**: Select dropdown with custom black arrow styling
-- **`.form-control[type="select"]`**: Alternative selector for select elements
+### Touch ID Authentication Classes
+- **`.simple-touchid-auth.sh`**: Touch ID authentication script with quiet mode support
+- **`.cursor-touchid-auth.sh`**: Original Touch ID authentication script (legacy)
+- **`.cursor-deploy.sh`**: Enhanced deployment script with Touch ID integration
+- **`.setup-touchid.sh`**: Interactive setup script for Touch ID configuration
+- **`.test-touchid.sh`**: Quick test script for Touch ID functionality
 
 ### Typography Classes
 - **`.display-1`**: Largest display text (hero titles)

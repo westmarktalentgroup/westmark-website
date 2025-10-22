@@ -597,6 +597,21 @@ select.form-control {
 - **Layout**: Proper column stacking on mobile devices
 - **Spacing**: Consistent padding and margins across screen sizes
 
+## 🔐 Touch ID Security Standards
+
+### Authentication Script Standards
+- **Quiet Mode**: Support for `--quiet` flag for automated deployments
+- **Error Handling**: Proper exit codes and error messages
+- **Token Validation**: Real-time GitHub API verification
+- **Environment Detection**: Cursor-specific environment validation
+- **Keychain Integration**: Secure credential storage with Touch ID
+
+### Deployment Security
+- **Biometric Requirement**: Touch ID authentication for all deployments
+- **Token Management**: Secure storage in macOS Keychain
+- **API Verification**: GitHub token validation before deployment
+- **Audit Logging**: Complete deployment history tracking
+
 ## 🛠️ Maintenance Guidelines
 
 ### Adding New Components
