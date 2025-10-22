@@ -46,6 +46,12 @@ The Westmark Talent Group website follows a **static site architecture** built w
 - **Touch Optimization**: 44px minimum touch targets for mobile usability
 - **Accessibility**: Proper ARIA attributes and keyboard navigation support
 
+### Mobile Hero Section Architecture
+- **Responsive Design**: Mobile-first approach with 80vh height on mobile devices
+- **Text Positioning**: Uses `align-items: flex-end` to position hero text at bottom of image
+- **Overlay System**: Gradient overlay ensures text readability over background image
+- **Touch Optimization**: Proper spacing and padding for mobile interaction
+
 ### Form Handling Architecture
 - **Client-Side Validation**: JavaScript form validation with error states
 - **Custom Styling**: Black SVG arrows for select dropdowns

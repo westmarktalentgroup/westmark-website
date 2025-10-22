@@ -1058,6 +1058,7 @@ select.form-control {
   .hero-section .container-fluid {
     height: 80vh;
     padding: var(--spacing-4);
+    align-items: flex-end;
   }
 
   .hero-title {

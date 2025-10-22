@@ -547,6 +547,32 @@ The protection system automatically:
 - **Proper Spacing**: Consistent padding and gaps
 - **Touch Friendly**: Minimum 44px touch targets
 
+## 📱 Mobile Hero Section Standards
+
+### Responsive Behavior
+- **Desktop**: Full viewport height (100vh) with text positioned at bottom
+- **Mobile**: Reduced height (80vh) with text positioned at bottom
+
+### Mobile Positioning
+- Uses `align-items: flex-end` to position hero text at bottom of image
+- Maintains proper spacing with `padding: var(--spacing-4)`
+- Ensures text is readable over hero background with overlay
+
+### CSS Implementation
+```css
+@media (max-width: 768px) {
+  .hero-section {
+    min-height: 80vh;
+  }
+  
+  .hero-section .container-fluid {
+    height: 80vh;
+    padding: var(--spacing-4);
+    align-items: flex-end;
+  }
+}
+```
+
 ## 🎨 Form Control Standards
 
 ### Select Dropdown Styling
