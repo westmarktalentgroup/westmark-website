@@ -825,6 +825,54 @@ body {
 }
 
 /* ==========================================================================
+   OPPORTUNITIES SECTION STYLING
+   ========================================================================== */
+
+.opportunities-container {
+  display: flex;
+  gap: var(--spacing-6);
+  flex-wrap: wrap;
+  padding: 0 var(--spacing-6);
+}
+
+.opportunity-card {
+  flex: 1;
+  min-width: 280px; /* Minimum width for readability */
+  max-width: 100%;
+}
+
+/* Desktop: 4 cards in a row */
+@media (min-width: 1200px) {
+  .opportunity-card {
+    flex: 1;
+    min-width: 0;
+  }
+}
+
+/* Tablet: 2 cards per row */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .opportunity-card {
+    flex: 0 0 calc(50% - var(--spacing-3));
+    min-width: 0;
+  }
+}
+
+/* Mobile: 1 card per row */
+@media (max-width: 767px) {
+  .opportunities-container {
+    flex-direction: column;
+    gap: var(--spacing-4);
+    padding: 0 var(--spacing-4);
+  }
+  
+  .opportunity-card {
+    flex: 0 0 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+}
+
+/* ==========================================================================
    OPPORTUNITIES IMAGES STYLING
    ========================================================================== */
 
@@ -1247,12 +1295,7 @@ select.form-control {
     align-items: center;
   }
 
-  /* Fix opportunities section on mobile */
-  .opportunities-section .row > div {
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin-bottom: var(--spacing-4);
-  }
+  /* Opportunities section now uses proper CSS classes */
 
   /* Ensure containers don't overflow */
   .container,

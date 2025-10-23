@@ -125,6 +125,8 @@ This document defines all components, CSS classes, and HTML structures used in t
 - **`.about-section`**: About content section
 - **`.faq-section`**: FAQ section
 - **`.opportunities-section`**: Job opportunities section
+- **`.opportunities-container`**: Responsive container for opportunity cards
+- **`.opportunity-card`**: Individual opportunity card wrapper
 - **`.process-section`**: Process steps section
 - **`.services-section`**: Services section
 - **`.contact-section`**: Contact form section
@@ -332,10 +334,10 @@ Display process step numbers in a consistent, prominent style for the clients pa
   - Behavior: All panels start collapsed, only one can be open at a time
   - Icons: Downward chevron (▼) for collapsed, upward chevron (▲) for expanded
 
-### Current Opportunities Component (Updated Implementation)
+### Current Opportunities Component (Responsive Implementation)
 
 #### Purpose
-Display job listings in a single row with flexbox layout and square images. This component shows 4 job opportunities in a horizontal layout that maintains single-row display across all screen sizes.
+Display job listings with responsive layout that adapts to different screen sizes. Shows 4 job opportunities with proper spacing and readability across all devices.
 
 #### HTML Structure
 ```html
@@ -349,12 +351,12 @@ Display job listings in a single row with flexbox layout and square images. This
                         <strong>Current Opportunities</strong>
                     </h4>
                 </div>
-                <div style="display: flex; gap: 1.5rem; flex-wrap: nowrap; padding: 0 1.5rem;">
-                    <div style="flex: 1; min-width: 0;">
+                <div class="opportunities-container">
+                    <div class="opportunity-card">
                         <div class="card">
                             <div class="item-wrapper">
-                                <div class="item-img" style="position: relative; width: 100%; height: 0; padding-bottom: 100%; overflow: hidden;">
-                                    <img src="assets/images/job-image.webp" alt="Job Position" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: center;">
+                                <div class="item-img">
+                                    <img src="assets/images/job-image.webp" alt="Job Position">
                                 </div>
                                 <div class="item-content">
                                     <h5 class="item-title display-5"><strong>Sr. PM</strong><br><strong>Luxury Residential</strong></h5>
@@ -377,46 +379,83 @@ Display job listings in a single row with flexbox layout and square images. This
 
 #### CSS Implementation
 ```css
-/* Flexbox Layout for Single Row */
+/* Responsive Opportunities Container */
 .opportunities-container {
-    display: flex;
-    gap: 1.5rem;
-    flex-wrap: nowrap;
-    padding: 0 1.5rem;
+  display: flex;
+  gap: var(--spacing-6);
+  flex-wrap: wrap;
+  padding: 0 var(--spacing-6);
 }
 
 .opportunity-card {
+  flex: 1;
+  min-width: 280px; /* Minimum width for readability */
+  max-width: 100%;
+}
+
+/* Desktop: 4 cards in a row */
+@media (min-width: 1200px) {
+  .opportunity-card {
     flex: 1;
     min-width: 0;
+  }
+}
+
+/* Tablet: 2 cards per row */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .opportunity-card {
+    flex: 0 0 calc(50% - var(--spacing-3));
+    min-width: 0;
+  }
+}
+
+/* Mobile: 1 card per row */
+@media (max-width: 767px) {
+  .opportunities-container {
+    flex-direction: column;
+    gap: var(--spacing-4);
+    padding: 0 var(--spacing-4);
+  }
+  
+  .opportunity-card {
+    flex: 0 0 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
 }
 
 /* Square Image Implementation */
 .item-img {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 100%;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  overflow: hidden;
+  border-radius: var(--border-radius-xl);
 }
 
 .item-img img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-base);
 }
 
-/* Text Content Sizing */
-.text-content {
-    font-family: var(--font-family-body);
-    font-size: 1.575rem;
-    line-height: 1.6;
-    margin-bottom: var(--spacing-1);
+.item-img:hover img {
+  transform: scale(1.05);
 }
 ```
+
+#### Responsive Behavior
+- **Desktop (1200px+)**: 4 cards in a single row
+- **Tablet (768px-1199px)**: 2 cards per row
+- **Mobile (<768px)**: 1 card per row, stacked vertically
+- **Minimum Width**: 280px per card for readability
+- **Proper Spacing**: Consistent gaps using design tokens
+- **Touch-Friendly**: Full-width cards on mobile for easy interaction
 
 ## Section Header Component
 
