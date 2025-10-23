@@ -189,7 +189,9 @@ fi
 
 echo ""
 # Git operations for deployment
-echo "📤 Checking for changes to push..."
+echo "📤 Checking for changes to deploy..."
+
+# Check if there are any changes to commit
 if git status --porcelain | grep -q .; then
     echo "📝 Committing production changes..."
     git add .
@@ -198,26 +200,38 @@ if git status --porcelain | grep -q .; then
 - Backup: $BACKUP_DIR
 - Validation: Passed
 - Performance: Optimized"
+    
+    # Create a deployment branch for pull request workflow
+    DEPLOY_BRANCH="deploy-$(date +%Y%m%d-%H%M%S)"
+    echo "🚀 Creating deployment branch: $DEPLOY_BRANCH"
+    
+    # Create and switch to deployment branch
+    git checkout -b "$DEPLOY_BRANCH"
+    
+    # Push the deployment branch
+    echo "📤 Pushing deployment branch to GitHub..."
+    git push origin "$DEPLOY_BRANCH"
+    
+    # Switch back to main branch
+    git checkout main
+    
+    echo ""
+    echo "🎉 DEPLOYMENT SUCCESSFUL!"
+    echo "=================================="
+    echo "✅ Files successfully updated in production"
+    echo "✅ Changes committed to branch: $DEPLOY_BRANCH"
+    echo "✅ Branch pushed to GitHub"
+    echo ""
+    echo "📋 NEXT STEPS:"
+    echo "1. Go to GitHub repository"
+    echo "2. Create a Pull Request from branch: $DEPLOY_BRANCH"
+    echo "3. Merge the PR to deploy to GitHub Pages"
+    echo ""
+    echo "🔗 GitHub PR URL:"
+    echo "https://github.com/westmarktalentgroup/westmark-website/compare/main...$DEPLOY_BRANCH"
+    
 else
-    echo "✅ No changes to commit"
-fi
-
-# Only push if there are commits to push
-if git log origin/main..HEAD --oneline | grep -q .; then
-    echo "🚀 Pushing to GitHub Pages..."
-    # Temporarily disable protection for deployment push
-    if [[ -f ".git/hooks/pre-push" ]]; then
-        mv .git/hooks/pre-push .git/hooks/pre-push.disabled
-    fi
-
-    git push origin main
-
-    # Re-enable protection
-    if [[ -f ".git/hooks/pre-push.disabled" ]]; then
-        mv .git/hooks/pre-push.disabled .git/hooks/pre-push
-    fi
-else
-    echo "✅ No new commits to push"
+    echo "✅ No changes to commit - deployment up to date"
 fi
 
 echo ""

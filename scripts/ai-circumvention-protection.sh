@@ -64,7 +64,7 @@ check_bypass_attempts() {
     # Enhanced error handling and logging
     local error_count=0
     
-    # Check if pre-push hook was disabled
+    # Check if pre-push hook was disabled (only block if trying to bypass protection)
     if [[ -f ".git/hooks/pre-push.disabled" ]]; then
         echo -e "${RED}🚨 PRE-PUSH HOOK DISABLED - POTENTIAL BYPASS ATTEMPT${NC}"
         echo -e "${RED}❌ Deployment blocked for security${NC}"
@@ -72,7 +72,7 @@ check_bypass_attempts() {
         ((error_count++))
     fi
     
-    # Check if pre-push hook exists and is executable
+    # Check if pre-push hook exists and is executable (required for protection)
     if [[ ! -f ".git/hooks/pre-push" ]] || [[ ! -x ".git/hooks/pre-push" ]]; then
         echo -e "${RED}🚨 PRE-PUSH HOOK MISSING OR NOT EXECUTABLE${NC}"
         echo -e "${RED}❌ Deployment blocked for security${NC}"
