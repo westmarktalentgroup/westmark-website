@@ -12,6 +12,7 @@ This document consolidates CSS architecture, quality standards, and implementati
 - **Proper CSS specificity** instead of override hacks
 - **Component-based architecture** with clear separation of concerns
 - **Performance optimization** with efficient selectors and animations
+- **Horizontal scroll prevention** with proper box-sizing and overflow control
 
 ### Quality Standards
 - **Custom CSS files**: 0 `!important` declarations allowed
@@ -531,7 +532,7 @@ The protection system automatically:
 - **Mobile (< 992px)**: Navigation hidden by default, hamburger menu visible
 - **Desktop (≥ 992px)**: Navigation always visible, hamburger hidden
 - **Toggle Mechanism**: JavaScript controls `.navbar-collapse.show` class
-- **Display States**: 
+- **Display States**:
   - Mobile: `display: none` (default), `display: flex` (when `.show` active)
   - Desktop: `display: flex` (always visible)
 
@@ -551,6 +552,28 @@ The protection system automatically:
 - **Touch Friendly**: Minimum 44px touch targets
 - **Positioning**: Absolute positioning below soap bar with backdrop blur
 - **Accessibility**: Proper ARIA attributes and keyboard navigation support
+
+## 🚫 Horizontal Scroll Prevention Standards
+
+### Global Overflow Control
+- **HTML/Body**: `overflow-x: hidden` prevents horizontal scrolling
+- **Max Width**: `max-width: 100%` ensures content doesn't exceed viewport
+- **Box Sizing**: `box-sizing: border-box` includes padding in width calculations
+
+### Container Standards
+- **Container Elements**: Always include `box-sizing: border-box` and `max-width: 100%`
+- **Padding Management**: Use CSS custom properties for consistent spacing
+- **Margin Control**: Avoid fixed margins that could cause overflow
+
+### Mobile-Specific Rules
+- **Soap Bar Navigation**: 
+  - `min-width: 0` allows flexible sizing on mobile
+  - `width: 100%` takes full available width
+  - `box-sizing: border-box` includes padding in width calculation
+- **Opportunities Container**:
+  - `width: 100%` and `box-sizing: border-box` for proper containment
+  - Flexible card sizing with `min-width: 0`
+- **Responsive Elements**: All mobile elements should use flexible sizing
 
 ## 📱 Mobile Hero Section Standards
 
