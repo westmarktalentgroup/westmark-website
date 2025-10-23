@@ -249,7 +249,7 @@
 .faq-icon {
   font-size: 1.5rem;
   font-weight: var(--font-weight-bold);
-  color: var(--color-secondary);
+  color: var(--color-primary);
   transition: transform var(--transition-base);
   margin-left: var(--spacing-4);
   min-width: 24px;
@@ -385,10 +385,26 @@
 
 
 /* ==========================================================================
+   LAYOUT STYLES
+   ========================================================================== */
+
+#main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ==========================================================================
    BASE STYLES
    ========================================================================== */
 * {
   box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 body {
@@ -400,6 +416,9 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden; /* Prevent horizontal scrolling */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* ==========================================================================
@@ -477,6 +496,7 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   margin-bottom: var(--spacing-2); /* Reduced spacing */
   transform: translateY(1rem); /* Move main title lower - half the amount */
+  white-space: nowrap; /* Prevent text wrapping */
 }
 
 .hero-subtitle {
@@ -612,6 +632,17 @@ body {
   font-size: clamp(2.8rem, 4.8vw, 4.8rem); /* 80% of hero text size */
   font-weight: var(--font-weight-semibold);
   margin-bottom: var(--spacing-3);
+}
+
+/* Contact Information Headers - Adaptive single line */
+.contact-info-header {
+  font-family: var(--font-family-body);
+  font-size: clamp(1.2rem, 2.5vw, 2rem); /* Responsive font size */
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--spacing-3);
+  white-space: nowrap; /* Prevent wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* Images */
@@ -790,7 +821,7 @@ body {
   text-align: left;
   position: relative;
   z-index: 3;
-  max-width: 600px;
+  max-width: 800px; /* Increased to accommodate one-line title */
 }
 
 /* ==========================================================================
@@ -840,6 +871,19 @@ body {
   .col-lg-10 {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+}
+
+/* Desktop Hero Title - Ensure one line display */
+@media (min-width: 768px) {
+  .hero-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .hero-section .content-wrap {
+    max-width: 900px; /* Even wider on desktop */
   }
 }
 
@@ -964,6 +1008,8 @@ body {
   background-color: var(--color-dark);
   color: var(--color-white);
   padding: var(--spacing-8) 0;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .footer-content {
@@ -979,6 +1025,26 @@ body {
   justify-content: center;
   gap: var(--spacing-4);
   flex-wrap: wrap;
+}
+
+/* Ensure no space under footer */
+footer {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Remove any potential spacing after footer */
+.footer-section:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Contact page specific layout - ensure content fills screen */
+.info-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .footer-link {
@@ -1089,13 +1155,21 @@ select.form-control {
   }
 
   .hero-section {
-    min-height: 80vh;
+    min-height: 100vh;
   }
 
   .hero-section .container-fluid {
-    height: 80vh;
+    height: 100vh;
     padding: var(--spacing-4);
     align-items: flex-end;
+    justify-content: flex-start;
+  }
+
+  .hero-section .content-wrap {
+    position: relative;
+    z-index: 3;
+    max-width: 100%;
+    width: 100%;
   }
 
   .hero-title {
@@ -1180,7 +1254,7 @@ select.form-control {
    ========================================================================== */
 
 .cta-section {
-    background-color: #404040;
+    background-color: #1a1a1a;
     padding: var(--spacing-6) 0;
     color: var(--color-secondary);
 }

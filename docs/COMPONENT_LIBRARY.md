@@ -490,3 +490,34 @@ Standardized section headers with consistent typography and spacing across all p
 - **CTA sections**: Use `.section-title` with `.mb-4` for call-to-action sections
 - **Consistency**: Always pair with `.display-2` for typography consistency
 - **Semantic HTML**: Use appropriate heading tags (h1, h3, h4) based on content hierarchy
+
+## Contact Information Headers
+
+### `.contact-info-header`
+
+**Purpose**: Responsive headers for contact information cards that adaptively fit on a single line across all screen sizes.
+
+**Usage**: Used specifically for contact page headers like "Email Us", "Call Us", and "Mailing Address".
+
+```html
+<h4 class="contact-info-header"><strong>Email Us</strong></h4>
+```
+
+**CSS Implementation**:
+```css
+.contact-info-header {
+  font-family: var(--font-family-body);
+  font-size: clamp(1.2rem, 2.5vw, 2rem);
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--spacing-3);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+```
+
+### Usage Guidelines
+- **Contact pages**: Use exclusively for contact information section headers
+- **Single line**: Ensures headers stay on one line across all devices
+- **Responsive sizing**: Automatically scales based on viewport width
+- **Overflow protection**: Includes ellipsis fallback for extremely narrow screens
