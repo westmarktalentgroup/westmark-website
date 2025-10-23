@@ -56,8 +56,21 @@ This document defines all components, CSS classes, and HTML structures used in t
 - **`.hamburger`**: Hamburger menu icon with 4 spans
 - **`.hamburger span`**: Individual hamburger menu lines
 - **`.hamburger span:last-child`**: Last hamburger line (no bottom margin)
+- **`.navbar-toggler.active`**: Active state for hamburger button (transforms hamburger to X)
+- **`.navbar-toggler.active .hamburger span:nth-child(1)`**: First hamburger line rotation (45deg)
+- **`.navbar-toggler.active .hamburger span:nth-child(2)`**: Second hamburger line fade (opacity: 0)
+- **`.navbar-toggler.active .hamburger span:nth-child(3)`**: Third hamburger line rotation (-45deg)
+- **`.navbar-toggler.active .hamburger span:nth-child(4)`**: Fourth hamburger line fade (opacity: 0)
 
 **Important**: The mobile menu uses custom JavaScript, not Bootstrap. The HTML should use `class="navbar-collapse"` (not `class="collapse navbar-collapse"`) to avoid conflicts with Bootstrap CSS that would prevent the menu from working.
+
+**Mobile Menu Features**:
+- **Positioning**: Absolute positioning below the soap bar with proper z-index layering
+- **Animation**: Smooth slide-down animation with opacity transition
+- **Backdrop**: Semi-transparent background with blur effect for modern appearance
+- **Responsive**: Adapts to different screen sizes with proper spacing
+- **Accessibility**: Proper ARIA attributes and keyboard navigation support
+- **Touch-friendly**: Large touch targets and proper spacing for mobile interaction
 
 ### Touch ID Authentication Classes
 - **`.simple-touchid-auth.sh`**: Touch ID authentication script with quiet mode support
