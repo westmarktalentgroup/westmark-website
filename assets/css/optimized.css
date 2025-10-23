@@ -5,6 +5,14 @@
    ========================================================================== */
 
 /* ==========================================================================
+   GLOBAL OVERFLOW PREVENTION
+   ========================================================================== */
+html, body {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  max-width: 100%; /* Ensure content doesn't exceed viewport */
+}
+
+/* ==========================================================================
    DESIGN TOKENS
    ========================================================================== */
 :root {
@@ -87,6 +95,8 @@
   padding-left: var(--spacing-4);
   margin-right: auto;
   margin-left: auto;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 
 .container-fluid {
@@ -95,6 +105,8 @@
   padding-left: var(--spacing-4);
   margin-right: auto;
   margin-left: auto;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 
 .row {
@@ -863,12 +875,16 @@ body {
     flex-direction: column;
     gap: var(--spacing-4);
     padding: 0 var(--spacing-4);
+    width: 100%;
+    box-sizing: border-box;
   }
-  
+
   .opportunity-card {
     flex: 0 0 100%;
     min-width: 0;
     max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
   }
 }
 
@@ -1026,10 +1042,12 @@ body {
   .soap-bar {
     margin: 0 var(--spacing-2);
     max-width: calc(100vw - var(--spacing-4));
-    min-width: 280px;
+    min-width: 0; /* Allow flexible sizing on mobile */
+    width: 100%; /* Take full available width */
     padding: var(--spacing-2) var(--spacing-4) var(--spacing-2) var(--spacing-4);
     border-radius: 50px; /* Half-circle ends on mobile too */
     position: relative;
+    box-sizing: border-box; /* Include padding in width calculation */
   }
 
   .soap-bar-nav-items {
