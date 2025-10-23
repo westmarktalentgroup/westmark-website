@@ -1,0 +1,36 @@
+#!/bin/bash
+
+# PRE-COMMIT HOOK WITH DESIGN INTENT ENFORCEMENT
+# Prevents commits that violate documented design principles
+
+echo "🔒 Pre-Commit Design Intent Validation"
+echo "======================================"
+
+# Run design intent enforcer
+if [ -f "../scripts/design-intent-enforcer.sh" ]; then
+    ../scripts/design-intent-enforcer.sh
+    if [ $? -ne 0 ]; then
+        echo ""
+        echo "🚨 COMMIT BLOCKED: Design intent violations detected"
+        echo "💡 Fix violations before committing"
+        exit 1
+    fi
+else
+    echo "⚠️  WARNING: Design intent enforcer not found"
+    echo "💡 Run: ./scripts/design-intent-enforcer.sh"
+fi
+
+# Run existing protection system
+if [ -f "../scripts/protection-system.sh" ]; then
+    ../scripts/protection-system.sh
+    if [ $? -ne 0 ]; then
+        echo ""
+        echo "🚨 COMMIT BLOCKED: Protection system violations detected"
+        exit 1
+    fi
+else
+    echo "⚠️  WARNING: Protection system not found"
+fi
+
+echo "✅ Pre-commit validation passed!"
+echo "🚀 Ready to commit"
