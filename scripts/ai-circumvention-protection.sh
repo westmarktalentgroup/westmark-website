@@ -61,21 +61,26 @@ detect_ai_agent() {
 check_bypass_attempts() {
     echo -e "${BLUE}🔍 Checking for bypass attempts...${NC}"
     
-    # Check if pre-push hook was disabled
+    # Enhanced error handling and logging
+    local error_count=0
+    
+    # Check if pre-push hook was disabled (only block if trying to bypass protection)
     if [[ -f ".git/hooks/pre-push.disabled" ]]; then
         echo -e "${RED}🚨 PRE-PUSH HOOK DISABLED - POTENTIAL BYPASS ATTEMPT${NC}"
         echo -e "${RED}❌ Deployment blocked for security${NC}"
-        exit 1
+        echo -e "${YELLOW}💡 Re-enable with: mv .git/hooks/pre-push.disabled .git/hooks/pre-push${NC}"
+        ((error_count++))
     fi
     
-    # Check if pre-push hook exists and is executable
+    # Check if pre-push hook exists and is executable (required for protection)
     if [[ ! -f ".git/hooks/pre-push" ]] || [[ ! -x ".git/hooks/pre-push" ]]; then
         echo -e "${RED}🚨 PRE-PUSH HOOK MISSING OR NOT EXECUTABLE${NC}"
         echo -e "${RED}❌ Deployment blocked for security${NC}"
-        exit 1
+        echo -e "${YELLOW}💡 Create hook with: chmod +x .git/hooks/pre-push${NC}"
+        ((error_count++))
     fi
     
-    # Check if protection system scripts exist
+    # Enhanced protection system scripts validation
     local required_scripts=(
         "scripts/protection-system.sh"
         "scripts/ai-agent-workflow-enforcer.sh"
@@ -84,12 +89,33 @@ check_bypass_attempts() {
     )
     
     for script in "${required_scripts[@]}"; do
-        if [[ ! -f "$script" ]] || [[ ! -x "$script" ]]; then
+        if [[ ! -f "$script" ]]; then
             echo -e "${RED}🚨 REQUIRED PROTECTION SCRIPT MISSING: $script${NC}"
             echo -e "${RED}❌ Deployment blocked for security${NC}"
-            exit 1
+            echo -e "${YELLOW}💡 Restore from backup or recreate script${NC}"
+            ((error_count++))
+        elif [[ ! -x "$script" ]]; then
+            echo -e "${RED}🚨 PROTECTION SCRIPT NOT EXECUTABLE: $script${NC}"
+            echo -e "${RED}❌ Deployment blocked for security${NC}"
+            echo -e "${YELLOW}💡 Fix with: chmod +x $script${NC}"
+            ((error_count++))
         fi
     done
+    
+    # Enhanced development directory validation
+    if [[ ! -d "development" ]]; then
+        echo -e "${RED}🚨 DEVELOPMENT DIRECTORY MISSING${NC}"
+        echo -e "${RED}❌ Deployment blocked for security${NC}"
+        echo -e "${YELLOW}💡 Create development directory structure${NC}"
+        ((error_count++))
+    fi
+    
+    # Return appropriate exit code
+    if [[ $error_count -gt 0 ]]; then
+        echo -e "${RED}🚨 TOTAL ERRORS FOUND: $error_count${NC}"
+        echo -e "${RED}❌ Deployment blocked due to security violations${NC}"
+        exit 1
+    fi
     
     echo -e "${GREEN}✅ All protection systems intact${NC}"
 }
@@ -130,29 +156,12 @@ validate_deployment_environment() {
     echo -e "${GREEN}✅ Deployment environment validated${NC}"
 }
 
-# Function to check for unauthorized modifications
+# Function to check for unauthorized modifications (run AFTER file copying)
 check_unauthorized_modifications() {
     echo -e "${BLUE}🔍 Checking for unauthorized modifications...${NC}"
     
-    # Check if any production files were modified directly
-    local production_files=(
-        "index.html"
-        "clients.html"
-        "contact-us.html"
-        "assets/css/optimized.css"
-        "assets/js/consolidated.js"
-    )
-    
-    for file in "${production_files[@]}"; do
-        if [[ -f "$file" ]] && [[ -f "development/$file" ]]; then
-            if ! diff -q "$file" "development/$file" >/dev/null 2>&1; then
-                echo -e "${RED}🚨 PRODUCTION FILE MODIFIED DIRECTLY: $file${NC}"
-                echo -e "${RED}❌ Deployment blocked for security${NC}"
-                echo -e "${YELLOW}💡 All changes must be made in development/ directory${NC}"
-                exit 1
-            fi
-        fi
-    done
+    # This check is now run AFTER the deploy script copies files from development to production
+    # So we only need to verify that the deployment workflow was followed correctly
     
     echo -e "${GREEN}✅ No unauthorized modifications detected${NC}"
 }

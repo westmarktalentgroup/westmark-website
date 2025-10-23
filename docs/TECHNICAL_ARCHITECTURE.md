@@ -41,8 +41,50 @@ The Westmark Talent Group website follows a **static site architecture** built w
 - **Responsive Design**: Mobile-first approach with progressive enhancement
 - **Toggle Mechanism**: JavaScript-controlled hamburger menu with CSS class toggling
 - **State Management**: `.navbar-collapse.show` class controls visibility
+- **HTML Structure**: Uses `class="navbar-collapse"` only (avoids Bootstrap conflicts)
+- **Bootstrap Compatibility**: Prevents conflicts with Bootstrap CSS that would break menu functionality
 - **Touch Optimization**: 44px minimum touch targets for mobile usability
 - **Accessibility**: Proper ARIA attributes and keyboard navigation support
+
+### Mobile Hero Section Architecture
+- **Responsive Design**: Mobile-first approach with 80vh height on mobile devices
+- **Text Positioning**: Uses `align-items: flex-end` to position hero text at bottom of image
+- **Overlay System**: Gradient overlay ensures text readability over background image
+- **Touch Optimization**: Proper spacing and padding for mobile interaction
+
+### Logo Page Architecture
+- **High-Quality Display**: Uses SVG vector format for scalable, professional logo display
+- **Social Media Optimization**: Open Graph meta tags for proper sharing on social platforms
+- **Download Options**: Multiple format downloads (SVG, PNG, WebP) for different use cases
+- **Professional Styling**: Clean, modern design with proper spacing and visual hierarchy
+- **Responsive Design**: Logo scales appropriately across all device sizes
+
+### Enhanced Deployment System Architecture
+- **Multi-Layer Security**: Pre-push hooks, AI circumvention protection, GitHub Branch Protection Rules
+- **Automated Rollback**: Emergency rollback capability with backup management
+- **Deployment Notifications**: Comprehensive logging and status tracking
+- **Performance Monitoring**: Enhanced performance analysis with thresholds and reporting
+- **Error Handling**: Improved error detection and recovery mechanisms
+- **File Synchronization**: Automatic development-to-production synchronization
+
+### Deployment Rollback Architecture
+- **Backup Management**: Automatic timestamped backups with cleanup
+- **Emergency Recovery**: Quick rollback to previous stable state
+- **Safety Measures**: Emergency backup creation before rollback
+- **Status Tracking**: Comprehensive rollback logging and notifications
+
+### Deployment Notification Architecture
+- **Real-Time Tracking**: Start, success, and failure notifications
+- **Status Persistence**: Deployment status file for current state
+- **Historical Logging**: Complete deployment history tracking
+- **Performance Integration**: Performance metrics in notifications
+
+### Enhanced Performance Monitoring Architecture
+- **Multi-Page Testing**: Comprehensive page load time analysis
+- **Asset Performance**: CSS and JavaScript loading optimization
+- **Memory Analysis**: File size monitoring and optimization
+- **Threshold Monitoring**: Performance regression detection
+- **Historical Tracking**: Performance trend analysis over time
 
 ### Form Handling Architecture
 - **Client-Side Validation**: JavaScript form validation with error states

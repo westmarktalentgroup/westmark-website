@@ -536,31 +536,89 @@ The protection system automatically:
   - Desktop: `display: flex` (always visible)
 
 ### Hamburger Menu Implementation
-```css
-/* Mobile hamburger menu */
-.hamburger {
-  display: flex;
-  flex-direction: column;
-  width: 24px;
-  height: 18px;
-  cursor: pointer;
-}
-
-.hamburger span {
-  display: block;
-  height: 2px;
-  width: 100%;
-  background-color: var(--color-text-primary);
-  margin-bottom: 4px;
-  transition: all var(--transition-base);
-}
-```
+- **Custom JavaScript**: Uses custom toggle mechanism (not Bootstrap)
+- **HTML Structure**: Should use `class="navbar-collapse"` only
+- **Bootstrap Conflict**: Avoid `class="collapse navbar-collapse"` as it conflicts with Bootstrap CSS
+- **Toggle Class**: JavaScript adds/removes `.show` class for visibility control
+- **Animation**: Smooth slide-down animation with opacity transition
+- **Hamburger Transform**: 4-line hamburger transforms to X with rotation animations
+- **Z-Index Management**: Proper layering (navbar-toggler: 1001, navbar-collapse: 1000)
 
 ### Mobile Menu Layout
 - **Vertical Stack**: Navigation items stack vertically on mobile
 - **Full Width**: Links take full width of container
 - **Proper Spacing**: Consistent padding and gaps
 - **Touch Friendly**: Minimum 44px touch targets
+- **Positioning**: Absolute positioning below soap bar with backdrop blur
+- **Accessibility**: Proper ARIA attributes and keyboard navigation support
+
+## 📱 Mobile Hero Section Standards
+
+### Responsive Behavior
+- **Desktop**: Full viewport height (100vh) with text positioned at bottom
+- **Mobile**: Reduced height (80vh) with text positioned at bottom
+
+### Mobile Positioning
+- Uses `align-items: flex-end` to position hero text at bottom of image
+- Maintains proper spacing with `padding: var(--spacing-4)`
+- Ensures text is readable over hero background with overlay
+
+### CSS Implementation
+```css
+@media (max-width: 768px) {
+  .hero-section {
+    min-height: 80vh;
+  }
+  
+  .hero-section .container-fluid {
+    height: 80vh;
+    padding: var(--spacing-4);
+    align-items: flex-end;
+  }
+}
+```
+
+## 🎨 Logo Page Standards
+
+### High-Quality Logo Display
+- **Vector Format**: Uses SVG for scalable, high-quality logo display
+- **Professional Styling**: Clean background with subtle shadow and padding
+- **Responsive Design**: Logo scales appropriately on all devices
+- **Download Options**: Multiple format downloads (SVG, PNG, WebP)
+
+### Logo Page Styling
+- **Background**: Light gray (`#f8f9fa`) for professional appearance
+- **Logo Container**: White background with shadow and rounded corners
+- **Typography**: Uses Manrope font family for consistency
+- **Download Buttons**: Black background with red hover state
+
+### CSS Implementation
+```css
+.logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  background: white;
+  padding: 20px;
+}
+
+.download-links a {
+  padding: 10px 20px;
+  background: #000;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.download-links a:hover {
+  background: #ae301c;
+}
+```
 
 ## 🎨 Form Control Standards
 

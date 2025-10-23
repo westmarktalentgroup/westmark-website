@@ -56,6 +56,21 @@ This document defines all components, CSS classes, and HTML structures used in t
 - **`.hamburger`**: Hamburger menu icon with 4 spans
 - **`.hamburger span`**: Individual hamburger menu lines
 - **`.hamburger span:last-child`**: Last hamburger line (no bottom margin)
+- **`.navbar-toggler.active`**: Active state for hamburger button (transforms hamburger to X)
+- **`.navbar-toggler.active .hamburger span:nth-child(1)`**: First hamburger line rotation (45deg)
+- **`.navbar-toggler.active .hamburger span:nth-child(2)`**: Second hamburger line fade (opacity: 0)
+- **`.navbar-toggler.active .hamburger span:nth-child(3)`**: Third hamburger line rotation (-45deg)
+- **`.navbar-toggler.active .hamburger span:nth-child(4)`**: Fourth hamburger line fade (opacity: 0)
+
+**Important**: The mobile menu uses custom JavaScript, not Bootstrap. The HTML should use `class="navbar-collapse"` (not `class="collapse navbar-collapse"`) to avoid conflicts with Bootstrap CSS that would prevent the menu from working.
+
+**Mobile Menu Features**:
+- **Positioning**: Absolute positioning below the soap bar with proper z-index layering
+- **Animation**: Smooth slide-down animation with opacity transition
+- **Backdrop**: Semi-transparent background with blur effect for modern appearance
+- **Responsive**: Adapts to different screen sizes with proper spacing
+- **Accessibility**: Proper ARIA attributes and keyboard navigation support
+- **Touch-friendly**: Large touch targets and proper spacing for mobile interaction
 
 ### Touch ID Authentication Classes
 - **`.simple-touchid-auth.sh`**: Touch ID authentication script with quiet mode support
@@ -110,6 +125,8 @@ This document defines all components, CSS classes, and HTML structures used in t
 - **`.about-section`**: About content section
 - **`.faq-section`**: FAQ section
 - **`.opportunities-section`**: Job opportunities section
+- **`.opportunities-container`**: Responsive container for opportunity cards
+- **`.opportunity-card`**: Individual opportunity card wrapper
 - **`.process-section`**: Process steps section
 - **`.services-section`**: Services section
 - **`.contact-section`**: Contact form section
@@ -153,8 +170,14 @@ This document defines all components, CSS classes, and HTML structures used in t
 ### CTA Classes
 - **`.cta-buttons`**: Call-to-action buttons container
 
+### Logo Page Classes
+- **`.logo`**: High-quality SVG logo display with professional styling
+- **`.download-links`**: Container for download buttons with flexbox layout
+- **`.download-links a`**: Download button styling with hover effects
+
+**Important**: The logo page now uses the high-quality SVG vector logo (`Westmark_logo-3.svg`) instead of the small PNG for better sharing quality and professional appearance.
+
 ### Utility Classes
-- **`.logo`**: Logo styling
 - **`.features-without-image`**: Features without image layout
 - **`.collapsed`**: Collapsed state styling
 - **`.panel-text`**: Panel text styling
@@ -311,10 +334,10 @@ Display process step numbers in a consistent, prominent style for the clients pa
   - Behavior: All panels start collapsed, only one can be open at a time
   - Icons: Downward chevron (▼) for collapsed, upward chevron (▲) for expanded
 
-### Current Opportunities Component (Updated Implementation)
+### Current Opportunities Component (Responsive Implementation)
 
 #### Purpose
-Display job listings in a single row with flexbox layout and square images. This component shows 4 job opportunities in a horizontal layout that maintains single-row display across all screen sizes.
+Display job listings with responsive layout that adapts to different screen sizes. Shows 4 job opportunities with proper spacing and readability across all devices.
 
 #### HTML Structure
 ```html
@@ -328,12 +351,12 @@ Display job listings in a single row with flexbox layout and square images. This
                         <strong>Current Opportunities</strong>
                     </h4>
                 </div>
-                <div style="display: flex; gap: 1.5rem; flex-wrap: nowrap; padding: 0 1.5rem;">
-                    <div style="flex: 1; min-width: 0;">
+                <div class="opportunities-container">
+                    <div class="opportunity-card">
                         <div class="card">
                             <div class="item-wrapper">
-                                <div class="item-img" style="position: relative; width: 100%; height: 0; padding-bottom: 100%; overflow: hidden;">
-                                    <img src="assets/images/job-image.webp" alt="Job Position" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: center;">
+                                <div class="item-img">
+                                    <img src="assets/images/job-image.webp" alt="Job Position">
                                 </div>
                                 <div class="item-content">
                                     <h5 class="item-title display-5"><strong>Sr. PM</strong><br><strong>Luxury Residential</strong></h5>
@@ -356,46 +379,83 @@ Display job listings in a single row with flexbox layout and square images. This
 
 #### CSS Implementation
 ```css
-/* Flexbox Layout for Single Row */
+/* Responsive Opportunities Container */
 .opportunities-container {
-    display: flex;
-    gap: 1.5rem;
-    flex-wrap: nowrap;
-    padding: 0 1.5rem;
+  display: flex;
+  gap: var(--spacing-6);
+  flex-wrap: wrap;
+  padding: 0 var(--spacing-6);
 }
 
 .opportunity-card {
+  flex: 1;
+  min-width: 280px; /* Minimum width for readability */
+  max-width: 100%;
+}
+
+/* Desktop: 4 cards in a row */
+@media (min-width: 1200px) {
+  .opportunity-card {
     flex: 1;
     min-width: 0;
+  }
+}
+
+/* Tablet: 2 cards per row */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .opportunity-card {
+    flex: 0 0 calc(50% - var(--spacing-3));
+    min-width: 0;
+  }
+}
+
+/* Mobile: 1 card per row */
+@media (max-width: 767px) {
+  .opportunities-container {
+    flex-direction: column;
+    gap: var(--spacing-4);
+    padding: 0 var(--spacing-4);
+  }
+  
+  .opportunity-card {
+    flex: 0 0 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
 }
 
 /* Square Image Implementation */
 .item-img {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 100%;
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  overflow: hidden;
+  border-radius: var(--border-radius-xl);
 }
 
 .item-img img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-base);
 }
 
-/* Text Content Sizing */
-.text-content {
-    font-family: var(--font-family-body);
-    font-size: 1.575rem;
-    line-height: 1.6;
-    margin-bottom: var(--spacing-1);
+.item-img:hover img {
+  transform: scale(1.05);
 }
 ```
+
+#### Responsive Behavior
+- **Desktop (1200px+)**: 4 cards in a single row
+- **Tablet (768px-1199px)**: 2 cards per row
+- **Mobile (<768px)**: 1 card per row, stacked vertically
+- **Minimum Width**: 280px per card for readability
+- **Proper Spacing**: Consistent gaps using design tokens
+- **Touch-Friendly**: Full-width cards on mobile for easy interaction
 
 ## Section Header Component
 
@@ -482,3 +542,34 @@ Standardized section headers with consistent typography and spacing across all p
 - **CTA sections**: Use `.section-title` with `.mb-4` for call-to-action sections
 - **Consistency**: Always pair with `.display-2` for typography consistency
 - **Semantic HTML**: Use appropriate heading tags (h1, h3, h4) based on content hierarchy
+
+## Contact Information Headers
+
+### `.contact-info-header`
+
+**Purpose**: Responsive headers for contact information cards that adaptively fit on a single line across all screen sizes.
+
+**Usage**: Used specifically for contact page headers like "Email Us", "Call Us", and "Mailing Address".
+
+```html
+<h4 class="contact-info-header"><strong>Email Us</strong></h4>
+```
+
+**CSS Implementation**:
+```css
+.contact-info-header {
+  font-family: var(--font-family-body);
+  font-size: clamp(1.2rem, 2.5vw, 2rem);
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--spacing-3);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+```
+
+### Usage Guidelines
+- **Contact pages**: Use exclusively for contact information section headers
+- **Single line**: Ensures headers stay on one line across all devices
+- **Responsive sizing**: Automatically scales based on viewport width
+- **Overflow protection**: Includes ellipsis fallback for extremely narrow screens

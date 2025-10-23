@@ -54,8 +54,17 @@
     if (navbarToggler && navbarCollapse) {
       navbarToggler.addEventListener('click', function(e) {
         e.preventDefault();
-        toggleClass(navbarCollapse, 'show');
-        toggleClass(navbarToggler, 'active');
+        e.stopPropagation();
+        
+        const isOpen = hasClass(navbarCollapse, 'show');
+        
+        if (isOpen) {
+          removeClass(navbarCollapse, 'show');
+          removeClass(navbarToggler, 'active');
+        } else {
+          addClass(navbarCollapse, 'show');
+          addClass(navbarToggler, 'active');
+        }
       });
     }
 
@@ -85,14 +94,25 @@
       });
     });
 
-    // Close mobile menu when clicking outside
+    // Close mobile menu when clicking outside or on nav links
     document.addEventListener('click', function(e) {
       if (navbarCollapse && hasClass(navbarCollapse, 'show')) {
-        if (!navbarToggler.contains(e.target) && !navbarCollapse.contains(e.target)) {
+        const soapBar = $('.soap-bar');
+        if (!soapBar.contains(e.target)) {
           removeClass(navbarCollapse, 'show');
           removeClass(navbarToggler, 'active');
         }
       }
+    });
+
+    // Close mobile menu when clicking on nav links
+    navLinks.forEach(function(link) {
+      link.addEventListener('click', function() {
+        if (navbarCollapse && hasClass(navbarCollapse, 'show')) {
+          removeClass(navbarCollapse, 'show');
+          removeClass(navbarToggler, 'active');
+        }
+      });
     });
   }
 

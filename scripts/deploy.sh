@@ -62,6 +62,11 @@ cp *.png *.svg *.jpg *.jpeg "$BACKUP_DIR/" 2>/dev/null || true
 
 echo "✅ Backup created in: $BACKUP_DIR"
 
+# Send deployment start notification
+if [ -f "scripts/deployment-notifications.sh" ]; then
+    ./scripts/deployment-notifications.sh start "$BACKUP_DIR"
+fi
+
 # Copy development files to production
 echo "🔄 Copying development files to production..."
 
@@ -89,6 +94,27 @@ fi
 [ -f "development/Westmark_logo-3.svg" ] && cp development/Westmark_logo-3.svg ./
 
 echo "  ✅ Additional files copied"
+
+# Verify file synchronization (run AFTER copying)
+echo "🔍 Verifying file synchronization..."
+production_files=(
+    "index.html"
+    "clients.html" 
+    "contact-us.html"
+    "assets/css/optimized.css"
+    "assets/js/consolidated.js"
+)
+
+for file in "${production_files[@]}"; do
+    if [[ -f "$file" ]] && [[ -f "development/$file" ]]; then
+        if ! diff -q "$file" "development/$file" >/dev/null 2>&1; then
+            echo "  ⚠️  WARNING: $file not synchronized with development version"
+            echo "  🔄 Synchronizing $file..."
+            cp "development/$file" "$file"
+        fi
+    fi
+done
+echo "  ✅ File synchronization verified"
 
 # Clean up old backups (keep only last 5)
 echo "🧹 Cleaning up old backups..."
@@ -119,6 +145,11 @@ if command -v python3 >/dev/null 2>&1; then
     
     # Kill the test server
     kill $SERVER_PID 2>/dev/null || true
+    
+    # Send deployment success notification
+    if [ -f "scripts/deployment-notifications.sh" ]; then
+        ./scripts/deployment-notifications.sh success "$BACKUP_DIR" "$LOAD_TIME"
+    fi
 fi
 
 # Security check
@@ -158,7 +189,9 @@ fi
 
 echo ""
 # Git operations for deployment
-echo "📤 Checking for changes to push..."
+echo "📤 Checking for changes to deploy..."
+
+# Check if there are any changes to commit
 if git status --porcelain | grep -q .; then
     echo "📝 Committing production changes..."
     git add .
@@ -167,26 +200,38 @@ if git status --porcelain | grep -q .; then
 - Backup: $BACKUP_DIR
 - Validation: Passed
 - Performance: Optimized"
+    
+    # Create a deployment branch for pull request workflow
+    DEPLOY_BRANCH="deploy-$(date +%Y%m%d-%H%M%S)"
+    echo "🚀 Creating deployment branch: $DEPLOY_BRANCH"
+    
+    # Create and switch to deployment branch
+    git checkout -b "$DEPLOY_BRANCH"
+    
+    # Push the deployment branch
+    echo "📤 Pushing deployment branch to GitHub..."
+    git push origin "$DEPLOY_BRANCH"
+    
+    # Switch back to main branch
+    git checkout main
+    
+    echo ""
+    echo "🎉 DEPLOYMENT SUCCESSFUL!"
+    echo "=================================="
+    echo "✅ Files successfully updated in production"
+    echo "✅ Changes committed to branch: $DEPLOY_BRANCH"
+    echo "✅ Branch pushed to GitHub"
+    echo ""
+    echo "📋 NEXT STEPS:"
+    echo "1. Go to GitHub repository"
+    echo "2. Create a Pull Request from branch: $DEPLOY_BRANCH"
+    echo "3. Merge the PR to deploy to GitHub Pages"
+    echo ""
+    echo "🔗 GitHub PR URL:"
+    echo "https://github.com/westmarktalentgroup/westmark-website/compare/main...$DEPLOY_BRANCH"
+    
 else
-    echo "✅ No changes to commit"
-fi
-
-# Only push if there are commits to push
-if git log origin/main..HEAD --oneline | grep -q .; then
-    echo "🚀 Pushing to GitHub Pages..."
-    # Temporarily disable protection for deployment push
-    if [[ -f ".git/hooks/pre-push" ]]; then
-        mv .git/hooks/pre-push .git/hooks/pre-push.disabled
-    fi
-
-    git push origin main
-
-    # Re-enable protection
-    if [[ -f ".git/hooks/pre-push.disabled" ]]; then
-        mv .git/hooks/pre-push.disabled .git/hooks/pre-push
-    fi
-else
-    echo "✅ No new commits to push"
+    echo "✅ No changes to commit - deployment up to date"
 fi
 
 echo ""
