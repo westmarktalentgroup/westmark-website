@@ -191,6 +191,10 @@ echo ""
 # Git operations for deployment
 echo "📤 Checking for changes to deploy..."
 
+# Fetch latest changes from remote to avoid merge conflicts
+echo "🔄 Fetching latest changes from GitHub..."
+git fetch origin main
+
 # Check if there are any changes to commit
 if git status --porcelain | grep -q .; then
     echo "📝 Committing production changes..."
@@ -200,6 +204,10 @@ if git status --porcelain | grep -q .; then
 - Backup: $BACKUP_DIR
 - Validation: Passed
 - Performance: Optimized"
+    
+    # Rebase current changes on top of latest main to avoid conflicts
+    echo "🔄 Rebasing on latest main to prevent merge conflicts..."
+    git rebase origin/main 2>/dev/null || true
     
     # Create a deployment branch for pull request workflow
     DEPLOY_BRANCH="deploy-$(date +%Y%m%d-%H%M%S)"
