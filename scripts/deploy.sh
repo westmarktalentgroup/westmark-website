@@ -191,6 +191,17 @@ echo ""
 # Git operations for deployment
 echo "📤 Checking for changes to deploy..."
 
+# Fetch latest changes from remote to avoid merge conflicts
+echo "🔄 Fetching latest changes from GitHub..."
+git fetch origin main
+
+# Rebase current changes on top of latest main to avoid conflicts
+echo "🔄 Rebasing local changes on top of latest main..."
+git rebase origin/main || {
+    echo "⚠️  Rebase encountered conflicts - creating deployment branch anyway"
+    git rebase --abort 2>/dev/null || true
+}
+
 # Check if there are any changes to commit
 if git status --porcelain | grep -q .; then
     echo "📝 Committing production changes..."
@@ -205,7 +216,8 @@ if git status --porcelain | grep -q .; then
     DEPLOY_BRANCH="deploy-$(date +%Y%m%d-%H%M%S)"
     echo "🚀 Creating deployment branch: $DEPLOY_BRANCH"
     
-    # Create and switch to deployment branch
+    # Create deployment branch from current state
+    # This ensures we have the latest production changes on the branch
     git checkout -b "$DEPLOY_BRANCH"
     
     # Push the deployment branch
