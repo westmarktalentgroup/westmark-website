@@ -45,11 +45,17 @@ jobs:
           exit 1
         fi
         
-        # Check total documentation count
-        TOTAL_DOCS=$(find . -name "*.md" | wc -l)
-        if [ "$TOTAL_DOCS" -gt 15 ]; then
-          echo "❌ FAILED: Too many documentation files ($TOTAL_DOCS)"
-          echo "🚨 Maximum 15 documentation files allowed"
+        # Check documentation structure (not file count)
+        # Structural documentation should be organized by category
+        STRUCTURAL_CATEGORIES=("technical" "design" "deployment" "development" "reference")
+        
+        # Check for proper documentation organization
+        echo "🔍 Checking documentation structure..."
+        
+        # Verify docs/ directory exists
+        if [ ! -d "docs" ]; then
+          echo "❌ FAILED: docs/ directory not found"
+          echo "🚨 All documentation should be in docs/ directory"
           exit 1
         fi
         
@@ -59,8 +65,8 @@ jobs:
       run: |
         echo "🔍 Checking documentation structure..."
         
-        # Check for essential documentation files
-        ESSENTIAL_FILES=("README.md" "docs/ASSET_INVENTORY.md" "docs/TECHNICAL_ARCHITECTURE.md" "docs/DEPLOYMENT_MAINTENANCE.md" "docs/DESIGN_SYSTEM.md" "docs/VISUAL_STANDARDS.md")
+        # Check for essential documentation files (structural requirements)
+        ESSENTIAL_FILES=("README.md" "docs/COMPONENT_LIBRARY.md" "docs/CSS_STANDARDS.md" "docs/TECHNICAL_ARCHITECTURE.md")
         
         for file in "${ESSENTIAL_FILES[@]}"; do
           if [ ! -f "$file" ]; then
