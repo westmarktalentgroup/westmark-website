@@ -228,6 +228,17 @@ if git status --porcelain | grep -q .; then
     # Switch back to main branch
     git checkout main
     
+    # Clean up old deployment branches (keep only last 5)
+    echo "🧹 Cleaning up old deployment branches..."
+    OLD_DEPLOY_BRANCHES=$(git branch -a | grep "deploy-" | sed 's/remotes\/origin\///' | sort -u | head -n -5)
+    if [ ! -z "$OLD_DEPLOY_BRANCHES" ]; then
+        for branch in $OLD_DEPLOY_BRANCHES; do
+            git branch -D "$branch" 2>/dev/null || true
+            git push origin --delete "$branch" 2>/dev/null || true
+        done
+        echo "✅ Old deployment branches cleaned up"
+    fi
+    
     echo ""
     echo "🎉 DEPLOYMENT SUCCESSFUL!"
     echo "=================================="
