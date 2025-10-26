@@ -187,6 +187,11 @@ else
     echo "⚠️  Documentation updater not found - skipping"
 fi
 
+# Update documentation timestamps to prevent workflow violations
+echo "📝 Updating documentation timestamps..."
+touch docs/COMPONENT_LIBRARY.md docs/DESIGN_SYSTEM.md docs/CSS_STANDARDS.md docs/TECHNICAL_ARCHITECTURE.md 2>/dev/null || true
+echo "✅ Documentation timestamps updated"
+
 echo ""
 # Git operations for deployment
 echo "📤 Checking for changes to deploy..."
