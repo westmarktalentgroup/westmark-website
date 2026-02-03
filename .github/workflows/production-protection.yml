@@ -43,14 +43,27 @@ jobs:
         echo "✅ Pull Request Validation"
         echo "=========================="
         
-        # Check if development directory exists
+        BRANCH_NAME="${{ github.head_ref }}"
+        # Deploy branches (from ./scripts/deploy.sh) contain production output only; development/ is gitignored
+        if [[ "$BRANCH_NAME" == deploy-* ]]; then
+          echo "✅ Deploy branch - validating production files only"
+          for f in index.html assets/css/optimized.css assets/js/consolidated.js; do
+            if [[ ! -f "$f" ]]; then
+              echo "🚨 CRITICAL: Production file missing: $f"
+              exit 1
+            fi
+          done
+          echo "✅ Pull request validation passed (deploy branch)"
+          exit 0
+        fi
+        
+        # Non-deploy branches: require development/ and its files
         if [[ ! -d "development" ]]; then
           echo "🚨 CRITICAL: Development directory missing"
           echo "❌ Pull request blocked"
           exit 1
         fi
         
-        # Check if required files exist
         REQUIRED_FILES=(
           "development/index.html"
           "development/assets/css/optimized.css"
@@ -72,7 +85,14 @@ jobs:
       run: |
         echo "🔍 Checking for direct production modifications..."
         
-        # Check if any production files were modified directly
+        # Deploy branches (from ./scripts/deploy.sh) are allowed to update production
+        BRANCH_NAME="${{ github.head_ref }}"
+        if [[ "$BRANCH_NAME" == deploy-* ]]; then
+          echo "✅ Deploy branch detected - production updates from development/ are allowed"
+          exit 0
+        fi
+        
+        # Non-deploy branches: block direct production file changes
         PRODUCTION_FILES=(
           "index.html"
           "clients.html"
@@ -85,7 +105,7 @@ jobs:
           if git diff --name-only HEAD~1 | grep -q "^$file$"; then
             echo "🚨 CRITICAL: Direct production file modification detected: $file"
             echo "❌ All changes must be made in development/ directory"
-            echo "❌ Pull request blocked"
+            echo "❌ Use ./scripts/deploy.sh to create a deploy branch"
             exit 1
           fi
         done
