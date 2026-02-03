@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # WESTMARK PROTECTION SYSTEM
-# Consolidated protection and workflow enforcement
-# Replaces multiple individual scripts with a single, efficient system
+# Consolidated protection and workflow enforcement.
+# Must be run from repository root; script changes into development/ for all checks.
 
 echo "🔒 Westmark Protection System"
 echo "============================"
@@ -371,8 +371,10 @@ if [ "$OPTIMIZED_IMPORTANT" -gt 0 ] 2>/dev/null; then
     exit 1
 fi
 
-# Initialize TOTAL_IMPORTANT if not set
+# Initialize TOTAL_IMPORTANT if not set; coerce to integer (strip newlines)
 TOTAL_IMPORTANT=${TOTAL_IMPORTANT:-0}
+TOTAL_IMPORTANT=$(echo "$TOTAL_IMPORTANT" | tr -d '\n' | grep -E '^[0-9]+$' || echo "0")
+OPTIMIZED_IMPORTANT=$(echo "$OPTIMIZED_IMPORTANT" | tr -d '\n' | grep -E '^[0-9]+$' || echo "0")
 TOTAL_IMPORTANT=$((TOTAL_IMPORTANT + OPTIMIZED_IMPORTANT))
 
 if [ "$TOTAL_IMPORTANT" -gt 10 ] 2>/dev/null; then

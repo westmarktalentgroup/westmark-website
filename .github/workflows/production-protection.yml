@@ -7,28 +7,9 @@ on:
     branches: [ main ]
 
 jobs:
-  # BLOCK ALL DIRECT PUSHES TO MAIN - This is the core protection
-  block-direct-pushes:
-    runs-on: ubuntu-latest
-    if: github.event_name == 'push'
-    steps:
-    - name: 🚨 BLOCK DIRECT PUSH TO MAIN
-      run: |
-        echo "🚨 CRITICAL: DIRECT PUSH TO MAIN BRANCH DETECTED"
-        echo "================================================"
-        echo "❌ This repository requires pull requests for all changes"
-        echo "❌ Direct pushes to main are BLOCKED for security"
-        echo ""
-        echo "✅ REQUIRED WORKFLOW:"
-        echo "   1. Work in development/ directory"
-        echo "   2. Create a pull request"
-        echo "   3. Pass all status checks"
-        echo "   4. Merge through GitHub interface"
-        echo ""
-        echo "🛡️ This protection cannot be bypassed locally"
-        echo "🔒 Server-side enforcement prevents AI agent circumvention"
-        echo ""
-        exit 1
+  # NOTE: Direct pushes to main are blocked by GitHub branch protection (required PR, approval, status checks).
+  # We do NOT run a job that fails on push to main here, because merging a PR also triggers a push event;
+  # that would cause this workflow to fail on every successful merge. See DEPLOYMENT_SYSTEM_REVIEW.md.
 
   # VALIDATE PULL REQUESTS - Only allow proper workflow
   validate-pull-request:
@@ -147,9 +128,5 @@ jobs:
         
         echo "✅ Security checks passed"
         
-    - name: Deploy to GitHub Pages (if PR is merged)
-      if: github.event.action == 'closed' && github.event.pull_request.merged == true
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./
+    # Deployment to GitHub Pages is handled by deploy.yml on push to main (triggered when PR is merged).
+    # This workflow only validates PRs; it does not deploy. See DEPLOYMENT_SYSTEM_REVIEW.md.

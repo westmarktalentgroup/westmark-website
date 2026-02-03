@@ -1556,21 +1556,19 @@ development/
 
 ### **Standard Deployment**
 ```bash
-./deploy.sh
+./scripts/deploy.sh   # From repository root
 ```
 
-### **Enhanced Deployment**
+### **Enhanced Deployment** (if improved-deploy.sh exists)
 ```bash
-./improved-deploy.sh
+./scripts/improved-deploy.sh
 ```
 
 ### **Development Workflow**
 ```bash
-cd development
-./protection-system.sh --cleanup
-# Make changes
-cd ..
-./improved-deploy.sh
+./scripts/protection-system.sh --cleanup   # From repo root; script cd's into development/
+# Make changes in development/
+./scripts/deploy.sh
 ```
 
 ---

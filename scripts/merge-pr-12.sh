@@ -10,6 +10,9 @@ if [ -z "$GITHUB_TOKEN" ]; then
   exit 1
 fi
 
+# Branch protection requires: approval from someone other than last pusher + Westmark Production Protection check.
+# This script merges when those are satisfied; otherwise merge via GitHub UI.
+
 echo "🔄 Merging PR #$PR_NUMBER..."
 RESPONSE=$(curl -s -w "\n%{http_code}" -X PUT \
   -H "Authorization: token $GITHUB_TOKEN" \

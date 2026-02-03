@@ -70,6 +70,12 @@ fi
 # Copy development files to production
 echo "🔄 Copying development files to production..."
 
+# Require at least index.html so globs don't fail
+if [ ! -f "development/index.html" ]; then
+    echo "❌ Error: development/index.html not found. Cannot deploy."
+    exit 1
+fi
+
 # Copy main HTML files
 cp development/*.html ./
 echo "  ✅ HTML files copied"
@@ -147,7 +153,8 @@ if command -v python3 >/dev/null 2>&1; then
     # Kill the test server
     kill $SERVER_PID 2>/dev/null || true
     
-    # Send deployment success notification
+    # Send deployment success notification (LOAD_TIME may be unset if curl wasn't available)
+    LOAD_TIME="${LOAD_TIME:-0}"
     if [ -f "scripts/deployment-notifications.sh" ]; then
         ./scripts/deployment-notifications.sh success "$BACKUP_DIR" "$LOAD_TIME"
     fi
@@ -211,7 +218,7 @@ if git status --porcelain | grep -q .; then
 - Validation: Passed
 - Performance: Optimized"
     
-    # Rebase current changes on top of latest main to avoid conflicts
+    # Rebase so deploy branch is based on latest main (avoids merge conflicts when PR is created)
     echo "🔄 Rebasing on latest main to prevent merge conflicts..."
     git rebase origin/main 2>/dev/null || true
     
@@ -229,7 +236,7 @@ if git status --porcelain | grep -q .; then
     # Switch back to main branch
     git checkout main
     
-    # Clean up old deployment branches (keep only last 5)
+    # Clean up old deployment branches (keep last 5 by lexicographic order; branch names include timestamp)
     echo "🧹 Cleaning up old deployment branches..."
     OLD_DEPLOY_BRANCHES=$(git branch -a | grep "deploy-" | sed 's/remotes\/origin\///' | sort -u | head -n -5)
     if [ ! -z "$OLD_DEPLOY_BRANCHES" ]; then

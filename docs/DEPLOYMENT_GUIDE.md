@@ -64,21 +64,21 @@ The protection system automatically detects and prevents duplicate scripts:
 cd development
 # ... make your changes ...
 
-# 2. Run protection system checks
-./protection-system.sh
-
-# 3. Deploy to production
+# 2. Run protection system checks (from repo root: ./scripts/protection-system.sh runs in development/)
 cd ..
-./deploy.sh
+./scripts/protection-system.sh
 
-# 4. Commit and push
-git add .
-git commit -m "Deploy: [describe your changes]"
-git push origin main
+# 3. Deploy to production (copies development/ to root, commits, creates deploy-* branch, pushes)
+./scripts/deploy.sh
+
+# 4. Open PR and merge (main is branch-protected; deploy.sh outputs the PR link)
+#    - Required: "Westmark Production Protection" status check (deploy-* branches are allowed)
+#    - Required: approval from someone other than the last pusher
+#    - Then merge the PR on GitHub to deploy to GitHub Pages
 ```
 
-### Single Deployment Script: `deploy.sh`
-- **Location**: Root directory (`/deploy.sh`)
+### Single Deployment Script: `scripts/deploy.sh`
+- **Location**: `scripts/deploy.sh` (run from repository root: `./scripts/deploy.sh`)
 - **Purpose**: Comprehensive deployment with all features
 - **Features**:
   - Protection system validation
@@ -122,24 +122,17 @@ open http://localhost:8001/index.html
 3. **Mobile test** - Verify responsive design
 4. **Performance test** - Check Core Web Vitals
 5. **Get user approval** - Confirm ready for deployment
-6. **Deploy to main** - Copy files from development to root
+6. **Deploy** - Run `./scripts/deploy.sh`, then open PR and merge to main (branch protection requires PR)
 7. **Monitor live site** - Watch for any issues
 8. **Quick rollback** - If issues, revert immediately
 
 ### Deployment Commands
+**Do not copy manually.** Always use the deployment script and PR workflow:
 ```bash
-# Copy from development to production
-cp development/index.html index.html
-cp development/clients.html clients.html
-cp development/contact-us.html contact-us.html
-cp development/logo.html logo.html
-cp -r development/assets/* assets/
-
-# Commit and push to GitHub Pages
-git add .
-git commit -m "Deploy: [describe changes]"
-git push origin main
+./scripts/deploy.sh   # Copies development/ → root, creates deploy-* branch, pushes
+# Then open the PR link it prints and merge on GitHub (branch protection requires PR).
 ```
+Manual `cp` and `git push origin main` are blocked; use `./scripts/deploy.sh` and merge via PR.
 
 ## ⚠️ GitHub Pages Risks & Mitigation
 
@@ -158,13 +151,12 @@ git push origin main
 ## 🔄 Rollback Strategy
 
 ### Quick Rollback Process
-```bash
-# If issues arise, immediately revert
-git checkout HEAD~1 -- index.html clients.html contact-us.html logo.html
-git checkout HEAD~1 -- assets/
-git commit -m "ROLLBACK: Revert changes due to issues"
-git push origin main
-```
+**Branch protection blocks direct push to main.** Use one of:
+
+1. **Rollback script (local restore + new deploy):**  
+   `./scripts/rollback.sh` — restores from a backup under `backups/`. Then run `./scripts/deploy.sh` to create a deploy branch with the rolled-back state and open a PR to merge.
+
+2. **Revert via PR:** Create a branch from `main`, revert the bad commit (`git revert <commit>`), run `./scripts/deploy.sh` from that state (or push the revert branch and open a PR), then merge the PR.
 
 ## 📊 Monitoring and Maintenance
 
@@ -308,17 +300,16 @@ Referrer-Policy: strict-origin-when-cross-origin
 ### Script Enhancement Process
 ```bash
 # 1. Backup current script
-cp deploy.sh deploy.sh.backup
+cp scripts/deploy.sh scripts/deploy.sh.backup
 
 # 2. Enhance the script
-# ... add new features to deploy.sh ...
+# ... add new features to scripts/deploy.sh ...
 
-# 3. Test the enhanced script
-./deploy.sh
+# 3. Test the enhanced script (from repo root)
+./scripts/deploy.sh
 
-# 4. Run protection system to verify
-cd development
-./protection-system.sh
+# 4. Run protection system to verify (from repo root)
+./scripts/protection-system.sh
 ```
 
 ## 📈 Best Practices
@@ -381,8 +372,8 @@ find . -name "*deploy*.sh" -exec echo "Deploy script: {}" \;
 find development -name "*protection*.sh" -exec echo "Protection script: {}" \;
 
 # Should show only:
-# Deploy script: ./deploy.sh
-# Protection script: development/protection-system.sh
+# Deploy script: ./scripts/deploy.sh
+# Protection script: ./scripts/protection-system.sh (run from repo root)
 ```
 
 ---

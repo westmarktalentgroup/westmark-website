@@ -51,7 +51,7 @@ This repository uses a **staging-to-production** workflow optimized for GitHub P
 
 1. **Develop & Test** in `development/` directory
 2. **Test locally** to ensure everything works
-3. **Deploy to production** using `./deploy.sh`
+3. **Deploy to production** using `./scripts/deploy.sh`
 4. **Commit & Push** to main branch
 5. **GitHub Pages** automatically deploys
 
@@ -86,7 +86,7 @@ git push origin main
 **⚠️ NEVER MODIFY PRODUCTION FILES DIRECTLY**
 
 - ✅ **DO**: Work only in `development/` directory
-- ✅ **DO**: Use `./deploy.sh` to copy to production
+- ✅ **DO**: Use `./scripts/deploy.sh` to copy to production
 - ❌ **DON'T**: Edit files in root directory (production)
 - ❌ **DON'T**: Manually copy files to production
 - ❌ **DON'T**: Skip the deployment script
@@ -94,7 +94,7 @@ git push origin main
 **🔄 Correct Workflow:**
 1. Make changes in `development/`
 2. Test in `development/`
-3. Run `./deploy.sh` to deploy
+3. Run `./scripts/deploy.sh` to deploy
 4. Commit and push to GitHub
 
 ### 🔧 Recent Optimizations

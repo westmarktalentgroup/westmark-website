@@ -34,16 +34,16 @@
    - Manual file copying to production ❌
 
 ### **🎯 DEPLOYMENT SCRIPT MANDATE**
-**This project has a `deploy.sh` script that MUST be used for all production deployments.**
-- **File Location**: `/Code/deploy.sh`
+**This project has a deployment script that MUST be used for all production deployments.**
+- **File Location**: `scripts/deploy.sh` (repository root)
 - **Purpose**: Handles backups, systematic copying, and error handling
-- **Usage**: `./deploy.sh` (run from project root)
+- **Usage**: `./scripts/deploy.sh` (run from repository root)
 - **NEVER use manual cp commands** - Always use the deployment script
 
 ### **🚨 DEPLOYMENT SCRIPT CHECK**
 **Before ANY production changes, you MUST:**
-1. Check if `deploy.sh` exists in the project root
-2. If it exists, USE IT instead of manual commands
+1. Check if `scripts/deploy.sh` exists in the repository
+2. If it exists, USE IT instead of manual commands (run from repo root: `./scripts/deploy.sh`)
 3. If it doesn't exist, ask the user about deployment procedures
 4. **NEVER assume manual copying is acceptable**
 
@@ -105,8 +105,8 @@ verify no regressions
 
 ### **Step 4: Production Deployment**
 ```bash
-# ✅ CORRECT: Only after approval - USE DEPLOYMENT SCRIPT
-./deploy.sh
+# ✅ CORRECT: Only after approval - USE DEPLOYMENT SCRIPT (from repo root)
+./scripts/deploy.sh
 
 # ❌ NEVER DO THIS:
 cp development/index.html index.html
@@ -133,7 +133,7 @@ edit assets/css/style.css
 Before making ANY changes:
 
 - [ ] **🚨 STOP! READ THIS FILE FIRST** - No exceptions
-- [ ] **🔍 CHECK FOR DEPLOYMENT SCRIPTS** - Look for deploy.sh, deploy.py, etc.
+- [ ] **🔍 CHECK FOR DEPLOYMENT SCRIPTS** - Look for scripts/deploy.sh, deploy.py, etc.
 - [ ] **📖 READ PROJECT WORKFLOW DOCS** - Check for workflow rules
 - [ ] **Identify target environment**: Development or Production?
 - [ ] **If Production**: STOP - Ask user for explicit permission
@@ -189,7 +189,7 @@ If production files are accidentally modified:
 
 ### **AUTOMATIC DEPLOYMENT SCRIPT DETECTION**
 **If you see ANY of these commands in your planned actions:**
-- `cp development/` → **STOP! Use ./deploy.sh instead**
+- `cp development/` → **STOP! Use ./scripts/deploy.sh instead**
 - `git add .` → **STOP! Check if deployment script was used first**
 - Direct file modification in root directory → **STOP! Use development/ first**
 
