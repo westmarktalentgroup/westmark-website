@@ -92,6 +92,7 @@ fi
 [ -f "development/CNAME" ] && cp development/CNAME ./
 [ -f "development/linkedin.png" ] && cp development/linkedin.png ./
 [ -f "development/Westmark_logo-3.svg" ] && cp development/Westmark_logo-3.svg ./
+[ -f "development/Westmark-logo.png" ] && cp development/Westmark-logo.png ./
 
 echo "  ✅ Additional files copied"
 

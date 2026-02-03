@@ -1,0 +1,102 @@
+name: 🔄 Continuous Integration
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+jobs:
+  ci:
+    name: 🔍 Code Quality & Testing
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout Code
+      uses: actions/checkout@v4
+      
+    - name: 📋 Code Quality Check
+      run: |
+        echo "🔍 Running code quality checks..."
+        
+        # Check for common issues
+        echo "Checking for TODO comments..."
+        if grep -r "TODO\|FIXME\|HACK" --include="*.html" --include="*.css" --include="*.js" .; then
+          echo "⚠️ Found TODO/FIXME comments"
+        else
+          echo "✅ No TODO comments found"
+        fi
+        
+        # Validate file structure
+        echo "Validating file structure..."
+        if [ -f "index.html" ] && [ -f "assets/css/optimized.css" ]; then
+          echo "✅ Core files present"
+        else
+          echo "❌ Missing core files"
+          exit 1
+        fi
+        
+    - name: 🎨 CSS Validation
+      run: |
+        echo "🎨 Validating CSS..."
+        
+        # Check for CSS issues
+        if grep -q "!important" assets/css/optimized.css; then
+          echo "⚠️ Found !important declarations"
+        else
+          echo "✅ No !important declarations"
+        fi
+        
+        # Check for responsive design
+        if grep -q "@media" assets/css/optimized.css; then
+          echo "✅ Responsive design detected"
+        else
+          echo "⚠️ No responsive design found"
+        fi
+        
+    - name: 📱 Mobile Testing
+      run: |
+        echo "📱 Testing mobile compatibility..."
+        
+        # Check for mobile viewport
+        if grep -q "viewport" index.html; then
+          echo "✅ Mobile viewport configured"
+        else
+          echo "❌ Missing mobile viewport"
+          exit 1
+        fi
+        
+        # Check for horizontal scroll prevention
+        if grep -q "overflow-x.*hidden" assets/css/optimized.css; then
+          echo "✅ Horizontal scroll prevention active"
+        else
+          echo "⚠️ No horizontal scroll prevention"
+        fi
+        
+    - name: 🔒 Security Validation
+      run: |
+        echo "🔒 Running security checks..."
+        
+        # Check for hardcoded credentials
+        if grep -r "password\|secret\|key\|token" --include="*.html" --include="*.css" --include="*.js" . | grep -v "example\|placeholder"; then
+          echo "❌ Potential hardcoded credentials found"
+          exit 1
+        else
+          echo "✅ No hardcoded credentials"
+        fi
+        
+        # Check for external resources
+        echo "Checking external resources..."
+        if grep -q "http://" --include="*.html" --include="*.css" --include="*.js" .; then
+          echo "⚠️ Found HTTP resources (should use HTTPS)"
+        else
+          echo "✅ All resources use HTTPS or relative paths"
+        fi
+        
+    - name: ✅ CI Complete
+      run: |
+        echo "🎉 All CI checks passed!"
+        echo "✅ Code quality: PASSED"
+        echo "✅ CSS validation: PASSED" 
+        echo "✅ Mobile testing: PASSED"
+        echo "✅ Security check: PASSED"

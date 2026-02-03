@@ -1,0 +1,7 @@
+# Westmark Protection System - Simplified
+# Created: Wed Oct 22 20:49:12 EDT 2025
+# 
+# PROTECTION RULES:
+# 1. No direct pushes to main branch
+# 2. Use ./scripts/deploy.sh for deployments
+# 3. All changes via Pull Requests
