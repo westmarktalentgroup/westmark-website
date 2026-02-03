@@ -349,7 +349,8 @@ CUSTOM_CSS_FILES=(
 TOTAL_IMPORTANT=0
 for css_file in "${CUSTOM_CSS_FILES[@]}"; do
     if [ -f "$css_file" ]; then
-        IMPORTANT_COUNT=$(grep -c "!important" "$css_file" 2>/dev/null || echo "0")
+        IMPORTANT_COUNT=$(grep -c "!important" "$css_file" 2>/dev/null || echo "0" | head -1)
+        IMPORTANT_COUNT=${IMPORTANT_COUNT:-0}
         if [ -z "$IMPORTANT_COUNT" ]; then
             IMPORTANT_COUNT=0
         fi
@@ -361,8 +362,9 @@ for css_file in "${CUSTOM_CSS_FILES[@]}"; do
 done
 
 # Check optimized.css for justified !important only
-OPTIMIZED_IMPORTANT=$(grep -c "!important" "assets/css/optimized.css" 2>/dev/null || echo "0")
-if [ "$OPTIMIZED_IMPORTANT" -gt 0 ]; then
+OPTIMIZED_IMPORTANT=$(grep -c "!important" "assets/css/optimized.css" 2>/dev/null || echo "0" | head -1)
+OPTIMIZED_IMPORTANT=${OPTIMIZED_IMPORTANT:-0}
+if [ "$OPTIMIZED_IMPORTANT" -gt 0 ] 2>/dev/null; then
     echo "❌ FAILED: !important anti-pattern detected: !important found in optimized.css"
     echo "🚨 Found $OPTIMIZED_IMPORTANT violations in custom CSS files"
     echo "💡 SOLUTION: Remove !important and use specific selectors"
@@ -373,18 +375,19 @@ fi
 TOTAL_IMPORTANT=${TOTAL_IMPORTANT:-0}
 TOTAL_IMPORTANT=$((TOTAL_IMPORTANT + OPTIMIZED_IMPORTANT))
 
-if [ "$TOTAL_IMPORTANT" -gt 10 ]; then
+if [ "$TOTAL_IMPORTANT" -gt 10 ] 2>/dev/null; then
     echo "❌ FAILED: Excessive !important usage detected ($TOTAL_IMPORTANT total)"
     echo "🚨 CSS Quality Standard: Maximum 10 !important declarations allowed"
     echo ""
     echo "📋 !important Usage Breakdown:"
     for css_file in "${CUSTOM_CSS_FILES[@]}"; do
         if [ -f "$css_file" ]; then
-            IMPORTANT_COUNT=$(grep -c "!important" "$css_file" 2>/dev/null || echo "0")
+            IMPORTANT_COUNT=$(grep -c "!important" "$css_file" 2>/dev/null || echo "0" | head -1)
+            IMPORTANT_COUNT=${IMPORTANT_COUNT:-0}
             if [ -z "$IMPORTANT_COUNT" ]; then
                 IMPORTANT_COUNT=0
             fi
-            if [ "$IMPORTANT_COUNT" -gt 0 ]; then
+            if [ "$IMPORTANT_COUNT" -gt 0 ] 2>/dev/null; then
                 echo "  ❌ $css_file: $IMPORTANT_COUNT !important (should be 0)"
             fi
         fi
