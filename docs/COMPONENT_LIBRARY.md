@@ -573,3 +573,20 @@ Standardized section headers with consistent typography and spacing across all p
 - **Single line**: Ensures headers stay on one line across all devices
 - **Responsive sizing**: Automatically scales based on viewport width
 - **Overflow protection**: Includes ellipsis fallback for extremely narrow screens
+
+## Scripts and Tools Documentation
+
+### OG Image Generator (`create_og_image.py`)
+- **Purpose**: Generates optimized Open Graph images for social media sharing
+- **Location**: Root directory (`create_og_image.py`)
+- **Language**: Python 3
+- **Dependencies**: Pillow (PIL), requests
+- **Usage**: Run `python3 create_og_image.py` to generate social sharing images
+- **Output**: Optimized PNG images for Facebook, Twitter, LinkedIn sharing
+- **Integration**: Automatically called during deployment to ensure fresh OG images
+
+### Social Sharing Image Fix Documentation
+- **File**: `docs/SOCIAL_SHARING_IMAGE_FIX.md`
+- **Purpose**: Documents fixes and optimizations for social media sharing images
+- **Covers**: Image dimensions, formats, meta tags, and platform-specific requirements
+- **Maintenance**: Updated whenever social sharing image issues are resolved
