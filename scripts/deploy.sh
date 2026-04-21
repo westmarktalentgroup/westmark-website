@@ -230,13 +230,19 @@ if git status --porcelain | grep -q .; then
     
     # Clean up old deployment branches (keep only last 5)
     echo "🧹 Cleaning up old deployment branches..."
-    OLD_DEPLOY_BRANCHES=$(git branch -a | grep "deploy-" | sed 's/remotes\/origin\///' | sort -u | head -n -5)
-    if [ ! -z "$OLD_DEPLOY_BRANCHES" ]; then
-        for branch in $OLD_DEPLOY_BRANCHES; do
+    # Get list of all deployment branches, sort by date, keep last 5
+    ALL_DEPLOY_BRANCHES=$(git branch -a | grep "deploy-" | sed 's/remotes\/origin\///' | sed 's/^\s*//' | sort -u)
+    BRANCH_COUNT=$(echo "$ALL_DEPLOY_BRANCHES" | wc -l | xargs)
+    
+    if [ "$BRANCH_COUNT" -gt 5 ]; then
+        BRANCHES_TO_DELETE=$(echo "$ALL_DEPLOY_BRANCHES" | head -n $((BRANCH_COUNT - 5)))
+        for branch in $BRANCHES_TO_DELETE; do
             git branch -D "$branch" 2>/dev/null || true
             git push origin --delete "$branch" 2>/dev/null || true
         done
         echo "✅ Old deployment branches cleaned up"
+    else
+        echo "✅ No old branches to clean (keeping last 5)"
     fi
     
     echo ""
