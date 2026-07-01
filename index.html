@@ -1,49 +1,39 @@
 <!DOCTYPE html>
-<!--
-🚨 CRITICAL AI REFERENCE - READ FIRST:
-- WORKFLOW: Always work in development/, deploy with ./scripts/deploy.sh
-- CSS CLASSES: soap-bar-nav, hero-section, btn-primary, card, form-group
-- JS FUNCTIONS: initNavigation(), initSoapBarScroll(), initAccordion(), initForms()
-- DESIGN TOKENS: --font-family-heading, --color-primary, --spacing-*
-- PATTERNS: <section class="[name]-section" id="[name]">
-- FULL GUIDE: See AI_GUIDE.md in project root
--->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Westmark Talent Group - Construction Management Recruitment</title>
     <meta name="description" content="Connecting exceptional construction management professionals with leading general contractors. Building the future, one placement at a time.">
-    <meta name="keywords" content="construction recruitment, project managers, superintendents, construction jobs, talent acquisition">
     <meta name="author" content="Westmark Talent Group">
-    
+    <link rel="canonical" href="https://www.westmarktalentgroup.com/">
+
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Westmark Talent Group - Construction Management Recruitment">
     <meta property="og:description" content="Connecting exceptional construction management professionals with leading general contractors.">
-    <meta property="og:image" content="https://westmarktalentgroup.com/assets/images/og-image.png">
+    <meta property="og:image" content="https://www.westmarktalentgroup.com/assets/images/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="628">
     <meta property="og:image:type" content="image/png">
-    <meta property="og:url" content="https://westmarktalentgroup.com">
+    <meta property="og:url" content="https://www.westmarktalentgroup.com/">
     <meta property="og:type" content="website">
     
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Westmark Talent Group - Construction Management Recruitment">
     <meta name="twitter:description" content="Connecting exceptional construction management professionals with leading general contractors.">
-    <meta name="twitter:image" content="https://westmarktalentgroup.com/assets/images/og-image.png">
+    <meta name="twitter:image" content="https://www.westmarktalentgroup.com/assets/images/og-image.png">
     <meta name="twitter:image:width" content="1200">
     <meta name="twitter:image:height" content="628">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/westmark-logo-128x62-1.webp">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/westmark-logo-128x62-1.webp">
-    <link rel="apple-touch-icon" href="assets/images/westmark-logo-128x62-1.webp">
+    <link rel="icon" href="favicon.ico" sizes="48x48">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/icon-192.png">
+    <link rel="apple-touch-icon" href="assets/images/icon-192.png">
     
     <!-- Resource Hints for Performance -->
     <link rel="dns-prefetch" href="//westmarktalentgroup.zohorecruit.com">
-    <link rel="prefetch" href="assets/images/pexels-apasaric-1437493-2000x1333.webp">
-    <link rel="prefetch" href="assets/images/westmark-logo-128x62-1.webp">
+    <link rel="preload" as="image" href="assets/images/pexels-apasaric-1437493-2000x1333.webp" fetchpriority="high">
     <link rel="manifest" href="manifest.json">
     
     <!-- Consolidated CSS - All styles in one file -->
@@ -52,8 +42,8 @@
     <!-- Google Fonts -->
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"></noscript>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap&display=swap"></noscript>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap"></noscript>
     
     <!-- Critical CSS for Above-the-Fold Content -->
     <style>
@@ -71,9 +61,176 @@
         gtag('js', new Date());
         gtag('config', 'G-WKB103GCWX');
     </script>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Westmark Talent Group",
+      "url": "https://www.westmarktalentgroup.com/",
+      "logo": "https://www.westmarktalentgroup.com/Westmark-logo.png",
+      "description": "Construction recruitment specialists connecting exceptional construction management professionals with leading general contractors.",
+      "email": "info@westmarktalentgroup.com",
+      "telephone": "+1-307-204-5454",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "30 N Gould St #52002",
+        "addressLocality": "Sheridan",
+        "addressRegion": "WY",
+        "postalCode": "82801",
+        "addressCountry": "US"
+      },
+      "sameAs": []
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What makes Westmark Talent Group different from other recruitment agencies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our team excels in matching top-tier construction management talent with leading general contractors. We deeply understand the construction sector's demands, ensuring optimal placements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do you ensure the right fit between candidates and companies?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We provide customized recruitment strategies, focusing on each client's unique needs. Our detailed approach guarantees we find candidates who are not only skilled but also a great fit for your company culture."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What benefits do candidates receive when working with you?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Candidates gain access to exclusive opportunities at premier construction firms. We offer personalized career guidance, helping you advance your career in construction management."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I submit my resume for consideration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Submitting your resume is simple. Visit our 'Contact' section and follow the instructions to upload your details. Our team will review your qualifications and contact you about suitable positions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I stay updated on new job opportunities?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stay updated by regularly visiting our 'Jobs' page, where we post new openings, or contact us directly to hear about opportunities that match your background."
+          }
+        }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "JobPosting",
+          "title": "Senior Project Manager - Luxury Residential",
+          "description": "Senior Project Manager for a luxury builder in Santa Monica working on $30M+ builds.",
+          "datePosted": "2026-07-01",
+          "employmentType": "FULL_TIME",
+          "hiringOrganization": {
+            "@type": "Organization",
+            "name": "Westmark Talent Group",
+            "sameAs": "https://www.westmarktalentgroup.com/"
+          },
+          "jobLocation": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Santa Monica",
+              "addressRegion": "CA",
+              "addressCountry": "US"
+            }
+          },
+          "url": "https://westmarktalentgroup.zohorecruit.com/jobs/Careers/817718000000564310/Construction-Sr-Project-Manager?source=CareerSite"
+        },
+        {
+          "@type": "JobPosting",
+          "title": "Construction Superintendent - K-12 Schools",
+          "description": "Superintendent for ground-up K-12 school district projects in Dallas, Texas.",
+          "datePosted": "2026-07-01",
+          "employmentType": "FULL_TIME",
+          "hiringOrganization": {
+            "@type": "Organization",
+            "name": "Westmark Talent Group",
+            "sameAs": "https://www.westmarktalentgroup.com/"
+          },
+          "jobLocation": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Dallas",
+              "addressRegion": "TX",
+              "addressCountry": "US"
+            }
+          },
+          "url": "https://westmarktalentgroup.zohorecruit.com/jobs/Careers/817718000000564220/Construction-Superintendent?source=CareerSite"
+        },
+        {
+          "@type": "JobPosting",
+          "title": "Assistant Project Manager - Commercial",
+          "description": "Assistant Project Manager for commercial office buildings and retail projects in Houston, Texas.",
+          "datePosted": "2026-07-01",
+          "employmentType": "FULL_TIME",
+          "hiringOrganization": {
+            "@type": "Organization",
+            "name": "Westmark Talent Group",
+            "sameAs": "https://www.westmarktalentgroup.com/"
+          },
+          "jobLocation": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Houston",
+              "addressRegion": "TX",
+              "addressCountry": "US"
+            }
+          },
+          "url": "https://westmarktalentgroup.zohorecruit.com/jobs/Careers/817718000000564221/Assistant-Project-Manager?source=CareerSite"
+        },
+        {
+          "@type": "JobPosting",
+          "title": "Senior Project Manager - Healthcare",
+          "description": "Senior Project Manager for hospital and medical facility construction projects in San Antonio, Texas.",
+          "datePosted": "2026-07-01",
+          "employmentType": "FULL_TIME",
+          "hiringOrganization": {
+            "@type": "Organization",
+            "name": "Westmark Talent Group",
+            "sameAs": "https://www.westmarktalentgroup.com/"
+          },
+          "jobLocation": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "San Antonio",
+              "addressRegion": "TX",
+              "addressCountry": "US"
+            }
+          },
+          "url": "https://westmarktalentgroup.zohorecruit.com/jobs/Careers"
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <!-- Navigation -->
     <section class="soap-bar-nav" id="navigation">
         <nav class="soap-bar">
@@ -81,7 +238,7 @@
                 <div class="navbar-brand">
                     <!-- No logo required -->
                 </div>
-                <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <div class="hamburger">
                         <span></span>
                         <span></span>
@@ -89,7 +246,7 @@
                         <span></span>
                     </div>
                 </button>
-                <div class="navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav soap-bar-nav-items">
                         <li class="nav-item">
                             <a class="nav-link soap-bar-link" href="index.html">Home</a>
@@ -110,7 +267,7 @@
     </section>
 
     <!-- Hero Section -->
-    <section class="hero-section" id="hero" style="background-image: url('assets/images/pexels-apasaric-1437493-2000x1333.jpg');">
+    <section class="hero-section" id="hero" style="background-image: url('assets/images/pexels-apasaric-1437493-2000x1333.webp');">
         <div class="hero-overlay"></div>
         <div class="container-fluid">
             <div class="row">
@@ -129,12 +286,12 @@
         <section class="about-section" id="about" style="padding: 3rem 0;">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="card col-md-12 col-lg-10" style="max-width: 58.5%;">
+                    <div class="card col-md-12 col-lg-10 about-card">
                         <div class="card-wrapper">
                             <div class="card-content-text" style="padding: 0.75rem;">
-                                <h3 class="card-title display-2">
+                                <h2 class="card-title display-2">
                                     <strong>Our Mission</strong>
-                                </h3>
+                                </h2>
                                 <div class="row card-box align-left">
                                     <div class="item features-without-image col-12">
                                         <div class="item-wrapper">
@@ -165,19 +322,19 @@
                 <div class="row justify-content-center">
                     <div class="col-12">
                         <div class="section-head">
-                            <h4 class="section-title text-center display-2">
+                            <h2 class="section-title text-center display-2">
                                 <strong>Current Opportunities</strong>
-                            </h4>
+                            </h2>
                         </div>
                         <div class="opportunities-container">
                             <div class="opportunity-card">
                                 <div class="card">
                                     <div class="item-wrapper">
                                         <div class="item-img">
-                                            <img src="assets/images/pexels-expect-best-79873-323780-742x478.webp" alt="Senior Project Manager Position">
+                                            <img src="assets/images/pexels-expect-best-79873-323780-742x478.webp" alt="Senior Project Manager Position" width="742" height="478" loading="lazy">
                                         </div>
                                         <div class="item-content">
-                                            <h5 class="item-title display-5"><strong>Sr. PM</strong><br><strong>Luxury Residential</strong></h5>
+                                            <h3 class="item-title display-5"><strong>Sr. PM</strong><br><strong>Luxury Residential</strong></h3>
                                             <p class="text-content display-7">Santa Monica - California</p>
                                             <p class="text-content display-7">Luxury builder in Santa Monica $30M+ builds.</p>
                                             <div class="item-footer">
@@ -191,10 +348,10 @@
                                 <div class="card">
                                     <div class="item-wrapper">
                                         <div class="item-img">
-                                            <img src="assets/images/pexels-pixabay-259588-742x494.webp" alt="Superintendent Position">
+                                            <img src="assets/images/pexels-pixabay-259588-742x494.webp" alt="Superintendent Position" width="742" height="494" loading="lazy">
                                         </div>
                                         <div class="item-content">
-                                            <h5 class="item-title display-5"><strong>Superintendent</strong><br><div><strong>K-12 Schools</strong></div></h5>
+                                            <h3 class="item-title display-5"><strong>Superintendent</strong><br><span class="d-block"><strong>K-12 Schools</strong></span></h3>
                                             <p class="text-content display-7">Dallas - Texas</p>
                                             <p class="text-content display-7">Ground-up projects for the school district.</p>
                                             <div class="item-footer">
@@ -208,10 +365,10 @@
                                 <div class="card">
                                     <div class="item-wrapper">
                                         <div class="item-img">
-                                            <img src="assets/images/pexels-sevenstormphotography-439416-742x557.webp" alt="Assistant PM Position">
+                                            <img src="assets/images/pexels-sevenstormphotography-439416-742x557.webp" alt="Assistant PM Position" width="742" height="557" loading="lazy">
                                         </div>
                                         <div class="item-content">
-                                            <h5 class="item-title display-5"><strong>Assistant PM</strong><br><div><strong>Commercial</strong></div></h5>
+                                            <h3 class="item-title display-5"><strong>Assistant PM</strong><br><span class="d-block"><strong>Commercial</strong></span></h3>
                                             <p class="text-content display-7">Houston - Texas</p>
                                             <p class="text-content display-7">Commercial office buildings and retail.</p>
                                             <div class="item-footer">
@@ -225,10 +382,10 @@
                                 <div class="card">
                                     <div class="item-wrapper">
                                         <div class="item-img">
-                                            <img src="assets/images/pexels-sevenstormphotography-439416-742x557.webp" alt="Senior Project Manager Position">
+                                            <img src="assets/images/pexels-sevenstormphotography-439416-742x557.webp" alt="Senior Project Manager Position" width="742" height="557" loading="lazy">
                                         </div>
                                         <div class="item-content">
-                                            <h5 class="item-title display-5"><strong>Senior Project Manager</strong><br><div><strong>Healthcare</strong></div></h5>
+                                            <h3 class="item-title display-5"><strong>Senior Project Manager</strong><br><span class="d-block"><strong>Healthcare</strong></span></h3>
                                             <p class="text-content display-7">San Antonio - Texas</p>
                                             <p class="text-content display-7">Hospital and medical facility construction projects.</p>
                                             <div class="item-footer">
@@ -249,9 +406,9 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-8 text-center">
-                        <h1 class="section-title display-2 mb-4">
+                        <h2 class="section-title display-2 mb-4">
                             <strong>Connecting Construction Management Professionals</strong>
-                        </h1>
+                        </h2>
                         
                         <div class="cta-buttons">
                             <a class="btn btn-cta-primary display-7" href="clients.html">Employers</a> 
@@ -268,17 +425,17 @@
                 <div class="row justify-content-center">
                     <div class="col-md-12 col-lg-10">
                         <div class="section-head">
-                            <h4 class="section-title text-center display-2">
+                            <h2 class="section-title text-center display-2">
                                 <strong>Frequently Asked Questions</strong>
-                            </h4>
+                            </h2>
                         </div>
                         <div id="accordion" class="faq-accordion" role="tablist" aria-multiselectable="true">
                             <div class="faq-item">
                                 <div class="faq-header" role="tab" id="headingOne">
                                     <button class="faq-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1" aria-label="Toggle FAQ item">
-                                        <h6 class="faq-question display-7">
+                                        <h3 class="faq-question display-7">
                                             <strong>What makes Westmark Talent Group different from other recruitment agencies?</strong>
-                                        </h6>
+                                        </h3>
                                         <span class="faq-icon">▼</span>
                                     </button>
                                 </div>
@@ -291,9 +448,9 @@
                             <div class="faq-item">
                                 <div class="faq-header" role="tab" id="headingTwo">
                                     <button class="faq-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2" aria-label="Toggle FAQ item">
-                                        <h6 class="faq-question display-7">
+                                        <h3 class="faq-question display-7">
                                             <strong>How do you ensure the right fit between candidates and companies?</strong>
-                                        </h6>
+                                        </h3>
                                         <span class="faq-icon">▼</span>
                                     </button>
                                 </div>
@@ -306,9 +463,9 @@
                             <div class="faq-item">
                                 <div class="faq-header" role="tab" id="headingThree">
                                     <button class="faq-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3" aria-label="Toggle FAQ item">
-                                        <h6 class="faq-question display-7">
+                                        <h3 class="faq-question display-7">
                                             <strong>What benefits do candidates receive when working with you?</strong>
-                                        </h6>
+                                        </h3>
                                         <span class="faq-icon">▼</span>
                                     </button>
                                 </div>
@@ -321,9 +478,9 @@
                             <div class="faq-item">
                                 <div class="faq-header" role="tab" id="headingFour">
                                     <button class="faq-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4" aria-label="Toggle FAQ item">
-                                        <h6 class="faq-question display-7">
+                                        <h3 class="faq-question display-7">
                                             <strong>How can I submit my resume for consideration?</strong>
-                                        </h6>
+                                        </h3>
                                         <span class="faq-icon">▼</span>
                                     </button>
                                 </div>
@@ -336,15 +493,15 @@
                             <div class="faq-item">
                                 <div class="faq-header" role="tab" id="headingFive">
                                     <button class="faq-toggle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5" aria-label="Toggle FAQ item">
-                                        <h6 class="faq-question display-7">
+                                        <h3 class="faq-question display-7">
                                             <strong>How can I stay updated on new job opportunities?</strong>
-                                        </h6>
+                                        </h3>
                                         <span class="faq-icon">▼</span>
                                     </button>
                                 </div>
                                 <div id="collapse5" class="faq-collapse collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
                                     <div class="faq-answer">
-                                        <p class="panel-text display-7">Stay updated by regularly visiting our 'Jobs' page, where we post new openings. You can also subscribe to our newsletter for the latest job alerts and industry news.</p>
+                                        <p class="panel-text display-7">Stay updated by regularly visiting our 'Jobs' page, where we post new openings, or contact us directly to hear about opportunities that match your background.</p>
                                     </div>
                                 </div>
                             </div>
@@ -379,23 +536,13 @@
     <script src="assets/js/consolidated.js"></script>
     
     <script>
-        // Service Worker Registration
+        // Clean up service workers from previous site versions
         if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js')
-                    .then(registration => {
-                        console.log('SW registered: ', registration);
-                    })
-                    .catch(registrationError => {
-                        console.log('SW registration failed: ', registrationError);
-                    });
+            navigator.serviceWorker.getRegistrations().then(regs => {
+                regs.forEach(reg => reg.unregister());
             });
         }
     </script>
-    
-    <!-- Performance monitoring is now included in consolidated.js -->
-    
-    <!-- Soap bar navigation is now included in consolidated.js -->
-    
+
 </body>
 </html>

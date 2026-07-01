@@ -10,25 +10,29 @@
   "scope": "/",
   "icons": [
     {
-      "src": "assets/images/westmark-logo-128x62-1.webp",
-      "sizes": "128x62",
-      "type": "image/webp",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "assets/images/westmark-logo-128x62-1.png",
-      "sizes": "128x62",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "assets/images/westmark_logo-850x412.png",
-      "sizes": "850x412",
+      "src": "assets/images/icon-192.png",
+      "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
+    },
+    {
+      "src": "assets/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
-  "categories": ["business", "recruitment", "construction"],
+  "categories": [
+    "business",
+    "recruitment",
+    "construction"
+  ],
   "lang": "en-US",
   "dir": "ltr",
   "screenshots": [
@@ -44,11 +48,11 @@
       "name": "Job Opportunities",
       "short_name": "Jobs",
       "description": "View current job opportunities",
-      "url": "/clients.html",
+      "url": "/#opportunities",
       "icons": [
         {
-          "src": "assets/images/westmark-logo-128x62-1.webp",
-          "sizes": "128x62"
+          "src": "assets/images/icon-192.png",
+          "sizes": "192x192"
         }
       ]
     },
@@ -59,8 +63,8 @@
       "url": "/contact-us.html",
       "icons": [
         {
-          "src": "assets/images/westmark-logo-128x62-1.webp",
-          "sizes": "128x62"
+          "src": "assets/images/icon-192.png",
+          "sizes": "192x192"
         }
       ]
     }

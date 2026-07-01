@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Note: logo.html is excluded from search results via its noindex meta tag.
+# It must remain crawlable for the noindex to be seen, so it is not disallowed here.
+
+# Sitemap location
+Sitemap: https://www.westmarktalentgroup.com/sitemap.xml
